@@ -1,0 +1,31 @@
+{
+  "observed_at": "2026-10-07T06:04:39.592634+00:00",
+  "classification": "runtime_verified_local_sample",
+  "pandas_version": "2.2.3",
+  "python_checks": [
+    "sample: 6 -> 4; audit 1/2 -> 4; IDs, case and multiline retained",
+    "whole-record exact first: 6 -> 5",
+    "casefold first retains source record 1; blank keys separate",
+    "duplicate-header: rejected",
+    "ragged: rejected",
+    "blank-header: rejected",
+    "overwrite source: rejected"
+  ],
+  "clean_csv_sha256": "ee9a4339366293865a8498897a42216900c1e000eb648f877afc3807dbb94e2e",
+  "limitations": [
+    "Synthetic local sample and parser handoff only. No model call or destination application import tested."
+  ],
+  "papaparse_handoff": {
+    "verdict": "PASS",
+    "version": "5.5.3",
+    "command": "node validate_handoff.cjs sample-output/cleaned.csv <Papa Parse 5.5.3 CommonJS module>",
+    "checks": [
+      "no parse errors",
+      "four columns and four data records",
+      "IDs remain strings with leading zeros",
+      "multiline note preserved",
+      "two blank email records separate"
+    ],
+    "validate_handoff_sha256": "245ef6e7084ce5a0ec60490845332de65076afba7d824b695ef264d80cad919b"
+  }
+}

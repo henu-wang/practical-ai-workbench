@@ -1,79 +1,50 @@
-# Editorial team and execution contract
+# Executable editorial and monitoring workflow
 
-This is a working editorial system, not a claim that agents were already run or that pages have passed review. Logical roles can run sequentially when concurrency is limited. Keep handoffs compact and tied to actual artifacts.
+## Read order and scope
 
-## Read the context before acting
+Read `context/USER-BRIEF.md`, `PROJECT.md`, `AUDIENCE.md`, `ASSET-POLICY.md`, and `METRICS.md`, followed by the current intent ledger, relevant topic packet, existing canonical page and implementation. The latest accepted user brief governs conflicting older product language. Historical reviews stay intact and retain their original scope.
 
-Each role reads `context/PROJECT.md`, `context/AUDIENCE.md`, and `context/ASSET-POLICY.md`, then the current topic ledger and its assigned topic packet. Read the public project's README and the relevant implementation before drafting instructions. User steering overrides these contracts; record substantive accepted steering in project context, without writing personal memory.
+Operate only on the dedicated public GitHub repository and Pages content. Publishing and continued read-only monitoring are already authorized. Do not re-request routine approval, and do not expand into production TokRepo changes, paid services, social outreach, messages to other chats, or archiving.
 
-A topic packet must travel with the draft and implementation. The publisher must not infer missing demand or execution evidence from an author's confident prose.
+## Actual team roles
 
-## Five roles, bounded responsibilities
+Demand editor owns current query evidence and intent deduplication. Practical editor owns original recipe/template and exact asset handoffs. Verification editor independently checks the deliverable, prerequisite claims, links/UTMs and limits. Managing editor independently decides reader usefulness and gate status. Release editor integrates, publishes, verifies the deployment, and maintains the measurement ledger.
 
-| Role | Owns | Required handoff |
-| --- | --- | --- |
-| Demand researcher | Candidate evidence and intent clustering | Qualified brief or explicit rejection, exact demand sources, search-intent observations |
-| Product editor | Deliverable choice, reader promise, asset combination | Useful result, page outline, asset roles, acceptance examples |
-| Author/builder | Original prose, working tool/template, examples | Draft plus source, expected outputs, test or manual-check evidence |
-| Independent reviewer | Reader usefulness, demand traceability, technical and attribution checks | Pass or concrete revision requests with evidence |
-| Publisher/maintainer | Atomic release, live verification, ledger, concise run report | Public URLs, release identifier, actual deployment status, corrected failures |
+These are real task assignments, not roleplay headings. Spawn at least one separate reviewer agent for each changed batch; authors cannot issue their own PASS. With limited slots, run roles sequentially. Explicit file ownership, preserve others' changes, and return the exact reviewed source hash/path in every handoff.
 
-An author must not approve their own work. A separately invoked reviewer checks the actual draft and deliverable, not just the author's summary. The publisher may combine orchestration and maintenance; neither can bypass an unresolved review failure.
+## Compact topic packet
 
-## Topic packet
+Required fields: `intent_id`, reader/task/input/output, primary and related queries, market/language, demand sources with timestamps and observations, intent-fit assessment, primary/secondary asset IDs/URLs/roles, supported installation/use prerequisites, template or recipe source paths, sample/expected result, canonical path, duplicate decision, verification level/evidence, review identity/source hash/verdict, and release state.
 
-Use a structured file such as `team/research/<intent-id>.json` with these fields:
+Retain public evidence separately from inaccessible or private data. A source link is not proof of an unobserved metric. A previous review does not cover changed files. Preserve revision history instead of overwriting a failed verdict with an unsupported PASS.
 
-```json
-{
-  "intent_id": "stable-task-slug",
-  "status": "candidate",
-  "reader": "specific reader",
-  "task": "input and useful output",
-  "pillar": "Documents and data",
-  "primary_query": "observed query",
-  "related_queries": [],
-  "market": {"country": "US", "language": "en"},
-  "demand_evidence": [
-    {"kind": "suggestion-or-quantitative-or-question", "url": "exact source", "observed_at": "ISO date/time", "observation": "what was actually seen", "limitations": "what it cannot prove"}
-  ],
-  "intent_assessment": "why the proposed result fits these queries",
-  "assets": [
-    {"id": "stable ID", "url": "exact TokRepo asset URL", "role": "concrete contribution", "verified_at": "ISO date/time", "license_note": "link-only or permitted reuse"}
-  ],
-  "deliverable": {"kind": "tool-or-template-or-workflow", "source_paths": [], "sample_input": "path", "expected_output": "path"},
-  "canonical_path": "proposed public route",
-  "duplicate_check": {"overlaps": [], "decision": "new intent or update existing page"},
-  "verification": {"level": "illustrative", "checks": [], "limitations": []},
-  "review": {"reviewer": null, "decision": "pending", "report_path": null}
-}
-```
+## Work sequence
 
-The exact schema can evolve with the implementation. Required evidence and truthful status must remain. Store only public research and synthetic examples in public paths.
+Read the ledger; qualify real demands; select the strongest asset-fit tasks; draft original recipe and useful task package; verify claims and handoff; run independent review; correct failures; publish only passing sources; verify public deployment and tracked outbound links; update ledger. Perform only checks relevant to changed or failed areas after corrections, without fixed ceremonial restart counts.
 
-## Hard publishing gates
+At most six new canonical intents per Beijing day across runs. Revisions to existing targets are updates, not new-topic quota replacements. No qualified intent means no filler publication. The primary output is a useful search landing page leading to TokRepo, not a new browser tool.
 
-A reviewer passes a page only when all applicable gates pass:
+## Hard release gates
 
-1. **Demand:** evidence satisfies `AUDIENCE.md`, is tied to the exact intent, and contains no invented volume or guaranteed ranking.
-2. **Usefulness:** the page delivers its promised result. The reader can access the tool/template/example immediately; instructions describe the actual implementation.
-3. **Accuracy:** consequential technical statements have current primary support; outputs match checks; execution claims use the correct verification label.
-4. **Originality:** the content is original and specific to the example. No copied articles, stock introductions, generic filler, or lightly renamed variants.
-5. **Asset fit:** exact TokRepo links resolve to the intended assets, roles are real, dependencies and permitted reuse are checked.
-6. **Intent ownership:** no existing canonical page already serves the task. Overlap is resolved by an update or a justified separate deliverable.
-7. **Product quality:** examples, downloads, copy actions, relevant mobile layout, internal navigation, and tool behavior work. No broken placeholder routes or misleading buttons.
-8. **Public hygiene:** no credentials or private input, honest data-handling claims, correct project/third-party licenses, and no unapproved external actions.
+1. Current traceable demand evidence and correct searched task; no invented volume.
+2. Original useful steps plus template/task package or checked example that fulfill the promise.
+3. Verified primary and secondary TokRepo assets with real roles and a clear handoff.
+4. Prominent relevant main TokRepo CTA; outbound UTM fields match the asset policy.
+5. Correct prerequisites, commands, limits, permissions/cost disclosures where needed, and truthful verification labels.
+6. Canonical intent ownership; no synonym pages or thin duplicated recipes.
+7. Working public assets/downloads/navigation, appropriate mobile presentation, and build/canonical/sitemap integrity.
+8. Source-bound PASS from an independent agent; no unresolved blocker, credentials, private data, or unauthorized reuse.
 
-A pass must point to the reviewed files and checks. Vague praise is not a review. Record `revise` with the smallest actionable correction set or `reject` with the unmet gate. Fixes return to the independent reviewer only for the changed or previously failing checks; avoid ceremonial full restarts.
+Use PASS/REVISE/REJECT with precise evidence and corrective actions. Do not demand a new software tool or a fixed article length as a substitute for useful recipe quality. Numerical scoring alone cannot pass a failed hard gate.
 
-## Release and daily operation
+## Publication and verification
 
-Read the canonical ledger first. Research more candidates than the publishing cap so weak topics can be discarded. Select only qualified intents whose deliverables can be completed. Build and review with scoped ownership when using agents; do not revert other collaborators' changes.
+Publish with GitHub tools, using expected-current-head protection and respecting concurrent edits. Use a permitted CLI only for a missing connector capability. Record source commit and reviewed hashes. A push is not a deployment: verify the public reviewed text, downloadable material, primary/secondary destination identity and UTM query values. Preserve legacy routes and the previous usable release where feasible.
 
-Publish at most six new canonical pages per Beijing date, across all runs. Keep a durable per-date ledger with public path, intent ID, source commit, review report, and deployment result. Re-running a day must resume or improve the existing batch rather than duplicate it.
+The release report distinguishes published, crawlable, indexed and measured performance. Publication evidence never gets promoted to indexed/traffic status. Fix broken repository links before adding new pages.
 
-Use GitHub tools to publish the public repository content. Use a permitted CLI only where a needed GitHub capability is absent from the available connector, such as initial Pages configuration. Do not assume a push means deployment: verify the live HTML, linked deliverables, exact asset links, and deployment status. A missing live release is an incomplete release.
+## Follow-up execution
 
-Corrections to existing pages do not consume the six-new-page limit, but they still require proportionate checks. Prefer repairing a broken or misleading page over adding another page. A failed public build should preserve the previous usable release when feasible and produce a concrete failure report.
+During normal editorial runs, read the measurement ledger and perform only due inspections. Weekly review active pages; run each 28-day publication cohort review when due. Follow `METRICS.md`'s evidence/action tree. GSC access or event gaps are recorded as unknown, and source restrictions are respected.
 
-Report meaningful batch completion with the public project link, number of new/updated pages, demand basis, and material limits. Remain quiet when there is no qualified new work and no actionable problem. Never fill the cap with unsupported topics, automatically archive the chat, or expand into other promotional channels.
+Apply justified repository fixes, run independent review of material content changes, release and record the next comparison window. Keep routine unchanged monitoring quiet. Notify meaningful batch completion, measured insights, completed repairs or actionable persistent access failures with concrete URLs and dates; no false ranking/traffic claims.

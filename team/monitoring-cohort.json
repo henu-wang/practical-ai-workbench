@@ -1,0 +1,65 @@
+{
+  "program": "asset_search",
+  "site_url": "https://henu-wang.github.io/practical-ai-workbench/",
+  "cohort_date": "2026-10-07",
+  "inspection_due": [
+    "2026-10-10",
+    "2026-10-14",
+    "2026-10-21"
+  ],
+  "weekly_review_due": "2026-10-14",
+  "cohort_review_due": "2026-11-04",
+  "status": "awaiting_public_release",
+  "pages": [
+    {
+      "slug": "transcribe-audio-to-text",
+      "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/transcribe-audio-to-text/",
+      "index_status": "UNVERIFIED",
+      "search_visibility": "UNKNOWN",
+      "attributed_tokrepo_visits": "UNKNOWN"
+    },
+    {
+      "slug": "meeting-minutes-template",
+      "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/meeting-minutes-template/",
+      "index_status": "UNVERIFIED",
+      "search_visibility": "UNKNOWN",
+      "attributed_tokrepo_visits": "UNKNOWN"
+    },
+    {
+      "slug": "extract-tables-from-pdf-to-excel",
+      "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/extract-tables-from-pdf-to-excel/",
+      "index_status": "UNVERIFIED",
+      "search_visibility": "UNKNOWN",
+      "attributed_tokrepo_visits": "UNKNOWN"
+    },
+    {
+      "slug": "presentation-from-notes",
+      "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/presentation-from-notes/",
+      "index_status": "UNVERIFIED",
+      "search_visibility": "UNKNOWN",
+      "attributed_tokrepo_visits": "UNKNOWN"
+    },
+    {
+      "slug": "clean-csv-remove-duplicate-rows",
+      "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/clean-csv-remove-duplicate-rows/",
+      "index_status": "UNVERIFIED",
+      "search_visibility": "UNKNOWN",
+      "attributed_tokrepo_visits": "UNKNOWN"
+    },
+    {
+      "slug": "flashcards-from-lecture-notes",
+      "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/flashcards-from-lecture-notes/",
+      "index_status": "UNVERIFIED",
+      "search_visibility": "UNKNOWN",
+      "attributed_tokrepo_visits": "UNKNOWN"
+    }
+  ],
+  "private_records_directory": "../private-monitoring",
+  "utm": {
+    "source": "github_pages",
+    "medium": "referral",
+    "campaign": "tokrepo_search",
+    "content": "recipe slug"
+  },
+  "metric_rule": "No access or missing tracking is unknown, not zero. Technical pass is not indexing; submitted sitemap is not fetched/indexed."
+}

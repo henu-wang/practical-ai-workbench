@@ -1,0 +1,102 @@
+{
+  "reviewed_at": "2026-10-07T06:06:44.355902+00:00",
+  "verdict": "PASS",
+  "scope": "Independent editorial review of source guides and their downloadable templates; not browser release approval.",
+  "content_sha256_definition": "SHA256 of exact bytes in recipes/<slug>.md.",
+  "recipe_and_templates_sha256_definition": "For sorted recipe path and all templates/<slug> files, update SHA256(relative POSIX path UTF8 + NUL + raw bytes + NUL).",
+  "shared_checks": [
+    "Each guide matches an approved intent with two distinct public-question evidence URLs in redirect-demand.json; numeric volume remains unknown.",
+    "Every referenced template exists. All TokRepo outbound links use the four required UTM fields and the page slug.",
+    "Primary and secondary assets appear near the opening with task-specific roles; no copied full upstream prompts.",
+    "No measured search rank, future traffic, successful installation or model runtime is asserted without evidence."
+  ],
+  "release_status": "PENDING_ROOT_RENDER_AND_PUBLIC_VERIFICATION",
+  "pages": [
+    {
+      "slug": "transcribe-audio-to-text",
+      "author": "/root/project_editor",
+      "reviewer": "/root/managing_editor",
+      "content_sha256": "5c1c8c0ba38715e527725f8d74a9e3fccbe154ace33bc1118719e121c3c077a5",
+      "recipe_and_templates_sha256": "8cb6227900c0381ff7b89bbf52b18e2873839a25079196ad332a952bccd2c826",
+      "file_sha256": {
+        "recipes/transcribe-audio-to-text.md": "5c1c8c0ba38715e527725f8d74a9e3fccbe154ace33bc1118719e121c3c077a5",
+        "templates/transcribe-audio-to-text/fictional-transcript.md": "9f271ee7c54e42ed9c50fa7012a4751bfed4e39ece119f30bbfedd69eb631a15",
+        "templates/transcribe-audio-to-text/review-checklist.md": "ae8ea1c6f5061d3e2c16ebf9819025738bf0f8c2f2e2cf433ad464af51f1863f"
+      },
+      "verdict": "PASS",
+      "scores": {
+        "intent_match": 5,
+        "asset_handoff": 5,
+        "answer_first": 5,
+        "practical_deliverable": 4,
+        "claim_evidence": 5,
+        "cta_quality": 5
+      },
+      "blockers": [],
+      "notes": [
+        "Whisper primary and FFmpeg secondary have an explicit media-to-audio-to-text handoff.",
+        "Fictional transcript demonstrates conditional deadline, uncertain spelling and unknown speaker without claiming recognition execution.",
+        "Current official Whisper source supports English model and transcribe options; commands are source-checked, not runtime-tested."
+      ]
+    },
+    {
+      "slug": "meeting-minutes-template",
+      "author": "/root/project_editor",
+      "reviewer": "/root/managing_editor",
+      "content_sha256": "48f5a854167accedd583d05591d9888bdee603fe7b056b8653f7a8de81a458a8",
+      "recipe_and_templates_sha256": "2eb41a2f7ae32ea07f9834cdf925f1d1b8a8cadf735f595a623415d91c66077e",
+      "file_sha256": {
+        "recipes/meeting-minutes-template.md": "48f5a854167accedd583d05591d9888bdee603fe7b056b8653f7a8de81a458a8",
+        "templates/meeting-minutes-template/filled-example.md": "60b1b474855cba82fbf1104810e0d302fcc620486dbdd6c1043c95b51651cc24",
+        "templates/meeting-minutes-template/meeting-minutes-template.docx": "edc3a11ee04a2e16b95d9704117d316e7f33abff897d12fca79ebc365ae5d6de",
+        "templates/meeting-minutes-template/meeting-minutes-template.md": "2237a7bfa11c3c510d223adf1a12b6163d535faedd544b8f2276e395b249b784"
+      },
+      "verdict": "PASS",
+      "scores": {
+        "intent_match": 5,
+        "asset_handoff": 5,
+        "answer_first": 5,
+        "practical_deliverable": 5,
+        "claim_evidence": 5,
+        "cta_quality": 5
+      },
+      "blockers": [],
+      "notes": [
+        "Answer and original editable downloads address the meeting-template intent before optional agent setup.",
+        "Notes-to-Decisions prompt and DOCX have an explicit evidence-reviewed draft-to-document handoff.",
+        "Fictional action and unresolved launch date match N1–N5; downloaded DOCX fields agree with Markdown.",
+        "DOCX opened, edited and reopened using python-docx in a temporary copy. Desktop Microsoft Word/Google Docs UI was not tested."
+      ]
+    },
+    {
+      "slug": "extract-tables-from-pdf-to-excel",
+      "author": "/root/project_editor",
+      "reviewer": "/root/managing_editor",
+      "content_sha256": "d7537ce7383a041a0577f88c9cf735759192f27cfed5b071af5bd95e4f2353c8",
+      "recipe_and_templates_sha256": "9967f0bf68b1e9b62a3a930b632bde8766ff17b8d404a5a82ebf575ebddef179",
+      "file_sha256": {
+        "recipes/extract-tables-from-pdf-to-excel.md": "d7537ce7383a041a0577f88c9cf735759192f27cfed5b071af5bd95e4f2353c8",
+        "templates/extract-tables-from-pdf-to-excel/expected-table.csv": "733636dfdda24fbcf3d640972a87678118ec595c72355c704c8017e2c0efce6d",
+        "templates/extract-tables-from-pdf-to-excel/export_pdf_tables.py": "2874f89b78601caed8f90907d5c57e897835efae19fa96295141ec93265698a6",
+        "templates/extract-tables-from-pdf-to-excel/sample-table.pdf": "3992d54e0732b53e8f7d8edf65e887a4d5c8c46fce6570f0a84c8dba229d0355",
+        "templates/extract-tables-from-pdf-to-excel/verification-checklist.md": "6be23102881a420067e00f6010f580e528b49f658b481c4212c22e9471d6ea1b"
+      },
+      "verdict": "PASS",
+      "scores": {
+        "intent_match": 5,
+        "asset_handoff": 5,
+        "answer_first": 5,
+        "practical_deliverable": 4,
+        "claim_evidence": 5,
+        "cta_quality": 5
+      },
+      "blockers": [],
+      "notes": [
+        "Docling extraction to DataFrame and pandas CSV/Excel export are an explicit complementary handoff.",
+        "PDF parser read three headers and three expected rows; leading-zero IDs agree with expected CSV.",
+        "Official current Docling example supports export_to_dataframe(doc=...). Source script iterates detected tables, rejects existing output by default, and discloses formula-protection changes.",
+        "No Docling extraction model run is claimed; expected CSV is honestly a reference fixture and model/runtime completeness remains unverified."
+      ]
+    }
+  ]
+}

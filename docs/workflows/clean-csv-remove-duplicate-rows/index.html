@@ -1,0 +1,64 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>How to clean a CSV file and remove duplicate rows | TokRepo Workflows</title><meta name="description" content="Clean a CSV with pandas: choose duplicate keys, preserve identifiers, and review removed rows. Includes sample data and a reusable cleaning checklist."><link rel="canonical" href="https://henu-wang.github.io/practical-ai-workbench/workflows/clean-csv-remove-duplicate-rows/"><meta name="robots" content="index,follow"><meta property="og:title" content="How to clean a CSV file and remove duplicate rows"><meta property="og:description" content="Clean a CSV with pandas: choose duplicate keys, preserve identifiers, and review removed rows. Includes sample data and a reusable cleaning checklist."><meta property="og:url" content="https://henu-wang.github.io/practical-ai-workbench/workflows/clean-csv-remove-duplicate-rows/"><link rel="stylesheet" href="../../assets/style.css"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "How to clean a CSV file and remove duplicate rows", "description": "Clean a CSV with pandas: choose duplicate keys, preserve identifiers, and review removed rows. Includes sample data and a reusable cleaning checklist.", "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/clean-csv-remove-duplicate-rows/", "inLanguage": "en", "author": {"@type": "Organization", "name": "TokRepo Editorial"}, "datePublished": "2026-10-07", "dateModified": "2026-10-07"}</script></head><body><header><a class="brand" href="../../"><span class="mark">↗</span> TokRepo <b>Workflows</b></a><nav><a href="../../#workflows">Workflows</a><a href="https://github.com/henu-wang/practical-ai-workbench">GitHub ↗</a></nav></header><main><a class="back" href="../../">← All workflows</a><div class="page-title"><p class="eyebrow">Data / GUIDE &amp; TEMPLATE</p><h1>How to clean a CSV file and remove duplicate rows</h1><p class="lead">Clean a CSV with pandas: choose duplicate keys, preserve identifiers, and review removed rows. Includes sample data and a reusable cleaning checklist.</p><a class="primary hero-link" href="https://tokrepo.com/en/workflows/pandas-powerful-data-analysis-manipulation-python-1005b785?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=tokrepo_search&amp;utm_content=clean-csv-remove-duplicate-rows">Get pandas — Powerful Data Analysis and Manipulation for Python on TokRepo ↗</a></div><section class="asset-kit" id="assets"><h2>Your TokRepo asset kit</h2><p>Open the asset pages for source links, setup requirements, and reusable instructions. This guide shows how to combine them.</p><div class="asset-grid"><a class="asset-card" href="https://tokrepo.com/en/workflows/pandas-powerful-data-analysis-manipulation-python-1005b785?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=tokrepo_search&amp;utm_content=clean-csv-remove-duplicate-rows"><strong>pandas — Powerful Data Analysis and Manipulation for Python</strong><span>Python data-frame import and deduplication; obtain pandas asset at TokRepo</span><b>Get this asset on TokRepo ↗</b></a><a class="asset-card" href="https://tokrepo.com/en/workflows/papa-parse-fast-browser-csv-parser-javascript-ed9fd7fc?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=tokrepo_search&amp;utm_content=clean-csv-remove-duplicate-rows"><strong>Papa Parse — Fast In-Browser CSV Parser for JavaScript</strong><span>Alternative JavaScript CSV parsing to preserve quoted fields; obtain parser/source at TokRepo</span><b>Get this asset on TokRepo ↗</b></a></div></section><article class="guide recipe-guide"><h2>Quick answer</h2>
+<p>To remove duplicate CSV rows in pandas, decide whether a duplicate means the whole record or an identity key, then choose which occurrence to keep. Save a new file and a removal audit. Do not infer that two blank email addresses identify the same person, or turn leading-zero IDs into numbers while loading the file.</p>
+<p>Get <a href="https://tokrepo.com/en/workflows/pandas-powerful-data-analysis-manipulation-python-1005b785?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=tokrepo_search&amp;utm_content=clean-csv-remove-duplicate-rows">the pandas data-cleaning asset on TokRepo</a> for deduplication. The complementary <a href="https://tokrepo.com/en/workflows/papa-parse-fast-browser-csv-parser-javascript-ed9fd7fc?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=tokrepo_search&amp;utm_content=clean-csv-remove-duplicate-rows">Papa Parse asset</a> supports the handoff into a JavaScript application: parse the resulting <code>cleaned.csv</code> and confirm the records survived import. Papa Parse does not deduplicate the file. If your destination is a spreadsheet, the Python output and manual checks are sufficient.</p>
+<h2>Download the conservative recipe</h2>
+<ul>
+<li><a href="../../templates/clean-csv-remove-duplicate-rows/clean_csv.py">Original Python script</a>.</li>
+<li><a href="../../templates/clean-csv-remove-duplicate-rows/messy.csv">Messy sample CSV</a>, with fictional contacts.</li>
+<li><a href="../../templates/clean-csv-remove-duplicate-rows/sample-output/cleaned.csv">Cleaned sample</a> and <a href="../../templates/clean-csv-remove-duplicate-rows/sample-output/duplicate-audit.csv">removal audit</a>.</li>
+<li><a href="../../templates/clean-csv-remove-duplicate-rows/sample-output/summary.json">Sample summary</a> and <a href="../../templates/clean-csv-remove-duplicate-rows/README.md">run instructions</a>.</li>
+<li><a href="../../templates/clean-csv-remove-duplicate-rows/validate_handoff.cjs">JavaScript handoff check</a> and <a href="../../templates/clean-csv-remove-duplicate-rows/verification.json">execution evidence</a>.</li>
+</ul>
+<p>This is a local script and worked example, not an online upload service. The sample execution uses pandas 2.2.3; the verification record describes what was checked.</p>
+<h2>1. Choose the matching rule</h2>
+<p>The sample has six data records. Two are identical copies of Ada's contact. Another Ada record changes the email's case and note. Two other contacts have blank email fields.</p>
+<table>
+<thead>
+<tr>
+<th>Rule</th>
+<th>What it means</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>All columns, exact</td>
+<td>Remove repeated complete records; changed notes remain separate.</td>
+</tr>
+<tr>
+<td>Email, case-sensitive</td>
+<td>Different email capitalization remains distinct.</td>
+</tr>
+<tr>
+<td>Email, case-insensitive</td>
+<td>Group email variants, but do not silently rewrite stored values.</td>
+</tr>
+<tr>
+<td>Keep first / last</td>
+<td>Select by source order; neither means “most accurate.”</td>
+</tr>
+</tbody>
+</table>
+<p>Pandas supports <code>drop_duplicates(subset=..., keep=...)</code>. Its <code>keep=False</code> removes every member of a repeated group, unlike keeping the first or last. The downloadable script deliberately offers only first/last and preserves blank identity-key rows. See the <a href="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.drop_duplicates.html">official API</a>.</p>
+<h2>2. Run on a small copy first</h2>
+<p>Put the script and sample in the same folder. With Python and pandas available, run:</p>
+<pre><code class="language-bash">python clean_csv.py messy.csv --key email --ignore-key-case \
+  --keep last --output sample-output
+</code></pre>
+<p>The script parses CSV records rather than splitting raw lines: a quoted comma or a newline inside a note remains part of that field. It checks header names and record width before using pandas. UTF-8 input is required; it does not guess a broken encoding or accept an Excel workbook as CSV.</p>
+<p>Loading keeps cell values as strings and disables automatic missing-value interpretation. That protects identifiers such as <code>0012</code>; it also means a text value such as <code>NA</code> is not silently erased. The <a href="https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html">pandas import reference</a> explains these controls.</p>
+<h2>3. Check the cleaned file and audit together</h2>
+<p>For the command above, six records become four: Bob, the last Ada record, Cy, and Dee, in source order. Ada's first two records appear in the audit with their original record numbers and the retained record number, 4. Blank-key records remain separate rather than collapsing together.</p>
+<p>Confirm that <code>0012</code> is still written with its zeros, Bob's note still has its line break, and the retained Ada note says <code>updated phone</code>. Count CSV records with a parser, not physical lines. Check the removed rows before importing the result into another system.</p>
+<p>Using <code>--trim-key</code> or <code>--ignore-key-case</code> changes comparison only; retained values are not normalized. A surrounding-space difference may be meaningful, so these options are off by default. The script will replace prior outputs in the selected folder but refuses to overwrite its source.</p>
+<h2>4. Check the JavaScript handoff</h2>
+<p>For an application that uses Papa Parse, pass the cleaned file's text to the parser with explicit settings:</p>
+<pre><code class="language-javascript">const result = Papa.parse(cleanedCsvText, {
+  header: true, delimiter: &quot;,&quot;, dynamicTyping: false, skipEmptyLines: true
+});
+if (result.errors.length) throw new Error(&quot;Check CSV parsing errors&quot;);
+</code></pre>
+<p>The <a href="https://www.papaparse.com/docs">official parser documentation</a> explains these options. For this sample, confirm four records, the same four column names, the string ID <code>0012</code>, and Bob's complete multiline note. The downloadable Node check performs those assertions on pandas' output using Papa Parse 5.5.3. It is a local file handoff test; no destination application's full import workflow was tested. Stop on errors or a changed count before saving records in the destination.</p>
+<h2>5. Know what cleaning did not solve</h2>
+<p>Deduplication does not merge two partial profiles, decide the correct address, fuzzy-match names, or sanitize spreadsheet formulas. A kept record can still be wrong. Use a separate, documented rule when importing untrusted cells into a spreadsheet.</p>
+<p>For recurring cleanup, reuse <a href="https://tokrepo.com/en/workflows/pandas-powerful-data-analysis-manipulation-python-1005b785?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=tokrepo_search&amp;utm_content=clean-csv-remove-duplicate-rows">pandas through TokRepo</a>, then use <a href="https://tokrepo.com/en/workflows/papa-parse-fast-browser-csv-parser-javascript-ed9fd7fc?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=tokrepo_search&amp;utm_content=clean-csv-remove-duplicate-rows">Papa Parse</a> where the cleaned output enters a JavaScript workflow. Keep the removal audit alongside the imported data.</p>
+</article><section class="related"><h2>Use the workflow again</h2><p>Keep the corresponding TokRepo assets for your next document, recording, or data task.</p><a href="https://tokrepo.com/en/workflows/pandas-powerful-data-analysis-manipulation-python-1005b785?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=tokrepo_search&amp;utm_content=clean-csv-remove-duplicate-rows">pandas — Powerful Data Analysis and Manipulation for Python on TokRepo ↗</a><a href="https://tokrepo.com/en/workflows/papa-parse-fast-browser-csv-parser-javascript-ed9fd7fc?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=tokrepo_search&amp;utm_content=clean-csv-remove-duplicate-rows">Papa Parse — Fast In-Browser CSV Parser for JavaScript on TokRepo ↗</a></section><section class="related"><h2>Related workflows</h2><a href="../transcribe-audio-to-text/">How to transcribe audio to text for free →</a><a href="../meeting-minutes-template/">Meeting minutes template with decisions and action items →</a><a href="../extract-tables-from-pdf-to-excel/">How to extract tables from a PDF to Excel →</a><a href="../presentation-from-notes/">How to make a presentation from notes →</a><a href="../flashcards-from-lecture-notes/">How to make flashcards from lecture notes and transcripts →</a></section></main><footer><span>Practical guides. Reusable assets on TokRepo.</span><a href="https://github.com/henu-wang/practical-ai-workbench/blob/main/LICENSE">MIT license</a><a href="../../privacy/">File privacy</a><a href="https://tokrepo.com/en">More workflows on TokRepo ↗</a></footer></body></html>

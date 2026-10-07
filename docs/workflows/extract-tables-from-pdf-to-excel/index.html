@@ -1,0 +1,71 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>How to extract tables from a PDF to Excel | TokRepo Workflows</title><meta name="description" content="Extract PDF tables into CSV or Excel with Docling and pandas. Learn how to check columns, merged cells and OCR errors before using the result."><link rel="canonical" href="https://henu-wang.github.io/practical-ai-workbench/workflows/extract-tables-from-pdf-to-excel/"><meta name="robots" content="index,follow"><meta property="og:title" content="How to extract tables from a PDF to Excel"><meta property="og:description" content="Extract PDF tables into CSV or Excel with Docling and pandas. Learn how to check columns, merged cells and OCR errors before using the result."><meta property="og:url" content="https://henu-wang.github.io/practical-ai-workbench/workflows/extract-tables-from-pdf-to-excel/"><link rel="stylesheet" href="../../assets/style.css"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "How to extract tables from a PDF to Excel", "description": "Extract PDF tables into CSV or Excel with Docling and pandas. Learn how to check columns, merged cells and OCR errors before using the result.", "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/extract-tables-from-pdf-to-excel/", "inLanguage": "en", "author": {"@type": "Organization", "name": "TokRepo Editorial"}, "datePublished": "2026-10-07", "dateModified": "2026-10-07"}</script></head><body><header><a class="brand" href="../../"><span class="mark">↗</span> TokRepo <b>Workflows</b></a><nav><a href="../../#workflows">Workflows</a><a href="https://github.com/henu-wang/practical-ai-workbench">GitHub ↗</a></nav></header><main><a class="back" href="../../">← All workflows</a><div class="page-title"><p class="eyebrow">Documents / GUIDE &amp; TEMPLATE</p><h1>How to extract tables from a PDF to Excel</h1><p class="lead">Extract PDF tables into CSV or Excel with Docling and pandas. Learn how to check columns, merged cells and OCR errors before using the result.</p><a class="primary hero-link" href="https://tokrepo.com/en/workflows/docling-document-parsing-ai-443e86c2?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=tokrepo_search&amp;utm_content=extract-tables-from-pdf-to-excel">Get Docling — Document Parsing for AI on TokRepo ↗</a></div><section class="asset-kit" id="assets"><h2>Your TokRepo asset kit</h2><p>Open the asset pages for source links, setup requirements, and reusable instructions. This guide shows how to combine them.</p><div class="asset-grid"><a class="asset-card" href="https://tokrepo.com/en/workflows/docling-document-parsing-ai-443e86c2?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=tokrepo_search&amp;utm_content=extract-tables-from-pdf-to-excel"><strong>Docling — Document Parsing for AI</strong><span>Detect document tables and export structured table data; obtain document parsing workflow at TokRepo</span><b>Get this asset on TokRepo ↗</b></a><a class="asset-card" href="https://tokrepo.com/en/workflows/pandas-powerful-data-analysis-manipulation-python-1005b785?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=tokrepo_search&amp;utm_content=extract-tables-from-pdf-to-excel"><strong>pandas — Powerful Data Analysis and Manipulation for Python</strong><span>Inspect detected tables and write separate Excel sheets; obtain reusable data-processing asset at TokRepo</span><b>Get this asset on TokRepo ↗</b></a></div></section><article class="guide recipe-guide"><h2>Extract a PDF table into a spreadsheet you can check</h2>
+<p>Use a document parser to detect the table, export its rows and columns, and compare the spreadsheet with the PDF before analyzing it. This recipe combines Docling for table extraction with pandas for CSV and Excel export. It is useful when copying and pasting produces scrambled columns; it does not promise perfect extraction from every PDF.</p>
+<p><strong><a href="https://tokrepo.com/en/workflows/docling-document-parsing-ai-443e86c2?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=tokrepo_search&amp;utm_content=extract-tables-from-pdf-to-excel">Get the Docling asset on TokRepo</a></strong> for the primary document-processing workflow. The complementary <a href="https://tokrepo.com/en/workflows/pandas-powerful-data-analysis-manipulation-python-1005b785?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=tokrepo_search&amp;utm_content=extract-tables-from-pdf-to-excel">pandas asset</a> handles the extracted table as structured data. A TokRepo usage asset supplies reusable instructions; Python packages and their dependencies still need installation.</p>
+<table>
+<thead>
+<tr>
+<th>Asset</th>
+<th>Role</th>
+<th>Handoff</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Docling — primary</td>
+<td>Find tables in the PDF and export a table DataFrame</td>
+<td>PDF → candidate rows and columns</td>
+</tr>
+<tr>
+<td>pandas — secondary</td>
+<td>Save and inspect structured tabular output</td>
+<td>DataFrame → CSV and Excel files</td>
+</tr>
+</tbody>
+</table>
+<h2>Download a reproducible task package</h2>
+<p>Download the <a href="../../templates/extract-tables-from-pdf-to-excel/export_pdf_tables.py">original extraction script</a>, <a href="../../templates/extract-tables-from-pdf-to-excel/sample-table.pdf">fictional sample PDF</a>, <a href="../../templates/extract-tables-from-pdf-to-excel/expected-table.csv">expected CSV</a>, and <a href="../../templates/extract-tables-from-pdf-to-excel/verification-checklist.md">verification worksheet</a>.</p>
+<p>The sample is an invented stock-location table, not a business record. It has three columns and three data rows. The expected CSV is the reference you should compare against, not a claimed Docling run result. The script follows documented APIs; this recipe does not claim that an extraction model was run successfully in your environment.</p>
+<h2>Run one table before a large document</h2>
+<p>Follow the assets' current Python requirements and installation instructions. This workflow needs Docling, pandas, and an Excel writer dependency:</p>
+<pre><code class="language-bash">python -m pip install docling pandas openpyxl
+python export_pdf_tables.py sample-table.pdf --output extracted
+</code></pre>
+<p>The script writes one CSV and one <code>.xlsx</code> file per detected table, such as <code>extracted/sample-table-table-1.xlsx</code>. It refuses to overwrite those files by default. Use a new output directory for a fresh test or explicitly choose the documented overwrite flag.</p>
+<p>Model downloads and first-run processing may take time. If installation or conversion fails, use the reported error to check the upstream requirements rather than repeatedly processing the whole document. A PDF with no detected tables produces an error instead of an empty success message.</p>
+<p>For a report with several tables, keep the outputs separate until you have checked each one's headers and meaning. Joining all tables immediately can combine unrelated information or mistake a continued header for a data row.</p>
+<h2>Check structure before cleaning values</h2>
+<p>Compare the spreadsheet with the visible PDF: column names, data-row count, left-to-right field alignment, blank cells, and the first and last record. Check at least one middle row too. For the sample, verify these records:</p>
+<table>
+<thead>
+<tr>
+<th>Item code</th>
+<th>Quantity</th>
+<th>Location</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0012</td>
+<td>8</td>
+<td>North shelf</td>
+</tr>
+<tr>
+<td>0047</td>
+<td>3</td>
+<td>South shelf</td>
+</tr>
+<tr>
+<td>0105</td>
+<td>11</td>
+<td>Overflow</td>
+</tr>
+</tbody>
+</table>
+<p>Leading zeros belong to the item codes. Do not convert them to numbers because they happen to contain digits. In your own PDF, check multi-line cells, repeated headers, and any table continued across pages. Record corrections in the worksheet instead of silently changing the evidence.</p>
+<p>The script exports Excel cells as text and prefixes formula-like text to avoid interpreting it as a spreadsheet formula. That protection can change the stored text. It keeps a separate CSV export for inspection; open an untrusted CSV in a text editor before deciding how to import its cells into a spreadsheet. Convert quantities or dates under an explicit schema only after verification.</p>
+<h2>Common extraction problems</h2>
+<p><strong>The PDF is scanned.</strong> Extraction depends on OCR, document quality, language, and the configured pipeline. Inspect the recognized text as well as table boundaries; a plausible-looking row can contain a wrong character.</p>
+<p><strong>The table has merged headings.</strong> Preserve the extraction first, then define the intended column schema. Do not drop a header row until you understand how it maps to the data.</p>
+<p><strong>I only need a small table.</strong> Manual entry can be faster when the table is tiny. The same comparison checklist still applies.</p>
+<p>Once the small example meets your checks, continue with the <a href="https://tokrepo.com/en/workflows/docling-document-parsing-ai-443e86c2?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=tokrepo_search&amp;utm_content=extract-tables-from-pdf-to-excel">Docling asset on TokRepo</a> for the reusable extraction step and pandas for subsequent validated transformations. Technical references: <a href="https://github.com/docling-project/docling/blob/main/docs/examples/export_tables.py">Docling's table-export example</a> and <a href="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_excel.html">pandas Excel export</a>.</p>
+</article><section class="related"><h2>Use the workflow again</h2><p>Keep the corresponding TokRepo assets for your next document, recording, or data task.</p><a href="https://tokrepo.com/en/workflows/docling-document-parsing-ai-443e86c2?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=tokrepo_search&amp;utm_content=extract-tables-from-pdf-to-excel">Docling — Document Parsing for AI on TokRepo ↗</a><a href="https://tokrepo.com/en/workflows/pandas-powerful-data-analysis-manipulation-python-1005b785?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=tokrepo_search&amp;utm_content=extract-tables-from-pdf-to-excel">pandas — Powerful Data Analysis and Manipulation for Python on TokRepo ↗</a></section><section class="related"><h2>Related workflows</h2><a href="../transcribe-audio-to-text/">How to transcribe audio to text for free →</a><a href="../meeting-minutes-template/">Meeting minutes template with decisions and action items →</a><a href="../presentation-from-notes/">How to make a presentation from notes →</a><a href="../clean-csv-remove-duplicate-rows/">How to clean a CSV file and remove duplicate rows →</a><a href="../flashcards-from-lecture-notes/">How to make flashcards from lecture notes and transcripts →</a></section></main><footer><span>Practical guides. Reusable assets on TokRepo.</span><a href="https://github.com/henu-wang/practical-ai-workbench/blob/main/LICENSE">MIT license</a><a href="../../privacy/">File privacy</a><a href="https://tokrepo.com/en">More workflows on TokRepo ↗</a></footer></body></html>

@@ -1,0 +1,474 @@
+{
+  "site_url": "https://henu-wang.github.io/practical-ai-workbench/",
+  "recipes": [
+    {
+      "slug": "transcribe-audio-to-text",
+      "title": "How to transcribe audio to text for free",
+      "primary_query": "how to transcribe audio to text for free",
+      "intent": "guide/template with downloadable instructions or examples; not an online conversion service",
+      "autocomplete": {
+        "seed": "how to transcribe audio",
+        "exact_observed_suggestion": "how to transcribe audio to text for free",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=how%20to%20transcribe%20audio",
+        "retrieved_at": "2026-10-07T05:47:02.715002+00:00",
+        "market": "US",
+        "language": "en"
+      },
+      "questions": [
+        {
+          "url": "https://www.reddit.com/r/audiovisual/comments/1uf7epb/can_you_transcribe_a_3hour_audio_for_free/",
+          "question_intent": "User has three hours of audio and asks for a free route.",
+          "editorial_implication": "Explain local software vs limited hosted trial; start with a short sample before full file.",
+          "retrieved_at": "2026-10-07T05:52:15.639451+00:00",
+          "type": "independent public user question",
+          "monthly_search_volume": null,
+          "limitation": "Historical/current public problem evidence is qualitative; no frequency inference."
+        },
+        {
+          "url": "https://www.reddit.com/r/software/comments/1mr7kl9/free_transcription_over_an_hour/",
+          "question_intent": "User needs longer-than-hour transcription without free-tier barriers.",
+          "editorial_implication": "Clear model setup, expected TXT/SRT outputs and resource/runtime tradeoffs, no fabricated speed.",
+          "retrieved_at": "2026-10-07T05:52:15.639451+00:00",
+          "type": "independent public user question",
+          "monthly_search_volume": null,
+          "limitation": "Historical/current public problem evidence is qualitative; no frequency inference."
+        }
+      ],
+      "assets": [
+        {
+          "id": 105,
+          "slug": "whisper-openai-speech-text-eb0f9dd6",
+          "title": "Whisper \u2014 OpenAI Speech-to-Text",
+          "url": "https://tokrepo.com/en/workflows/whisper-openai-speech-text-eb0f9dd6",
+          "role": "Local speech-recognition model; obtain model/source setup from TokRepo",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=105",
+          "public_status": 200,
+          "source_reviewed": true,
+          "runtime_verified": false
+        },
+        {
+          "id": 1157,
+          "slug": "ffmpeg-universal-multimedia-processing-toolkit-353248b1",
+          "title": "FFmpeg \u2014 The Universal Multimedia Processing Toolkit",
+          "url": "https://tokrepo.com/en/workflows/ffmpeg-universal-multimedia-processing-toolkit-353248b1",
+          "role": "Normalize or extract audio before transcription; obtain conversion asset from TokRepo",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=1157",
+          "public_status": 200,
+          "source_reviewed": true,
+          "runtime_verified": false
+        }
+      ],
+      "deliverables": [
+        "Original local setup checklist and commands checked against upstream",
+        "Tiny audio/transcript sample or a clearly labelled unexecuted expected-shape example",
+        "Transcript QA checklist for names, numbers, timestamps"
+      ],
+      "claim_boundaries": [
+        "Whisper does not by itself verify accuracy or guarantee speaker identification.",
+        "Do not promise free cloud service or instant processing.",
+        "Full installers/source are obtained through matching TokRepo assets; do not mirror whole upstream README."
+      ],
+      "competition": "Free/paid hosted transcribers and local Whisper GUI projects already meet this problem; differentiated value is exact end-to-end checks plus TokRepo asset path.",
+      "search_volume": null,
+      "demand_status": "qualified qualitatively: exact autocomplete + 2 independently authored problem questions; final article/source/runtime QA remains required",
+      "tokrepo_role": "Full reusable asset/source details are retrieved from TokRepo; this page gives original task walkthrough/sample and directly routes to the matching assets.",
+      "description": "Transcribe audio to text for free with Whisper and FFmpeg. Get TXT or SRT output, check names and timestamps, and reuse the assets on TokRepo.",
+      "category": "Audio",
+      "published_on": "2026-10-07",
+      "updated_on": "2026-10-07"
+    },
+    {
+      "slug": "meeting-minutes-template",
+      "title": "Meeting minutes template with decisions and action items",
+      "primary_query": "meeting minutes template word",
+      "intent": "guide/template with downloadable instructions or examples; not an online conversion service",
+      "autocomplete": {
+        "seed": "meeting minutes template",
+        "exact_observed_suggestion": "meeting minutes template word",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=meeting%20minutes%20template",
+        "retrieved_at": "2026-10-07T05:47:02.715002+00:00",
+        "market": "US",
+        "language": "en"
+      },
+      "questions": [
+        {
+          "url": "https://www.reddit.com/r/ObsidianMD/comments/1jzx88n/anyone_have_a_good_meeting_template/",
+          "question_intent": "User asks what belongs in a useful meeting template.",
+          "editorial_implication": "Give a downloadable original minutes template with decisions/actions/source fields.",
+          "retrieved_at": "2026-10-07T05:52:15.639451+00:00",
+          "type": "independent public user question",
+          "monthly_search_volume": null,
+          "limitation": "Historical/current public problem evidence is qualitative; no frequency inference."
+        },
+        {
+          "url": "https://www.reddit.com/r/ExecutiveAssistants/comments/1w5e7p2/meeting_notes_formal_minutes/",
+          "question_intent": "Assistant struggles with reliable notes versus formal minutes.",
+          "editorial_implication": "Explain decisions vs discussion, timestamp/source checks and unknown owner/deadline handling; do not imply a generic template is legally compliant.",
+          "retrieved_at": "2026-10-07T05:52:15.639451+00:00",
+          "type": "independent public user question",
+          "monthly_search_volume": null,
+          "limitation": "Historical/current public problem evidence is qualitative; no frequency inference."
+        }
+      ],
+      "assets": [
+        {
+          "id": 6826,
+          "slug": "meeting-notes-decisions-action-items-e0ccfa90",
+          "title": "Meeting Notes to Decisions and Action Items",
+          "url": "https://tokrepo.com/en/workflows/meeting-notes-decisions-action-items-e0ccfa90",
+          "role": "TokRepo original source-constrained meeting-note prompt; full prompt retrieved on TokRepo",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=6826",
+          "public_status": 200,
+          "source_reviewed": true,
+          "runtime_verified": false
+        },
+        {
+          "id": 6946,
+          "slug": "meeting-minutes-action-register-prompt-a7cdc10d",
+          "title": "Meeting Minutes to Action Register Prompt",
+          "url": "https://tokrepo.com/en/workflows/meeting-minutes-action-register-prompt-a7cdc10d",
+          "role": "Follow-up action-register prompt; preserve absent owners/dates instead of inventing",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=6946",
+          "public_status": 200,
+          "source_reviewed": true,
+          "runtime_verified": false
+        },
+        {
+          "id": 66,
+          "slug": "claude-official-skill-docx-word-document-creation-6236da40",
+          "title": "Claude Official Skill: DOCX \u2014 Word Document Creation",
+          "url": "https://tokrepo.com/en/workflows/claude-official-skill-docx-word-document-creation-6236da40",
+          "role": "Optional editable Word document creation skill, retrieved through TokRepo",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=66",
+          "public_status": 200,
+          "source_reviewed": true,
+          "runtime_verified": false
+        }
+      ],
+      "deliverables": [
+        "Original downloadable .md and editable .docx template",
+        "Clearly fictional filled example with unknown owner/due-date fields",
+        "Checklist linking every decision/action to source notes"
+      ],
+      "claim_boundaries": [
+        "Formal governance rules differ; do not call this a universally compliant official record.",
+        "Do not paste the complete TokRepo original prompts into GitHub pages.",
+        "Word attachment must actually open and edit before advertised as available."
+      ],
+      "competition": "Microsoft/Notion and many meeting products supply templates; our page adds source anchoring and a corresponding original TokRepo prompt workflow.",
+      "search_volume": null,
+      "demand_status": "qualified qualitatively: exact autocomplete + 2 independently authored problem questions; final article/source/runtime QA remains required",
+      "tokrepo_role": "Full reusable asset/source details are retrieved from TokRepo; this page gives original task walkthrough/sample and directly routes to the matching assets.",
+      "description": "Download an editable meeting minutes template and combine TokRepo prompts with a Word document skill to record decisions, owners and deadlines.",
+      "category": "Work",
+      "published_on": "2026-10-07",
+      "updated_on": "2026-10-07"
+    },
+    {
+      "slug": "extract-tables-from-pdf-to-excel",
+      "title": "How to extract tables from a PDF to Excel",
+      "primary_query": "extract tables from pdf to excel",
+      "intent": "guide/template with downloadable instructions or examples; not an online conversion service",
+      "autocomplete": {
+        "seed": "extract tables from pdf",
+        "exact_observed_suggestion": "extract tables from pdf to excel",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=extract%20tables%20from%20pdf",
+        "retrieved_at": "2026-10-07T05:47:02.715002+00:00",
+        "market": "US",
+        "language": "en"
+      },
+      "questions": [
+        {
+          "url": "https://stackoverflow.com/questions/56017702/how-to-extract-table-from-pdf-in-python",
+          "question_intent": "User gets incomplete table headers/rows when parsing a PDF.",
+          "editorial_implication": "Show row/column count and compare at least first/last rows to original.",
+          "retrieved_at": "2026-10-07T05:52:15.639451+00:00",
+          "type": "independent public user question",
+          "monthly_search_volume": null,
+          "limitation": "Historical/current public problem evidence is qualitative; no frequency inference."
+        },
+        {
+          "url": "https://stackoverflow.com/questions/62044535/how-to-extract-tables-from-pdf-using-camelot",
+          "question_intent": "User gets only one table from the first page and asks extracting all tables.",
+          "editorial_implication": "Iterate all detected tables; report page/table references and never silently claim all pages succeeded.",
+          "retrieved_at": "2026-10-07T05:52:15.639451+00:00",
+          "type": "independent public user question",
+          "monthly_search_volume": null,
+          "limitation": "Historical/current public problem evidence is qualitative; no frequency inference."
+        }
+      ],
+      "assets": [
+        {
+          "id": 173,
+          "slug": "docling-document-parsing-ai-443e86c2",
+          "title": "Docling \u2014 Document Parsing for AI",
+          "url": "https://tokrepo.com/en/workflows/docling-document-parsing-ai-443e86c2",
+          "role": "Detect document tables and export structured table data; obtain document parsing workflow at TokRepo",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=173",
+          "public_status": 200,
+          "source_reviewed": true,
+          "runtime_verified": false
+        },
+        {
+          "id": 1144,
+          "slug": "pandas-powerful-data-analysis-manipulation-python-1005b785",
+          "title": "pandas \u2014 Powerful Data Analysis and Manipulation for Python",
+          "url": "https://tokrepo.com/en/workflows/pandas-powerful-data-analysis-manipulation-python-1005b785",
+          "role": "Inspect detected tables and write separate Excel sheets; obtain reusable data-processing asset at TokRepo",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=1144",
+          "public_status": 200,
+          "source_reviewed": true,
+          "runtime_verified": false
+        }
+      ],
+      "deliverables": [
+        "Original sample PDF with simple multi-table content plus expected workbook/CSV if actually executed",
+        "Version-aware Docling to pandas walkthrough",
+        "Validation checklist for merged headers, totals, blank rows and scanned PDFs"
+      ],
+      "claim_boundaries": [
+        "Scanned pages need an OCR path and quality checks.",
+        "Excel export requires an engine such as openpyxl; make setup explicit.",
+        "Detected tables are not guaranteed complete/accurate; do not claim financial statement accuracy or invent data."
+      ],
+      "competition": "Power Query, Acrobat and PDF-table libraries supply alternatives. Win with a reproducible small sample, cell-level validation and clean route to asset details.",
+      "search_volume": null,
+      "demand_status": "qualified qualitatively: exact autocomplete + 2 independently authored problem questions; final article/source/runtime QA remains required",
+      "tokrepo_role": "Full reusable asset/source details are retrieved from TokRepo; this page gives original task walkthrough/sample and directly routes to the matching assets.",
+      "description": "Extract PDF tables into CSV or Excel with Docling and pandas. Learn how to check columns, merged cells and OCR errors before using the result.",
+      "category": "Documents",
+      "published_on": "2026-10-07",
+      "updated_on": "2026-10-07"
+    },
+    {
+      "slug": "presentation-from-notes",
+      "title": "How to make a presentation from notes",
+      "primary_query": "make presentation from notes",
+      "intent": "guide/template with downloadable instructions or examples; not an online conversion service",
+      "autocomplete": {
+        "seed": "presentation from notes",
+        "exact_observed_suggestion": "make presentation from notes",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=presentation%20from%20notes",
+        "retrieved_at": "2026-10-07T05:47:02.715002+00:00",
+        "market": "US",
+        "language": "en"
+      },
+      "questions": [
+        {
+          "url": "https://www.reddit.com/r/powerpoint/comments/1vkzaae/whats_the_easiest_way_to_create_a_sales/",
+          "question_intent": "User wants a presentation from notes without copying slide by slide.",
+          "editorial_implication": "Provide 6-slide outline template with one point per slide and explicit input/source mapping.",
+          "retrieved_at": "2026-10-07T05:52:15.639451+00:00",
+          "type": "independent public user question",
+          "monthly_search_volume": null,
+          "limitation": "Historical/current public problem evidence is qualitative; no frequency inference."
+        },
+        {
+          "url": "https://answers.microsoft.com/en-us/msoffice/forum/all/word-outline-into-powerpoint/7cb6ec23-17a6-44ef-98b9-85d1d8bcea23",
+          "question_intent": "User has a Word outline and PowerPoint template but import fails.",
+          "editorial_implication": "Separate manual outline/template route from agent/PPTX creation; name prerequisites instead of claiming automatic conversion always works.",
+          "retrieved_at": "2026-10-07T05:52:15.639451+00:00",
+          "type": "independent public user question",
+          "monthly_search_volume": null,
+          "limitation": "Historical/current public problem evidence is qualitative; no frequency inference."
+        }
+      ],
+      "assets": [
+        {
+          "id": 6825,
+          "slug": "reusable-draft-final-writing-prompt-3128c956",
+          "title": "Reusable Draft-to-Final Writing Prompt",
+          "url": "https://tokrepo.com/en/workflows/reusable-draft-final-writing-prompt-3128c956",
+          "role": "TokRepo original writing brief to establish audience, purpose, constraints and faithful outline",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=6825",
+          "public_status": 200,
+          "source_reviewed": true,
+          "runtime_verified": false
+        },
+        {
+          "id": 67,
+          "slug": "claude-official-skill-pptx-powerpoint-presentations-01b1713e",
+          "title": "Claude Official Skill: PPTX \u2014 PowerPoint Presentations",
+          "url": "https://tokrepo.com/en/workflows/claude-official-skill-pptx-powerpoint-presentations-01b1713e",
+          "role": "PPTX skill for turning the reviewed outline into an editable deck; full skill/source stays accessible through TokRepo",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=67",
+          "public_status": 200,
+          "source_reviewed": true,
+          "runtime_verified": false
+        }
+      ],
+      "deliverables": [
+        "Original notes-to-slide brief template",
+        "Original 6-slide outline example and editable .pptx only after creation validation",
+        "Slide fact/layout review checklist"
+      ],
+      "claim_boundaries": [
+        "Do not promise browser upload-to-presentation generator.",
+        "Speaker notes visibility is a separate intent; do not use that question as generation proof.",
+        "Asset page installer snippets must be checked against current upstream, not copied blindly."
+      ],
+      "competition": "Gamma/Plus AI and Microsoft provide notes/outline-to-deck alternatives; our scope is a useful reviewable outline plus reusable TokRepo writing/PPTX assets.",
+      "search_volume": null,
+      "demand_status": "qualified qualitatively: exact autocomplete + 2 independently authored problem questions; final article/source/runtime QA remains required",
+      "tokrepo_role": "Full reusable asset/source details are retrieved from TokRepo; this page gives original task walkthrough/sample and directly routes to the matching assets.",
+      "description": "Turn rough notes into a clear slide outline and editable PowerPoint with TokRepo writing and presentation skills. Includes a reusable planning template.",
+      "category": "Work",
+      "published_on": "2026-10-07",
+      "updated_on": "2026-10-07"
+    },
+    {
+      "slug": "clean-csv-remove-duplicate-rows",
+      "title": "How to clean a CSV file and remove duplicate rows",
+      "primary_query": "remove duplicate rows pandas",
+      "intent": "guide/template with downloadable instructions or examples; not an online conversion service",
+      "autocomplete": {
+        "seed": "remove duplicate rows pandas",
+        "exact_observed_suggestion": "remove duplicate rows pandas",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=remove%20duplicate%20rows%20pandas",
+        "retrieved_at": "2026-10-07T05:47:02.715002+00:00",
+        "market": "US",
+        "language": "en"
+      },
+      "questions": [
+        {
+          "url": "https://stackoverflow.com/questions/52428342/pandas-drop-duplicates-in-csv",
+          "question_intent": "User wants one CSV with new records and duplicates removed.",
+          "editorial_implication": "Explain whole-row versus key-based matches and keep-first/last/all-removal differences.",
+          "retrieved_at": "2026-10-07T05:52:15.639451+00:00",
+          "type": "independent public user question",
+          "monthly_search_volume": null,
+          "limitation": "Historical/current public problem evidence is qualitative; no frequency inference."
+        },
+        {
+          "url": "https://stackoverflow.com/questions/50885093/how-do-i-remove-rows-with-duplicate-values-of-columns-in-pandas-data-frame",
+          "question_intent": "User needs duplicate removal using a chosen column.",
+          "editorial_implication": "Provide explicit identity-key recipe and before/after sample; avoid unintended loss from missing keys.",
+          "retrieved_at": "2026-10-07T05:52:15.639451+00:00",
+          "type": "independent public user question",
+          "monthly_search_volume": null,
+          "limitation": "Historical/current public problem evidence is qualitative; no frequency inference."
+        }
+      ],
+      "assets": [
+        {
+          "id": 1144,
+          "slug": "pandas-powerful-data-analysis-manipulation-python-1005b785",
+          "title": "pandas \u2014 Powerful Data Analysis and Manipulation for Python",
+          "url": "https://tokrepo.com/en/workflows/pandas-powerful-data-analysis-manipulation-python-1005b785",
+          "role": "Python data-frame import and deduplication; obtain pandas asset at TokRepo",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=1144",
+          "public_status": 200,
+          "source_reviewed": true,
+          "runtime_verified": false
+        },
+        {
+          "id": 4980,
+          "slug": "papa-parse-fast-browser-csv-parser-javascript-ed9fd7fc",
+          "title": "Papa Parse \u2014 Fast In-Browser CSV Parser for JavaScript",
+          "url": "https://tokrepo.com/en/workflows/papa-parse-fast-browser-csv-parser-javascript-ed9fd7fc",
+          "role": "Alternative JavaScript CSV parsing to preserve quoted fields; obtain parser/source at TokRepo",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=4980",
+          "public_status": 200,
+          "source_reviewed": true,
+          "runtime_verified": false
+        }
+      ],
+      "deliverables": [
+        "Original messy.csv, cleaned.csv and duplicate-audit.csv after actual deterministic execution",
+        "Python recipe plus comparison to parsing-only JavaScript alternative",
+        "Short checklist covering leading-zero IDs, quoted commas, missing keys and destructive normalization"
+      ],
+      "claim_boundaries": [
+        "Papa Parse parses CSV; it does not automatically deduplicate.",
+        "Do not advertise Excel or fuzzy matching without actual implementation.",
+        "No upload-to-clean online service is promised.",
+        "Do not silently trim/lowercase all data; chosen rules should be visible."
+      ],
+      "competition": "Official pandas examples and Excel already cover dedup; useful difference is conservative file-cleaning recipe with audit output and direct assets.",
+      "search_volume": null,
+      "demand_status": "qualified qualitatively: exact autocomplete + 2 independently authored problem questions; final article/source/runtime QA remains required",
+      "tokrepo_role": "Full reusable asset/source details are retrieved from TokRepo; this page gives original task walkthrough/sample and directly routes to the matching assets.",
+      "description": "Clean a CSV with pandas: choose duplicate keys, preserve identifiers, and review removed rows. Includes sample data and a reusable cleaning checklist.",
+      "category": "Data",
+      "published_on": "2026-10-07",
+      "updated_on": "2026-10-07"
+    },
+    {
+      "slug": "flashcards-from-lecture-notes",
+      "title": "How to make flashcards from lecture notes and transcripts",
+      "primary_query": "make flashcards from notes",
+      "intent": "guide/template with downloadable instructions or examples; not an online conversion service",
+      "autocomplete": {
+        "seed": "flashcards from notes",
+        "exact_observed_suggestion": "make flashcards from notes",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=flashcards%20from%20notes",
+        "retrieved_at": "2026-10-07T05:47:02.715002+00:00",
+        "market": "US",
+        "language": "en"
+      },
+      "questions": [
+        {
+          "url": "https://www.reddit.com/r/Anki/comments/19c0u1e/converting_notes_into_flashcards_automatically/",
+          "question_intent": "User asks how to convert notes/textbooks to flashcards automatically.",
+          "editorial_implication": "Provide a real card schema and short source-anchored sample rather than a new flashcard service.",
+          "retrieved_at": "2026-10-07T05:52:15.639451+00:00",
+          "type": "independent public user question",
+          "monthly_search_volume": null,
+          "limitation": "Historical/current public problem evidence is qualitative; no frequency inference."
+        },
+        {
+          "url": "https://www.reddit.com/r/GetStudying/comments/kw9a77/how_do_you_guys_make_anki_flash_cards_from_a_lot/",
+          "question_intent": "User asks how to make cards quickly from many notes.",
+          "editorial_implication": "Start with one section, keep questions atomic and audit answers; do not generate huge unfocused decks.",
+          "retrieved_at": "2026-10-07T05:52:15.639451+00:00",
+          "type": "independent public user question",
+          "monthly_search_volume": null,
+          "limitation": "Historical/current public problem evidence is qualitative; no frequency inference."
+        }
+      ],
+      "assets": [
+        {
+          "id": 6935,
+          "slug": "turn-lecture-transcript-into-study-cards-585e76f2",
+          "title": "Turn a Lecture Transcript into Study Cards",
+          "url": "https://tokrepo.com/en/workflows/turn-lecture-transcript-into-study-cards-585e76f2",
+          "role": "TokRepo original prompt for source-checkable question-first study cards; full prompt retrieved at TokRepo",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=6935",
+          "public_status": 200,
+          "source_reviewed": true,
+          "runtime_verified": false
+        },
+        {
+          "id": 105,
+          "slug": "whisper-openai-speech-text-eb0f9dd6",
+          "title": "Whisper \u2014 OpenAI Speech-to-Text",
+          "url": "https://tokrepo.com/en/workflows/whisper-openai-speech-text-eb0f9dd6",
+          "role": "Optional transcription of recorded lecture before applying the card prompt; software source/setup retrieved at TokRepo",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=105",
+          "public_status": 200,
+          "source_reviewed": true,
+          "runtime_verified": false
+        }
+      ],
+      "deliverables": [
+        "Original example lecture excerpt and 3\u20138 cards with source anchors",
+        "Copyable original study-card planning brief and TSV format example",
+        "Checks for unsupported answers/gaps and a simple review schedule"
+      ],
+      "claim_boundaries": [
+        "The TokRepo prompt is transcript-based; adapting typed notes must be explicit and is not claimed runtime-tested.",
+        "Whisper is optional for audio-only notes; written notes do not require transcribing.",
+        "No guaranteed learning/exam-score improvement.",
+        "Do not mirror the complete original TokRepo prompt or claim a working flashcard generator."
+      ],
+      "competition": "Anki, Quizlet, Evernote and ChatGPT already provide card creation; source anchors, gap handling and TokRepo prompt retrieval are the practical editorial angle.",
+      "search_volume": null,
+      "demand_status": "qualified qualitatively: exact autocomplete + 2 independently authored problem questions; final article/source/runtime QA remains required",
+      "tokrepo_role": "Full reusable asset/source details are retrieved from TokRepo; this page gives original task walkthrough/sample and directly routes to the matching assets.",
+      "description": "Make focused flashcards from lecture notes with a reusable TokRepo prompt. Includes a review template and checks for unsupported answers.",
+      "category": "Study",
+      "published_on": "2026-10-07",
+      "updated_on": "2026-10-07"
+    }
+  ]
+}

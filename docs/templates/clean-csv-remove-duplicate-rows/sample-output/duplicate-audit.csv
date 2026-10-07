@@ -1,0 +1,3 @@
+audit_source_record,audit_retained_source_record,audit_reason,customer_id,name,email,note
+1,4,duplicate_matching_rule,0012,Ada,ada@example.test,"call, Tuesday"
+2,4,duplicate_matching_rule,0012,Ada,ada@example.test,"call, Tuesday"

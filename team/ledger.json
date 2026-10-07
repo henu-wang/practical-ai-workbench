@@ -7,42 +7,102 @@
       "dedupe_key": "merge-pdf",
       "published_on": "2026-10-07",
       "primary_query": "merge pdf free",
-      "url": "https://henu-wang.github.io/practical-ai-workbench/merge-pdf/"
+      "url": "https://henu-wang.github.io/practical-ai-workbench/merge-pdf/",
+      "program": "legacy_browser_tools"
     },
     {
       "slug": "extract-pdf-pages",
       "dedupe_key": "extract-pdf-pages",
       "published_on": "2026-10-07",
       "primary_query": "extract pages from pdf into new pdf",
-      "url": "https://henu-wang.github.io/practical-ai-workbench/extract-pdf-pages/"
+      "url": "https://henu-wang.github.io/practical-ai-workbench/extract-pdf-pages/",
+      "program": "legacy_browser_tools"
     },
     {
       "slug": "compress-image",
       "dedupe_key": "compress-image",
       "published_on": "2026-10-07",
       "primary_query": "compress image online free",
-      "url": "https://henu-wang.github.io/practical-ai-workbench/compress-image/"
+      "url": "https://henu-wang.github.io/practical-ai-workbench/compress-image/",
+      "program": "legacy_browser_tools"
     },
     {
       "slug": "resize-image",
       "dedupe_key": "resize-image",
       "published_on": "2026-10-07",
       "primary_query": "resize image online free",
-      "url": "https://henu-wang.github.io/practical-ai-workbench/resize-image/"
+      "url": "https://henu-wang.github.io/practical-ai-workbench/resize-image/",
+      "program": "legacy_browser_tools"
     },
     {
       "slug": "remove-duplicate-csv-rows",
       "dedupe_key": "remove-duplicate-csv-rows",
       "published_on": "2026-10-07",
       "primary_query": "remove duplicate rows in csv file online",
-      "url": "https://henu-wang.github.io/practical-ai-workbench/remove-duplicate-csv-rows/"
+      "url": "https://henu-wang.github.io/practical-ai-workbench/remove-duplicate-csv-rows/",
+      "program": "legacy_browser_tools"
     },
     {
       "slug": "csv-to-json",
       "dedupe_key": "csv-to-json",
       "published_on": "2026-10-07",
       "primary_query": "csv to json converter",
-      "url": "https://henu-wang.github.io/practical-ai-workbench/csv-to-json/"
+      "url": "https://henu-wang.github.io/practical-ai-workbench/csv-to-json/",
+      "program": "legacy_browser_tools"
+    },
+    {
+      "slug": "transcribe-audio-to-text",
+      "dedupe_key": "asset-search:how to transcribe audio to text for free",
+      "program": "asset_search",
+      "action": "new_topic",
+      "published_on": "2026-10-07",
+      "status": "review_pending",
+      "canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/transcribe-audio-to-text/"
+    },
+    {
+      "slug": "meeting-minutes-template",
+      "dedupe_key": "asset-search:meeting minutes template word",
+      "program": "asset_search",
+      "action": "new_topic",
+      "published_on": "2026-10-07",
+      "status": "review_pending",
+      "canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/meeting-minutes-template/"
+    },
+    {
+      "slug": "extract-tables-from-pdf-to-excel",
+      "dedupe_key": "asset-search:extract tables from pdf to excel",
+      "program": "asset_search",
+      "action": "new_topic",
+      "published_on": "2026-10-07",
+      "status": "review_pending",
+      "canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/extract-tables-from-pdf-to-excel/"
+    },
+    {
+      "slug": "presentation-from-notes",
+      "dedupe_key": "asset-search:make presentation from notes",
+      "program": "asset_search",
+      "action": "new_topic",
+      "published_on": "2026-10-07",
+      "status": "review_pending",
+      "canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/presentation-from-notes/"
+    },
+    {
+      "slug": "clean-csv-remove-duplicate-rows",
+      "dedupe_key": "asset-search:remove duplicate rows pandas",
+      "program": "asset_search",
+      "action": "new_topic",
+      "published_on": "2026-10-07",
+      "status": "review_pending",
+      "canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/clean-csv-remove-duplicate-rows/"
+    },
+    {
+      "slug": "flashcards-from-lecture-notes",
+      "dedupe_key": "asset-search:make flashcards from notes",
+      "program": "asset_search",
+      "action": "new_topic",
+      "published_on": "2026-10-07",
+      "status": "review_pending",
+      "canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/flashcards-from-lecture-notes/"
     }
   ]
 }

@@ -1,17 +1,11 @@
-# Editorial agents
+# TokRepo search editorial team
 
-This project is a working open-source task utility and an English search landing site. Read these shared contexts before work:
+The only objective is English search demand → useful TokRepo asset solution → visits and asset use on TokRepo. This repository and its public Pages site distribute those solutions. The former standalone browser-tool product objective is superseded; preserve existing URLs but do not build another product or create repositories to multiply pages.
 
-1. `team/context/USER-BRIEF.md`, `PROJECT.md`, `AUDIENCE.md`, `ASSET-POLICY.md`.
-2. `tasks.json`, `team/research/demand.json`, `team/ledger.json` and relevant page sources.
-3. `team/PIPELINE.md`, `STYLE.md`, `QUALITY.md` and the latest relevant review records.
+Read team/context/*, team/PIPELINE.md, STYLE.md, QUALITY.md, MONITORING.md, recipes.json, team/research/redirect-demand.json, the ledger and relevant reviews. The user explicitly requested independent editorial agents. Assign demand research, writing and review to actual separate agents with file ownership and shared context. Authors cannot approve their own work.
 
-The user explicitly requested an editorial agent team. In a runtime with collaboration tools, use independent sub-agents for demand research, writing/building and quality review. Pass only the shared context and assigned responsibility; define file ownership and remind each agent that other contributors are present. The author must not approve its own work. The managing editor integrates findings and the release editor publishes only the reviewed source.
+Every new page needs current English demand evidence, matched guide/template intent, original practical value, a real combination of relevant TokRepo assets, clear setup and limitations, and prominent exact asset URLs with the agreed UTM parameters. Never invent search volumes, test results, indexing, ranks or traffic. Daily maximum six qualified new topics across this project; corrections and substantive updates to existing pages are separately logged and do not consume the new-topic quota. No catch-up quotas or near-duplicates.
 
-Role prompts live in `team/roles/`. These are executable instructions for the orchestrator to pass to agents, not a claim that GitHub hosts an LLM service. The daily orchestrator runs in the authorized Codex chat. GitHub Actions runs deterministic code/build checks and does not require model credentials.
+Before publishing relevant recipe changes run python3 scripts/build.py, python3 scripts/recipe_check.py, and python3 scripts/editorial_gate.py. Legacy tool runtime changes also require npm test and scripts/browser_check.py. Checks must produce real receipts; affected source hashes invalidate reviews. Existing browser dependencies and licenses remain vendored. Synthetic examples only. Keep raw account data, credentials, private documents and browser profiles outside Git.
 
-Use fresh, original evidence for a task. Prefer new useful capabilities and meaningful task packs; update existing canonical pages rather than generating near-duplicates. A generic keyword with unmet intent is not an acceptable page. Do not increase the daily cap to compensate for skipped runs.
-
-Run `npm test`, `python3 scripts/build.py`, `python3 scripts/browser_check.py`, and `python3 scripts/editorial_gate.py` before publishing relevant changes. The browser script requires Python Playwright, Pillow and Chrome. Capture real output. If a required test environment is missing, preserve drafts and report the missing check without filling in a fake PASS.
-
-Preserve input files. No third-party request may contain user file contents. Vendor browser dependencies with their licenses. Keep secrets and local profiles out of Git. Public data examples are synthetic. Source and UI changes invalidate affected source-hash review approvals.
+Use this project's URL-prefix property for GSC inspection and search performance. TokRepo GSC data is not Pages search performance. Settled GSC impressions/clicks/CTR/average position and attributed TokRepo sessions are separate stages. Missing access or events is unknown, never zero. Daily technical checks; inspections due at 3/7/14 days; weekly settled-data review and 28-day cohort review. Record evidence, action, before/after and next review date. Do not archive conversations automatically or change TokRepo production as part of this publication workflow.

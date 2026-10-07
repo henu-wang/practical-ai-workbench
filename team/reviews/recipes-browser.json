@@ -1,0 +1,182 @@
+{
+  "recorded_at": "2026-10-07T06:13:34.750305+00:00",
+  "source_sha256": "d8692ee0d7e4fc07d9d429beffddcb8ec6918d188649f50737b22ee1829ec2fd",
+  "status": "PASS",
+  "scope": "Rendered guide and original downloadable templates; no claim that third-party models ran",
+  "page_errors": [],
+  "pages": [
+    {
+      "slug": "transcribe-audio-to-text",
+      "render": "PASS",
+      "primary_cta": "PASS",
+      "mobile": "PASS",
+      "template_downloads": [
+        {
+          "path": "templates/transcribe-audio-to-text/review-checklist.md",
+          "bytes": 1103,
+          "sha256": "ae8ea1c6f5061d3e2c16ebf9819025738bf0f8c2f2e2cf433ad464af51f1863f"
+        },
+        {
+          "path": "templates/transcribe-audio-to-text/fictional-transcript.md",
+          "bytes": 1008,
+          "sha256": "9f271ee7c54e42ed9c50fa7012a4751bfed4e39ece119f30bbfedd69eb631a15"
+        }
+      ]
+    },
+    {
+      "slug": "meeting-minutes-template",
+      "render": "PASS",
+      "primary_cta": "PASS",
+      "mobile": "PASS",
+      "template_downloads": [
+        {
+          "path": "templates/meeting-minutes-template/meeting-minutes-template.md",
+          "bytes": 1312,
+          "sha256": "2237a7bfa11c3c510d223adf1a12b6163d535faedd544b8f2276e395b249b784"
+        },
+        {
+          "path": "templates/meeting-minutes-template/meeting-minutes-template.docx",
+          "bytes": 37436,
+          "sha256": "edc3a11ee04a2e16b95d9704117d316e7f33abff897d12fca79ebc365ae5d6de"
+        },
+        {
+          "path": "templates/meeting-minutes-template/filled-example.md",
+          "bytes": 1572,
+          "sha256": "60b1b474855cba82fbf1104810e0d302fcc620486dbdd6c1043c95b51651cc24"
+        }
+      ]
+    },
+    {
+      "slug": "extract-tables-from-pdf-to-excel",
+      "render": "PASS",
+      "primary_cta": "PASS",
+      "mobile": "PASS",
+      "template_downloads": [
+        {
+          "path": "templates/extract-tables-from-pdf-to-excel/export_pdf_tables.py",
+          "bytes": 2308,
+          "sha256": "2874f89b78601caed8f90907d5c57e897835efae19fa96295141ec93265698a6"
+        },
+        {
+          "path": "templates/extract-tables-from-pdf-to-excel/sample-table.pdf",
+          "bytes": 1839,
+          "sha256": "3992d54e0732b53e8f7d8edf65e887a4d5c8c46fce6570f0a84c8dba229d0355"
+        },
+        {
+          "path": "templates/extract-tables-from-pdf-to-excel/expected-table.csv",
+          "bytes": 83,
+          "sha256": "733636dfdda24fbcf3d640972a87678118ec595c72355c704c8017e2c0efce6d"
+        },
+        {
+          "path": "templates/extract-tables-from-pdf-to-excel/verification-checklist.md",
+          "bytes": 1518,
+          "sha256": "6be23102881a420067e00f6010f580e528b49f658b481c4212c22e9471d6ea1b"
+        }
+      ]
+    },
+    {
+      "slug": "presentation-from-notes",
+      "render": "PASS",
+      "primary_cta": "PASS",
+      "mobile": "PASS",
+      "template_downloads": [
+        {
+          "path": "templates/presentation-from-notes/presentation-brief.md",
+          "bytes": 1457,
+          "sha256": "aec08eef56a1fc3b27d2aef880635d142a5e4f54732a2cc01b542501ba144e11"
+        },
+        {
+          "path": "templates/presentation-from-notes/source-notes.md",
+          "bytes": 966,
+          "sha256": "38d800607c3309cbbd9f684ee1ee640fc96d5050677e8f43bc5d648fb75bdb05"
+        },
+        {
+          "path": "templates/presentation-from-notes/six-slide-outline.md",
+          "bytes": 1495,
+          "sha256": "863b2aed106f3fad7a3894d1f7e0da0219f36192d611ccb2502eb2dcbbb576bc"
+        },
+        {
+          "path": "templates/presentation-from-notes/deck-review-checklist.md",
+          "bytes": 814,
+          "sha256": "8b1cc69f585b62322627b1f1cf339dba83570e385c0729af74013b02e539a8ab"
+        }
+      ]
+    },
+    {
+      "slug": "clean-csv-remove-duplicate-rows",
+      "render": "PASS",
+      "primary_cta": "PASS",
+      "mobile": "PASS",
+      "template_downloads": [
+        {
+          "path": "templates/clean-csv-remove-duplicate-rows/clean_csv.py",
+          "bytes": 4310,
+          "sha256": "ee9a4339366293865a8498897a42216900c1e000eb648f877afc3807dbb94e2e"
+        },
+        {
+          "path": "templates/clean-csv-remove-duplicate-rows/messy.csv",
+          "bytes": 246,
+          "sha256": "1e276d199ec87a82097312603509fe2fbc9315bc8204c81b0431edda476f940a"
+        },
+        {
+          "path": "templates/clean-csv-remove-duplicate-rows/sample-output/cleaned.csv",
+          "bytes": 162,
+          "sha256": "cd0d3fb2f844379172a11fa208445db36015d3f4dbd9f8cff480fffc56a73696"
+        },
+        {
+          "path": "templates/clean-csv-remove-duplicate-rows/sample-output/duplicate-audit.csv",
+          "bytes": 230,
+          "sha256": "de413e5b591759c8041e138603ed3944753457db70f39eb65293d0b09dc3b9b7"
+        },
+        {
+          "path": "templates/clean-csv-remove-duplicate-rows/sample-output/summary.json",
+          "bytes": 261,
+          "sha256": "3bcf248b1c03d1034f546bfdd027a6c6ba9dd9d986ba513113585e86b937a5a3"
+        },
+        {
+          "path": "templates/clean-csv-remove-duplicate-rows/README.md",
+          "bytes": 1777,
+          "sha256": "1e8f0c11e7474ac2d99ba128ac83bb9ab17d3bd0b25266d6017117a0a511b9b4"
+        },
+        {
+          "path": "templates/clean-csv-remove-duplicate-rows/validate_handoff.cjs",
+          "bytes": 992,
+          "sha256": "245ef6e7084ce5a0ec60490845332de65076afba7d824b695ef264d80cad919b"
+        },
+        {
+          "path": "templates/clean-csv-remove-duplicate-rows/verification.json",
+          "bytes": 1182,
+          "sha256": "eff5b7dc4eeb6cd38e0e94f5751e4c431d3da3dbed73c13e52637b782e2c2807"
+        }
+      ]
+    },
+    {
+      "slug": "flashcards-from-lecture-notes",
+      "render": "PASS",
+      "primary_cta": "PASS",
+      "mobile": "PASS",
+      "template_downloads": [
+        {
+          "path": "templates/flashcards-from-lecture-notes/lecture-excerpt.md",
+          "bytes": 747,
+          "sha256": "268b446bc7fffc61a19fa7f02cc9386fe5188bcb1fa1eeefb52258cb3bbbdd37"
+        },
+        {
+          "path": "templates/flashcards-from-lecture-notes/card-planning-brief.md",
+          "bytes": 1198,
+          "sha256": "270aee7aae7d2caca355e90207452304467f3bc788fb3f0ea27b488d34bb50bc"
+        },
+        {
+          "path": "templates/flashcards-from-lecture-notes/cards.tsv",
+          "bytes": 412,
+          "sha256": "389520acc3207bbf72b47605b0fa695b9245a3457c0320433dcdba5852327783"
+        },
+        {
+          "path": "templates/flashcards-from-lecture-notes/review-plan.md",
+          "bytes": 893,
+          "sha256": "cba6da2d660374d4bbd4d3b88d0a018608a52a52907961a3b0d5c5a5daae31a1"
+        }
+      ]
+    }
+  ]
+}

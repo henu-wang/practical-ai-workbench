@@ -1,0 +1,134 @@
+{
+  "observed_at": "2026-10-07T06:08:16.413950+00:00",
+  "review_scope": "Independent recipe/source/template review plus explicitly listed local executions; does not certify deployment, indexing or traffic.",
+  "reviewer": "/root/project_editor",
+  "author": "/root/managing_editor",
+  "demand_evidence": [
+    "team/research/REDIRECT-DEMAND.md",
+    "team/research/redirect-demand.json"
+  ],
+  "previous_revision_resolved": "CSV secondary asset changed from an alternative parser link into a tested pandas-to-Papa Parse output/input handoff.",
+  "pages": [
+    {
+      "slug": "presentation-from-notes",
+      "author": "/root/managing_editor",
+      "reviewer": "/root/project_editor",
+      "content_sha256": "c02dfcae651990639514cf980dba0a8f8e90328cbe685b4404e514a324da0b3d",
+      "verdict": "PASS",
+      "blockers": [],
+      "source_path": "recipes/presentation-from-notes.md",
+      "template_sha256": {
+        "templates/presentation-from-notes/deck-review-checklist.md": "8b1cc69f585b62322627b1f1cf339dba83570e385c0729af74013b02e539a8ab",
+        "templates/presentation-from-notes/presentation-brief.md": "aec08eef56a1fc3b27d2aef880635d142a5e4f54732a2cc01b542501ba144e11",
+        "templates/presentation-from-notes/six-slide-outline.md": "863b2aed106f3fad7a3894d1f7e0da0219f36192d611ccb2502eb2dcbbb576bc",
+        "templates/presentation-from-notes/source-notes.md": "38d800607c3309cbbd9f684ee1ee640fc96d5050677e8f43bc5d648fb75bdb05"
+      },
+      "checks": [
+        "Reviewed all source notes N1–N6 against each of six slide messages and speaker notes.",
+        "Reviewed brief and sharing checklist; facts/proposals/unknowns remain distinct.",
+        "Exact TokRepo primary/secondary roles and UTM values checked; all linked template files exist."
+      ],
+      "limitations": [
+        "Outline and templates manually reviewed; no assistant-to-PPTX execution, finished deck, browser deployment or measured search performance verified in this review."
+      ],
+      "demand_status": "qualified_qualitative_evidence",
+      "search_volume": null,
+      "publication_status": "not_verified_by_this_review",
+      "file_sha256": {
+        "recipes/presentation-from-notes.md": "c02dfcae651990639514cf980dba0a8f8e90328cbe685b4404e514a324da0b3d",
+        "templates/presentation-from-notes/deck-review-checklist.md": "8b1cc69f585b62322627b1f1cf339dba83570e385c0729af74013b02e539a8ab",
+        "templates/presentation-from-notes/presentation-brief.md": "aec08eef56a1fc3b27d2aef880635d142a5e4f54732a2cc01b542501ba144e11",
+        "templates/presentation-from-notes/six-slide-outline.md": "863b2aed106f3fad7a3894d1f7e0da0219f36192d611ccb2502eb2dcbbb576bc",
+        "templates/presentation-from-notes/source-notes.md": "38d800607c3309cbbd9f684ee1ee640fc96d5050677e8f43bc5d648fb75bdb05"
+      },
+      "recipe_and_templates_sha256": "64391d3111413253c9d8fcec8c9022760fb90be051b11650a82d89941d06a582"
+    },
+    {
+      "slug": "clean-csv-remove-duplicate-rows",
+      "author": "/root/managing_editor",
+      "reviewer": "/root/project_editor",
+      "content_sha256": "f0b685a80c5ac0798880512c50774a420f7625e579e787bd67ab0be46c9306e6",
+      "verdict": "PASS",
+      "blockers": [],
+      "source_path": "recipes/clean-csv-remove-duplicate-rows.md",
+      "template_sha256": {
+        "templates/clean-csv-remove-duplicate-rows/README.md": "1e8f0c11e7474ac2d99ba128ac83bb9ab17d3bd0b25266d6017117a0a511b9b4",
+        "templates/clean-csv-remove-duplicate-rows/clean_csv.py": "ee9a4339366293865a8498897a42216900c1e000eb648f877afc3807dbb94e2e",
+        "templates/clean-csv-remove-duplicate-rows/messy.csv": "1e276d199ec87a82097312603509fe2fbc9315bc8204c81b0431edda476f940a",
+        "templates/clean-csv-remove-duplicate-rows/sample-output/cleaned.csv": "cd0d3fb2f844379172a11fa208445db36015d3f4dbd9f8cff480fffc56a73696",
+        "templates/clean-csv-remove-duplicate-rows/sample-output/duplicate-audit.csv": "de413e5b591759c8041e138603ed3944753457db70f39eb65293d0b09dc3b9b7",
+        "templates/clean-csv-remove-duplicate-rows/sample-output/summary.json": "3bcf248b1c03d1034f546bfdd027a6c6ba9dd9d986ba513113585e86b937a5a3",
+        "templates/clean-csv-remove-duplicate-rows/validate_handoff.cjs": "245ef6e7084ce5a0ec60490845332de65076afba7d824b695ef264d80cad919b",
+        "templates/clean-csv-remove-duplicate-rows/verification.json": "eff5b7dc4eeb6cd38e0e94f5751e4c431d3da3dbed73c13e52637b782e2c2807"
+      },
+      "checks": [
+        "Independently ran Python on pandas 2.3.3: email casefold keep-last 6->4, blank identity rows retained separately, IDs and multiline text retained.",
+        "Independently checked keep-first retained record 1 and audit 2/4->1; whole-row exact mode 6->5.",
+        "Independently rejected duplicate headers, bad record width, empty input and source overwrite.",
+        "Independent output CSVs exactly match committed cleaned.csv and duplicate-audit.csv.",
+        "Independently ran Papa Parse 5.5.3 handoff validator with bundled Node; 4 records, headers, string IDs, multiline, two blank email records PASS.",
+        "Verified author runtime receipt hashes match current Python and Node source.",
+        "Primary pandas output -> complementary Papa Parse input is now a real checked handoff."
+      ],
+      "limitations": [
+        "Synthetic local sample and local parser handoff verified; destination application import and public deployment are outside this review.",
+        "Author checked pandas 2.2.3; this independent run used pandas 2.3.3. Neither is a universal compatibility guarantee."
+      ],
+      "demand_status": "qualified_qualitative_evidence",
+      "search_volume": null,
+      "publication_status": "not_verified_by_this_review",
+      "file_sha256": {
+        "recipes/clean-csv-remove-duplicate-rows.md": "f0b685a80c5ac0798880512c50774a420f7625e579e787bd67ab0be46c9306e6",
+        "templates/clean-csv-remove-duplicate-rows/README.md": "1e8f0c11e7474ac2d99ba128ac83bb9ab17d3bd0b25266d6017117a0a511b9b4",
+        "templates/clean-csv-remove-duplicate-rows/clean_csv.py": "ee9a4339366293865a8498897a42216900c1e000eb648f877afc3807dbb94e2e",
+        "templates/clean-csv-remove-duplicate-rows/messy.csv": "1e276d199ec87a82097312603509fe2fbc9315bc8204c81b0431edda476f940a",
+        "templates/clean-csv-remove-duplicate-rows/sample-output/cleaned.csv": "cd0d3fb2f844379172a11fa208445db36015d3f4dbd9f8cff480fffc56a73696",
+        "templates/clean-csv-remove-duplicate-rows/sample-output/duplicate-audit.csv": "de413e5b591759c8041e138603ed3944753457db70f39eb65293d0b09dc3b9b7",
+        "templates/clean-csv-remove-duplicate-rows/sample-output/summary.json": "3bcf248b1c03d1034f546bfdd027a6c6ba9dd9d986ba513113585e86b937a5a3",
+        "templates/clean-csv-remove-duplicate-rows/validate_handoff.cjs": "245ef6e7084ce5a0ec60490845332de65076afba7d824b695ef264d80cad919b",
+        "templates/clean-csv-remove-duplicate-rows/verification.json": "eff5b7dc4eeb6cd38e0e94f5751e4c431d3da3dbed73c13e52637b782e2c2807"
+      },
+      "recipe_and_templates_sha256": "f3eb9eadcd8ee4c3e940e4d74c15abd7b5e9a3c49c7a11a55a3c190d8d15aaf5"
+    },
+    {
+      "slug": "flashcards-from-lecture-notes",
+      "author": "/root/managing_editor",
+      "reviewer": "/root/project_editor",
+      "content_sha256": "2eca53712dd2f73767278f60c12dc3e0254469174ebd4b39a03174cc81e7f599",
+      "verdict": "PASS",
+      "blockers": [],
+      "source_path": "recipes/flashcards-from-lecture-notes.md",
+      "template_sha256": {
+        "templates/flashcards-from-lecture-notes/card-planning-brief.md": "270aee7aae7d2caca355e90207452304467f3bc788fb3f0ea27b488d34bb50bc",
+        "templates/flashcards-from-lecture-notes/cards.tsv": "389520acc3207bbf72b47605b0fa695b9245a3457c0320433dcdba5852327783",
+        "templates/flashcards-from-lecture-notes/lecture-excerpt.md": "268b446bc7fffc61a19fa7f02cc9386fe5188bcb1fa1eeefb52258cb3bbbdd37",
+        "templates/flashcards-from-lecture-notes/review-plan.md": "cba6da2d660374d4bbd4d3b88d0a018608a52a52907961a3b0d5c5a5daae31a1"
+      },
+      "checks": [
+        "Reviewed each card against L1/L2/L3/L6; excluded schedule and unknown-definition gap correctly.",
+        "Parsed cards.tsv independently: exactly 4 records x 2 real tab-separated fields, UTF-8, no header.",
+        "Checked Anki official import documentation and HTTP 200 canonical link; duplicate-update warning correctly included.",
+        "TokRepo transcript prompt adaptation to typed notes is explicit and runtime-unverified; optional Whisper role is accurate."
+      ],
+      "limitations": [
+        "Manual source/card matching and TSV structure verified; model prompt adaptation and Anki UI import were not executed.",
+        "Review plan is illustrative rather than a validated learning algorithm."
+      ],
+      "demand_status": "qualified_qualitative_evidence",
+      "search_volume": null,
+      "publication_status": "not_verified_by_this_review",
+      "file_sha256": {
+        "recipes/flashcards-from-lecture-notes.md": "2eca53712dd2f73767278f60c12dc3e0254469174ebd4b39a03174cc81e7f599",
+        "templates/flashcards-from-lecture-notes/card-planning-brief.md": "270aee7aae7d2caca355e90207452304467f3bc788fb3f0ea27b488d34bb50bc",
+        "templates/flashcards-from-lecture-notes/cards.tsv": "389520acc3207bbf72b47605b0fa695b9245a3457c0320433dcdba5852327783",
+        "templates/flashcards-from-lecture-notes/lecture-excerpt.md": "268b446bc7fffc61a19fa7f02cc9386fe5188bcb1fa1eeefb52258cb3bbbdd37",
+        "templates/flashcards-from-lecture-notes/review-plan.md": "cba6da2d660374d4bbd4d3b88d0a018608a52a52907961a3b0d5c5a5daae31a1"
+      },
+      "recipe_and_templates_sha256": "d5599f18f0ddcba51cc1daf14f5ba862c6678b65cb759176565ea5314e9da3f0"
+    }
+  ],
+  "verdict": "PASS",
+  "blockers": [],
+  "content_sha256_definition": "SHA256 of exact bytes in recipes/<slug>.md.",
+  "recipe_and_templates_sha256_definition": "For sorted recipe path and all templates/<slug> files, update SHA256(relative POSIX path UTF8 + NUL + raw bytes + NUL)."
+}

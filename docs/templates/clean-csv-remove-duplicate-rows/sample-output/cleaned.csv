@@ -1,0 +1,6 @@
+customer_id,name,email,note
+0013,Bob,bob@example.test,"line one
+line two"
+0012,Ada,ADA@example.test,updated phone
+0014,Cy,,no email yet
+0015,Dee,,ask for address

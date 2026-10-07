@@ -1,0 +1,1759 @@
+{
+  "retrieved_at": "2026-10-07T05:47:02.715002+00:00",
+  "market": "US",
+  "language": "en",
+  "objective": "Guide/template search intent -> TokRepo asset solution page -> corresponding TokRepo asset use; no standalone tool product",
+  "numeric_search_volume": null,
+  "demand": [
+    {
+      "seed": "how to transcribe audio",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=how%20to%20transcribe%20audio",
+      "http_status": 200,
+      "suggestions": [
+        "how to transcribe audio to text",
+        "how to transcribe audio",
+        "how to transcribe audio to text in word",
+        "how to transcribe audio in word",
+        "how to transcribe audio to text on iphone",
+        "how to transcribe audio in premiere pro",
+        "how to transcribe audio to text for free",
+        "how to transcribe audio file",
+        "how to transcribe audio file to text",
+        "how to transcribe audio from a video"
+      ],
+      "raw_response": [
+        "how to transcribe audio",
+        [
+          "how to transcribe audio to text",
+          "how to transcribe audio",
+          "how to transcribe audio to text in word",
+          "how to transcribe audio in word",
+          "how to transcribe audio to text on iphone",
+          "how to transcribe audio in premiere pro",
+          "how to transcribe audio to text for free",
+          "how to transcribe audio file",
+          "how to transcribe audio file to text",
+          "how to transcribe audio from a video"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "seed": "transcribe audio to text free",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=transcribe%20audio%20to%20text%20free",
+      "http_status": 200,
+      "suggestions": [
+        "transcribe audio to text free",
+        "transcribe audio to text free online",
+        "transcribe audio to text free online google",
+        "transcribe audio to text free unlimited",
+        "transcribe audio to text free no sign up",
+        "transcribe audio to text free ai",
+        "transcribe audio to text free online no sign up",
+        "transcribe audio to text free reddit",
+        "transcribe audio to text free online unlimited",
+        "transcribe audio to text free no limit"
+      ],
+      "raw_response": [
+        "transcribe audio to text free",
+        [
+          "transcribe audio to text free",
+          "transcribe audio to text free online",
+          "transcribe audio to text free online google",
+          "transcribe audio to text free unlimited",
+          "transcribe audio to text free no sign up",
+          "transcribe audio to text free ai",
+          "transcribe audio to text free online no sign up",
+          "transcribe audio to text free reddit",
+          "transcribe audio to text free online unlimited",
+          "transcribe audio to text free no limit"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "seed": "meeting minutes template",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=meeting%20minutes%20template",
+      "http_status": 200,
+      "suggestions": [
+        "meeting minutes template",
+        "meeting minutes template word",
+        "meeting minutes template free",
+        "meeting minutes template google docs",
+        "meeting minutes template pdf",
+        "meeting minutes template excel",
+        "meeting minutes template for llc",
+        "meeting minutes template word free",
+        "meeting minutes template for bank account",
+        "meeting minutes template example"
+      ],
+      "raw_response": [
+        "meeting minutes template",
+        [
+          "meeting minutes template",
+          "meeting minutes template word",
+          "meeting minutes template free",
+          "meeting minutes template google docs",
+          "meeting minutes template pdf",
+          "meeting minutes template excel",
+          "meeting minutes template for llc",
+          "meeting minutes template word free",
+          "meeting minutes template for bank account",
+          "meeting minutes template example"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512,
+              433
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "seed": "meeting notes template",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=meeting%20notes%20template",
+      "http_status": 200,
+      "suggestions": [
+        "meeting notes template",
+        "meeting notes template word",
+        "meeting notes template google docs",
+        "meeting notes template free",
+        "meeting notes template onenote",
+        "meeting notes template printable",
+        "meeting notes template pdf",
+        "meeting notes template excel",
+        "meeting notes template free printable",
+        "meeting notes template microsoft word"
+      ],
+      "raw_response": [
+        "meeting notes template",
+        [
+          "meeting notes template",
+          "meeting notes template word",
+          "meeting notes template google docs",
+          "meeting notes template free",
+          "meeting notes template onenote",
+          "meeting notes template printable",
+          "meeting notes template pdf",
+          "meeting notes template excel",
+          "meeting notes template free printable",
+          "meeting notes template microsoft word"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "seed": "extract tables from pdf",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=extract%20tables%20from%20pdf",
+      "http_status": 200,
+      "suggestions": [
+        "extract tables from pdf",
+        "extract tables from pdf python",
+        "extract tables from pdf to excel",
+        "extract tables from pdf in r",
+        "extract tables from pdf online",
+        "extract tables from pdf free",
+        "extract tables from pdf power automate",
+        "extract tables from pdf into excel",
+        "extract tables from pdf ai",
+        "extract tables from pdf for rag"
+      ],
+      "raw_response": [
+        "extract tables from pdf",
+        [
+          "extract tables from pdf",
+          "extract tables from pdf python",
+          "extract tables from pdf to excel",
+          "extract tables from pdf in r",
+          "extract tables from pdf online",
+          "extract tables from pdf free",
+          "extract tables from pdf power automate",
+          "extract tables from pdf into excel",
+          "extract tables from pdf ai",
+          "extract tables from pdf for rag"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "seed": "how to convert youtube video to blog post",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=how%20to%20convert%20youtube%20video%20to%20blog%20post",
+      "http_status": 200,
+      "suggestions": [
+        "convert youtube video to blog post",
+        "how to turn a youtube video into a blog post",
+        "how to convert a youtube video into a pdf file"
+      ],
+      "raw_response": [
+        "how to convert youtube video to blog post",
+        [
+          "convert youtube video to blog post",
+          "how to turn a youtube video into a blog post",
+          "how to convert a youtube video into a pdf file"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              512,
+              650,
+              390
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "seed": "youtube video to blog post",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=youtube%20video%20to%20blog%20post",
+      "http_status": 200,
+      "suggestions": [
+        "youtube video to blog post",
+        "youtube video to blog post generator",
+        "youtube video to blog post generator free",
+        "youtube video to blog article",
+        "convert youtube video to blog post",
+        "how to embed youtube video in blog post",
+        "post blog example"
+      ],
+      "raw_response": [
+        "youtube video to blog post",
+        [
+          "youtube video to blog post",
+          "youtube video to blog post generator",
+          "youtube video to blog post generator free",
+          "youtube video to blog article",
+          "convert youtube video to blog post",
+          "how to embed youtube video in blog post",
+          "post blog example"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              512,
+              650,
+              390
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "seed": "presentation from notes",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=presentation%20from%20notes",
+      "http_status": 200,
+      "suggestions": [
+        "presentation from notes",
+        "ai presentation from notes",
+        "presentation maker from notes",
+        "make presentation from notes",
+        "presentation notes grade 12",
+        "presentation notes template",
+        "presentation notes in powerpoint",
+        "presentation notes pdf",
+        "presentation notes app",
+        "presentation notes for students"
+      ],
+      "raw_response": [
+        "presentation from notes",
+        [
+          "presentation from notes",
+          "ai presentation from notes",
+          "presentation maker from notes",
+          "make presentation from notes",
+          "presentation notes grade 12",
+          "presentation notes template",
+          "presentation notes in powerpoint",
+          "presentation notes pdf",
+          "presentation notes app",
+          "presentation notes for students"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "seed": "how to make a presentation from notes",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=how%20to%20make%20a%20presentation%20from%20notes",
+      "http_status": 200,
+      "suggestions": [
+        "how to make a lecture notes",
+        "how to make ppt from notes",
+        "how to make presentation notes",
+        "how to make presentation notes in powerpoint",
+        "how to make presentation notes in canva",
+        "how to make presentation notes bigger",
+        "how to make presentation notes in keynote",
+        "how to give a presentation without notes",
+        "how to present a presentation with notes",
+        "how to do a presentation with notes"
+      ],
+      "raw_response": [
+        "how to make a presentation from notes",
+        [
+          "how to make a lecture notes",
+          "how to make ppt from notes",
+          "how to make presentation notes",
+          "how to make presentation notes in powerpoint",
+          "how to make presentation notes in canva",
+          "how to make presentation notes bigger",
+          "how to make presentation notes in keynote",
+          "how to give a presentation without notes",
+          "how to present a presentation with notes",
+          "how to do a presentation with notes"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "seed": "clean csv file python",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=clean%20csv%20file%20python",
+      "http_status": 200,
+      "suggestions": [
+        "clean csv file python"
+      ],
+      "raw_response": [
+        "clean csv file python",
+        [
+          "clean csv file python"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              22,
+              30
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "seed": "remove duplicate rows pandas",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=remove%20duplicate%20rows%20pandas",
+      "http_status": 200,
+      "suggestions": [
+        "remove duplicate rows pandas",
+        "remove duplicate rows pandas dataframe",
+        "drop duplicate rows pandas",
+        "drop duplicate rows pandas based on column",
+        "remove duplicate values pandas",
+        "remove duplicate entries pandas",
+        "remove duplicate records pandas",
+        "remove repeated rows pandas",
+        "remove duplicate lines pandas",
+        "drop duplicate values pandas"
+      ],
+      "raw_response": [
+        "remove duplicate rows pandas",
+        [
+          "remove duplicate rows pandas",
+          "remove duplicate rows pandas dataframe",
+          "drop duplicate rows pandas",
+          "drop duplicate rows pandas based on column",
+          "remove duplicate values pandas",
+          "remove duplicate entries pandas",
+          "remove duplicate records pandas",
+          "remove repeated rows pandas",
+          "remove duplicate lines pandas",
+          "drop duplicate values pandas"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "seed": "how to write meeting minutes",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=how%20to%20write%20meeting%20minutes",
+      "http_status": 200,
+      "suggestions": [
+        "how to write meeting minutes",
+        "how to write meeting minutes format",
+        "how to write meeting minutes template",
+        "how to write meeting minutes as a secretary",
+        "how to write meeting minutes pdf",
+        "how to write meeting minutes sample",
+        "how to write meeting minutes in english",
+        "how to write meeting minutes with chatgpt",
+        "how to write meeting minutes using ai",
+        "how to write meeting minutes template free"
+      ],
+      "raw_response": [
+        "how to write meeting minutes",
+        [
+          "how to write meeting minutes",
+          "how to write meeting minutes format",
+          "how to write meeting minutes template",
+          "how to write meeting minutes as a secretary",
+          "how to write meeting minutes pdf",
+          "how to write meeting minutes sample",
+          "how to write meeting minutes in english",
+          "how to write meeting minutes with chatgpt",
+          "how to write meeting minutes using ai",
+          "how to write meeting minutes template free"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "seed": "how to make flashcards",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=how%20to%20make%20flashcards",
+      "http_status": 200,
+      "suggestions": [
+        "how to make flashcards",
+        "how to make flashcards on notability",
+        "how to make flashcards on word",
+        "how to make flashcards on google docs",
+        "how to make flashcards on canva",
+        "how to make flashcards on quizlet",
+        "how to make flashcards on goodnotes",
+        "how to make flashcards on anki",
+        "how to make flashcards with paper",
+        "how to make flashcards online"
+      ],
+      "raw_response": [
+        "how to make flashcards",
+        [
+          "how to make flashcards",
+          "how to make flashcards on notability",
+          "how to make flashcards on word",
+          "how to make flashcards on google docs",
+          "how to make flashcards on canva",
+          "how to make flashcards on quizlet",
+          "how to make flashcards on goodnotes",
+          "how to make flashcards on anki",
+          "how to make flashcards with paper",
+          "how to make flashcards online"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "seed": "flashcards from notes",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=flashcards%20from%20notes",
+      "http_status": 200,
+      "suggestions": [
+        "flashcards from notes",
+        "flashcards from notes ai",
+        "flashcards from notes free",
+        "flashcards from notes maker",
+        "make flashcards from notes",
+        "create flashcards from notes free",
+        "make flashcards from notes ai",
+        "quizlet flashcards from notes",
+        "create flashcards from notes quizlet",
+        "knowt flashcards from notes"
+      ],
+      "raw_response": [
+        "flashcards from notes",
+        [
+          "flashcards from notes",
+          "flashcards from notes ai",
+          "flashcards from notes free",
+          "flashcards from notes maker",
+          "make flashcards from notes",
+          "create flashcards from notes free",
+          "make flashcards from notes ai",
+          "quizlet flashcards from notes",
+          "create flashcards from notes quizlet",
+          "knowt flashcards from notes"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "recipes": [
+    {
+      "slug": "transcribe-audio-to-text",
+      "title": "How to transcribe audio to text for free",
+      "primary_query": "how to transcribe audio to text for free",
+      "intent": "guide/template with downloadable instructions or examples; not an online conversion service",
+      "autocomplete": {
+        "seed": "how to transcribe audio",
+        "exact_observed_suggestion": "how to transcribe audio to text for free",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=how%20to%20transcribe%20audio",
+        "retrieved_at": "2026-10-07T05:47:02.715002+00:00",
+        "market": "US",
+        "language": "en"
+      },
+      "questions": [
+        {
+          "url": "https://www.reddit.com/r/audiovisual/comments/1uf7epb/can_you_transcribe_a_3hour_audio_for_free/",
+          "question_intent": "User has three hours of audio and asks for a free route.",
+          "editorial_implication": "Explain local software vs limited hosted trial; start with a short sample before full file.",
+          "retrieved_at": "2026-10-07T05:52:15.639451+00:00",
+          "type": "independent public user question",
+          "monthly_search_volume": null,
+          "limitation": "Historical/current public problem evidence is qualitative; no frequency inference."
+        },
+        {
+          "url": "https://www.reddit.com/r/software/comments/1mr7kl9/free_transcription_over_an_hour/",
+          "question_intent": "User needs longer-than-hour transcription without free-tier barriers.",
+          "editorial_implication": "Clear model setup, expected TXT/SRT outputs and resource/runtime tradeoffs, no fabricated speed.",
+          "retrieved_at": "2026-10-07T05:52:15.639451+00:00",
+          "type": "independent public user question",
+          "monthly_search_volume": null,
+          "limitation": "Historical/current public problem evidence is qualitative; no frequency inference."
+        }
+      ],
+      "assets": [
+        {
+          "id": 105,
+          "slug": "whisper-openai-speech-text-eb0f9dd6",
+          "title": "Whisper — OpenAI Speech-to-Text",
+          "url": "https://tokrepo.com/en/workflows/whisper-openai-speech-text-eb0f9dd6",
+          "role": "Local speech-recognition model; obtain model/source setup from TokRepo",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=105",
+          "public_status": 200,
+          "source_reviewed": true,
+          "runtime_verified": false
+        },
+        {
+          "id": 1157,
+          "slug": "ffmpeg-universal-multimedia-processing-toolkit-353248b1",
+          "title": "FFmpeg — The Universal Multimedia Processing Toolkit",
+          "url": "https://tokrepo.com/en/workflows/ffmpeg-universal-multimedia-processing-toolkit-353248b1",
+          "role": "Normalize or extract audio before transcription; obtain conversion asset from TokRepo",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=1157",
+          "public_status": 200,
+          "source_reviewed": true,
+          "runtime_verified": false
+        }
+      ],
+      "deliverables": [
+        "Original local setup checklist and commands checked against upstream",
+        "Tiny audio/transcript sample or a clearly labelled unexecuted expected-shape example",
+        "Transcript QA checklist for names, numbers, timestamps"
+      ],
+      "claim_boundaries": [
+        "Whisper does not by itself verify accuracy or guarantee speaker identification.",
+        "Do not promise free cloud service or instant processing.",
+        "Full installers/source are obtained through matching TokRepo assets; do not mirror whole upstream README."
+      ],
+      "competition": "Free/paid hosted transcribers and local Whisper GUI projects already meet this problem; differentiated value is exact end-to-end checks plus TokRepo asset path.",
+      "search_volume": null,
+      "demand_status": "qualified qualitatively: exact autocomplete + 2 independently authored problem questions; final article/source/runtime QA remains required",
+      "tokrepo_role": "Full reusable asset/source details are retrieved from TokRepo; this page gives original task walkthrough/sample and directly routes to the matching assets."
+    },
+    {
+      "slug": "meeting-minutes-template",
+      "title": "Meeting minutes template with decisions and action items",
+      "primary_query": "meeting minutes template word",
+      "intent": "guide/template with downloadable instructions or examples; not an online conversion service",
+      "autocomplete": {
+        "seed": "meeting minutes template",
+        "exact_observed_suggestion": "meeting minutes template word",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=meeting%20minutes%20template",
+        "retrieved_at": "2026-10-07T05:47:02.715002+00:00",
+        "market": "US",
+        "language": "en"
+      },
+      "questions": [
+        {
+          "url": "https://www.reddit.com/r/ObsidianMD/comments/1jzx88n/anyone_have_a_good_meeting_template/",
+          "question_intent": "User asks what belongs in a useful meeting template.",
+          "editorial_implication": "Give a downloadable original minutes template with decisions/actions/source fields.",
+          "retrieved_at": "2026-10-07T05:52:15.639451+00:00",
+          "type": "independent public user question",
+          "monthly_search_volume": null,
+          "limitation": "Historical/current public problem evidence is qualitative; no frequency inference."
+        },
+        {
+          "url": "https://www.reddit.com/r/ExecutiveAssistants/comments/1w5e7p2/meeting_notes_formal_minutes/",
+          "question_intent": "Assistant struggles with reliable notes versus formal minutes.",
+          "editorial_implication": "Explain decisions vs discussion, timestamp/source checks and unknown owner/deadline handling; do not imply a generic template is legally compliant.",
+          "retrieved_at": "2026-10-07T05:52:15.639451+00:00",
+          "type": "independent public user question",
+          "monthly_search_volume": null,
+          "limitation": "Historical/current public problem evidence is qualitative; no frequency inference."
+        }
+      ],
+      "assets": [
+        {
+          "id": 6826,
+          "slug": "meeting-notes-decisions-action-items-e0ccfa90",
+          "title": "Meeting Notes to Decisions and Action Items",
+          "url": "https://tokrepo.com/en/workflows/meeting-notes-decisions-action-items-e0ccfa90",
+          "role": "TokRepo original source-constrained meeting-note prompt; full prompt retrieved on TokRepo",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=6826",
+          "public_status": 200,
+          "source_reviewed": true,
+          "runtime_verified": false
+        },
+        {
+          "id": 6946,
+          "slug": "meeting-minutes-action-register-prompt-a7cdc10d",
+          "title": "Meeting Minutes to Action Register Prompt",
+          "url": "https://tokrepo.com/en/workflows/meeting-minutes-action-register-prompt-a7cdc10d",
+          "role": "Follow-up action-register prompt; preserve absent owners/dates instead of inventing",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=6946",
+          "public_status": 200,
+          "source_reviewed": true,
+          "runtime_verified": false
+        },
+        {
+          "id": 66,
+          "slug": "claude-official-skill-docx-word-document-creation-6236da40",
+          "title": "Claude Official Skill: DOCX — Word Document Creation",
+          "url": "https://tokrepo.com/en/workflows/claude-official-skill-docx-word-document-creation-6236da40",
+          "role": "Optional editable Word document creation skill, retrieved through TokRepo",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=66",
+          "public_status": 200,
+          "source_reviewed": true,
+          "runtime_verified": false
+        }
+      ],
+      "deliverables": [
+        "Original downloadable .md and editable .docx template",
+        "Clearly fictional filled example with unknown owner/due-date fields",
+        "Checklist linking every decision/action to source notes"
+      ],
+      "claim_boundaries": [
+        "Formal governance rules differ; do not call this a universally compliant official record.",
+        "Do not paste the complete TokRepo original prompts into GitHub pages.",
+        "Word attachment must actually open and edit before advertised as available."
+      ],
+      "competition": "Microsoft/Notion and many meeting products supply templates; our page adds source anchoring and a corresponding original TokRepo prompt workflow.",
+      "search_volume": null,
+      "demand_status": "qualified qualitatively: exact autocomplete + 2 independently authored problem questions; final article/source/runtime QA remains required",
+      "tokrepo_role": "Full reusable asset/source details are retrieved from TokRepo; this page gives original task walkthrough/sample and directly routes to the matching assets."
+    },
+    {
+      "slug": "extract-tables-from-pdf-to-excel",
+      "title": "How to extract tables from a PDF to Excel",
+      "primary_query": "extract tables from pdf to excel",
+      "intent": "guide/template with downloadable instructions or examples; not an online conversion service",
+      "autocomplete": {
+        "seed": "extract tables from pdf",
+        "exact_observed_suggestion": "extract tables from pdf to excel",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=extract%20tables%20from%20pdf",
+        "retrieved_at": "2026-10-07T05:47:02.715002+00:00",
+        "market": "US",
+        "language": "en"
+      },
+      "questions": [
+        {
+          "url": "https://stackoverflow.com/questions/56017702/how-to-extract-table-from-pdf-in-python",
+          "question_intent": "User gets incomplete table headers/rows when parsing a PDF.",
+          "editorial_implication": "Show row/column count and compare at least first/last rows to original.",
+          "retrieved_at": "2026-10-07T05:52:15.639451+00:00",
+          "type": "independent public user question",
+          "monthly_search_volume": null,
+          "limitation": "Historical/current public problem evidence is qualitative; no frequency inference."
+        },
+        {
+          "url": "https://stackoverflow.com/questions/62044535/how-to-extract-tables-from-pdf-using-camelot",
+          "question_intent": "User gets only one table from the first page and asks extracting all tables.",
+          "editorial_implication": "Iterate all detected tables; report page/table references and never silently claim all pages succeeded.",
+          "retrieved_at": "2026-10-07T05:52:15.639451+00:00",
+          "type": "independent public user question",
+          "monthly_search_volume": null,
+          "limitation": "Historical/current public problem evidence is qualitative; no frequency inference."
+        }
+      ],
+      "assets": [
+        {
+          "id": 173,
+          "slug": "docling-document-parsing-ai-443e86c2",
+          "title": "Docling — Document Parsing for AI",
+          "url": "https://tokrepo.com/en/workflows/docling-document-parsing-ai-443e86c2",
+          "role": "Detect document tables and export structured table data; obtain document parsing workflow at TokRepo",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=173",
+          "public_status": 200,
+          "source_reviewed": true,
+          "runtime_verified": false
+        },
+        {
+          "id": 1144,
+          "slug": "pandas-powerful-data-analysis-manipulation-python-1005b785",
+          "title": "pandas — Powerful Data Analysis and Manipulation for Python",
+          "url": "https://tokrepo.com/en/workflows/pandas-powerful-data-analysis-manipulation-python-1005b785",
+          "role": "Inspect detected tables and write separate Excel sheets; obtain reusable data-processing asset at TokRepo",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=1144",
+          "public_status": 200,
+          "source_reviewed": true,
+          "runtime_verified": false
+        }
+      ],
+      "deliverables": [
+        "Original sample PDF with simple multi-table content plus expected workbook/CSV if actually executed",
+        "Version-aware Docling to pandas walkthrough",
+        "Validation checklist for merged headers, totals, blank rows and scanned PDFs"
+      ],
+      "claim_boundaries": [
+        "Scanned pages need an OCR path and quality checks.",
+        "Excel export requires an engine such as openpyxl; make setup explicit.",
+        "Detected tables are not guaranteed complete/accurate; do not claim financial statement accuracy or invent data."
+      ],
+      "competition": "Power Query, Acrobat and PDF-table libraries supply alternatives. Win with a reproducible small sample, cell-level validation and clean route to asset details.",
+      "search_volume": null,
+      "demand_status": "qualified qualitatively: exact autocomplete + 2 independently authored problem questions; final article/source/runtime QA remains required",
+      "tokrepo_role": "Full reusable asset/source details are retrieved from TokRepo; this page gives original task walkthrough/sample and directly routes to the matching assets."
+    },
+    {
+      "slug": "presentation-from-notes",
+      "title": "How to make a presentation from notes",
+      "primary_query": "make presentation from notes",
+      "intent": "guide/template with downloadable instructions or examples; not an online conversion service",
+      "autocomplete": {
+        "seed": "presentation from notes",
+        "exact_observed_suggestion": "make presentation from notes",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=presentation%20from%20notes",
+        "retrieved_at": "2026-10-07T05:47:02.715002+00:00",
+        "market": "US",
+        "language": "en"
+      },
+      "questions": [
+        {
+          "url": "https://www.reddit.com/r/powerpoint/comments/1vkzaae/whats_the_easiest_way_to_create_a_sales/",
+          "question_intent": "User wants a presentation from notes without copying slide by slide.",
+          "editorial_implication": "Provide 6-slide outline template with one point per slide and explicit input/source mapping.",
+          "retrieved_at": "2026-10-07T05:52:15.639451+00:00",
+          "type": "independent public user question",
+          "monthly_search_volume": null,
+          "limitation": "Historical/current public problem evidence is qualitative; no frequency inference."
+        },
+        {
+          "url": "https://answers.microsoft.com/en-us/msoffice/forum/all/word-outline-into-powerpoint/7cb6ec23-17a6-44ef-98b9-85d1d8bcea23",
+          "question_intent": "User has a Word outline and PowerPoint template but import fails.",
+          "editorial_implication": "Separate manual outline/template route from agent/PPTX creation; name prerequisites instead of claiming automatic conversion always works.",
+          "retrieved_at": "2026-10-07T05:52:15.639451+00:00",
+          "type": "independent public user question",
+          "monthly_search_volume": null,
+          "limitation": "Historical/current public problem evidence is qualitative; no frequency inference."
+        }
+      ],
+      "assets": [
+        {
+          "id": 6825,
+          "slug": "reusable-draft-final-writing-prompt-3128c956",
+          "title": "Reusable Draft-to-Final Writing Prompt",
+          "url": "https://tokrepo.com/en/workflows/reusable-draft-final-writing-prompt-3128c956",
+          "role": "TokRepo original writing brief to establish audience, purpose, constraints and faithful outline",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=6825",
+          "public_status": 200,
+          "source_reviewed": true,
+          "runtime_verified": false
+        },
+        {
+          "id": 67,
+          "slug": "claude-official-skill-pptx-powerpoint-presentations-01b1713e",
+          "title": "Claude Official Skill: PPTX — PowerPoint Presentations",
+          "url": "https://tokrepo.com/en/workflows/claude-official-skill-pptx-powerpoint-presentations-01b1713e",
+          "role": "PPTX skill for turning the reviewed outline into an editable deck; full skill/source stays accessible through TokRepo",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=67",
+          "public_status": 200,
+          "source_reviewed": true,
+          "runtime_verified": false
+        }
+      ],
+      "deliverables": [
+        "Original notes-to-slide brief template",
+        "Original 6-slide outline example and editable .pptx only after creation validation",
+        "Slide fact/layout review checklist"
+      ],
+      "claim_boundaries": [
+        "Do not promise browser upload-to-presentation generator.",
+        "Speaker notes visibility is a separate intent; do not use that question as generation proof.",
+        "Asset page installer snippets must be checked against current upstream, not copied blindly."
+      ],
+      "competition": "Gamma/Plus AI and Microsoft provide notes/outline-to-deck alternatives; our scope is a useful reviewable outline plus reusable TokRepo writing/PPTX assets.",
+      "search_volume": null,
+      "demand_status": "qualified qualitatively: exact autocomplete + 2 independently authored problem questions; final article/source/runtime QA remains required",
+      "tokrepo_role": "Full reusable asset/source details are retrieved from TokRepo; this page gives original task walkthrough/sample and directly routes to the matching assets."
+    },
+    {
+      "slug": "clean-csv-remove-duplicate-rows",
+      "title": "How to clean a CSV file and remove duplicate rows",
+      "primary_query": "remove duplicate rows pandas",
+      "intent": "guide/template with downloadable instructions or examples; not an online conversion service",
+      "autocomplete": {
+        "seed": "remove duplicate rows pandas",
+        "exact_observed_suggestion": "remove duplicate rows pandas",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=remove%20duplicate%20rows%20pandas",
+        "retrieved_at": "2026-10-07T05:47:02.715002+00:00",
+        "market": "US",
+        "language": "en"
+      },
+      "questions": [
+        {
+          "url": "https://stackoverflow.com/questions/52428342/pandas-drop-duplicates-in-csv",
+          "question_intent": "User wants one CSV with new records and duplicates removed.",
+          "editorial_implication": "Explain whole-row versus key-based matches and keep-first/last/all-removal differences.",
+          "retrieved_at": "2026-10-07T05:52:15.639451+00:00",
+          "type": "independent public user question",
+          "monthly_search_volume": null,
+          "limitation": "Historical/current public problem evidence is qualitative; no frequency inference."
+        },
+        {
+          "url": "https://stackoverflow.com/questions/50885093/how-do-i-remove-rows-with-duplicate-values-of-columns-in-pandas-data-frame",
+          "question_intent": "User needs duplicate removal using a chosen column.",
+          "editorial_implication": "Provide explicit identity-key recipe and before/after sample; avoid unintended loss from missing keys.",
+          "retrieved_at": "2026-10-07T05:52:15.639451+00:00",
+          "type": "independent public user question",
+          "monthly_search_volume": null,
+          "limitation": "Historical/current public problem evidence is qualitative; no frequency inference."
+        }
+      ],
+      "assets": [
+        {
+          "id": 1144,
+          "slug": "pandas-powerful-data-analysis-manipulation-python-1005b785",
+          "title": "pandas — Powerful Data Analysis and Manipulation for Python",
+          "url": "https://tokrepo.com/en/workflows/pandas-powerful-data-analysis-manipulation-python-1005b785",
+          "role": "Python data-frame import and deduplication; obtain pandas asset at TokRepo",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=1144",
+          "public_status": 200,
+          "source_reviewed": true,
+          "runtime_verified": false
+        },
+        {
+          "id": 4980,
+          "slug": "papa-parse-fast-browser-csv-parser-javascript-ed9fd7fc",
+          "title": "Papa Parse — Fast In-Browser CSV Parser for JavaScript",
+          "url": "https://tokrepo.com/en/workflows/papa-parse-fast-browser-csv-parser-javascript-ed9fd7fc",
+          "role": "Alternative JavaScript CSV parsing to preserve quoted fields; obtain parser/source at TokRepo",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=4980",
+          "public_status": 200,
+          "source_reviewed": true,
+          "runtime_verified": false
+        }
+      ],
+      "deliverables": [
+        "Original messy.csv, cleaned.csv and duplicate-audit.csv after actual deterministic execution",
+        "Python recipe plus comparison to parsing-only JavaScript alternative",
+        "Short checklist covering leading-zero IDs, quoted commas, missing keys and destructive normalization"
+      ],
+      "claim_boundaries": [
+        "Papa Parse parses CSV; it does not automatically deduplicate.",
+        "Do not advertise Excel or fuzzy matching without actual implementation.",
+        "No upload-to-clean online service is promised.",
+        "Do not silently trim/lowercase all data; chosen rules should be visible."
+      ],
+      "competition": "Official pandas examples and Excel already cover dedup; useful difference is conservative file-cleaning recipe with audit output and direct assets.",
+      "search_volume": null,
+      "demand_status": "qualified qualitatively: exact autocomplete + 2 independently authored problem questions; final article/source/runtime QA remains required",
+      "tokrepo_role": "Full reusable asset/source details are retrieved from TokRepo; this page gives original task walkthrough/sample and directly routes to the matching assets."
+    },
+    {
+      "slug": "flashcards-from-lecture-notes",
+      "title": "How to make flashcards from lecture notes and transcripts",
+      "primary_query": "make flashcards from notes",
+      "intent": "guide/template with downloadable instructions or examples; not an online conversion service",
+      "autocomplete": {
+        "seed": "flashcards from notes",
+        "exact_observed_suggestion": "make flashcards from notes",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=flashcards%20from%20notes",
+        "retrieved_at": "2026-10-07T05:47:02.715002+00:00",
+        "market": "US",
+        "language": "en"
+      },
+      "questions": [
+        {
+          "url": "https://www.reddit.com/r/Anki/comments/19c0u1e/converting_notes_into_flashcards_automatically/",
+          "question_intent": "User asks how to convert notes/textbooks to flashcards automatically.",
+          "editorial_implication": "Provide a real card schema and short source-anchored sample rather than a new flashcard service.",
+          "retrieved_at": "2026-10-07T05:52:15.639451+00:00",
+          "type": "independent public user question",
+          "monthly_search_volume": null,
+          "limitation": "Historical/current public problem evidence is qualitative; no frequency inference."
+        },
+        {
+          "url": "https://www.reddit.com/r/GetStudying/comments/kw9a77/how_do_you_guys_make_anki_flash_cards_from_a_lot/",
+          "question_intent": "User asks how to make cards quickly from many notes.",
+          "editorial_implication": "Start with one section, keep questions atomic and audit answers; do not generate huge unfocused decks.",
+          "retrieved_at": "2026-10-07T05:52:15.639451+00:00",
+          "type": "independent public user question",
+          "monthly_search_volume": null,
+          "limitation": "Historical/current public problem evidence is qualitative; no frequency inference."
+        }
+      ],
+      "assets": [
+        {
+          "id": 6935,
+          "slug": "turn-lecture-transcript-into-study-cards-585e76f2",
+          "title": "Turn a Lecture Transcript into Study Cards",
+          "url": "https://tokrepo.com/en/workflows/turn-lecture-transcript-into-study-cards-585e76f2",
+          "role": "TokRepo original prompt for source-checkable question-first study cards; full prompt retrieved at TokRepo",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=6935",
+          "public_status": 200,
+          "source_reviewed": true,
+          "runtime_verified": false
+        },
+        {
+          "id": 105,
+          "slug": "whisper-openai-speech-text-eb0f9dd6",
+          "title": "Whisper — OpenAI Speech-to-Text",
+          "url": "https://tokrepo.com/en/workflows/whisper-openai-speech-text-eb0f9dd6",
+          "role": "Optional transcription of recorded lecture before applying the card prompt; software source/setup retrieved at TokRepo",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=105",
+          "public_status": 200,
+          "source_reviewed": true,
+          "runtime_verified": false
+        }
+      ],
+      "deliverables": [
+        "Original example lecture excerpt and 3–8 cards with source anchors",
+        "Copyable original study-card planning brief and TSV format example",
+        "Checks for unsupported answers/gaps and a simple review schedule"
+      ],
+      "claim_boundaries": [
+        "The TokRepo prompt is transcript-based; adapting typed notes must be explicit and is not claimed runtime-tested.",
+        "Whisper is optional for audio-only notes; written notes do not require transcribing.",
+        "No guaranteed learning/exam-score improvement.",
+        "Do not mirror the complete original TokRepo prompt or claim a working flashcard generator."
+      ],
+      "competition": "Anki, Quizlet, Evernote and ChatGPT already provide card creation; source anchors, gap handling and TokRepo prompt retrieval are the practical editorial angle.",
+      "search_volume": null,
+      "demand_status": "qualified qualitatively: exact autocomplete + 2 independently authored problem questions; final article/source/runtime QA remains required",
+      "tokrepo_role": "Full reusable asset/source details are retrieved from TokRepo; this page gives original task walkthrough/sample and directly routes to the matching assets."
+    }
+  ],
+  "pending_candidates": [
+    {
+      "slug": "youtube-video-to-blog-post",
+      "title": "How to turn a YouTube video into a blog post",
+      "primary_query": "how to turn a youtube video into a blog post",
+      "autocomplete": {
+        "seed": "how to convert youtube video to blog post",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=how%20to%20convert%20youtube%20video%20to%20blog%20post",
+        "http_status": 200,
+        "suggestions": [
+          "convert youtube video to blog post",
+          "how to turn a youtube video into a blog post",
+          "how to convert a youtube video into a pdf file"
+        ],
+        "raw_response": [
+          "how to convert youtube video to blog post",
+          [
+            "convert youtube video to blog post",
+            "how to turn a youtube video into a blog post",
+            "how to convert a youtube video into a pdf file"
+          ],
+          [],
+          {
+            "google:suggestsubtypes": [
+              [
+                22,
+                30
+              ],
+              [
+                22,
+                30
+              ],
+              [
+                512,
+                650,
+                390
+              ]
+            ]
+          }
+        ]
+      },
+      "assets": [
+        {
+          "id": 3677,
+          "slug": "yt-fts-youtube-full-text-search-cli",
+          "title": "yt-fts — YouTube Full-Text Search CLI",
+          "url": "https://tokrepo.com/en/workflows/yt-fts-youtube-full-text-search-cli",
+          "role": "Transcript indexing/export when supported by upstream; setup is not a single-video instant converter",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=3677",
+          "public_status": 200,
+          "source_reviewed": true,
+          "runtime_verified": false
+        },
+        {
+          "id": 6825,
+          "slug": "reusable-draft-final-writing-prompt-3128c956",
+          "title": "Reusable Draft-to-Final Writing Prompt",
+          "url": "https://tokrepo.com/en/workflows/reusable-draft-final-writing-prompt-3128c956",
+          "role": "Reviewed source-grounded outline and draft",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=6825",
+          "public_status": 200,
+          "source_reviewed": true,
+          "runtime_verified": false
+        }
+      ],
+      "status": "pending independent user-question evidence",
+      "reason": "Multiple superficially relevant Reddit questions promote the author own app or are cross-posts of the same question. Two independent non-promotional exact-intent questions not confidently established. Do not count vendor blogs as user questions or publish to meet quota.",
+      "rejected_questions": [
+        "https://www.reddit.com/r/Blogging/comments/1fqthjc/",
+        "https://www.reddit.com/r/Blogging/comments/1pou2pb/",
+        "https://www.reddit.com/r/blogspot/comments/1pou4kl/"
+      ]
+    }
+  ],
+  "verification_limits": [
+    "All quantitative Google volume and SERP difficulty fields are unknown. Autocomplete and public question frequency cannot substitute numeric volume.",
+    "Guide/template intents must be matched; online converter/free generator queries cannot be used to justify a code-only article.",
+    "All 13 verified assets have successful API details and public HTTP200 plus slug. Source/code compatibility and runtime behavior are separate checks.",
+    "No new publication, source-code implementation, automation change or runtime conversion was performed by demand researcher.",
+    "Question URL counts were deduplicated and first-party tutorial/promotional threads rejected when discovered.",
+    "Google market parameters US/en support query selection, not proof of actual English-country incoming traffic."
+  ],
+  "completed_at": "2026-10-07T05:52:15.639451+00:00",
+  "verified_assets": [
+    {
+      "id": 105,
+      "slug": "whisper-openai-speech-text-eb0f9dd6",
+      "title": "Whisper — OpenAI Speech-to-Text",
+      "public_url": "https://tokrepo.com/en/workflows/whisper-openai-speech-text-eb0f9dd6",
+      "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=105",
+      "http_status": 200,
+      "public_status": 200,
+      "slug_in_public_html": true,
+      "retrieved_at": "2026-10-07T05:47:34.445225+00:00",
+      "roles": [
+        {
+          "recipe_slug": "transcribe-audio-to-text",
+          "role": "Local speech-recognition model; obtain model/source setup from TokRepo"
+        },
+        {
+          "recipe_slug": "flashcards-from-lecture-notes",
+          "role": "Optional transcription of recorded lecture before applying the card prompt; software source/setup retrieved at TokRepo"
+        }
+      ],
+      "source_reviewed": true,
+      "runtime_verified": false
+    },
+    {
+      "id": 1157,
+      "slug": "ffmpeg-universal-multimedia-processing-toolkit-353248b1",
+      "title": "FFmpeg — The Universal Multimedia Processing Toolkit",
+      "public_url": "https://tokrepo.com/en/workflows/ffmpeg-universal-multimedia-processing-toolkit-353248b1",
+      "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=1157",
+      "http_status": 200,
+      "public_status": 200,
+      "slug_in_public_html": true,
+      "retrieved_at": "2026-10-07T05:47:34.658621+00:00",
+      "roles": [
+        {
+          "recipe_slug": "transcribe-audio-to-text",
+          "role": "Normalize or extract audio before transcription; obtain conversion asset from TokRepo"
+        }
+      ],
+      "source_reviewed": true,
+      "runtime_verified": false
+    },
+    {
+      "id": 6826,
+      "slug": "meeting-notes-decisions-action-items-e0ccfa90",
+      "title": "Meeting Notes to Decisions and Action Items",
+      "public_url": "https://tokrepo.com/en/workflows/meeting-notes-decisions-action-items-e0ccfa90",
+      "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=6826",
+      "http_status": 200,
+      "public_status": 200,
+      "slug_in_public_html": true,
+      "retrieved_at": "2026-10-07T05:47:34.934459+00:00",
+      "roles": [
+        {
+          "recipe_slug": "meeting-minutes-template",
+          "role": "TokRepo original source-constrained meeting-note prompt; full prompt retrieved on TokRepo"
+        }
+      ],
+      "source_reviewed": true,
+      "runtime_verified": false
+    },
+    {
+      "id": 6946,
+      "slug": "meeting-minutes-action-register-prompt-a7cdc10d",
+      "title": "Meeting Minutes to Action Register Prompt",
+      "public_url": "https://tokrepo.com/en/workflows/meeting-minutes-action-register-prompt-a7cdc10d",
+      "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=6946",
+      "http_status": 200,
+      "public_status": 200,
+      "slug_in_public_html": true,
+      "retrieved_at": "2026-10-07T05:47:42.592556+00:00",
+      "roles": [
+        {
+          "recipe_slug": "meeting-minutes-template",
+          "role": "Follow-up action-register prompt; preserve absent owners/dates instead of inventing"
+        }
+      ],
+      "source_reviewed": true,
+      "runtime_verified": false
+    },
+    {
+      "id": 66,
+      "slug": "claude-official-skill-docx-word-document-creation-6236da40",
+      "title": "Claude Official Skill: DOCX — Word Document Creation",
+      "public_url": "https://tokrepo.com/en/workflows/claude-official-skill-docx-word-document-creation-6236da40",
+      "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=66",
+      "http_status": 200,
+      "public_status": 200,
+      "slug_in_public_html": true,
+      "retrieved_at": "2026-10-07T05:47:42.652403+00:00",
+      "roles": [
+        {
+          "recipe_slug": "meeting-minutes-template",
+          "role": "Optional editable Word document creation skill, retrieved through TokRepo"
+        }
+      ],
+      "source_reviewed": true,
+      "runtime_verified": false
+    },
+    {
+      "id": 173,
+      "slug": "docling-document-parsing-ai-443e86c2",
+      "title": "Docling — Document Parsing for AI",
+      "public_url": "https://tokrepo.com/en/workflows/docling-document-parsing-ai-443e86c2",
+      "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=173",
+      "http_status": 200,
+      "public_status": 200,
+      "slug_in_public_html": true,
+      "retrieved_at": "2026-10-07T05:47:42.945031+00:00",
+      "roles": [
+        {
+          "recipe_slug": "extract-tables-from-pdf-to-excel",
+          "role": "Detect document tables and export structured table data; obtain document parsing workflow at TokRepo"
+        }
+      ],
+      "source_reviewed": true,
+      "runtime_verified": false
+    },
+    {
+      "id": 1144,
+      "slug": "pandas-powerful-data-analysis-manipulation-python-1005b785",
+      "title": "pandas — Powerful Data Analysis and Manipulation for Python",
+      "public_url": "https://tokrepo.com/en/workflows/pandas-powerful-data-analysis-manipulation-python-1005b785",
+      "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=1144",
+      "http_status": 200,
+      "public_status": 200,
+      "slug_in_public_html": true,
+      "retrieved_at": "2026-10-07T05:47:49.821656+00:00",
+      "roles": [
+        {
+          "recipe_slug": "extract-tables-from-pdf-to-excel",
+          "role": "Inspect detected tables and write separate Excel sheets; obtain reusable data-processing asset at TokRepo"
+        },
+        {
+          "recipe_slug": "clean-csv-remove-duplicate-rows",
+          "role": "Python data-frame import and deduplication; obtain pandas asset at TokRepo"
+        }
+      ],
+      "source_reviewed": true,
+      "runtime_verified": false
+    },
+    {
+      "id": 4980,
+      "slug": "papa-parse-fast-browser-csv-parser-javascript-ed9fd7fc",
+      "title": "Papa Parse — Fast In-Browser CSV Parser for JavaScript",
+      "public_url": "https://tokrepo.com/en/workflows/papa-parse-fast-browser-csv-parser-javascript-ed9fd7fc",
+      "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=4980",
+      "http_status": 200,
+      "public_status": 200,
+      "slug_in_public_html": true,
+      "retrieved_at": "2026-10-07T05:47:50.099809+00:00",
+      "roles": [
+        {
+          "recipe_slug": "clean-csv-remove-duplicate-rows",
+          "role": "Alternative JavaScript CSV parsing to preserve quoted fields; obtain parser/source at TokRepo"
+        }
+      ],
+      "source_reviewed": true,
+      "runtime_verified": false
+    },
+    {
+      "id": 6825,
+      "slug": "reusable-draft-final-writing-prompt-3128c956",
+      "title": "Reusable Draft-to-Final Writing Prompt",
+      "public_url": "https://tokrepo.com/en/workflows/reusable-draft-final-writing-prompt-3128c956",
+      "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=6825",
+      "http_status": 200,
+      "public_status": 200,
+      "slug_in_public_html": true,
+      "retrieved_at": "2026-10-07T05:47:51.084696+00:00",
+      "roles": [
+        {
+          "recipe_slug": "presentation-from-notes",
+          "role": "TokRepo original writing brief to establish audience, purpose, constraints and faithful outline"
+        },
+        {
+          "recipe_slug": "youtube-video-to-blog-post",
+          "status": "pending",
+          "role": "Reviewed source-grounded outline and draft"
+        }
+      ],
+      "source_reviewed": true,
+      "runtime_verified": false
+    },
+    {
+      "id": 67,
+      "slug": "claude-official-skill-pptx-powerpoint-presentations-01b1713e",
+      "title": "Claude Official Skill: PPTX — PowerPoint Presentations",
+      "public_url": "https://tokrepo.com/en/workflows/claude-official-skill-pptx-powerpoint-presentations-01b1713e",
+      "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=67",
+      "http_status": 200,
+      "public_status": 200,
+      "slug_in_public_html": true,
+      "retrieved_at": "2026-10-07T05:47:57.084474+00:00",
+      "roles": [
+        {
+          "recipe_slug": "presentation-from-notes",
+          "role": "PPTX skill for turning the reviewed outline into an editable deck; full skill/source stays accessible through TokRepo"
+        }
+      ],
+      "source_reviewed": true,
+      "runtime_verified": false
+    },
+    {
+      "id": 4456,
+      "slug": "claude-code-agent-se-technical-writer-adb34fbc",
+      "title": "Claude Code Agent: Se Technical Writer",
+      "public_url": "https://tokrepo.com/en/workflows/claude-code-agent-se-technical-writer-adb34fbc",
+      "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=4456",
+      "http_status": 200,
+      "public_status": 200,
+      "slug_in_public_html": true,
+      "retrieved_at": "2026-10-07T05:47:57.490162+00:00",
+      "roles": [
+        {
+          "role": "Verified alternative asset; not required by an approved first-batch recipe."
+        }
+      ],
+      "source_reviewed": true,
+      "runtime_verified": false
+    },
+    {
+      "id": 3677,
+      "slug": "yt-fts-youtube-full-text-search-cli",
+      "title": "yt-fts — YouTube Full-Text Search CLI",
+      "public_url": "https://tokrepo.com/en/workflows/yt-fts-youtube-full-text-search-cli",
+      "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=3677",
+      "http_status": 200,
+      "public_status": 200,
+      "slug_in_public_html": true,
+      "retrieved_at": "2026-10-07T05:47:58.548118+00:00",
+      "roles": [
+        {
+          "recipe_slug": "youtube-video-to-blog-post",
+          "status": "pending",
+          "role": "Transcript indexing/export when supported by upstream; setup is not a single-video instant converter"
+        }
+      ],
+      "source_reviewed": true,
+      "runtime_verified": false
+    },
+    {
+      "id": 6935,
+      "slug": "turn-lecture-transcript-into-study-cards-585e76f2",
+      "title": "Turn a Lecture Transcript into Study Cards",
+      "public_url": "https://tokrepo.com/en/workflows/turn-lecture-transcript-into-study-cards-585e76f2",
+      "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=6935",
+      "http_status": 200,
+      "public_status": 200,
+      "slug_in_public_html": true,
+      "retrieved_at": "2026-10-07T05:50:22.383724+00:00",
+      "roles": [
+        {
+          "recipe_slug": "flashcards-from-lecture-notes",
+          "role": "TokRepo original prompt for source-checkable question-first study cards; full prompt retrieved at TokRepo"
+        }
+      ],
+      "source_reviewed": true,
+      "runtime_verified": false
+    }
+  ],
+  "catalog_lookup_provenance": [
+    {
+      "keyword": "Whisper",
+      "url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/list?keyword=Whisper&page=1&page_size=20",
+      "http_status": 200
+    },
+    {
+      "keyword": "FFmpeg",
+      "url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/list?keyword=FFmpeg&page=1&page_size=20",
+      "http_status": 200
+    },
+    {
+      "keyword": "meeting",
+      "url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/list?keyword=meeting&page=1&page_size=20",
+      "http_status": 200
+    },
+    {
+      "keyword": "docx",
+      "url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/list?keyword=docx&page=1&page_size=20",
+      "http_status": 200
+    },
+    {
+      "keyword": "pptx",
+      "url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/list?keyword=pptx&page=1&page_size=20",
+      "http_status": 200
+    },
+    {
+      "keyword": "writing",
+      "url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/list?keyword=writing&page=1&page_size=20",
+      "http_status": 200
+    },
+    {
+      "keyword": "transcript",
+      "url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/list?keyword=transcript&page=1&page_size=20",
+      "http_status": 200
+    },
+    {
+      "keyword": "blog",
+      "url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/list?keyword=blog&page=1&page_size=20",
+      "http_status": 200
+    },
+    {
+      "keyword": "Docling",
+      "url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/list?keyword=Docling&page=1&page_size=20",
+      "http_status": 200
+    },
+    {
+      "keyword": "pandas",
+      "url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/list?keyword=pandas&page=1&page_size=20",
+      "http_status": 200
+    },
+    {
+      "keyword": "csv",
+      "url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/list?keyword=csv&page=1&page_size=20",
+      "http_status": 200
+    }
+  ],
+  "publication_data_policy": "Public evidence retains Google autocomplete responses, question summaries and asset metadata only. Full asset/API content is retained outside the repository; no prompt text, HTML or asset API body is copied here."
+}

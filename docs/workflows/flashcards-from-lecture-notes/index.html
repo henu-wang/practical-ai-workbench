@@ -1,0 +1,58 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>How to make flashcards from lecture notes and transcripts | TokRepo Workflows</title><meta name="description" content="Make focused flashcards from lecture notes with a reusable TokRepo prompt. Includes a review template and checks for unsupported answers."><link rel="canonical" href="https://henu-wang.github.io/practical-ai-workbench/workflows/flashcards-from-lecture-notes/"><meta name="robots" content="index,follow"><meta property="og:title" content="How to make flashcards from lecture notes and transcripts"><meta property="og:description" content="Make focused flashcards from lecture notes with a reusable TokRepo prompt. Includes a review template and checks for unsupported answers."><meta property="og:url" content="https://henu-wang.github.io/practical-ai-workbench/workflows/flashcards-from-lecture-notes/"><link rel="stylesheet" href="../../assets/style.css"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "How to make flashcards from lecture notes and transcripts", "description": "Make focused flashcards from lecture notes with a reusable TokRepo prompt. Includes a review template and checks for unsupported answers.", "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/flashcards-from-lecture-notes/", "inLanguage": "en", "author": {"@type": "Organization", "name": "TokRepo Editorial"}, "datePublished": "2026-10-07", "dateModified": "2026-10-07"}</script></head><body><header><a class="brand" href="../../"><span class="mark">↗</span> TokRepo <b>Workflows</b></a><nav><a href="../../#workflows">Workflows</a><a href="https://github.com/henu-wang/practical-ai-workbench">GitHub ↗</a></nav></header><main><a class="back" href="../../">← All workflows</a><div class="page-title"><p class="eyebrow">Study / GUIDE &amp; TEMPLATE</p><h1>How to make flashcards from lecture notes and transcripts</h1><p class="lead">Make focused flashcards from lecture notes with a reusable TokRepo prompt. Includes a review template and checks for unsupported answers.</p><a class="primary hero-link" href="https://tokrepo.com/en/workflows/turn-lecture-transcript-into-study-cards-585e76f2?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=tokrepo_search&amp;utm_content=flashcards-from-lecture-notes">Get Turn a Lecture Transcript into Study Cards on TokRepo ↗</a></div><section class="asset-kit" id="assets"><h2>Your TokRepo asset kit</h2><p>Open the asset pages for source links, setup requirements, and reusable instructions. This guide shows how to combine them.</p><div class="asset-grid"><a class="asset-card" href="https://tokrepo.com/en/workflows/turn-lecture-transcript-into-study-cards-585e76f2?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=tokrepo_search&amp;utm_content=flashcards-from-lecture-notes"><strong>Turn a Lecture Transcript into Study Cards</strong><span>TokRepo original prompt for source-checkable question-first study cards; full prompt retrieved at TokRepo</span><b>Get this asset on TokRepo ↗</b></a><a class="asset-card" href="https://tokrepo.com/en/workflows/whisper-openai-speech-text-eb0f9dd6?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=tokrepo_search&amp;utm_content=flashcards-from-lecture-notes"><strong>Whisper — OpenAI Speech-to-Text</strong><span>Optional transcription of recorded lecture before applying the card prompt; software source/setup retrieved at TokRepo</span><b>Get this asset on TokRepo ↗</b></a></div></section><article class="guide recipe-guide"><h2>Quick answer</h2>
+<p>Make flashcards from lecture notes by turning one source-backed idea into one question, putting a short answer on the back, and keeping a reference you can check. Start with one section rather than converting an entire notebook into hundreds of cards. Missing information should become a question to resolve, not an answer to memorize.</p>
+<p>Get the complete <a href="https://tokrepo.com/en/workflows/turn-lecture-transcript-into-study-cards-585e76f2?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=tokrepo_search&amp;utm_content=flashcards-from-lecture-notes">Lecture Transcript to Study Cards asset on TokRepo</a>. It supplies the reusable card-generation prompt. If your source is recorded audio, combine it with <a href="https://tokrepo.com/en/workflows/whisper-openai-speech-text-eb0f9dd6?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=tokrepo_search&amp;utm_content=flashcards-from-lecture-notes">Whisper</a> to obtain a transcript first. Written notes do not need Whisper.</p>
+<h2>Download a small worked example</h2>
+<ul>
+<li><a href="../../templates/flashcards-from-lecture-notes/lecture-excerpt.md">Example lecture excerpt</a>, with line references.</li>
+<li><a href="../../templates/flashcards-from-lecture-notes/card-planning-brief.md">Card-planning brief</a>, for your own source.</li>
+<li><a href="../../templates/flashcards-from-lecture-notes/cards.tsv">Four source-backed cards</a>, as a two-column TSV.</li>
+<li><a href="../../templates/flashcards-from-lecture-notes/review-plan.md">Gap log and review plan</a>.</li>
+</ul>
+<p>The example is original, manually written, and checked against the excerpt. It is not a generated deck or a claim that an assistant was run. The TSV structure is checked; an Anki application import has not been exercised for this example.</p>
+<h2>1. Prepare a source you can verify</h2>
+<p>Number paragraphs or use transcript timestamps. Keep definitions and examples together, but separate scheduling announcements from study material. Preserve the original so you can investigate a card whose answer sounds plausible but was never taught.</p>
+<p>For an audio lecture, use the Whisper asset's linked setup instructions, then listen to relevant passages while correcting names, technical terms, and numbers. A transcription can be wrong; converting its mistakes into cards makes those mistakes harder to notice.</p>
+<p>The TokRepo card prompt is designed for transcripts. Using typed lecture notes is an adaptation: paste the notes as the source text, keep paragraph anchors, and explicitly tell the assistant not to supply missing context. This adaptation has not been runtime-tested. Check whether your course allows sharing lecture material with an external assistant before doing so.</p>
+<h2>2. Choose an atomic question</h2>
+<p>Our excerpt defines observation, inference, and hypothesis. A weak card asks, “Explain the whole scientific process.” A useful card asks, “What does this unit call an observation?” Its answer points directly to line L1.</p>
+<table>
+<thead>
+<tr>
+<th>Front</th>
+<th>Back</th>
+<th>Check</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>What does this unit call an observation?</td>
+<td>A recorded result or event.</td>
+<td>L1</td>
+</tr>
+<tr>
+<td>What is an inference in this unit?</td>
+<td>An explanation drawn from observations.</td>
+<td>L2</td>
+</tr>
+<tr>
+<td>What makes a hypothesis checkable?</td>
+<td>It is a claim that can be checked against new observations.</td>
+<td>L3</td>
+</tr>
+<tr>
+<td>In the pavement example, what is observed and what is inferred?</td>
+<td>Wet pavement is observed; rain as its cause is inferred.</td>
+<td>L6</td>
+</tr>
+</tbody>
+</table>
+<p>These wording choices are scoped to the excerpt. They do not pretend to replace a textbook definition or prove a study technique improves exam scores.</p>
+<h2>3. Preserve gaps and ambiguity</h2>
+<p>The excerpt does not define “controlled variable.” Put that item in the gap log and locate the assigned source before making its answer. Do not add a familiar definition from memory and label it as lecture-derived.</p>
+<p>If two source statements conflict, keep both references and flag the card for review. If the back needs a paragraph to answer several separate questions, split the card. A date about tomorrow's room change is useful planning information, but not necessarily material for a study deck.</p>
+<h2>4. Import a few cards, then review</h2>
+<p>The downloadable TSV has no header: first column is the question, second is the answer with its source anchor. For an Anki Basic note, choose tab separation and map the two columns to Front and Back. Preview the fields before importing, especially if you edit the file in a spreadsheet. Use UTF-8 and keep literal tabs or line breaks out of individual fields. See <a href="https://docs.ankiweb.net/manual/importing/text-files">Anki's official text-import instructions</a>.</p>
+<p>Before importing, check Anki's duplicate-handling settings: a matching first field can update an existing note of the same type. Use a separate profile for a trial if you need to protect an existing deck.</p>
+<p>Try recalling the answer before turning the card over. Compare the back with its source, then revise confusing wording. The suggested review days are a starting plan, not a validated scheduling algorithm; use your study application's settings and your course timeline.</p>
+<p>When the small set is useful, retrieve the <a href="https://tokrepo.com/en/workflows/turn-lecture-transcript-into-study-cards-585e76f2?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=tokrepo_search&amp;utm_content=flashcards-from-lecture-notes">full source-constrained card prompt</a> and apply the same checks to the next section. Scale the source checking along with the card count.</p>
+</article><section class="related"><h2>Use the workflow again</h2><p>Keep the corresponding TokRepo assets for your next document, recording, or data task.</p><a href="https://tokrepo.com/en/workflows/turn-lecture-transcript-into-study-cards-585e76f2?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=tokrepo_search&amp;utm_content=flashcards-from-lecture-notes">Turn a Lecture Transcript into Study Cards on TokRepo ↗</a><a href="https://tokrepo.com/en/workflows/whisper-openai-speech-text-eb0f9dd6?utm_source=github_pages&amp;utm_medium=referral&amp;utm_campaign=tokrepo_search&amp;utm_content=flashcards-from-lecture-notes">Whisper — OpenAI Speech-to-Text on TokRepo ↗</a></section><section class="related"><h2>Related workflows</h2><a href="../transcribe-audio-to-text/">How to transcribe audio to text for free →</a><a href="../meeting-minutes-template/">Meeting minutes template with decisions and action items →</a><a href="../extract-tables-from-pdf-to-excel/">How to extract tables from a PDF to Excel →</a><a href="../presentation-from-notes/">How to make a presentation from notes →</a><a href="../clean-csv-remove-duplicate-rows/">How to clean a CSV file and remove duplicate rows →</a></section></main><footer><span>Practical guides. Reusable assets on TokRepo.</span><a href="https://github.com/henu-wang/practical-ai-workbench/blob/main/LICENSE">MIT license</a><a href="../../privacy/">File privacy</a><a href="https://tokrepo.com/en">More workflows on TokRepo ↗</a></footer></body></html>

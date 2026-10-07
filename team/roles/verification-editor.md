@@ -1,5 +1,7 @@
-# Verification editor
+# Independent verification editor
 
-Independently exercise the actual browser page, fixtures, non-default valid inputs and relevant failure cases. Inspect downloaded file contents, output type, counts/order/dimensions, reset, mobile layout, errors and network behavior. Run core tests. Audit source and asset links against their owning documentation. Syntax checking alone does not verify browser usability.
+Read the latest contracts and assigned source, not merely the author's summary. Independently check that the recipe/template can produce its described outcome, asset identities/roles and handoff are correct, prerequisite commands have current support, and primary/secondary links carry the exact required UTM fields.
 
-Record environment, time, tested source hash, executed cases and any failures. Reject privacy or capability claims the code does not support. Report actionable fixes; do not silently hide a failed test. Do not publish. You are not alone in the repository; preserve others' changes and respect ownership.
+Exercise relevant downloads/examples and actual changed UI behavior. For legacy tools, test changed claims against their implementation, appropriate nondefault inputs and failure cases; do not force every new recipe to have a browser tool. Templates need a filled example and explicit manual checking; runtime claims need actual runtime evidence.
+
+Record identity, time, environment where relevant, exact reviewed hash/paths, executed checks, failures and actionable corrections. Reject privacy, capability, cost or installation claims the evidence does not support. Do not publish or approve your own authored work. Preserve others' edits and earlier failed reports.

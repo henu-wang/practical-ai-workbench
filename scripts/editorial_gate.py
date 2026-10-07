@@ -1,61 +1,60 @@
-"""Fail publication on stale review, missing demand, broken links, or unverified tools."""
-import hashlib,json,re,subprocess
-from collections import Counter
+"""Release gate for reviewed, demand-backed TokRepo asset recipes."""
+import hashlib,json,re
 from pathlib import Path
+from collections import Counter
 from html.parser import HTMLParser
+from urllib.parse import urlparse,parse_qs,unquote
 from source_hash import ROOT,source_hash
 
 def read(name):return json.loads((ROOT/name).read_text())
-review=read('team/reviews/content-review.json')
-browser=read('team/reviews/browser-local.json')
-assert review['verdict']=='PASS', 'Independent content review is not PASS'
-assert review['reviewed_source_sha256']==source_hash(), 'Content review is stale'
-assert browser['reviewed_source_sha256']==source_hash(), 'Browser verification is stale'
-assert browser['status']=='PASS' and not browser['external_requests'] and not browser['page_errors']
-assert review.get('reviewer') and review.get('author') and review['reviewer']!=review['author'], 'Review must be independent'
-tasks=read('tasks.json')['tasks'];slugs={x['slug'] for x in tasks}
-assert len(slugs)==len(tasks), 'Duplicate canonical task'
-ledger=read('team/ledger.json')['entries'];assert len({x['dedupe_key'] for x in ledger})==len(ledger)
-assert all(n<=6 for n in Counter(x['published_on'] for x in ledger).values()), 'Daily publication cap exceeded'
-assert review['demand_evidence_sha256']==hashlib.sha256((ROOT/'team/research/demand.json').read_bytes()).hexdigest(), 'Demand review is stale'
-demand=read('team/research/demand.json');seeds={x['seed']:x for x in demand['demand']}
-for topic in demand['first_batch']:
- assert topic['slug'] in slugs
- assert topic['exact_observed_suggestion'] in seeds[topic['seed']]['suggestions'], 'Missing exact observed search intent'
- questions=demand['user_questions'][topic['slug']]
- assert len({q['url'] for q in questions})>=2 and all(q.get('question_intent') for q in questions), 'Missing independent public questions'
- assert topic['monthly_search_volume'] is None or topic['monthly_search_volume']>0
-pages={x['slug']:x for x in review['pages']};assert set(pages)==slugs
-for slug,page in pages.items():
- assert page['verdict']=='PASS' and not page['blockers'], 'Unresolved page blocker: '+slug
- scores=list(page['scores'].values());assert len(scores)==6 and min(scores)>=3 and sum(scores)>=24, 'Low editorial score: '+slug
-cases={x['slug']:x for x in browser['cases']};assert set(cases)==slugs
-for row in cases.values():
- for key in ['sample_download','empty_input','valid_variant','reset_and_error_recovery','mobile_viewport']:assert row[key]=='PASS'
- assert row['output_bytes']>0 and row['sha256']
-assets=read('team/research/asset-registry.json');byurl={a['url']:a for a in assets}
-class Links(HTMLParser):
+recipes=read('recipes.json')['recipes'];slugs={x['slug'] for x in recipes}
+assert len(slugs)==len(recipes), 'Duplicate canonical recipe'
+reviews=[]
+for p in sorted((ROOT/'team/reviews').glob('recipes-review-*.json')):reviews.extend(json.loads(p.read_text())['pages'])
+by_slug={x['slug']:x for x in reviews}
+demand={x['slug']:x for x in read('team/research/redirect-demand.json')['recipes']}
+for recipe in recipes:
+ slug=recipe['slug'];review=by_slug[slug]
+ assert review['verdict']=='PASS' and not review['blockers'], 'Unresolved editor blocker: '+slug
+ assert review['author']!=review['reviewer'], 'Self review: '+slug
+ for name,digest in review.get('file_sha256',{}).items():
+  assert hashlib.sha256((ROOT/name).read_bytes()).hexdigest()==digest, 'Stale reviewed template: '+name
+ assert review['content_sha256']==hashlib.sha256((ROOT/'recipes'/f'{slug}.md').read_bytes()).hexdigest(), 'Stale content review: '+slug
+ topic=demand[slug]
+ assert topic['autocomplete'] and len({q['url'] for q in topic['questions']})>=2, 'Missing demand evidence: '+slug
+ assert 2<=len(recipe['assets'])<=4, 'Missing real asset combination: '+slug
+ assert all(a['url'].startswith('https://tokrepo.com/en/workflows/') and a['role'] for a in recipe['assets'])
+ assert (ROOT/'templates'/slug).is_dir(), 'Missing original usable example: '+slug
+receipt=read('team/reviews/recipes-browser.json')
+assert receipt['status']=='PASS' and receipt['source_sha256']==source_hash(), 'Missing/stale browser verification'
+assert not receipt['page_errors']
+ledger=read('team/ledger.json')['entries']
+active=[x for x in ledger if x.get('program')=='asset_search' and x.get('action')=='new_topic']
+assert all(n<=6 for n in Counter(x['published_on'] for x in active).values()), 'Daily new-topic cap exceeded'
+assert len({x['dedupe_key'] for x in active})==len(active), 'Duplicate topic ledger entry'
+class Page(HTMLParser):
  def __init__(self):super().__init__();self.links=[];self.h1=0
  def handle_starttag(self,tag,attrs):
   a=dict(attrs)
   if tag=='h1':self.h1+=1
   for key in ['href','src']:
    if key in a:self.links.append(a[key])
-for page in (ROOT/'docs').rglob('*.html'):
- text=page.read_text();parsed=Links();parsed.feed(text)
- assert parsed.h1==1 and '<html lang="en">' in text and 'rel="canonical"' in text
- for link in parsed.links:
-  if link.startswith(('#','https:','http:','blob:','data:')):continue
-  destination=(page.parent/link.split('#')[0]).resolve()
-  if destination.is_dir():destination=destination/'index.html'
-  assert destination.is_file(),f'Broken local link in {page.name}: {link}'
-for task in tasks:
- text=(ROOT/'content'/f"{task['slug']}.md").read_text()
- links=re.findall(r'https://tokrepo\.com/en/workflows/[^)\s]+',text)
- assert links, 'No exact asset backlink: '+task['slug']
- for link in links:
-  assert link in byurl and byurl[link]['public_status']==200 and byurl[link]['slug_in_page'], 'Unverified asset: '+link
-for required in ['LICENSE','README.md','CONTRIBUTING.md','AGENTS.md','docs/vendor/pdf-lib.LICENSE.md','docs/vendor/papaparse.LICENSE']:
+for path in [ROOT/'docs/index.html']+list((ROOT/'docs/workflows').glob('*/index.html')):
+ text=path.read_text();p=Page();p.feed(text)
+ assert p.h1==1 and '<html lang="en">' in text and 'rel="canonical"' in text
+ for link in p.links:
+  if link.startswith(('#','https:','http:','data:')):continue
+  dest=(path.parent/unquote(urlparse(link).path)).resolve()
+  assert dest.is_relative_to(ROOT/'docs'), 'Local path escapes site'
+  if dest.is_dir():dest=dest/'index.html'
+  assert dest.is_file(), f'Broken local link: {path}: {link}'
+for recipe in recipes:
+ path=ROOT/'docs/workflows'/recipe['slug']/'index.html';p=Page();p.feed(path.read_text())
+ asset_links=[link for link in p.links if link.startswith('https://tokrepo.com/en/workflows/')]
+ for link in asset_links:
+  q=parse_qs(urlparse(link).query)
+  assert q=={'utm_source':['github_pages'],'utm_medium':['referral'],'utm_campaign':['tokrepo_search'],'utm_content':[recipe['slug']]}, 'Wrong attribution: '+link
+ assert {urlparse(x).path for x in asset_links}>={urlparse(a['url']).path for a in recipe['assets']}
+for required in ['LICENSE','README.md','AGENTS.md','docs/vendor/pdf-lib.LICENSE.md','docs/vendor/papaparse.LICENSE']:
  assert (ROOT/required).stat().st_size>0
-subprocess.run(['npm','test'],cwd=ROOT,check=True,stdout=subprocess.DEVNULL)
-print('PASS: independent source-bound review, qualitative demand, 6 usable tasks, asset links, privacy scope, license, daily cap and local references.')
+print('PASS: independent recipe review, demand evidence, asset combinations, original downloads, browser receipt, internal links, UTM and daily cap.')

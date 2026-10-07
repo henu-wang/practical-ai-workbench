@@ -1,0 +1,13 @@
+{
+  "input_records": 6,
+  "output_records": 4,
+  "removed_records": 2,
+  "missing_key_records_retained": 2,
+  "key_columns": [
+    "email"
+  ],
+  "keep": "last",
+  "trim_comparison_only": false,
+  "casefold_comparison_only": true,
+  "pandas_version": "2.2.3"
+}

@@ -1,43 +1,32 @@
-# TokRepo asset and attribution policy
+# Asset combination, CTA, and attribution contract
 
-## Verify the object
+## Verify assets before writing
 
-For each proposed asset, read its current TokRepo detail rather than relying on a remembered title or search snippet. Record its stable identifier, exact English URL, current title, role, upstream source if present, dependencies, license information when available, and verification date.
+Read current TokRepo detail and verify the public English URL resolves to the intended object. Record stable ID, title, exact URL, upstream source, prerequisites, supported use/install mode, permissions or costs when relevant, and observation time. A generic HTTP 200 application shell is insufficient.
 
-Check the public asset URL resolves to the intended asset. A successful HTTP status is insufficient when a generic application shell or missing-record screen is returned; compare the rendered or API detail identity.
+Each new recipe has a primary asset and a complementary secondary asset. Define their actual roles and the handoff between them. A combination is not a pair of names: state the input passed, output expected, and original template or manual step that connects them. If a credible complement does not exist, revise or reject the combination rather than padding links.
 
-Use official upstream documentation for current technical commands or compatibility claims. A TokRepo catalog entry is a discovery and attribution source, not proof that an integration was executed successfully.
+The primary asset is the destination for the main user action. The secondary asset supports a concrete follow-up or different part of the task. Distinguish assets actually used in a worked example from optional extensions. Use official upstream documentation for current technical commands. Catalog inclusion is not runtime verification.
 
-## Combine by role
+## CTA contract
 
-An asset combination has a concrete architecture:
+Include a prominent action near the opening and a natural repeat after the worked task. Explain the next action: inspect the asset, obtain its task material, or follow its supported installation/use instructions. Never imply every catalog entry is an installable executable skill or that the backlink alone installs software.
 
-`reader input → conversion or preparation → useful transformation → checked output`
+All editorial TokRepo outbound links carry:
 
-Explain what each asset contributes and where original project code or manual judgment fills the gaps. Common roles are parser, converter, template, reviewer, exporter, or orchestration. Two assets doing the same job are alternatives unless an actual handoff connects them.
+- `utm_source=github_pages`
+- `utm_medium=referral`
+- `utm_campaign=tokrepo_search`
+- `utm_content=<canonical-page-slug>`
 
-Do not imply that a catalog record installs the underlying software, that every item is an executable agent skill, or that a prompt verifies a tool's output. State required runtimes or credentials before the relevant step. Include only dependencies needed by the delivered workflow.
+Use the canonical page slug consistently and uniquely per page; preserve existing required query parameters. Primary and secondary links from one page share its slug attribution. When role-level distinctions are needed, record link roles separately rather than inventing incompatible campaign values. The UTM convention enables attribution but does not prove that TokRepo currently records it.
 
-## Public links and reuse
+Example shape: `https://tokrepo.com/en/workflows/VERIFIED-SLUG?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=PAGE-SLUG`.
 
-Link naturally to the exact `https://tokrepo.com/en/...` asset page where its role is explained. A small “Assets used” section is acceptable, but the article must not consist primarily of asset links or a generic CTA.
+## Original material and evidence
 
-Link to upstream installation or technical references when they materially support a claim. Avoid affiliate-style promises, forced registration, unrelated links, and tracking parameters that are not required for the project.
+Linking does not grant redistribution rights. Write original instructions/examples and reusable task templates. Vendor a source, prompt, or template only with permission under its actual license and preserve required notices. The repository license covers original project material, not a silent relicensing of linked assets.
 
-Linking to an asset does not confer permission to redistribute it. Reuse only original project material or third-party material whose license permits it; preserve required notices and identify derivative material. When license permission is unknown, link to the asset and write original guidance rather than vendoring its source, prompt, or template.
+Use synthetic/public sample inputs. No credentials, private files, private analytics exports, or sensitive logs in public evidence. Code examples receive `runtime_verified`, `manually_checked`, or `illustrative` labels with the appropriate evidence; syntax checking alone is not runtime execution. A manually checked template is a valid deliverable when clearly identified.
 
-The repository's license covers the team's original source and text. It must not silently relicense third-party assets.
-
-## Execution and safety claims
-
-Every example receives a verification label:
-
-- `runtime_verified`: the exact published code/tool ran with the recorded environment and checked output.
-- `manually_checked`: a template or worked example was reviewed against explicit expected results.
-- `illustrative`: an example describes a workflow but was not executed; do not market it as ready-to-run verified output.
-
-Syntax checks alone do not qualify for `runtime_verified`. Record environment and versions where meaningful. Show only the limitations relevant to the reader, not internal deployment detail.
-
-Use synthetic examples or intentionally public inputs. No credentials, internal files, unpublished business material, or private analytics enter the public repository. The workbench's core browser utilities must process user-selected files locally, without sending their contents to servers, analytics, or model providers. Verify this from code and a browser network observation using synthetic sample files before claiming it. Fetching a library script is not itself a file upload, but do not conflate local file processing with zero network activity.
-
-Any AI extension must be explicitly optional and describe its different data flow before use. No API key is required to obtain the core tool's first useful result. An external workflow described in an article does not alter the core tool's local-only file-processing promise.
+Preserve accurate limitations of legacy tools. Do not broaden their privacy or capability claims during recipe rewrites. External AI use is optional where promised as optional, and its prerequisites and data flow must be clear. No API usage or costs are incurred merely to manufacture a test claim.

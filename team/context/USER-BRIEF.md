@@ -1,11 +1,13 @@
-# Accepted user brief
+# Current accepted user brief
 
-Primary goal: attract English-speaking users with broader, task-oriented search demand and lead them naturally to relevant TokRepo assets. The deliverable is a useful public open-source project and a working public website, supported by an actual editorial agent team.
+The sole business objective is to capture English-language search demand and send relevant readers to the corresponding TokRepo assets. GitHub public content, open source recipes, templates, and GitHub Pages are the search landing and distribution surface. Building a separate tool product is not the goal.
 
-The previous tool-name setup articles missed this goal. Product pages must help a reader complete a task immediately, then offer sources and reusable workflow extensions. Relevant source code, test fixtures, expected outputs, a license and independent review are required.
+This brief supersedes the previous “standalone Practical AI Workbench product” requirement. Existing six browser-tool URLs remain reachable as legacy pages; preserve their useful behavior and truthful limitations. Do not expand them into another tool site or manufacture new utilities merely to justify articles. Historical audit and review reports remain evidence of their original reviewed version, not approval for the current direction.
 
-Daily publishing is capacity-limited to at most six qualified new search intents, not a six-page quota. Do not call qualitative demand “high volume” or claim search traffic before it is measured. Broader keywords can have strong competition; useful output is the minimum value proposition.
+The home page now leads with TokRepo asset combinations and the tasks they solve. New canonical pages provide useful steps, a task package or editable template, and a clear primary TokRepo asset action. Each recipe identifies a primary asset, a complementary secondary asset, and the actual role of each. Installation or use occurs through the appropriate TokRepo asset and its supported instructions; no fabricated one-click installation promise.
 
-Publishing authorization covers this dedicated public GitHub project and its GitHub Pages site. Preserve existing useful URLs. Do not modify TokRepo production or perform unrelated external distribution.
+All public-facing copy is English. Research broader task demand, rather than defaulting to framework setup terms. Maximum six qualified NEW intents per Beijing day; it is not a quota. Revising existing target pages after this correction does not create a replacement quota or require six new pages.
 
-All product-facing text is English. Internal editorial contracts may be Chinese. Read the latest repository state at the beginning of each run; stale local drafts and a prior PASS do not prove current quality.
+The user has authorized public publication in this dedicated GitHub repository/Pages scope and continued indexing/ranking review. This covers read-only GSC and available inbound-analytics inspection, evidence records, and scoped editorial/technical fixes to the repository. It does not authorize TokRepo production changes, social posting, messages to others, advertising, paid keyword purchases, or chat archiving.
+
+Every batch must include an actual independent agent review of the changed pages. Role prompt files and a report written by the author are not a review team. Use truthful funnel statuses and report inaccessible measurement as unknown.
