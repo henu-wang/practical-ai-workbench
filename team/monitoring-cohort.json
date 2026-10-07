@@ -9,7 +9,7 @@
   ],
   "weekly_review_due": "2026-10-14",
   "cohort_review_due": "2026-11-04",
-  "status": "awaiting_public_release",
+  "status": "live_public_verified",
   "pages": [
     {
       "slug": "transcribe-audio-to-text",
@@ -61,5 +61,9 @@
     "campaign": "tokrepo_search",
     "content": "recipe slug"
   },
-  "metric_rule": "No access or missing tracking is unknown, not zero. Technical pass is not indexing; submitted sitemap is not fetched/indexed."
+  "metric_rule": "No access or missing tracking is unknown, not zero. Technical pass is not indexing; submitted sitemap is not fetched/indexed.",
+  "release_commit": "e815d46a32df0a430a3f88b2f7fc564b17895b3c",
+  "public_verified_at": "2026-10-07T06:17:07.095383+00:00",
+  "gsc_property": "not_registered_verification_pending",
+  "ga4_access": "missing_Analytics_scope"
 }

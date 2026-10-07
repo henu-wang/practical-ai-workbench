@@ -56,8 +56,10 @@
       "program": "asset_search",
       "action": "new_topic",
       "published_on": "2026-10-07",
-      "status": "review_pending",
-      "canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/transcribe-audio-to-text/"
+      "status": "public_verified",
+      "canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/transcribe-audio-to-text/",
+      "release_commit": "e815d46a32df0a430a3f88b2f7fc564b17895b3c",
+      "verified_at": "2026-10-07T06:17:07.095383+00:00"
     },
     {
       "slug": "meeting-minutes-template",
@@ -65,8 +67,10 @@
       "program": "asset_search",
       "action": "new_topic",
       "published_on": "2026-10-07",
-      "status": "review_pending",
-      "canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/meeting-minutes-template/"
+      "status": "public_verified",
+      "canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/meeting-minutes-template/",
+      "release_commit": "e815d46a32df0a430a3f88b2f7fc564b17895b3c",
+      "verified_at": "2026-10-07T06:17:07.095383+00:00"
     },
     {
       "slug": "extract-tables-from-pdf-to-excel",
@@ -74,8 +78,10 @@
       "program": "asset_search",
       "action": "new_topic",
       "published_on": "2026-10-07",
-      "status": "review_pending",
-      "canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/extract-tables-from-pdf-to-excel/"
+      "status": "public_verified",
+      "canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/extract-tables-from-pdf-to-excel/",
+      "release_commit": "e815d46a32df0a430a3f88b2f7fc564b17895b3c",
+      "verified_at": "2026-10-07T06:17:07.095383+00:00"
     },
     {
       "slug": "presentation-from-notes",
@@ -83,8 +89,10 @@
       "program": "asset_search",
       "action": "new_topic",
       "published_on": "2026-10-07",
-      "status": "review_pending",
-      "canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/presentation-from-notes/"
+      "status": "public_verified",
+      "canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/presentation-from-notes/",
+      "release_commit": "e815d46a32df0a430a3f88b2f7fc564b17895b3c",
+      "verified_at": "2026-10-07T06:17:07.095383+00:00"
     },
     {
       "slug": "clean-csv-remove-duplicate-rows",
@@ -92,8 +100,10 @@
       "program": "asset_search",
       "action": "new_topic",
       "published_on": "2026-10-07",
-      "status": "review_pending",
-      "canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/clean-csv-remove-duplicate-rows/"
+      "status": "public_verified",
+      "canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/clean-csv-remove-duplicate-rows/",
+      "release_commit": "e815d46a32df0a430a3f88b2f7fc564b17895b3c",
+      "verified_at": "2026-10-07T06:17:07.095383+00:00"
     },
     {
       "slug": "flashcards-from-lecture-notes",
@@ -101,8 +111,10 @@
       "program": "asset_search",
       "action": "new_topic",
       "published_on": "2026-10-07",
-      "status": "review_pending",
-      "canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/flashcards-from-lecture-notes/"
+      "status": "public_verified",
+      "canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/flashcards-from-lecture-notes/",
+      "release_commit": "e815d46a32df0a430a3f88b2f7fc564b17895b3c",
+      "verified_at": "2026-10-07T06:17:07.095383+00:00"
     }
   ]
 }
