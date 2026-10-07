@@ -1,0 +1,2314 @@
+{
+  "retrieved_at": "2026-10-07T05:08:53.181054+00:00",
+  "completed_retrieved_at": "2026-10-07T05:09:53.451076+00:00",
+  "market": "US",
+  "language": "en",
+  "method": "Google autocomplete qualitative intent; not monthly volume",
+  "demand": [
+    {
+      "seed": "compress video",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=compress%20video",
+      "raw_response": [
+        "compress video",
+        [
+          "compress video",
+          "compress video file",
+          "compress video for discord",
+          "compress video size",
+          "compress video online",
+          "compress video iphone",
+          "compress video free",
+          "compress video to 10mb",
+          "compress video online free",
+          "compress video file size"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512,
+              433
+            ],
+            [
+              512,
+              433
+            ],
+            [
+              512
+            ],
+            [
+              512,
+              433,
+              131
+            ],
+            [
+              512,
+              433
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ]
+          ]
+        }
+      ],
+      "suggestions": [
+        "compress video",
+        "compress video file",
+        "compress video for discord",
+        "compress video size",
+        "compress video online",
+        "compress video iphone",
+        "compress video free",
+        "compress video to 10mb",
+        "compress video online free",
+        "compress video file size"
+      ]
+    },
+    {
+      "seed": "add subtitles to video",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=add%20subtitles%20to%20video",
+      "raw_response": [
+        "add subtitles to video",
+        [
+          "add subtitles to video",
+          "add subtitles to video online free",
+          "add subtitles to video free",
+          "add subtitles to video premiere pro",
+          "add subtitles to video in canva",
+          "add subtitles to video davinci resolve",
+          "add subtitles to video iphone",
+          "add subtitles to video free without watermark",
+          "add subtitles to video youtube",
+          "add subtitles to video capcut"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ]
+          ]
+        }
+      ],
+      "suggestions": [
+        "add subtitles to video",
+        "add subtitles to video online free",
+        "add subtitles to video free",
+        "add subtitles to video premiere pro",
+        "add subtitles to video in canva",
+        "add subtitles to video davinci resolve",
+        "add subtitles to video iphone",
+        "add subtitles to video free without watermark",
+        "add subtitles to video youtube",
+        "add subtitles to video capcut"
+      ]
+    },
+    {
+      "seed": "merge pdf",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=merge%20pdf",
+      "raw_response": [
+        "merge pdf",
+        [
+          "merge pdf",
+          "merge pdf free",
+          "merge pdf files",
+          "merge pdf online free",
+          "merge pdf online",
+          "merge pdf files free",
+          "merge pdfs into one",
+          "merge pdf adobe",
+          "merge pdf i love pdf",
+          "merge pdfs for free"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512,
+              433,
+              131
+            ],
+            [
+              512,
+              433,
+              131
+            ],
+            [
+              512,
+              433
+            ],
+            [
+              512
+            ],
+            [
+              512,
+              433,
+              131
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ]
+          ]
+        }
+      ],
+      "suggestions": [
+        "merge pdf",
+        "merge pdf free",
+        "merge pdf files",
+        "merge pdf online free",
+        "merge pdf online",
+        "merge pdf files free",
+        "merge pdfs into one",
+        "merge pdf adobe",
+        "merge pdf i love pdf",
+        "merge pdfs for free"
+      ]
+    },
+    {
+      "seed": "extract tables from pdf",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=extract%20tables%20from%20pdf",
+      "raw_response": [
+        "extract tables from pdf",
+        [
+          "extract tables from pdf",
+          "extract tables from pdf python",
+          "extract tables from pdf to excel",
+          "extract tables from pdf in r",
+          "extract tables from pdf online",
+          "extract tables from pdf free",
+          "extract tables from pdf power automate",
+          "extract tables from pdf into excel",
+          "extract tables from pdf ai",
+          "extract tables from pdf for rag"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ]
+          ]
+        }
+      ],
+      "suggestions": [
+        "extract tables from pdf",
+        "extract tables from pdf python",
+        "extract tables from pdf to excel",
+        "extract tables from pdf in r",
+        "extract tables from pdf online",
+        "extract tables from pdf free",
+        "extract tables from pdf power automate",
+        "extract tables from pdf into excel",
+        "extract tables from pdf ai",
+        "extract tables from pdf for rag"
+      ]
+    },
+    {
+      "seed": "remove duplicates in excel",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=remove%20duplicates%20in%20excel",
+      "raw_response": [
+        "remove duplicates in excel",
+        [
+          "remove duplicates in excel",
+          "remove duplicates in excel column",
+          "remove duplicates in excel shortcut",
+          "remove duplicates in excel spreadsheet",
+          "remove duplicates in excel formula",
+          "remove duplicates in excel based on one column",
+          "remove duplicates in excel list",
+          "remove duplicates in excel table",
+          "remove duplicates in excel but keep one",
+          "remove duplicates in excel power query"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ]
+          ]
+        }
+      ],
+      "suggestions": [
+        "remove duplicates in excel",
+        "remove duplicates in excel column",
+        "remove duplicates in excel shortcut",
+        "remove duplicates in excel spreadsheet",
+        "remove duplicates in excel formula",
+        "remove duplicates in excel based on one column",
+        "remove duplicates in excel list",
+        "remove duplicates in excel table",
+        "remove duplicates in excel but keep one",
+        "remove duplicates in excel power query"
+      ]
+    },
+    {
+      "seed": "clean csv file",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=clean%20csv%20file",
+      "raw_response": [
+        "clean csv file",
+        [
+          "clean csv file",
+          "clean csv file online",
+          "clean csv file python",
+          "clean csv file excel",
+          "clean up csv file",
+          "clean up csv file excel"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ]
+          ]
+        }
+      ],
+      "suggestions": [
+        "clean csv file",
+        "clean csv file online",
+        "clean csv file python",
+        "clean csv file excel",
+        "clean up csv file",
+        "clean up csv file excel"
+      ]
+    },
+    {
+      "seed": "convert video to mp3",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=convert%20video%20to%20mp3",
+      "raw_response": [
+        "convert video to mp3",
+        [
+          "convert video to mp3",
+          "convert video to mp3 online",
+          "convert video to mp3 iphone",
+          "convert video to mp3 android",
+          "convert video to mp3 audio",
+          "convert video to mp3 program",
+          "convert video to mp3 free",
+          "convert video to mp3 online free",
+          "convert video to mp3 file",
+          "convert video to mp3 iphone free"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ]
+          ]
+        }
+      ],
+      "suggestions": [
+        "convert video to mp3",
+        "convert video to mp3 online",
+        "convert video to mp3 iphone",
+        "convert video to mp3 android",
+        "convert video to mp3 audio",
+        "convert video to mp3 program",
+        "convert video to mp3 free",
+        "convert video to mp3 online free",
+        "convert video to mp3 file",
+        "convert video to mp3 iphone free"
+      ]
+    },
+    {
+      "seed": "compress pdf",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=compress%20pdf",
+      "raw_response": [
+        "compress pdf",
+        [
+          "compress pdf",
+          "compress pdf free",
+          "compress pdf file",
+          "compress pdf file size",
+          "compress pdf online",
+          "compress pdf online free",
+          "compress pdf size",
+          "compress pdf adobe",
+          "compress pdf file free",
+          "compress pdf on mac"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512,
+              433
+            ],
+            [
+              512,
+              433
+            ],
+            [
+              512,
+              433
+            ],
+            [
+              512
+            ],
+            [
+              512,
+              433
+            ],
+            [
+              512
+            ],
+            [
+              512,
+              433,
+              131
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ]
+          ]
+        }
+      ],
+      "suggestions": [
+        "compress pdf",
+        "compress pdf free",
+        "compress pdf file",
+        "compress pdf file size",
+        "compress pdf online",
+        "compress pdf online free",
+        "compress pdf size",
+        "compress pdf adobe",
+        "compress pdf file free",
+        "compress pdf on mac"
+      ]
+    },
+    {
+      "seed": "pdf to word",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=pdf%20to%20word",
+      "raw_response": [
+        "pdf to word",
+        [
+          "pdf to word",
+          "pdf to word converter",
+          "pdf to word converter free",
+          "pdf to word free",
+          "pdf to word doc",
+          "pdf to word converter online free",
+          "pdf to word document",
+          "pdf to word doc converter",
+          "pdf to word conversion",
+          "pdf to word converter free no sign up"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512,
+              433
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512,
+              433
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ]
+          ]
+        }
+      ],
+      "suggestions": [
+        "pdf to word",
+        "pdf to word converter",
+        "pdf to word converter free",
+        "pdf to word free",
+        "pdf to word doc",
+        "pdf to word converter online free",
+        "pdf to word document",
+        "pdf to word doc converter",
+        "pdf to word conversion",
+        "pdf to word converter free no sign up"
+      ]
+    },
+    {
+      "seed": "convert heic to jpg",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=convert%20heic%20to%20jpg",
+      "raw_response": [
+        "convert heic to jpg",
+        [
+          "convert heic to jpg",
+          "convert heic to jpg free",
+          "convert heic to jpg iphone",
+          "convert heic to jpg on mac",
+          "convert heic to jpg android",
+          "convert heic to jpg windows",
+          "convert heic to jpg online free",
+          "convert heic to jpg windows 11",
+          "convert heic to jpg on macbook",
+          "convert heic to jpg in google drive"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ]
+          ]
+        }
+      ],
+      "suggestions": [
+        "convert heic to jpg",
+        "convert heic to jpg free",
+        "convert heic to jpg iphone",
+        "convert heic to jpg on mac",
+        "convert heic to jpg android",
+        "convert heic to jpg windows",
+        "convert heic to jpg online free",
+        "convert heic to jpg windows 11",
+        "convert heic to jpg on macbook",
+        "convert heic to jpg in google drive"
+      ]
+    },
+    {
+      "seed": "resize image",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=resize%20image",
+      "raw_response": [
+        "resize image",
+        [
+          "resize image",
+          "resize image online",
+          "resize image online free",
+          "resize image free",
+          "resize image for instagram without cropping",
+          "resize image for instagram",
+          "resize image without losing quality",
+          "resize image canva",
+          "resize image iphone",
+          "resize image to 20kb"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512,
+              433
+            ],
+            [
+              512,
+              433
+            ],
+            [
+              512
+            ],
+            [
+              512,
+              433
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ]
+          ]
+        }
+      ],
+      "suggestions": [
+        "resize image",
+        "resize image online",
+        "resize image online free",
+        "resize image free",
+        "resize image for instagram without cropping",
+        "resize image for instagram",
+        "resize image without losing quality",
+        "resize image canva",
+        "resize image iphone",
+        "resize image to 20kb"
+      ]
+    },
+    {
+      "seed": "remove background from image",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=remove%20background%20from%20image",
+      "raw_response": [
+        "remove background from image",
+        [
+          "remove background from image free",
+          "remove background from image iphone",
+          "remove background from image google slides",
+          "remove background from image canva",
+          "remove background from image photoshop",
+          "remove background from image online free",
+          "remove background from images",
+          "remove background from image powerpoint",
+          "remove background from image online",
+          "remove background from image procreate"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ]
+          ]
+        }
+      ],
+      "suggestions": [
+        "remove background from image free",
+        "remove background from image iphone",
+        "remove background from image google slides",
+        "remove background from image canva",
+        "remove background from image photoshop",
+        "remove background from image online free",
+        "remove background from images",
+        "remove background from image powerpoint",
+        "remove background from image online",
+        "remove background from image procreate"
+      ]
+    },
+    {
+      "seed": "transcribe audio to text",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=transcribe%20audio%20to%20text",
+      "raw_response": [
+        "transcribe audio to text",
+        [
+          "transcribe audio to text",
+          "transcribe audio to text free",
+          "transcribe audio to text free online",
+          "transcribe audio to text jobs",
+          "transcribe audio to text free online google",
+          "transcribe audio to text free unlimited",
+          "transcribe audio to text free no sign up",
+          "transcribe audio to text on iphone",
+          "transcribe audio to text in word",
+          "transcribe audio to text ai"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ]
+          ]
+        }
+      ],
+      "suggestions": [
+        "transcribe audio to text",
+        "transcribe audio to text free",
+        "transcribe audio to text free online",
+        "transcribe audio to text jobs",
+        "transcribe audio to text free online google",
+        "transcribe audio to text free unlimited",
+        "transcribe audio to text free no sign up",
+        "transcribe audio to text on iphone",
+        "transcribe audio to text in word",
+        "transcribe audio to text ai"
+      ]
+    },
+    {
+      "seed": "translate subtitles",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=translate%20subtitles",
+      "raw_response": [
+        "translate subtitles",
+        [
+          "translate subtitles",
+          "translate subtitles to english",
+          "translate subtitles in video",
+          "translate subtitles online",
+          "translate subtitles srt",
+          "translate subtitles extension",
+          "translate subtitles while watching",
+          "translate subtitles free",
+          "translate subtitles.co",
+          "translate subtitles ai"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ]
+          ]
+        }
+      ],
+      "suggestions": [
+        "translate subtitles",
+        "translate subtitles to english",
+        "translate subtitles in video",
+        "translate subtitles online",
+        "translate subtitles srt",
+        "translate subtitles extension",
+        "translate subtitles while watching",
+        "translate subtitles free",
+        "translate subtitles.co",
+        "translate subtitles ai"
+      ]
+    },
+    {
+      "seed": "resume builder",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=resume%20builder",
+      "raw_response": [
+        "resume builder",
+        [
+          "resume builder",
+          "resume builder free",
+          "resume builder ai",
+          "resume builder free download",
+          "resume builder ai free",
+          "resume builder template",
+          "resume builder reddit",
+          "resume builder app",
+          "resume builder website",
+          "resume builder online free"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512,
+              433
+            ],
+            [
+              512,
+              433
+            ],
+            [
+              512,
+              433
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ]
+          ]
+        }
+      ],
+      "suggestions": [
+        "resume builder",
+        "resume builder free",
+        "resume builder ai",
+        "resume builder free download",
+        "resume builder ai free",
+        "resume builder template",
+        "resume builder reddit",
+        "resume builder app",
+        "resume builder website",
+        "resume builder online free"
+      ]
+    },
+    {
+      "seed": "create invoice",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=create%20invoice",
+      "raw_response": [
+        "create invoice",
+        [
+          "create invoice",
+          "create invoice free",
+          "create invoice online free",
+          "create invoice online free pdf",
+          "create invoice template",
+          "create invoice online",
+          "create invoice paypal",
+          "create invoice in quickbooks",
+          "create invoice google docs",
+          "create invoice template free"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512,
+              433
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ]
+          ]
+        }
+      ],
+      "suggestions": [
+        "create invoice",
+        "create invoice free",
+        "create invoice online free",
+        "create invoice online free pdf",
+        "create invoice template",
+        "create invoice online",
+        "create invoice paypal",
+        "create invoice in quickbooks",
+        "create invoice google docs",
+        "create invoice template free"
+      ]
+    },
+    {
+      "seed": "convert markdown to pdf",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=convert%20markdown%20to%20pdf",
+      "raw_response": [
+        "convert markdown to pdf",
+        [
+          "convert markdown to pdf",
+          "convert markdown to pdf vscode",
+          "convert markdown to pdf mac",
+          "convert markdown to pdf linux",
+          "convert markdown to pdf online",
+          "convert markdown to pdf pandoc",
+          "convert markdown to pdf command line",
+          "convert markdown to pdf python",
+          "convert markdown to pdf macos",
+          "convert markdown to pdf free"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ]
+          ]
+        }
+      ],
+      "suggestions": [
+        "convert markdown to pdf",
+        "convert markdown to pdf vscode",
+        "convert markdown to pdf mac",
+        "convert markdown to pdf linux",
+        "convert markdown to pdf online",
+        "convert markdown to pdf pandoc",
+        "convert markdown to pdf command line",
+        "convert markdown to pdf python",
+        "convert markdown to pdf macos",
+        "convert markdown to pdf free"
+      ]
+    },
+    {
+      "seed": "screen record",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=screen%20record",
+      "raw_response": [
+        "screen record",
+        [
+          "screen record iphone",
+          "screen record on mac",
+          "screen record",
+          "screen record windows",
+          "screen record android",
+          "screen record on ipad",
+          "screen record on mac with audio",
+          "screen record iphone 17",
+          "screen record on pc",
+          "screen record macbook"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512,
+              433
+            ],
+            [
+              512,
+              433
+            ],
+            [
+              512,
+              433
+            ],
+            [
+              512,
+              433
+            ],
+            [
+              512,
+              433
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512,
+              433
+            ]
+          ]
+        }
+      ],
+      "suggestions": [
+        "screen record iphone",
+        "screen record on mac",
+        "screen record",
+        "screen record windows",
+        "screen record android",
+        "screen record on ipad",
+        "screen record on mac with audio",
+        "screen record iphone 17",
+        "screen record on pc",
+        "screen record macbook"
+      ]
+    },
+    {
+      "seed": "summarize pdf",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=summarize%20pdf",
+      "raw_response": [
+        "summarize pdf",
+        [
+          "summarize pdf",
+          "summarize pdf online free",
+          "summarize pdf ai",
+          "summarize pdf free",
+          "summarize pdf file",
+          "summarize pdf ai free",
+          "summarize pdf to notes",
+          "summarize pdf with copilot",
+          "summarize pdf using ai",
+          "summarize pdf for study"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ]
+          ]
+        }
+      ],
+      "suggestions": [
+        "summarize pdf",
+        "summarize pdf online free",
+        "summarize pdf ai",
+        "summarize pdf free",
+        "summarize pdf file",
+        "summarize pdf ai free",
+        "summarize pdf to notes",
+        "summarize pdf with copilot",
+        "summarize pdf using ai",
+        "summarize pdf for study"
+      ]
+    },
+    {
+      "seed": "batch rename files",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=batch%20rename%20files",
+      "raw_response": [
+        "batch rename files",
+        [
+          "batch rename files",
+          "batch rename files windows 11",
+          "batch rename files mac",
+          "batch rename files windows",
+          "batch rename files linux",
+          "batch rename files windows 10",
+          "batch rename files google drive",
+          "batch rename files in a folder",
+          "batch rename files in finder",
+          "batch rename files in adobe bridge"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ]
+          ]
+        }
+      ],
+      "suggestions": [
+        "batch rename files",
+        "batch rename files windows 11",
+        "batch rename files mac",
+        "batch rename files windows",
+        "batch rename files linux",
+        "batch rename files windows 10",
+        "batch rename files google drive",
+        "batch rename files in a folder",
+        "batch rename files in finder",
+        "batch rename files in adobe bridge"
+      ]
+    },
+    {
+      "seed": "csv to json",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=csv%20to%20json",
+      "status": 200,
+      "raw_response": [
+        "csv to json",
+        [
+          "csv to json",
+          "csv to json converter",
+          "csv to json python",
+          "csv to json online",
+          "csv to json converter online",
+          "csv to json npm",
+          "csv to json converter python",
+          "csv to json javascript",
+          "csv to json array",
+          "csv to json file"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512,
+              433
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ]
+          ]
+        }
+      ],
+      "suggestions": [
+        "csv to json",
+        "csv to json converter",
+        "csv to json python",
+        "csv to json online",
+        "csv to json converter online",
+        "csv to json npm",
+        "csv to json converter python",
+        "csv to json javascript",
+        "csv to json array",
+        "csv to json file"
+      ]
+    },
+    {
+      "seed": "extract pages from pdf",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=extract%20pages%20from%20pdf",
+      "status": 200,
+      "raw_response": [
+        "extract pages from pdf",
+        [
+          "extract pages from pdf",
+          "extract pages from pdf free",
+          "extract pages from pdf adobe",
+          "extract pages from pdf adobe acrobat",
+          "extract pages from pdf online free",
+          "extract pages from pdf mac",
+          "extract pages from pdf online",
+          "extract pages from pdf into new pdf",
+          "extract pages from pdf file",
+          "extract pages from pdf acrobat pro"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ]
+          ]
+        }
+      ],
+      "suggestions": [
+        "extract pages from pdf",
+        "extract pages from pdf free",
+        "extract pages from pdf adobe",
+        "extract pages from pdf adobe acrobat",
+        "extract pages from pdf online free",
+        "extract pages from pdf mac",
+        "extract pages from pdf online",
+        "extract pages from pdf into new pdf",
+        "extract pages from pdf file",
+        "extract pages from pdf acrobat pro"
+      ]
+    },
+    {
+      "seed": "split pdf",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=split%20pdf",
+      "status": 200,
+      "raw_response": [
+        "split pdf",
+        [
+          "split pdf",
+          "split pdf online free",
+          "split pdf free",
+          "split pdf pages",
+          "split pdf online",
+          "split pdf files",
+          "split pdf into individual pages",
+          "split pdf adobe",
+          "split pdf pages free",
+          "split pdf i love pdf"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512,
+              433,
+              131
+            ],
+            [
+              512
+            ],
+            [
+              512,
+              433
+            ],
+            [
+              512,
+              433
+            ],
+            [
+              512,
+              433
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ]
+          ]
+        }
+      ],
+      "suggestions": [
+        "split pdf",
+        "split pdf online free",
+        "split pdf free",
+        "split pdf pages",
+        "split pdf online",
+        "split pdf files",
+        "split pdf into individual pages",
+        "split pdf adobe",
+        "split pdf pages free",
+        "split pdf i love pdf"
+      ]
+    },
+    {
+      "seed": "compress image",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=compress%20image",
+      "status": 200,
+      "raw_response": [
+        "compress image",
+        [
+          "compress image",
+          "compress image size",
+          "compress image free",
+          "compress image online",
+          "compress image file",
+          "compress image to 1mb",
+          "compress image without losing quality",
+          "compress image to 2mb",
+          "compress image to 100kb",
+          "compress image online free"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512,
+              433
+            ],
+            [
+              512,
+              433
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ]
+          ]
+        }
+      ],
+      "suggestions": [
+        "compress image",
+        "compress image size",
+        "compress image free",
+        "compress image online",
+        "compress image file",
+        "compress image to 1mb",
+        "compress image without losing quality",
+        "compress image to 2mb",
+        "compress image to 100kb",
+        "compress image online free"
+      ]
+    },
+    {
+      "seed": "remove duplicate rows csv",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=remove%20duplicate%20rows%20csv",
+      "status": 200,
+      "raw_response": [
+        "remove duplicate rows csv",
+        [
+          "remove duplicate rows csv",
+          "remove duplicate lines csv",
+          "remove duplicate rows in csv file python",
+          "remove duplicate rows in csv file online",
+          "remove duplicate rows in csv file using powershell",
+          "remove duplicate rows"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              512,
+              650,
+              390
+            ]
+          ]
+        }
+      ],
+      "suggestions": [
+        "remove duplicate rows csv",
+        "remove duplicate lines csv",
+        "remove duplicate rows in csv file python",
+        "remove duplicate rows in csv file online",
+        "remove duplicate rows in csv file using powershell",
+        "remove duplicate rows"
+      ]
+    },
+    {
+      "seed": "csv duplicate remover",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=csv%20duplicate%20remover",
+      "status": 200,
+      "raw_response": [
+        "csv duplicate remover",
+        [
+          "csv duplicate remover",
+          "csv duplicate remover tool",
+          "csv duplicate remover online",
+          "csv duplicate finder",
+          "sysinfo csv duplicate remover",
+          "aryson csv duplicate remover",
+          "ivandt csv duplicate remover",
+          "systools csv duplicate remover",
+          "csv remove duplicate rows",
+          "csv remove duplicate lines"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ]
+          ]
+        }
+      ],
+      "suggestions": [
+        "csv duplicate remover",
+        "csv duplicate remover tool",
+        "csv duplicate remover online",
+        "csv duplicate finder",
+        "sysinfo csv duplicate remover",
+        "aryson csv duplicate remover",
+        "ivandt csv duplicate remover",
+        "systools csv duplicate remover",
+        "csv remove duplicate rows",
+        "csv remove duplicate lines"
+      ]
+    },
+    {
+      "seed": "merge pdf offline",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=merge%20pdf%20offline",
+      "status": 200,
+      "raw_response": [
+        "merge pdf offline",
+        [
+          "merge pdf offline",
+          "merge pdf offline free",
+          "merge pdf offline windows",
+          "merge pdf offline tool",
+          "merge pdf offline mac",
+          "merge pdf offline windows free",
+          "merge pdf offline android",
+          "merge pdf offline windows 11",
+          "merge pdf offline software",
+          "merge pdf offline reddit"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              22,
+              30
+            ]
+          ]
+        }
+      ],
+      "suggestions": [
+        "merge pdf offline",
+        "merge pdf offline free",
+        "merge pdf offline windows",
+        "merge pdf offline tool",
+        "merge pdf offline mac",
+        "merge pdf offline windows free",
+        "merge pdf offline android",
+        "merge pdf offline windows 11",
+        "merge pdf offline software",
+        "merge pdf offline reddit"
+      ]
+    },
+    {
+      "seed": "compress image to 100kb",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=compress%20image%20to%20100kb",
+      "status": 200,
+      "raw_response": [
+        "compress image to 100kb",
+        [
+          "compress image to 100kb",
+          "compress image to 100kb online",
+          "compress image to 100kb free online",
+          "compress image to 100kb jpg",
+          "compress image to 100kb to 200kb",
+          "compress image to 100kb pdf",
+          "compress image to 100kb free",
+          "compress image to 100kb i love pdf",
+          "compress image to 100kb jpg format",
+          "compress image to 100kb without losing quality"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ]
+          ]
+        }
+      ],
+      "suggestions": [
+        "compress image to 100kb",
+        "compress image to 100kb online",
+        "compress image to 100kb free online",
+        "compress image to 100kb jpg",
+        "compress image to 100kb to 200kb",
+        "compress image to 100kb pdf",
+        "compress image to 100kb free",
+        "compress image to 100kb i love pdf",
+        "compress image to 100kb jpg format",
+        "compress image to 100kb without losing quality"
+      ]
+    }
+  ],
+  "first_batch": [
+    {
+      "slug": "merge-pdf",
+      "result_first_title": "Merge PDF files online — free, in your browser",
+      "seed": "merge pdf",
+      "exact_observed_suggestion": "merge pdf free",
+      "tokrepo_asset_id": 5690,
+      "corroboration_ids": [
+        "pdf_competitor",
+        "pdf_local_competitor"
+      ],
+      "useful_output": "PDF page order is preserved; downloads a combined document",
+      "asset_role": "actual dependency",
+      "status": "demand qualitatively supported; shipping depends on functional QA",
+      "monthly_search_volume": null,
+      "question_urls": [
+        "https://stackoverflow.com/questions/65567732/merge-pdf-with-pdf-lib",
+        "https://stackoverflow.com/questions/60234692/how-to-merge-two-pdf-files-using-jspdf"
+      ],
+      "demand_gate": "pass: direct observed autocomplete intent plus two matched independent public user questions; functional QA still required"
+    },
+    {
+      "slug": "extract-pdf-pages",
+      "result_first_title": "Extract pages from a PDF into a new PDF",
+      "seed": "extract pages from pdf",
+      "exact_observed_suggestion": "extract pages from pdf into new pdf",
+      "tokrepo_asset_id": 5690,
+      "corroboration_ids": [
+        "extract_competitor",
+        "extract_question"
+      ],
+      "useful_output": "1,3-5 downloads those pages and confirms page count",
+      "asset_role": "actual dependency",
+      "status": "demand qualitatively supported; shipping depends on functional QA",
+      "monthly_search_volume": null,
+      "question_urls": [
+        "https://stackoverflow.com/questions/51567750/extract-specific-pages-of-pdf-and-save-it-with-python",
+        "https://community.adobe.com/questions-9/how-do-i-separate-pages-in-a-pdf-1242074"
+      ],
+      "demand_gate": "pass: direct observed autocomplete intent plus two matched independent public user questions; functional QA still required"
+    },
+    {
+      "slug": "compress-image",
+      "result_first_title": "Compress an image and see the new file size",
+      "seed": "compress image",
+      "exact_observed_suggestion": "compress image online free",
+      "tokrepo_asset_id": 2073,
+      "corroboration_ids": [
+        "image_local_competitor"
+      ],
+      "useful_output": "Show actual output bytes and avoid promised size unless enforced",
+      "asset_role": "optional batch extension; browser Canvas does actual first-release processing",
+      "status": "demand qualitatively supported; shipping depends on functional QA",
+      "monthly_search_volume": null,
+      "question_urls": [
+        "https://stackoverflow.com/questions/14672746/how-to-compress-an-image-via-javascript-in-the-browser",
+        "https://stackoverflow.com/questions/48632459/downsizing-image-dimensions-via-pure-js-leads-to-image-size-inflation-in-bytes"
+      ],
+      "demand_gate": "pass: direct observed autocomplete intent plus two matched independent public user questions; functional QA still required"
+    },
+    {
+      "slug": "resize-image",
+      "result_first_title": "Resize an image within chosen dimensions, without cropping",
+      "seed": "resize image",
+      "exact_observed_suggestion": "resize image online free",
+      "tokrepo_asset_id": 4054,
+      "corroboration_ids": [
+        "image_resize_competitor"
+      ],
+      "useful_output": "Proportional fit within maximum width/height; actual exported dimensions; no upscaling or padding.",
+      "asset_role": "optional scripted extension; browser Canvas does actual first-release processing",
+      "status": "demand qualitatively supported; shipping depends on functional QA",
+      "monthly_search_volume": null,
+      "question_urls": [
+        "https://stackoverflow.com/questions/14087483/how-to-proportionally-resize-an-image-in-canvas",
+        "https://stackoverflow.com/questions/19262141/resize-image-with-javascript-canvas-smoothly"
+      ],
+      "demand_gate": "pass: direct observed autocomplete intent plus two matched independent public user questions; functional QA still required"
+    },
+    {
+      "slug": "remove-duplicate-csv-rows",
+      "result_first_title": "Remove duplicate rows from a CSV",
+      "seed": "remove duplicate rows csv",
+      "exact_observed_suggestion": "remove duplicate rows in csv file online",
+      "tokrepo_asset_id": 4980,
+      "corroboration_ids": [
+        "csv_dedup_question",
+        "csv_dedup_official"
+      ],
+      "useful_output": "Original stays unchanged; selected key/all-row choice and removed-row count",
+      "asset_role": "actual dependency",
+      "status": "demand qualitatively supported; shipping depends on functional QA",
+      "monthly_search_volume": null,
+      "question_urls": [
+        "https://stackoverflow.com/questions/68980588/how-to-remove-duplicate-rows-of-csv-file-using-nodejs",
+        "https://www.reddit.com/r/shortcuts/comments/1ger647/"
+      ],
+      "demand_gate": "pass: direct observed autocomplete intent plus two matched independent public user questions; functional QA still required"
+    },
+    {
+      "slug": "csv-to-json",
+      "result_first_title": "Convert CSV to JSON without uploading your file",
+      "seed": "csv to json",
+      "exact_observed_suggestion": "csv to json converter",
+      "tokrepo_asset_id": 4980,
+      "corroboration_ids": [
+        "csv_json_competitor",
+        "csv_json_question",
+        "csv_library"
+      ],
+      "useful_output": "Preview JSON; preserve leading-zero IDs and handle quoted commas/newlines",
+      "asset_role": "actual dependency",
+      "status": "demand qualitatively supported; shipping depends on functional QA",
+      "monthly_search_volume": null,
+      "question_urls": [
+        "https://stackoverflow.com/questions/47638814/can-not-convert-correctly-formatted-csv-to-json",
+        "https://stackoverflow.com/questions/59652049/javascript-papaparse-return-array-of-objects"
+      ],
+      "demand_gate": "pass: direct observed autocomplete intent plus two matched independent public user questions; functional QA still required"
+    }
+  ],
+  "user_questions": {
+    "merge-pdf": [
+      {
+        "url": "https://stackoverflow.com/questions/65567732/merge-pdf-with-pdf-lib",
+        "question_intent": "User-selected PDF inputs fail to merge; wants a working local-file merger.",
+        "tool_acceptance_implication": "Choose actual files, not hardcoded example URLs; downloadable output.",
+        "retrieved_at": "2026-10-07T05:12:37.427275+00:00",
+        "evidence_kind": "independent public user question",
+        "current_monthly_search_volume": null,
+        "limitation": "Historical question verifies an outcome/problem, not present-day frequency or volume."
+      },
+      {
+        "url": "https://stackoverflow.com/questions/60234692/how-to-merge-two-pdf-files-using-jspdf",
+        "question_intent": "User asks merging two or more documents into one and showing in browser.",
+        "tool_acceptance_implication": "Preserve input order and combine all pages in browser.",
+        "retrieved_at": "2026-10-07T05:12:37.427824+00:00",
+        "evidence_kind": "independent public user question",
+        "current_monthly_search_volume": null,
+        "limitation": "Historical question verifies an outcome/problem, not present-day frequency or volume."
+      }
+    ],
+    "extract-pdf-pages": [
+      {
+        "url": "https://stackoverflow.com/questions/51567750/extract-specific-pages-of-pdf-and-save-it-with-python",
+        "question_intent": "User wants selected pages saved separately.",
+        "tool_acceptance_implication": "Page-range input, clear one-based page numbering and output page count.",
+        "retrieved_at": "2026-10-07T05:12:37.427831+00:00",
+        "evidence_kind": "independent public user question",
+        "current_monthly_search_volume": null,
+        "limitation": "Historical question verifies an outcome/problem, not present-day frequency or volume."
+      },
+      {
+        "url": "https://community.adobe.com/questions-9/how-do-i-separate-pages-in-a-pdf-1242074",
+        "question_intent": "JoyceU asks how to separate a multiple-page PDF; a later participant asks selecting different page ranges.",
+        "tool_acceptance_implication": "Clear selected ranges and new-document output; does not require buying Acrobat.",
+        "retrieved_at": "2026-10-07T05:12:37.427834+00:00",
+        "evidence_kind": "independent public user question",
+        "current_monthly_search_volume": null,
+        "limitation": "Historical question verifies an outcome/problem, not present-day frequency or volume."
+      }
+    ],
+    "compress-image": [
+      {
+        "url": "https://stackoverflow.com/questions/14672746/how-to-compress-an-image-via-javascript-in-the-browser",
+        "question_intent": "User asks browser-side image compression.",
+        "tool_acceptance_implication": "Local compression and downloadable image, actual byte sizes.",
+        "retrieved_at": "2026-10-07T05:12:37.427836+00:00",
+        "evidence_kind": "independent public user question",
+        "current_monthly_search_volume": null,
+        "limitation": "Historical question verifies an outcome/problem, not present-day frequency or volume."
+      },
+      {
+        "url": "https://stackoverflow.com/questions/48632459/downsizing-image-dimensions-via-pure-js-leads-to-image-size-inflation-in-bytes",
+        "question_intent": "Resized image becomes a larger output file; asks about real file size.",
+        "tool_acceptance_implication": "Compare original/output bytes, warn if output grows; never call pixels alone compression.",
+        "retrieved_at": "2026-10-07T05:12:37.427839+00:00",
+        "evidence_kind": "independent public user question",
+        "current_monthly_search_volume": null,
+        "limitation": "Historical question verifies an outcome/problem, not present-day frequency or volume.",
+        "source_redirect_from": "https://stackoverflow.com/questions/64110528/compress-image-size-client-side-filereader-and-canvas"
+      }
+    ],
+    "resize-image": [
+      {
+        "url": "https://stackoverflow.com/questions/14087483/how-to-proportionally-resize-an-image-in-canvas",
+        "question_intent": "User finds width/height choices distort proportion.",
+        "tool_acceptance_implication": "Aspect-ratio lock with exported width and height.",
+        "retrieved_at": "2026-10-07T05:12:37.427841+00:00",
+        "evidence_kind": "independent public user question",
+        "current_monthly_search_volume": null,
+        "limitation": "Historical question verifies an outcome/problem, not present-day frequency or volume."
+      },
+      {
+        "url": "https://stackoverflow.com/questions/19262141/resize-image-with-javascript-canvas-smoothly",
+        "question_intent": "User sees jagged/thin low-quality canvas reduction.",
+        "tool_acceptance_implication": "Preview output; use smoothing but do not promise lossless resize.",
+        "retrieved_at": "2026-10-07T05:12:37.427843+00:00",
+        "evidence_kind": "independent public user question",
+        "current_monthly_search_volume": null,
+        "limitation": "Historical question verifies an outcome/problem, not present-day frequency or volume."
+      }
+    ],
+    "csv-to-json": [
+      {
+        "url": "https://stackoverflow.com/questions/47638814/can-not-convert-correctly-formatted-csv-to-json",
+        "question_intent": "User cannot convert a local CSV into valid result because filename treated as content.",
+        "tool_acceptance_implication": "Accept actual File input; render conversion result and download.",
+        "retrieved_at": "2026-10-07T05:12:37.427850+00:00",
+        "evidence_kind": "independent public user question",
+        "current_monthly_search_volume": null,
+        "limitation": "Historical question verifies an outcome/problem, not present-day frequency or volume."
+      },
+      {
+        "url": "https://stackoverflow.com/questions/59652049/javascript-papaparse-return-array-of-objects",
+        "question_intent": "User needs JSON array of named objects rather than array of arrays.",
+        "tool_acceptance_implication": "Treat first row as headers, show expected object-array shape, preserve identifiers as strings.",
+        "retrieved_at": "2026-10-07T05:12:37.427872+00:00",
+        "evidence_kind": "independent public user question",
+        "current_monthly_search_volume": null,
+        "limitation": "Historical question verifies an outcome/problem, not present-day frequency or volume."
+      }
+    ],
+    "remove-duplicate-csv-rows": [
+      {
+        "url": "https://stackoverflow.com/questions/68980588/how-to-remove-duplicate-rows-of-csv-file-using-nodejs",
+        "question_intent": "User needs duplicate rows removed with variable column counts.",
+        "tool_acceptance_implication": "Parse properly before row comparison; ragged-row error handling.",
+        "retrieved_at": "2026-10-07T05:12:37.427845+00:00",
+        "evidence_kind": "independent public user question",
+        "current_monthly_search_volume": null,
+        "limitation": "Historical question verifies an outcome/problem, not present-day frequency or volume."
+      },
+      {
+        "url": "https://www.reddit.com/r/shortcuts/comments/1ger647/",
+        "question_intent": "User wants rows removed based on same value in one particular column.",
+        "tool_acceptance_implication": "Selected-key dedup as well as entire-row dedup; keep-first rule.",
+        "retrieved_at": "2026-10-07T05:12:37.427847+00:00",
+        "evidence_kind": "independent public user question",
+        "current_monthly_search_volume": null,
+        "limitation": "Historical question verifies an outcome/problem, not present-day frequency or volume."
+      }
+    ]
+  },
+  "followup_candidates": [
+    {
+      "slug": "extract-tables-from-pdf",
+      "seed": "extract tables from pdf",
+      "exact_observed_suggestion": "extract tables from pdf to excel",
+      "candidate_asset_ids": [
+        173,
+        1144
+      ],
+      "status": "candidate; autocomplete verified, two-question gate and runtime QA pending",
+      "gap": "needs OCR/table accuracy QA",
+      "monthly_search_volume": null
+    },
+    {
+      "slug": "compress-video",
+      "seed": "compress video",
+      "exact_observed_suggestion": "compress video to 10mb",
+      "candidate_asset_ids": [
+        1157,
+        1718
+      ],
+      "status": "candidate; autocomplete verified, two-question gate and runtime QA pending",
+      "gap": "needs actual target-size encode and browser resource QA",
+      "monthly_search_volume": null
+    },
+    {
+      "slug": "add-subtitles-to-video",
+      "seed": "add subtitles to video",
+      "exact_observed_suggestion": "add subtitles to video free without watermark",
+      "candidate_asset_ids": [
+        105,
+        1157,
+        110
+      ],
+      "status": "candidate; autocomplete verified, two-question gate and runtime QA pending",
+      "gap": "needs real transcription and subtitle export QA",
+      "monthly_search_volume": null
+    },
+    {
+      "slug": "transcribe-audio",
+      "seed": "transcribe audio to text",
+      "exact_observed_suggestion": "transcribe audio to text free no sign up",
+      "candidate_asset_ids": [
+        105,
+        1157
+      ],
+      "status": "candidate; autocomplete verified, two-question gate and runtime QA pending",
+      "gap": "needs local inference and model-download QA",
+      "monthly_search_volume": null
+    },
+    {
+      "slug": "video-to-mp3",
+      "seed": "convert video to mp3",
+      "exact_observed_suggestion": "convert video to mp3 file",
+      "candidate_asset_ids": [
+        1157,
+        5110
+      ],
+      "status": "candidate; autocomplete verified, two-question gate and runtime QA pending",
+      "gap": "needs actual encoding and duration QA",
+      "monthly_search_volume": null
+    },
+    {
+      "slug": "heic-to-jpg",
+      "seed": "convert heic to jpg",
+      "exact_observed_suggestion": "convert heic to jpg windows 11",
+      "candidate_asset_ids": [
+        2348,
+        2073
+      ],
+      "status": "candidate; autocomplete verified, two-question gate and runtime QA pending",
+      "gap": "needs true HEIC decoder; canvas alone not enough",
+      "monthly_search_volume": null
+    },
+    {
+      "slug": "compress-pdf",
+      "seed": "compress pdf",
+      "exact_observed_suggestion": "compress pdf on mac",
+      "candidate_asset_ids": [
+        1805,
+        905
+      ],
+      "status": "candidate; autocomplete verified, two-question gate and runtime QA pending",
+      "gap": "needs file-size and visual QA, document feature limits",
+      "monthly_search_volume": null
+    },
+    {
+      "slug": "pdf-to-word",
+      "seed": "pdf to word",
+      "exact_observed_suggestion": "pdf to word converter free no sign up",
+      "candidate_asset_ids": [
+        1799,
+        173
+      ],
+      "status": "candidate; autocomplete verified, two-question gate and runtime QA pending",
+      "gap": "asset capability mapping incomplete; do not approve",
+      "monthly_search_volume": null
+    },
+    {
+      "slug": "markdown-to-pdf",
+      "seed": "convert markdown to pdf",
+      "exact_observed_suggestion": "convert markdown to pdf pandoc",
+      "candidate_asset_ids": [
+        2436,
+        5213
+      ],
+      "status": "candidate; autocomplete verified, two-question gate and runtime QA pending",
+      "gap": "catalog-only assets, needs true PDF output QA",
+      "monthly_search_volume": null
+    },
+    {
+      "slug": "translate-subtitles",
+      "seed": "translate subtitles",
+      "exact_observed_suggestion": "translate subtitles srt",
+      "candidate_asset_ids": [
+        110,
+        6073
+      ],
+      "status": "candidate; autocomplete verified, two-question gate and runtime QA pending",
+      "gap": "needs translation source/quality/cost checks",
+      "monthly_search_volume": null
+    },
+    {
+      "slug": "resume-builder",
+      "seed": "resume builder",
+      "exact_observed_suggestion": "resume builder free download",
+      "candidate_asset_ids": [
+        866,
+        6922
+      ],
+      "status": "candidate; autocomplete verified, two-question gate and runtime QA pending",
+      "gap": "public asset pages unverified; template is not builder",
+      "monthly_search_volume": null
+    },
+    {
+      "slug": "batch-rename-files",
+      "seed": "batch rename files",
+      "exact_observed_suggestion": "batch rename files windows 11",
+      "candidate_asset_ids": [
+        6936
+      ],
+      "status": "candidate; autocomplete verified, two-question gate and runtime QA pending",
+      "gap": "public asset page unverified; dry-run output and conflicts QA",
+      "monthly_search_volume": null
+    },
+    {
+      "slug": "remove-image-background",
+      "seed": "remove background from image",
+      "exact_observed_suggestion": "remove background from image free",
+      "candidate_asset_ids": [
+        2505
+      ],
+      "status": "candidate; autocomplete verified, two-question gate and runtime QA pending",
+      "gap": "SAM catalog record does not prove one-click background removal",
+      "monthly_search_volume": null
+    },
+    {
+      "slug": "summarize-pdf",
+      "seed": "summarize pdf",
+      "exact_observed_suggestion": "summarize pdf for study",
+      "candidate_asset_ids": [
+        173,
+        162
+      ],
+      "status": "candidate; autocomplete verified, two-question gate and runtime QA pending",
+      "gap": "needs cited factual summary and disclosed model setup",
+      "monthly_search_volume": null
+    }
+  ],
+  "interpretation_limits": [
+    "Autocomplete is influenced by market/history and does not provide numeric demand, monthly search volume, competition score, geographic traffic or a ranking guarantee.",
+    "Provider product pages establish supplied task coverage, not how often users search. User questions provide specific recurring pain; no vote/view counts converted into search demand.",
+    "Search snippets were used for corroboration; sources are identified for later verification.",
+    "The top six are distinct output intents, not six permutations of tool names. A shared engine and shared tutorial are preferable to duplicate thin pages.",
+    "18 detail endpoint checks attempted, 13 public asset pages returned HTTP200 plus slug; five public page checks failed without a classified reason and remain unverified.",
+    "No code, models or conversions were executed by this demand research agent. Actual runtime evidence belongs to implementation QA."
+  ]
+}

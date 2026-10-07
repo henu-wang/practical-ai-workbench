@@ -1,0 +1,304 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-07T05:24:50.392884+00:00",
+  "reviewer": "managing_editor",
+  "author": "project_editor+root",
+  "verdict": "PASS",
+  "status": "PASS",
+  "source_sha256": "63940d48a640fc5cbf5c510bf460aa43676a5b6a979def50a09a8dc01e3af94e",
+  "reviewed_source_sha256": "63940d48a640fc5cbf5c510bf460aa43676a5b6a979def50a09a8dc01e3af94e",
+  "hash_algorithm": "SHA256 over files recursively in content/, docs/assets/, docs/vendor/, plus scripts/build.py, sorted by relative POSIX path; update(path.encode('utf-8') + b'\\0' + raw file bytes + b'\\0'). Recompute: python3 scripts/source_hash.py",
+  "source_manifest": [
+    {
+      "path": "content/compress-image.md",
+      "sha256": "e1def9111cd9ef092c5aae1e4421692d808ad1a060a57e6e57cbc5322728d37a"
+    },
+    {
+      "path": "content/csv-to-json.md",
+      "sha256": "38946d490af28afcb31ccefcb6514a7bb84c52a259967a18c2b9273099cb1676"
+    },
+    {
+      "path": "content/extract-pdf-pages.md",
+      "sha256": "067efc5b81db15c96cae98fde4c667e65fa27041f33b18f6509b42945d7a9399"
+    },
+    {
+      "path": "content/merge-pdf.md",
+      "sha256": "530e1e1d12e70100b9f2611a49630f2313ba4300f07deb3a69d1e735aa519705"
+    },
+    {
+      "path": "content/remove-duplicate-csv-rows.md",
+      "sha256": "28f8685aab7b61f28df2b5a496f590b0320af3ded198d427a87139a3dcbaab1e"
+    },
+    {
+      "path": "content/resize-image.md",
+      "sha256": "a3f4b605c8620a53a318ae70b507662d95862adf471470dc45843cac3b43333a"
+    },
+    {
+      "path": "docs/assets/app.js",
+      "sha256": "280ab97bcb75377eb2ac5aaec01d0cdec320786821447b6d4f69221bd5eba2e8"
+    },
+    {
+      "path": "docs/assets/core.js",
+      "sha256": "69a40247243f0bf8636636ef07d0dca9cbd5276122e9b024c72881ac764ebef4"
+    },
+    {
+      "path": "docs/assets/style.css",
+      "sha256": "5283409a4d4afea2e25b7465690d2c991b18fd29f11123b78bd9798f50108229"
+    },
+    {
+      "path": "docs/vendor/papaparse-5.5.3.min.js",
+      "sha256": "3553fb8bdf5b8004ce5531e6827e81c8b34e7b3992677967754544064e97b016"
+    },
+    {
+      "path": "docs/vendor/papaparse.LICENSE",
+      "sha256": "99aa68e4b42758b09828a46515f70369e5463458ab7a990189f641af2b8d9b4e"
+    },
+    {
+      "path": "docs/vendor/pdf-lib-1.17.1.min.js",
+      "sha256": "0f9a5cad07941f0826586c94e089d89b918c46e5c17cf2d5a3c6f666e3bc694f"
+    },
+    {
+      "path": "docs/vendor/pdf-lib.LICENSE.md",
+      "sha256": "f2c9fc00fdb66eb99ac156ba52d734af66d8d309f65753ae809ad34ee2883bcb"
+    },
+    {
+      "path": "scripts/build.py",
+      "sha256": "1114c96eb6495f175cc31830e98c203c96795cc6281e38b401974162045b88e8"
+    }
+  ],
+  "scope": "Content, intent and claim accuracy against source and demand packet; independent Node tests; excludes browser, deployed site, remote links and GitHub Actions approval.",
+  "demand_evidence_path": "team/research/demand.json",
+  "demand_evidence_sha256": "274e06c72c2874a2528f6671057f071ae2f244cae21946eee6b6ebd4480c78eb",
+  "pages": [
+    {
+      "slug": "merge-pdf",
+      "page_slug": "merge-pdf",
+      "verdict": "PASS",
+      "scope": "Independent content and implementation consistency review; not release approval",
+      "demand_grade": "D2",
+      "primary_query": "merge pdf free",
+      "market": {
+        "country": "US",
+        "language": "en"
+      },
+      "monthly_search_volume": null,
+      "monthly_search_volume_status": "unknown",
+      "public_question_count": 2,
+      "question_urls": [
+        "https://stackoverflow.com/questions/65567732/merge-pdf-with-pdf-lib",
+        "https://stackoverflow.com/questions/60234692/how-to-merge-two-pdf-files-using-jspdf"
+      ],
+      "scores": {
+        "demand_intent": 4,
+        "immediate_utility": 4,
+        "evidence": 3,
+        "specificity": 5,
+        "asset_fit": 4,
+        "open_source": 4
+      },
+      "total_score": 24,
+      "checked_claims": [
+        "copyPages appends all pages in displayed file order; limits 10 files and 40 MiB.",
+        "No compression/OCR; signatures/forms not functional; unwanted copy requires choosing intended files again."
+      ],
+      "blockers": []
+    },
+    {
+      "slug": "extract-pdf-pages",
+      "page_slug": "extract-pdf-pages",
+      "verdict": "PASS",
+      "scope": "Independent content and implementation consistency review; not release approval",
+      "demand_grade": "D2",
+      "primary_query": "extract pages from pdf into new pdf",
+      "market": {
+        "country": "US",
+        "language": "en"
+      },
+      "monthly_search_volume": null,
+      "monthly_search_volume_status": "unknown",
+      "public_question_count": 2,
+      "question_urls": [
+        "https://stackoverflow.com/questions/51567750/extract-specific-pages-of-pdf-and-save-it-with-python",
+        "https://community.adobe.com/questions-9/how-do-i-separate-pages-in-a-pdf-1242074"
+      ],
+      "scores": {
+        "demand_intent": 4,
+        "immediate_utility": 4,
+        "evidence": 3,
+        "specificity": 5,
+        "asset_fit": 4,
+        "open_source": 4
+      },
+      "total_score": 24,
+      "checked_claims": [
+        "One-based ranges, requested order and duplicate-page removal match pageSelection.",
+        "Does not claim redaction, OCR or text search; signature/form loss explained."
+      ],
+      "blockers": []
+    },
+    {
+      "slug": "compress-image",
+      "page_slug": "compress-image",
+      "verdict": "PASS",
+      "scope": "Independent content and implementation consistency review; not release approval",
+      "demand_grade": "D2",
+      "primary_query": "compress image online free",
+      "market": {
+        "country": "US",
+        "language": "en"
+      },
+      "monthly_search_volume": null,
+      "monthly_search_volume_status": "unknown",
+      "public_question_count": 2,
+      "question_urls": [
+        "https://stackoverflow.com/questions/14672746/how-to-compress-an-image-via-javascript-in-the-browser",
+        "https://stackoverflow.com/questions/48632459/downsizing-image-dimensions-via-pure-js-leads-to-image-size-inflation-in-bytes"
+      ],
+      "scores": {
+        "demand_intent": 4,
+        "immediate_utility": 4,
+        "evidence": 3,
+        "specificity": 5,
+        "asset_fit": 4,
+        "open_source": 4
+      },
+      "total_score": 24,
+      "checked_claims": [
+        "JPEG/WebP output, 25 MiB and 40 MP limits; actual bytes compared, larger output acknowledged.",
+        "No 100 KB guarantee; JPEG transparent areas become white; animation/metadata not preserved; Sharp is optional."
+      ],
+      "blockers": []
+    },
+    {
+      "slug": "resize-image",
+      "page_slug": "resize-image",
+      "verdict": "PASS",
+      "scope": "Independent content and implementation consistency review; not release approval",
+      "demand_grade": "D2",
+      "primary_query": "resize image online free",
+      "market": {
+        "country": "US",
+        "language": "en"
+      },
+      "monthly_search_volume": null,
+      "monthly_search_volume_status": "unknown",
+      "public_question_count": 2,
+      "question_urls": [
+        "https://stackoverflow.com/questions/14087483/how-to-proportionally-resize-an-image-in-canvas",
+        "https://stackoverflow.com/questions/19262141/resize-image-with-javascript-canvas-smoothly"
+      ],
+      "scores": {
+        "demand_intent": 4,
+        "immediate_utility": 4,
+        "evidence": 3,
+        "specificity": 5,
+        "asset_fit": 4,
+        "open_source": 4
+      },
+      "total_score": 24,
+      "checked_claims": [
+        "Fits bounds without crop/stretch/upscale; exact 600x400 applies only to matching 1200x800 sample ratio.",
+        "No arbitrary exact-shape promise; white JPEG background; Jimp is optional."
+      ],
+      "blockers": []
+    },
+    {
+      "slug": "remove-duplicate-csv-rows",
+      "page_slug": "remove-duplicate-csv-rows",
+      "verdict": "PASS",
+      "scope": "Independent content and implementation consistency review; not release approval",
+      "demand_grade": "D2",
+      "primary_query": "remove duplicate rows in csv file online",
+      "market": {
+        "country": "US",
+        "language": "en"
+      },
+      "monthly_search_volume": null,
+      "monthly_search_volume_status": "unknown",
+      "public_question_count": 2,
+      "question_urls": [
+        "https://stackoverflow.com/questions/68980588/how-to-remove-duplicate-rows-of-csv-file-using-nodejs",
+        "https://www.reddit.com/r/shortcuts/comments/1ger647/"
+      ],
+      "scores": {
+        "demand_intent": 4,
+        "immediate_utility": 4,
+        "evidence": 3,
+        "specificity": 5,
+        "asset_fit": 4,
+        "open_source": 4
+      },
+      "total_score": 24,
+      "checked_claims": [
+        "All fields or one key column; first/last; case/trim for matching do not alter retained fields.",
+        "Header trimming disclosed; optional formula protection can alter export; quoted commas/multiline parsed properly."
+      ],
+      "blockers": []
+    },
+    {
+      "slug": "csv-to-json",
+      "page_slug": "csv-to-json",
+      "verdict": "PASS",
+      "scope": "Independent content and implementation consistency review; not release approval",
+      "demand_grade": "D2",
+      "primary_query": "csv to json converter",
+      "market": {
+        "country": "US",
+        "language": "en"
+      },
+      "monthly_search_volume": null,
+      "monthly_search_volume_status": "unknown",
+      "public_question_count": 2,
+      "question_urls": [
+        "https://stackoverflow.com/questions/47638814/can-not-convert-correctly-formatted-csv-to-json",
+        "https://stackoverflow.com/questions/59652049/javascript-papaparse-return-array-of-objects"
+      ],
+      "scores": {
+        "demand_intent": 4,
+        "immediate_utility": 4,
+        "evidence": 3,
+        "specificity": 5,
+        "asset_fit": 4,
+        "open_source": 4
+      },
+      "total_score": 24,
+      "checked_claims": [
+        "All strings; leading zeros and multiline preserved; duplicate records retained.",
+        "Header trimming, duplicate/empty headers, ragged records disclosed; preview eight, full download."
+      ],
+      "blockers": []
+    }
+  ],
+  "independent_checks": [
+    {
+      "command": "npm test",
+      "result": "PASS",
+      "passed": 9,
+      "failed": 0,
+      "environment": "Node built-in test runner against current local source",
+      "limitations": "No browser Canvas encoding, downloads, UI or GitHub Actions execution established."
+    },
+    {
+      "command": "Read core.js, app.js, build.py, six guides and demand packet",
+      "result": "PASS",
+      "limitations": "Did not independently refetch every public question and exact asset URL."
+    }
+  ],
+  "resolved_issues": [
+    "one-key wording",
+    "header trim disclosure",
+    "valid single-column CSV delimiter warning",
+    "animation message matches flattening limits",
+    "compress/resize intent matches actual capabilities",
+    "merge re-selection action matches UI"
+  ],
+  "blockers": [],
+  "release_readiness": {
+    "status": "PENDING",
+    "browser": "PENDING real Chrome verification record",
+    "live_site": "PENDING deployment and interactions",
+    "external_asset_links": "PENDING exact identity and URL checks",
+    "github_actions": "PENDING actual remote workflow outcome",
+    "reason": "Content PASS is not runtime or deployment PASS."
+  }
+}

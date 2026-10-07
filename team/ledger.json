@@ -1,0 +1,48 @@
+{
+  "timezone": "Asia/Shanghai",
+  "max_new_intents_per_day": 6,
+  "entries": [
+    {
+      "slug": "merge-pdf",
+      "dedupe_key": "merge-pdf",
+      "published_on": "2026-10-07",
+      "primary_query": "merge pdf free",
+      "url": "https://henu-wang.github.io/practical-ai-workbench/merge-pdf/"
+    },
+    {
+      "slug": "extract-pdf-pages",
+      "dedupe_key": "extract-pdf-pages",
+      "published_on": "2026-10-07",
+      "primary_query": "extract pages from pdf into new pdf",
+      "url": "https://henu-wang.github.io/practical-ai-workbench/extract-pdf-pages/"
+    },
+    {
+      "slug": "compress-image",
+      "dedupe_key": "compress-image",
+      "published_on": "2026-10-07",
+      "primary_query": "compress image online free",
+      "url": "https://henu-wang.github.io/practical-ai-workbench/compress-image/"
+    },
+    {
+      "slug": "resize-image",
+      "dedupe_key": "resize-image",
+      "published_on": "2026-10-07",
+      "primary_query": "resize image online free",
+      "url": "https://henu-wang.github.io/practical-ai-workbench/resize-image/"
+    },
+    {
+      "slug": "remove-duplicate-csv-rows",
+      "dedupe_key": "remove-duplicate-csv-rows",
+      "published_on": "2026-10-07",
+      "primary_query": "remove duplicate rows in csv file online",
+      "url": "https://henu-wang.github.io/practical-ai-workbench/remove-duplicate-csv-rows/"
+    },
+    {
+      "slug": "csv-to-json",
+      "dedupe_key": "csv-to-json",
+      "published_on": "2026-10-07",
+      "primary_query": "csv to json converter",
+      "url": "https://henu-wang.github.io/practical-ai-workbench/csv-to-json/"
+    }
+  ]
+}

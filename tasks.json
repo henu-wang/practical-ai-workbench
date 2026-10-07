@@ -1,0 +1,108 @@
+{
+  "site_url": "https://henu-wang.github.io/practical-ai-workbench/",
+  "published_on": "2026-10-07",
+  "tasks": [
+    {
+      "slug": "merge-pdf",
+      "title": "Merge PDF files online, free",
+      "short": "Merge PDFs",
+      "category": "PDF",
+      "description": "Combine PDF files in your browser, arrange their order, and download one PDF. No file uploads or account needed.",
+      "accept": ".pdf",
+      "multiple": true,
+      "run": "Merge PDFs",
+      "steps": [
+        "Choose two or more PDFs",
+        "Arrange the file order",
+        "Merge and download"
+      ],
+      "limits": "Up to 10 PDFs and 40 MiB total. Encrypted files are unsupported. Digital signatures and editable forms are not preserved.",
+      "sample": "Two PDFs \u2192 one PDF with 3 pages."
+    },
+    {
+      "slug": "extract-pdf-pages",
+      "title": "Extract pages from a PDF online, free",
+      "short": "Extract PDF pages",
+      "category": "PDF",
+      "description": "Select PDF page numbers or ranges, keep the order you specify, and download a new PDF without uploading your file.",
+      "accept": ".pdf",
+      "multiple": false,
+      "run": "Extract pages",
+      "steps": [
+        "Choose one PDF",
+        "Enter pages, such as 1,3-5",
+        "Extract and download"
+      ],
+      "limits": "Up to 40 MiB. Encrypted files are unsupported. Page numbers start at 1. Duplicate page numbers appear once.",
+      "sample": "Two-page PDF \u2192 pages 2,1 in a new PDF."
+    },
+    {
+      "slug": "compress-image",
+      "title": "Compress an image online, free",
+      "short": "Compress an image",
+      "category": "Images",
+      "description": "Compress a PNG, JPEG or WebP image locally in your browser. Adjust quality and dimensions, preview the image, and compare actual file sizes.",
+      "accept": "image/png,image/jpeg,image/webp",
+      "multiple": false,
+      "run": "Compress image",
+      "steps": [
+        "Choose an image",
+        "Set format, quality and size limits",
+        "Preview and download"
+      ],
+      "limits": "PNG, JPEG or WebP inputs up to 25 MiB and 40 megapixels. Exact target bytes are not guaranteed. JPEG uses a white background for transparency. Metadata and animation are not preserved.",
+      "sample": "1200 \u00d7 800 PNG \u2192 smaller JPEG or WebP."
+    },
+    {
+      "slug": "resize-image",
+      "title": "Resize an image online without cropping",
+      "short": "Resize an image",
+      "category": "Images",
+      "description": "Resize an image to fit your chosen width and height, preserve its proportions, and download a JPEG or WebP. Files stay in your browser.",
+      "accept": "image/png,image/jpeg,image/webp",
+      "multiple": false,
+      "run": "Resize image",
+      "steps": [
+        "Choose an image",
+        "Set maximum width and height",
+        "Preview the dimensions and download"
+      ],
+      "limits": "Fits inside the dimensions you enter, without cropping or enlarging. PNG, JPEG and WebP inputs; JPEG or WebP output. Metadata and animation are not preserved.",
+      "sample": "1200 \u00d7 800 \u2192 600 \u00d7 400 pixels."
+    },
+    {
+      "slug": "remove-duplicate-csv-rows",
+      "title": "Remove duplicate rows from a CSV online",
+      "short": "Remove CSV duplicates",
+      "category": "CSV",
+      "description": "Remove duplicate CSV rows by all columns or a chosen key. Keep the first or last record, preview the result, and download the cleaned CSV.",
+      "accept": ".csv,text/csv",
+      "multiple": false,
+      "run": "Remove duplicates",
+      "steps": [
+        "Choose a CSV or paste text",
+        "Choose the duplicate rule",
+        "Check counts and download"
+      ],
+      "limits": "UTF-8 CSV with a unique header per column, up to 10 MiB. Matching is exact unless you enable trimming or case folding. Pasted text takes priority over a file.",
+      "sample": "4 data rows \u2192 3 rows after removing one exact duplicate."
+    },
+    {
+      "slug": "csv-to-json",
+      "title": "Convert CSV to a JSON array online",
+      "short": "CSV to JSON",
+      "category": "CSV",
+      "description": "Convert CSV rows into a JSON array of objects, with column headers as keys. Keep leading zeros and quoted text without uploading a file.",
+      "accept": ".csv,text/csv",
+      "multiple": false,
+      "run": "Convert to JSON",
+      "steps": [
+        "Choose a CSV or paste text",
+        "Convert and inspect the preview",
+        "Download the full JSON array"
+      ],
+      "limits": "UTF-8 CSV with unique, non-empty column headers, up to 10 MiB. All values remain strings. Header whitespace is trimmed. Preview shows up to 8 rows; download includes all rows.",
+      "sample": "4 CSV data rows \u2192 4 JSON objects."
+    }
+  ]
+}
