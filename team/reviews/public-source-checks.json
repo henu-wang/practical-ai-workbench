@@ -1,0 +1,62 @@
+[
+  {
+    "path": "index.html",
+    "status": 200,
+    "matches_source": true
+  },
+  {
+    "path": "privacy/index.html",
+    "status": 200,
+    "matches_source": true
+  },
+  {
+    "path": "merge-pdf/index.html",
+    "status": 200,
+    "matches_source": true
+  },
+  {
+    "path": "extract-pdf-pages/index.html",
+    "status": 200,
+    "matches_source": true
+  },
+  {
+    "path": "compress-image/index.html",
+    "status": 200,
+    "matches_source": true
+  },
+  {
+    "path": "resize-image/index.html",
+    "status": 200,
+    "matches_source": true
+  },
+  {
+    "path": "remove-duplicate-csv-rows/index.html",
+    "status": 200,
+    "matches_source": true
+  },
+  {
+    "path": "csv-to-json/index.html",
+    "status": 200,
+    "matches_source": true
+  },
+  {
+    "path": "assets/core.js",
+    "status": 200,
+    "matches_source": true
+  },
+  {
+    "path": "assets/app.js",
+    "status": 200,
+    "matches_source": true
+  },
+  {
+    "path": "vendor/pdf-lib-1.17.1.min.js",
+    "status": 200,
+    "matches_source": true
+  },
+  {
+    "path": "vendor/papaparse-5.5.3.min.js",
+    "status": 200,
+    "matches_source": true
+  }
+]

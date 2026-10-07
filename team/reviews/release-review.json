@@ -1,0 +1,362 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-07T05:36:48.209Z",
+  "reviewer": "managing_editor",
+  "verdict": "PASS",
+  "source_sha256": "63940d48a640fc5cbf5c510bf460aa43676a5b6a979def50a09a8dc01e3af94e",
+  "reviewed_source_sha256": "63940d48a640fc5cbf5c510bf460aa43676a5b6a979def50a09a8dc01e3af94e",
+  "release_commit": "a89619ebb35e28749842f6ba6eccdc464a0f04e3",
+  "site_url": "https://henu-wang.github.io/practical-ai-workbench/",
+  "scope": "Independent release review of source-bound content and local/public Chrome records, public file byte comparisons, concrete TokRepo asset identity and GitHub Actions observation. Browser suite not rerun.",
+  "blockers": [],
+  "checks": {
+    "source_binding": {
+      "status": "PASS",
+      "algorithm": "scripts/source_hash.py algorithm independently recomputed in Node; all three prior records match"
+    },
+    "content": {
+      "status": "PASS",
+      "path": "team/reviews/content-review.json",
+      "sha256": "5d19bccce073a1355dcd0e113687059d2beb74e88fa0aaa8d2164cc3cef8058a"
+    },
+    "browser_local": {
+      "status": "PASS",
+      "path": "team/reviews/browser-local.json",
+      "record_sha256": "54169f478aea2cdbe6968e2893de98e02e4e54abcb5783ad652b6e87775c88c5",
+      "browser": "Chrome 155.0.8059.39",
+      "verified_at": "2026-10-07T05:27:58.373724+00:00",
+      "cases": [
+        {
+          "slug": "merge-pdf",
+          "sample_download": "PASS",
+          "empty_input": "PASS",
+          "download_name": "merged.pdf",
+          "output_bytes": 1334,
+          "sha256": "282918d5d1dac570725472662ebbb856803a368e1e7f1d31d804e20fd8454ac6",
+          "summary": "2 files → 3 pages, 1.3 KiB.",
+          "valid_variant": "PASS",
+          "reset_and_error_recovery": "PASS",
+          "mobile_viewport": "PASS"
+        },
+        {
+          "slug": "extract-pdf-pages",
+          "sample_download": "PASS",
+          "empty_input": "PASS",
+          "download_name": "extracted-pages.pdf",
+          "output_bytes": 1107,
+          "sha256": "d4c545f73fef6d4cff7ade787e2330deea6c0d12e85b6d531943b5e064645bb6",
+          "summary": "Pages 2, 1 from 2 source pages → 2 output pages.",
+          "valid_variant": "PASS",
+          "reset_and_error_recovery": "PASS",
+          "mobile_viewport": "PASS"
+        },
+        {
+          "slug": "compress-image",
+          "sample_download": "PASS",
+          "empty_input": "PASS",
+          "download_name": "processed.jpg",
+          "output_bytes": 512821,
+          "sha256": "92ac08dfb518a3cc3e3aee2e15b33e970d3531e6a5bf9cdaf0f9f9e0ad222977",
+          "summary": "1200 × 800 → 1200 × 800 px. 2601.5 → 500.8 KiB. 80.7% smaller.",
+          "valid_variant": "PASS",
+          "reset_and_error_recovery": "PASS",
+          "mobile_viewport": "PASS"
+        },
+        {
+          "slug": "resize-image",
+          "sample_download": "PASS",
+          "empty_input": "PASS",
+          "download_name": "processed.jpg",
+          "output_bytes": 87075,
+          "sha256": "2ecd58d1faebf644adc336ef84d46b2b80f3dfdbb6f432c14a585d708e1ab818",
+          "summary": "1200 × 800 → 600 × 400 px. 2601.5 → 85.0 KiB. 96.7% smaller.",
+          "valid_variant": "PASS",
+          "reset_and_error_recovery": "PASS",
+          "mobile_viewport": "PASS"
+        },
+        {
+          "slug": "remove-duplicate-csv-rows",
+          "sample_download": "PASS",
+          "empty_input": "PASS",
+          "download_name": "deduplicated.csv",
+          "output_bytes": 124,
+          "sha256": "e1ce0eebf32c79f6ad8e4ec07471e56941ddf0fd79fc9f7d0bf1193894d3a322",
+          "summary": "4 rows → 3; 1 duplicates removed.",
+          "valid_variant": "PASS",
+          "reset_and_error_recovery": "PASS",
+          "mobile_viewport": "PASS"
+        },
+        {
+          "slug": "csv-to-json",
+          "sample_download": "PASS",
+          "empty_input": "PASS",
+          "download_name": "data.json",
+          "output_bytes": 355,
+          "sha256": "50f5eac5eaa07984a1091f9583fe36838eccf2df83f8965562066e33f749c61e",
+          "summary": "4 data rows → 4 JSON objects. Values remain strings.",
+          "valid_variant": "PASS",
+          "reset_and_error_recovery": "PASS",
+          "mobile_viewport": "PASS"
+        }
+      ]
+    },
+    "browser_public": {
+      "status": "PASS",
+      "path": "team/reviews/browser-public.json",
+      "record_sha256": "e934fd98248ef6cfedbb2f23c00e18ceeddaefa6e7655d9c2ecfbf892aba6d1d",
+      "browser": "Chrome 155.0.8059.39",
+      "verified_at": "2026-10-07T05:31:10.948348+00:00",
+      "cases": [
+        {
+          "slug": "merge-pdf",
+          "sample_download": "PASS",
+          "empty_input": "PASS",
+          "download_name": "merged.pdf",
+          "output_bytes": 1334,
+          "sha256": "71d85e27d0f693549f6825e0524e3453e5b1e55fd83cb254df052fe1ee7453f6",
+          "summary": "2 files → 3 pages, 1.3 KiB.",
+          "valid_variant": "PASS",
+          "reset_and_error_recovery": "PASS",
+          "mobile_viewport": "PASS"
+        },
+        {
+          "slug": "extract-pdf-pages",
+          "sample_download": "PASS",
+          "empty_input": "PASS",
+          "download_name": "extracted-pages.pdf",
+          "output_bytes": 1103,
+          "sha256": "8a397ba0ee6375ef5598d41879a251060d13455e809b2e15643a18f4d26cc606",
+          "summary": "Pages 2, 1 from 2 source pages → 2 output pages.",
+          "valid_variant": "PASS",
+          "reset_and_error_recovery": "PASS",
+          "mobile_viewport": "PASS"
+        },
+        {
+          "slug": "compress-image",
+          "sample_download": "PASS",
+          "empty_input": "PASS",
+          "download_name": "processed.jpg",
+          "output_bytes": 512821,
+          "sha256": "92ac08dfb518a3cc3e3aee2e15b33e970d3531e6a5bf9cdaf0f9f9e0ad222977",
+          "summary": "1200 × 800 → 1200 × 800 px. 2601.5 → 500.8 KiB. 80.7% smaller.",
+          "valid_variant": "PASS",
+          "reset_and_error_recovery": "PASS",
+          "mobile_viewport": "PASS"
+        },
+        {
+          "slug": "resize-image",
+          "sample_download": "PASS",
+          "empty_input": "PASS",
+          "download_name": "processed.jpg",
+          "output_bytes": 87075,
+          "sha256": "2ecd58d1faebf644adc336ef84d46b2b80f3dfdbb6f432c14a585d708e1ab818",
+          "summary": "1200 × 800 → 600 × 400 px. 2601.5 → 85.0 KiB. 96.7% smaller.",
+          "valid_variant": "PASS",
+          "reset_and_error_recovery": "PASS",
+          "mobile_viewport": "PASS"
+        },
+        {
+          "slug": "remove-duplicate-csv-rows",
+          "sample_download": "PASS",
+          "empty_input": "PASS",
+          "download_name": "deduplicated.csv",
+          "output_bytes": 124,
+          "sha256": "e1ce0eebf32c79f6ad8e4ec07471e56941ddf0fd79fc9f7d0bf1193894d3a322",
+          "summary": "4 rows → 3; 1 duplicates removed.",
+          "valid_variant": "PASS",
+          "reset_and_error_recovery": "PASS",
+          "mobile_viewport": "PASS"
+        },
+        {
+          "slug": "csv-to-json",
+          "sample_download": "PASS",
+          "empty_input": "PASS",
+          "download_name": "data.json",
+          "output_bytes": 355,
+          "sha256": "50f5eac5eaa07984a1091f9583fe36838eccf2df83f8965562066e33f749c61e",
+          "summary": "4 data rows → 4 JSON objects. Values remain strings.",
+          "valid_variant": "PASS",
+          "reset_and_error_recovery": "PASS",
+          "mobile_viewport": "PASS"
+        }
+      ]
+    },
+    "public_bytes": {
+      "status": "PASS",
+      "independently_checked_files": [
+        {
+          "path": "index.html",
+          "http_status": 200,
+          "matches_local": true,
+          "sha256": "d9429c81e6d6678b59692bc68e4f901a4ca7707eed3d7068980a91987a7b996b"
+        },
+        {
+          "path": "privacy/index.html",
+          "http_status": 200,
+          "matches_local": true,
+          "sha256": "33dca3531fab5cc5a52139cbf3d0eef58e5c76e3984f63038cfc204df193a081"
+        },
+        {
+          "path": "merge-pdf/index.html",
+          "http_status": 200,
+          "matches_local": true,
+          "sha256": "c35193db4d421011482a511cd9f6e17ddfe65e81c6635be1bde0b2739b35f13e"
+        },
+        {
+          "path": "extract-pdf-pages/index.html",
+          "http_status": 200,
+          "matches_local": true,
+          "sha256": "f7b3af9cbf4c8d73db7ed6d65247029ac8e70c997cf884f186d797b76d6f91e2"
+        },
+        {
+          "path": "compress-image/index.html",
+          "http_status": 200,
+          "matches_local": true,
+          "sha256": "7aff95f3f3e1be8fe2280f051518522037787d13c948e0d46854faf3e4c2e13f"
+        },
+        {
+          "path": "resize-image/index.html",
+          "http_status": 200,
+          "matches_local": true,
+          "sha256": "159fcf7c7ae1033bd7b1f115a73bdca0186dce42f7d6a7c4c2f5bbab8ba9cd0e"
+        },
+        {
+          "path": "remove-duplicate-csv-rows/index.html",
+          "http_status": 200,
+          "matches_local": true,
+          "sha256": "f6a5a0087a28193e14c57491c2bf39af6f940ba793dabce7187362b7f1930199"
+        },
+        {
+          "path": "csv-to-json/index.html",
+          "http_status": 200,
+          "matches_local": true,
+          "sha256": "4825e93ecc10f7815005c6c7e4982dcbd996c6629b60e058b0290a95c866e3d7"
+        },
+        {
+          "path": "assets/core.js",
+          "http_status": 200,
+          "matches_local": true,
+          "sha256": "69a40247243f0bf8636636ef07d0dca9cbd5276122e9b024c72881ac764ebef4"
+        },
+        {
+          "path": "assets/app.js",
+          "http_status": 200,
+          "matches_local": true,
+          "sha256": "280ab97bcb75377eb2ac5aaec01d0cdec320786821447b6d4f69221bd5eba2e8"
+        },
+        {
+          "path": "assets/style.css",
+          "http_status": 200,
+          "matches_local": true,
+          "sha256": "5283409a4d4afea2e25b7465690d2c991b18fd29f11123b78bd9798f50108229"
+        },
+        {
+          "path": "samples/source-a.pdf",
+          "http_status": 200,
+          "matches_local": true,
+          "sha256": "bb1c792c4517936220acde3d33777a78b257ca9b7f67a226407541684f30c39d"
+        },
+        {
+          "path": "samples/source-b.pdf",
+          "http_status": 200,
+          "matches_local": true,
+          "sha256": "3a6c2ae4faf8c0a8ec30b1deab037c6e5589e05c6bf1824ca7c097ab5420ab87"
+        },
+        {
+          "path": "samples/data.csv",
+          "http_status": 200,
+          "matches_local": true,
+          "sha256": "3fcd5b6df2eb83419b2fbfbce80f48dd89b272b83cf8f31dfa2629b0d283bb06"
+        }
+      ],
+      "additional_root_record": "team/reviews/public-source-checks.json",
+      "additional_root_record_scope": "12 matching HTML/core/vendor files"
+    },
+    "asset_links": {
+      "status": "PASS",
+      "method": "Independent GET of all four exact links, followed redirect; checked returned heading and task capability, not status or slug alone",
+      "assets": [
+        {
+          "id": 5690,
+          "url": "https://tokrepo.com/en/workflows/asset-51d0242d",
+          "title": "pdf-lib — Create and Modify PDFs in Any JavaScript Environment",
+          "observed_heading": "pdf-lib",
+          "http_status": 200,
+          "final_url": "https://tokrepo.com/raw/asset-51d0242d",
+          "identity_match": true,
+          "role": "actual_dependency"
+        },
+        {
+          "id": 4980,
+          "url": "https://tokrepo.com/en/workflows/papa-parse-fast-browser-csv-parser-javascript-ed9fd7fc",
+          "title": "Papa Parse — Fast In-Browser CSV Parser for JavaScript",
+          "observed_heading": "Papa Parse",
+          "http_status": 200,
+          "final_url": "https://tokrepo.com/raw/papa-parse-fast-browser-csv-parser-javascript-ed9fd7fc",
+          "identity_match": true,
+          "role": "actual_dependency"
+        },
+        {
+          "id": 4054,
+          "url": "https://tokrepo.com/en/workflows/jimp-pure-javascript-image-processing-node-js-0b52787e",
+          "title": "Jimp — Pure JavaScript Image Processing for Node.js",
+          "observed_heading": "Jimp",
+          "http_status": 200,
+          "final_url": "https://tokrepo.com/raw/jimp-pure-javascript-image-processing-node-js-0b52787e",
+          "identity_match": true,
+          "role": "optional_batch_extension"
+        },
+        {
+          "id": 2073,
+          "url": "https://tokrepo.com/en/workflows/sharp-high-performance-image-processing-node-js-f5801cab",
+          "title": "Sharp — High-Performance Image Processing for Node.js",
+          "observed_heading": "Sharp",
+          "http_status": 200,
+          "final_url": "https://tokrepo.com/raw/sharp-high-performance-image-processing-node-js-f5801cab",
+          "identity_match": true,
+          "role": "optional_batch_extension"
+        }
+      ]
+    },
+    "local_tests": {
+      "status": "PASS",
+      "independent_previous_command": "npm test",
+      "passed": 9,
+      "failed": 0,
+      "not_rerun": "Current source matches independent content audit and browser records"
+    },
+    "editorial_gate": {
+      "status": "PASS_REPORTED",
+      "command": "python3 scripts/editorial_gate.py",
+      "reported_by": "root",
+      "independent_scope": "Read gate implementation, validated source/report bindings and browser cases; did not rerun redundant npm test"
+    },
+    "github_actions": {
+      "status": "UNOBSERVED",
+      "independent_observation": {
+        "enabled": true,
+        "allowed_actions": "all",
+        "total_count": 0,
+        "runs": []
+      },
+      "meaning": "Enabled endpoint and no observed run; neither PASS nor FAIL. Optional remote CI does not block this locally and publicly verified release."
+    }
+  },
+  "demand": {
+    "grade": "D2",
+    "country": "US",
+    "language": "en",
+    "monthly_search_volume": null,
+    "monthly_search_volume_status": "unknown",
+    "ranking_guarantee": false,
+    "traffic_claim": "No indexing, impressions, search clicks or asset conversions established by this release."
+  },
+  "limitations": [
+    "Chrome 155.0.8059.39 and synthetic examples; mobile viewport is not physical-device or cross-browser coverage.",
+    "PDF verification checks page sequence/geometry and limits; no claim of preserving functional signatures/forms, OCR or redaction.",
+    "JPEG/WebP examples and fit dimensions verified; no exact target-byte guarantee, animation retention or universal input compatibility.",
+    "CSV sample and variants cover parse/dedup/type rules; original field values stay strings and optional spreadsheet protection changes export.",
+    "Supplemental independent fetches of 2.6 MiB sample-image timed out within 20-second and 45-second budgets; no browser feature failure observed because public Chrome sample loads and encoded downloads passed. Supplemental image byte comparison is not claimed.",
+    "Release hash does not cover all repository files; public HTML and sample bytes separately verified where listed."
+  ]
+}

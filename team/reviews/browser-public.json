@@ -1,0 +1,85 @@
+{
+  "verified_at": "2026-10-07T05:31:10.948348+00:00",
+  "base_url": "https://henu-wang.github.io/practical-ai-workbench",
+  "reviewed_source_sha256": "63940d48a640fc5cbf5c510bf460aa43676a5b6a979def50a09a8dc01e3af94e",
+  "browser": "Chrome 155.0.8059.39",
+  "status": "PASS",
+  "tested_page_count": 6,
+  "file_content_uploads": "none observed; no third-party network requests during tasks",
+  "external_requests": [],
+  "page_errors": [],
+  "cases": [
+    {
+      "slug": "merge-pdf",
+      "sample_download": "PASS",
+      "empty_input": "PASS",
+      "download_name": "merged.pdf",
+      "output_bytes": 1334,
+      "sha256": "71d85e27d0f693549f6825e0524e3453e5b1e55fd83cb254df052fe1ee7453f6",
+      "summary": "2 files \u2192 3 pages, 1.3 KiB.",
+      "valid_variant": "PASS",
+      "reset_and_error_recovery": "PASS",
+      "mobile_viewport": "PASS"
+    },
+    {
+      "slug": "extract-pdf-pages",
+      "sample_download": "PASS",
+      "empty_input": "PASS",
+      "download_name": "extracted-pages.pdf",
+      "output_bytes": 1103,
+      "sha256": "8a397ba0ee6375ef5598d41879a251060d13455e809b2e15643a18f4d26cc606",
+      "summary": "Pages 2, 1 from 2 source pages \u2192 2 output pages.",
+      "valid_variant": "PASS",
+      "reset_and_error_recovery": "PASS",
+      "mobile_viewport": "PASS"
+    },
+    {
+      "slug": "compress-image",
+      "sample_download": "PASS",
+      "empty_input": "PASS",
+      "download_name": "processed.jpg",
+      "output_bytes": 512821,
+      "sha256": "92ac08dfb518a3cc3e3aee2e15b33e970d3531e6a5bf9cdaf0f9f9e0ad222977",
+      "summary": "1200 \u00d7 800 \u2192 1200 \u00d7 800 px. 2601.5 \u2192 500.8 KiB. 80.7% smaller.",
+      "valid_variant": "PASS",
+      "reset_and_error_recovery": "PASS",
+      "mobile_viewport": "PASS"
+    },
+    {
+      "slug": "resize-image",
+      "sample_download": "PASS",
+      "empty_input": "PASS",
+      "download_name": "processed.jpg",
+      "output_bytes": 87075,
+      "sha256": "2ecd58d1faebf644adc336ef84d46b2b80f3dfdbb6f432c14a585d708e1ab818",
+      "summary": "1200 \u00d7 800 \u2192 600 \u00d7 400 px. 2601.5 \u2192 85.0 KiB. 96.7% smaller.",
+      "valid_variant": "PASS",
+      "reset_and_error_recovery": "PASS",
+      "mobile_viewport": "PASS"
+    },
+    {
+      "slug": "remove-duplicate-csv-rows",
+      "sample_download": "PASS",
+      "empty_input": "PASS",
+      "download_name": "deduplicated.csv",
+      "output_bytes": 124,
+      "sha256": "e1ce0eebf32c79f6ad8e4ec07471e56941ddf0fd79fc9f7d0bf1193894d3a322",
+      "summary": "4 rows \u2192 3; 1 duplicates removed.",
+      "valid_variant": "PASS",
+      "reset_and_error_recovery": "PASS",
+      "mobile_viewport": "PASS"
+    },
+    {
+      "slug": "csv-to-json",
+      "sample_download": "PASS",
+      "empty_input": "PASS",
+      "download_name": "data.json",
+      "output_bytes": 355,
+      "sha256": "50f5eac5eaa07984a1091f9583fe36838eccf2df83f8965562066e33f749c61e",
+      "summary": "4 data rows \u2192 4 JSON objects. Values remain strings.",
+      "valid_variant": "PASS",
+      "reset_and_error_recovery": "PASS",
+      "mobile_viewport": "PASS"
+    }
+  ]
+}
