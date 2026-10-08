@@ -1,0 +1,18 @@
+{
+  "observed_at": "2026-10-08T02:10:24.826578+00:00",
+  "classification": "author_template_and_example_checks_not_independent_approval",
+  "author": "/root/project_editor",
+  "checks": [
+    "templates/write-resume-bullet-points/resume-evidence-worksheet.docx: opened, edited temporary copy, saved, re-opened; original unchanged",
+    "templates/project-proposal-template/project-proposal-template.docx: opened, edited temporary copy, saved, re-opened; original unchanged"
+  ],
+  "manual_checks": [
+    "Compared all example statements with the adjacent synthetic source notes.",
+    "Checked every TokRepo CTA uses source github_pages, medium referral, campaign tokrepo_search and this page slug."
+  ],
+  "not_run": [
+    "No external AI/model execution.",
+    "No native Word visual rendering.",
+    "No executed doc-coauthoring skill or fresh-reader session; no approval, sending or scheduling."
+  ]
+}

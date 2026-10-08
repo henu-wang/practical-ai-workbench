@@ -115,6 +115,24 @@
       "canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/flashcards-from-lecture-notes/",
       "release_commit": "e815d46a32df0a430a3f88b2f7fc564b17895b3c",
       "verified_at": "2026-10-07T06:17:07.095383+00:00"
+    },
+    {
+      "slug": "write-resume-bullet-points",
+      "dedupe_key": "asset-search:how to write resume bullet points",
+      "program": "asset_search",
+      "action": "new_topic",
+      "published_on": "2026-10-08",
+      "status": "reviewed_ready_for_release",
+      "canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/write-resume-bullet-points/"
+    },
+    {
+      "slug": "project-proposal-template",
+      "dedupe_key": "asset-search:project proposal template",
+      "program": "asset_search",
+      "action": "new_topic",
+      "published_on": "2026-10-08",
+      "status": "reviewed_ready_for_release",
+      "canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/project-proposal-template/"
     }
   ]
 }

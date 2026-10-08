@@ -2,6 +2,7 @@
 import hashlib,json,re
 from pathlib import Path
 from collections import Counter
+from datetime import datetime
 from html.parser import HTMLParser
 from urllib.parse import urlparse,parse_qs,unquote
 from source_hash import ROOT,source_hash
@@ -10,13 +11,29 @@ def read(name):return json.loads((ROOT/name).read_text())
 recipes=read('recipes.json')['recipes'];slugs={x['slug'] for x in recipes}
 assert len(slugs)==len(recipes), 'Duplicate canonical recipe'
 reviews=[]
-for p in sorted((ROOT/'team/reviews').glob('recipes-review-*.json')):reviews.extend(json.loads(p.read_text())['pages'])
+review_packets=[]
+for p in (ROOT/'team/reviews').glob('recipes-review-*.json'):
+ packet=json.loads(p.read_text())
+ stamp=packet.get('reviewed_at') or packet.get('observed_at')
+ assert stamp, 'Missing independent review timestamp: '+str(p)
+ observed=datetime.fromisoformat(stamp)
+ assert observed.tzinfo is not None, 'Review timestamp must include timezone: '+str(p)
+ review_packets.append((observed,p.name,packet))
+for _,_,packet in sorted(review_packets):reviews.extend(packet['pages'])
 by_slug={x['slug']:x for x in reviews}
-demand={x['slug']:x for x in read('team/research/redirect-demand.json')['recipes']}
+demand={}
+packets=[ROOT/'team/research/redirect-demand.json']+sorted((ROOT/'team/research').glob('demand-????-??-??.json'))
+for packet in packets:
+ for topic in json.loads(packet.read_text())['recipes']:
+  assert topic['slug'] not in demand, 'Duplicate demand brief: '+topic['slug']
+  demand[topic['slug']]=topic
 for recipe in recipes:
  slug=recipe['slug'];review=by_slug[slug]
  assert review['verdict']=='PASS' and not review['blockers'], 'Unresolved editor blocker: '+slug
  assert review['author']!=review['reviewer'], 'Self review: '+slug
+ expected_files={str(p.relative_to(ROOT)) for p in (ROOT/'templates'/slug).rglob('*') if p.is_file()}
+ expected_files.add('recipes/'+slug+'.md')
+ assert set(review.get('file_sha256',{}))==expected_files, 'Incomplete final source/template review: '+slug
  for name,digest in review.get('file_sha256',{}).items():
   assert hashlib.sha256((ROOT/name).read_bytes()).hexdigest()==digest, 'Stale reviewed template: '+name
  assert review['content_sha256']==hashlib.sha256((ROOT/'recipes'/f'{slug}.md').read_bytes()).hexdigest(), 'Stale content review: '+slug

@@ -1,0 +1,139 @@
+{
+  "reviewed_at": "2026-10-08T02:14:03.355999+00:00",
+  "verdict": "PASS",
+  "reviewer": "/root/managing_editor",
+  "scope": "Independent editorial/source/template/final metadata review of two new intents; not production deployment, browser release or third-party runtime approval.",
+  "content_sha256_definition": "SHA256 of exact Markdown bytes.",
+  "recipe_and_templates_sha256_definition": "Sort recipe plus every template subtree file by relative POSIX path, update SHA256(path UTF8 + NUL + file bytes + NUL).",
+  "reviewed_source_sha256": "2f82abc7a0c7a317087246dd899bfd1311f73e3aef2954c2625462e8a8366fab",
+  "shared_file_sha256": {
+    "recipes.json": "1bc5a1599c0b2683259fbcfd56fbd396405e75322b161d59ac981e1957c45d3f",
+    "scripts/editorial_gate.py": "f6c4d62696ff93a50ad3e907ef58754361ec49928619bfab1a0aa976c2641025",
+    "team/research/demand-2026-10-08.json": "883842a2feca8a63640612efed3b9886b693b62858efccc7bafbcdfc1030c5bc",
+    "team/research/author-2026-10-08.json": "92b4f08cfae590f493a1e2afb797d7774065f250f20c0f4c3e09f1a11f6d5ba8"
+  },
+  "shared_checks": [
+    "Read current AGENTS/context/PIPELINE/STYLE/QUALITY/MONITORING and complete 12-intent ledger; resume wording/PDF and pre-execution project proposal are materially different outputs from existing six recipes/legacy tools and from each other.",
+    "Current exact public asset URLs/detail identities independently observed with meaningful titles; nonbrowser redirects retained same asset slug and representative UTM query.",
+    "Reviewed gate diff: dated demand packets reject duplicate brief slugs; exact reviewed file set covers Markdown and EVERY template file; timestamp-aware latest independent report governs each slug while hashes and blockers remain enforced.",
+    "Final manifest equals author proposal except removed transient status fields and matches qualified brief. All newly advertised templates exist and attribution fields match each canonical slug.",
+    "Templates contain original synthetic/public material and explicit verification limits, no copied full source prompts or account data."
+  ],
+  "external_reference_checks": [
+    {
+      "url": "https://www.reddit.com/r/resumes/comments/1serj3b/how_do_you_quantify_impact_if_you_dont_have/",
+      "observation": "Independent original body read; historical task evidence, not volume estimate"
+    },
+    {
+      "url": "https://www.reddit.com/r/resumes/comments/1rbb0i2/how_do_you_quantify_everything/",
+      "observation": "Independent original body read; historical task evidence, not volume estimate"
+    },
+    {
+      "url": "https://www.reddit.com/r/projectmanagement/comments/r01o0y/creating_project_proposal/",
+      "observation": "Independent original body read; historical task evidence, not volume estimate"
+    },
+    {
+      "url": "https://www.reddit.com/r/freelance/comments/rxigdj/proposal_template_recommendations/",
+      "observation": "Independent original body read; historical task evidence, not volume estimate"
+    },
+    {
+      "url": "https://docs.rxresu.me/getting-started",
+      "observation": "Official hosted free-account/manual editing/PDF workflow source checked; not exercised."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/doc-coauthoring/SKILL.md",
+      "observation": "Official refinement and reader-testing stages source checked; not executed."
+    }
+  ],
+  "release_status": "PENDING_ROOT_FINAL_BUILD_BROWSER_GATE_AND_PUBLIC_VERIFICATION",
+  "measurement_status": {
+    "numeric_search_volume": "unknown",
+    "indexed": "unknown",
+    "ranking": "unknown",
+    "traffic": "unknown",
+    "tokrepo_asset_use": "unknown"
+  },
+  "pages": [
+    {
+      "slug": "write-resume-bullet-points",
+      "author": "/root/project_editor",
+      "reviewer": "/root/managing_editor",
+      "content_sha256": "441c2704d12a31ea164deb30039814dd8c65f94e20693c2441f52d8b3b35be1c",
+      "recipe_and_templates_sha256": "5779d03a080eea0bde72ae18a94a89a04d2b7197e3cc2358d0f637f8d5846672",
+      "file_sha256": {
+        "recipes/write-resume-bullet-points.md": "441c2704d12a31ea164deb30039814dd8c65f94e20693c2441f52d8b3b35be1c",
+        "templates/write-resume-bullet-points/author-checks.json": "443ddfb008fc12e69f2b0310e1eaefc62f1ad95fab853d3f8189c7c89aa02ba3",
+        "templates/write-resume-bullet-points/before-after-examples.md": "14b56d81d2619c9ba4654bb360a28e3081a25c06f7eab1ac66aab74b0f7562d3",
+        "templates/write-resume-bullet-points/resume-evidence-worksheet.docx": "8fce6b19884dab9fb3943d8e3be7a5ba258fe634560c6da463041b18c8db4013",
+        "templates/write-resume-bullet-points/resume-evidence-worksheet.md": "a7804ea66ca39c36a73f9f6d7898f2052c268bee3c076a77d39cce0b98c332f8"
+      },
+      "demand_evidence_path": "team/research/demand-2026-10-08.json",
+      "verdict": "PASS",
+      "blockers": [],
+      "scores": {
+        "intent_match": 5,
+        "asset_handoff": 5,
+        "answer_first": 5,
+        "practical_deliverable": 5,
+        "claim_evidence": 5,
+        "cta_quality": 5
+      },
+      "resolved_findings": [
+        {
+          "initial_content_sha256": "ff95c25fa581e22f7d0559a7ec97119de00f35484a0f6b0d3c42f3057c93cec7",
+          "initial_verdict": "REVISE",
+          "finding": "Missing brief-required supported qualitative result example; prior no-metrics example was duties only.",
+          "correction": "Author added source C2 supervisor approval/team adoption and corresponding rewrite; body, example and author evidence synchronized.",
+          "verification": "Independent source-to-rewrite comparison and updated word counts passed.",
+          "final_content_sha256": "441c2704d12a31ea164deb30039814dd8c65f94e20693c2441f52d8b3b35be1c"
+        }
+      ],
+      "notes": [
+        "Exact US/en suggestion and two distinct original public question bodies independently read; qualitative demand only, numeric search volume unknown.",
+        "Final manifest title, description, intent, asset IDs/URLs/roles and canonical path match qualified packet; all four CTA UTM fields checked.",
+        "Original downloadable Markdown and DOCX opened/read; DOCX independently edited, saved and reopened in temporary copies without modifying originals. Native Word layout was not tested.",
+        "Examples trace action/scope count, qualitative adoption, missing result and personal research contribution to adjacent fictional source facts. Four rewrites contain 17/19/16/12 words.",
+        "C2 explicitly supports team adoption; no improvement percentage or customer benefit is inferred. Unsupported inventory 40% and breakthrough leadership are removed.",
+        "Approved text passes from the fact-constrained editor into Reactive Resume experience entries and checked PDF export. Hosted free-account and external-service storage requirements follow current official documentation; optional AI is not required.",
+        "No model, hosted resume account/PDF export, ATS result, or hiring outcome was tested or guaranteed."
+      ]
+    },
+    {
+      "slug": "project-proposal-template",
+      "author": "/root/project_editor",
+      "reviewer": "/root/managing_editor",
+      "content_sha256": "42bddc70bdde9ac46fc668e70c25ccb51ce2626d4d1448e424d326de73d09dcc",
+      "recipe_and_templates_sha256": "14154cbc28d4f98c2c33ba6bdbcba4b5f90175706c8ab0d1e40c38e245fd2ed9",
+      "file_sha256": {
+        "recipes/project-proposal-template.md": "42bddc70bdde9ac46fc668e70c25ccb51ce2626d4d1448e424d326de73d09dcc",
+        "templates/project-proposal-template/author-checks.json": "2b1c786a2c82d3bcdbc095c9efa8d9b1326805aa5b3ad87d956b07442bd706d9",
+        "templates/project-proposal-template/filled-proposal.md": "e4002b285eb40f3b183157973cb127d97c42911dc2cb26b402235b66a9935af8",
+        "templates/project-proposal-template/input-worksheet.md": "2db41fc32ec55b073aec8df2df142ac05071ef23657485ec8ead2f6ba03c71df",
+        "templates/project-proposal-template/project-proposal-template.docx": "1ecbd0eade890d1d3183a59f27cc5e71e2fa70ae5247a0bf861bc504bb083750",
+        "templates/project-proposal-template/project-proposal-template.md": "75b8e556ccb273a694c2f35fc030df933c000659b30f9da5bd69e1d322edf879",
+        "templates/project-proposal-template/reader-checklist.md": "6b91c8a9c2c909916e2f4460057bd3617d10318fd97b82fabae58bd9bfc91ec4"
+      },
+      "demand_evidence_path": "team/research/demand-2026-10-08.json",
+      "verdict": "PASS",
+      "blockers": [],
+      "scores": {
+        "intent_match": 5,
+        "asset_handoff": 5,
+        "answer_first": 5,
+        "practical_deliverable": 5,
+        "claim_evidence": 5,
+        "cta_quality": 5
+      },
+      "resolved_findings": [],
+      "notes": [
+        "Exact US/en suggestion and two distinct original public question bodies independently read; qualitative demand only, numeric search volume unknown.",
+        "Final manifest title, description, intent, asset IDs/URLs/roles and canonical path match qualified packet; all four CTA UTM fields checked.",
+        "Original downloadable Markdown and DOCX opened/read; DOCX independently edited, saved and reopened in temporary copies without modifying originals. Native Word layout was not tested.",
+        "Eight-field input worksheet, blank proposal, source-linked fictional example and reader checklist fulfill the immediate template intent. R1–R4 map to concrete deliverables; five-question scope and two-week effort limit come from notes.",
+        "Owner, start date, budget, question selection and approval remain open; inferred ordering is labeled. No funding, dates, measured support improvement or approval is invented.",
+        "Draft and unresolved questions pass from Notes to Project Proposal to the full upstream doc-coauthoring workflow through the TokRepo source link. The incomplete catalog excerpt is disclosed.",
+        "No AI drafting, native Word visual test, coauthoring execution or fresh-reader session was claimed. Template is scoped to a general proposal and does not claim formal contract/procurement compliance."
+      ]
+    }
+  ]
+}

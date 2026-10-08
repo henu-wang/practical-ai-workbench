@@ -1,6 +1,6 @@
 {
-  "recorded_at": "2026-10-07T06:13:34.750305+00:00",
-  "source_sha256": "d8692ee0d7e4fc07d9d429beffddcb8ec6918d188649f50737b22ee1829ec2fd",
+  "recorded_at": "2026-10-08T02:14:33.636110+00:00",
+  "source_sha256": "2f82abc7a0c7a317087246dd899bfd1311f73e3aef2954c2625462e8a8366fab",
   "status": "PASS",
   "scope": "Rendered guide and original downloadable templates; no claim that third-party models ran",
   "page_errors": [],
@@ -175,6 +175,62 @@
           "path": "templates/flashcards-from-lecture-notes/review-plan.md",
           "bytes": 893,
           "sha256": "cba6da2d660374d4bbd4d3b88d0a018608a52a52907961a3b0d5c5a5daae31a1"
+        }
+      ]
+    },
+    {
+      "slug": "write-resume-bullet-points",
+      "render": "PASS",
+      "primary_cta": "PASS",
+      "mobile": "PASS",
+      "template_downloads": [
+        {
+          "path": "templates/write-resume-bullet-points/resume-evidence-worksheet.docx",
+          "bytes": 37291,
+          "sha256": "8fce6b19884dab9fb3943d8e3be7a5ba258fe634560c6da463041b18c8db4013"
+        },
+        {
+          "path": "templates/write-resume-bullet-points/resume-evidence-worksheet.md",
+          "bytes": 1617,
+          "sha256": "a7804ea66ca39c36a73f9f6d7898f2052c268bee3c076a77d39cce0b98c332f8"
+        },
+        {
+          "path": "templates/write-resume-bullet-points/before-after-examples.md",
+          "bytes": 2573,
+          "sha256": "14b56d81d2619c9ba4654bb360a28e3081a25c06f7eab1ac66aab74b0f7562d3"
+        }
+      ]
+    },
+    {
+      "slug": "project-proposal-template",
+      "render": "PASS",
+      "primary_cta": "PASS",
+      "mobile": "PASS",
+      "template_downloads": [
+        {
+          "path": "templates/project-proposal-template/project-proposal-template.docx",
+          "bytes": 37486,
+          "sha256": "1ecbd0eade890d1d3183a59f27cc5e71e2fa70ae5247a0bf861bc504bb083750"
+        },
+        {
+          "path": "templates/project-proposal-template/project-proposal-template.md",
+          "bytes": 1477,
+          "sha256": "75b8e556ccb273a694c2f35fc030df933c000659b30f9da5bd69e1d322edf879"
+        },
+        {
+          "path": "templates/project-proposal-template/input-worksheet.md",
+          "bytes": 1066,
+          "sha256": "2db41fc32ec55b073aec8df2df142ac05071ef23657485ec8ead2f6ba03c71df"
+        },
+        {
+          "path": "templates/project-proposal-template/filled-proposal.md",
+          "bytes": 3505,
+          "sha256": "e4002b285eb40f3b183157973cb127d97c42911dc2cb26b402235b66a9935af8"
+        },
+        {
+          "path": "templates/project-proposal-template/reader-checklist.md",
+          "bytes": 1514,
+          "sha256": "6b91c8a9c2c909916e2f4460057bd3617d10318fd97b82fabae58bd9bfc91ec4"
         }
       ]
     }

@@ -1,0 +1,337 @@
+{
+  "retrieved_at": "2026-10-08T02:07:27.414150+00:00",
+  "date": "2026-10-08",
+  "market": "US",
+  "language": "en",
+  "objective": "English search demand → useful public asset guide/template → corresponding TokRepo asset visits/use",
+  "numeric_search_volume": null,
+  "recipes": [
+    {
+      "slug": "write-resume-bullet-points",
+      "title": "How to write resume bullet points without inventing numbers",
+      "primary_query": "how to write resume bullet points",
+      "intent": "Practical writing guide with original before/after examples and a downloadable facts worksheet; not an online resume generator.",
+      "intent_id": "jobseeker_verified_facts_to_resume_bullets",
+      "reader": "Job seekers across administrative, operations, service and research roles",
+      "task": "Replace vague responsibilities with concise, defensible resume bullets",
+      "input": "One to five existing bullets, fact notes and target role",
+      "output": "Reviewed <=30-word bullets and a formatted resume PDF via optional builder",
+      "autocomplete": {
+        "seed": "how to write resume bullet",
+        "exact_observed_suggestion": "how to write resume bullet points",
+        "suggestions": [
+          "how to write resume bullet points",
+          "how to write resume bullets",
+          "how to write resume bullet points for current job",
+          "how to write resume bullet points reddit",
+          "how to write resume bullet points software engineer",
+          "how to write resume bullet points in present tense",
+          "how to write cv bullet points",
+          "how to make resume bullet points",
+          "how to make resume bullet points better",
+          "how to make resume bullets"
+        ],
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=how%20to%20write%20resume%20bullet",
+        "status": 200,
+        "retrieved_at": "2026-10-08T02:07:26.239995+00:00",
+        "market": "US",
+        "language": "en",
+        "limitation": "US/en request parameters; qualitative suggestion presence, not volume or geographic audience measurement."
+      },
+      "questions": [
+        {
+          "url": "https://www.reddit.com/r/resumes/comments/1serj3b/how_do_you_quantify_impact_if_you_dont_have/",
+          "title": "How do you quantify impact if you do not have numbers?",
+          "question_intent": "Job seeker wants stronger wording without inventing unavailable percentages.",
+          "editorial_implication": "Include a result-without-metric example, a no-known-result example and evidence checks.",
+          "retrieved_at": "2026-10-08T02:07:27.414105+00:00",
+          "verification": "Public original question body opened and read on 2026-10-08; distinct post/problem context, not product promotion or crosspost.",
+          "type": "independent public user question",
+          "published_evidence": "Search displayed April 7 2026; original body is public, author now deleted.",
+          "monthly_search_volume": null,
+          "limitation": "Historical recurring problem evidence, not frequency/US audience size; comments are not separately counted."
+        },
+        {
+          "url": "https://www.reddit.com/r/resumes/comments/1rbb0i2/how_do_you_quantify_everything/",
+          "title": "How do you quantify everything",
+          "question_intent": "Research work improved papers but scorer demands numbers; cannot truthfully claim arbitrary time savings.",
+          "editorial_implication": "Separate real scope from measurement; show a research bullet and do not use commercial metric rules for every role.",
+          "retrieved_at": "2026-10-08T02:07:27.414105+00:00",
+          "verification": "Public original question body opened and read on 2026-10-08; distinct post/problem context, not product promotion or crosspost.",
+          "type": "independent public user question",
+          "published_evidence": "Original public post displays approximately 8 months old on read; exact publish timestamp not captured.",
+          "monthly_search_volume": null,
+          "limitation": "Historical recurring problem evidence, not frequency/US audience size; comments are not separately counted."
+        }
+      ],
+      "assets": [
+        {
+          "id": 6922,
+          "uuid": "46763f5a-1ab8-4458-839a-f3caa0c5eb76",
+          "slug": "resume-bullet-editor-no-invented-facts-46763f5a",
+          "title": "Resume Bullet Editor: No Invented Facts",
+          "url": "https://tokrepo.com/en/workflows/resume-bullet-editor-no-invented-facts-46763f5a",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=6922",
+          "detail_status": 200,
+          "public_status": 200,
+          "english_title_in_page": true,
+          "public_identity_method": "Current detail id/slug/title matched meaningful English title in returned public HTML; not HTTP status alone.",
+          "retrieved_at": "2026-10-08T02:07:18.413072+00:00",
+          "asset_kind": "prompt",
+          "entrypoint": "PROMPT.md",
+          "content_hash": "a1f91f6eea146f8284ba98017b83b797e8182c49675f89900daade31100ad08f",
+          "source_reviewed": true,
+          "runtime_verified": false,
+          "role": "Primary: retrieve complete reusable resume editing prompt; supplied facts become supported rewrites, unsupported flags and missing-input questions.",
+          "prerequisites": [
+            "Plain AI chat accepting text, or manual worksheet; any provider account/cost is separate.",
+            "Prepare 1–5 existing bullets, per-bullet verified facts and one target role."
+          ],
+          "upstream_urls": [
+            "https://tokrepo.com/en/workflows/resume-bullet-editor-no-invented-facts-46763f5a"
+          ],
+          "verification_limits": [
+            "TokRepo original prompt says source reviewed/runtime not tested; no AI output executed today.",
+            "No guarantee of ATS success or job outcomes."
+          ]
+        },
+        {
+          "id": 866,
+          "uuid": "0d39058c-33e3-11f1-9bc6-00163e2b0d79",
+          "slug": "reactive-resume-ai-powered-open-source-resume-builder-0d39058c",
+          "title": "Reactive Resume — AI-Powered Open-Source Resume Builder",
+          "url": "https://tokrepo.com/en/workflows/reactive-resume-ai-powered-open-source-resume-builder-0d39058c",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=866",
+          "detail_status": 200,
+          "public_status": 200,
+          "english_title_in_page": true,
+          "public_identity_method": "Current detail id/slug/title matched meaningful English title in returned public HTML; not HTTP status alone.",
+          "retrieved_at": "2026-10-08T02:07:18.555742+00:00",
+          "asset_kind": "skill",
+          "entrypoint": "step-1.md",
+          "content_hash": "76c2e939d6f3434fd5df1b89889c90f0d915f55a1c4c3516253f8c8cdc3d7d77",
+          "source_reviewed": true,
+          "runtime_verified": false,
+          "role": "Complementary: take only human-approved rewritten bullets into resume work-experience fields; preview and download the resume PDF.",
+          "prerequisites": [
+            "Hosted editor requires a free account and stores resume data with the service.",
+            "Manual pasting/layout/export does not require enabling optional AI provider integration.",
+            "Self-hosting is optional and has infrastructure/configuration prerequisites."
+          ],
+          "upstream_urls": [
+            "https://docs.rxresu.me/getting-started",
+            "https://github.com/reactive-resume/reactive-resume",
+            "https://raw.githubusercontent.com/reactive-resume/reactive-resume/main/README.md"
+          ],
+          "verification_limits": [
+            "TokRepo quick-use claim that basic editor needs no account conflicts with current official introduction/README: create a free account. Official current account/storage requirements govern this guide.",
+            "Do not copy simplified Docker run or claimed stars/provider availability; hosted workflow and PDF export reviewed from source, not exercised in browser."
+          ]
+        }
+      ],
+      "asset_handoff": "Writer maps every rewrite back to fact worksheet and approves it; copy exact approved text into Reactive Resume experience entries, preview line breaks and inspect exported PDF. Optional builder AI stays off; no schema/JSON import is promised.",
+      "deliverables": [
+        "Original facts worksheet (Markdown or CSV) linking old bullet to action/scope/result/evidence/unknowns/approved text.",
+        "At least three ORIGINAL labelled fictional before/after pairs across everyday roles: supported metric, qualitative result, missing result retained as scope only; include research/admin context.",
+        "Audit checklist: <=30 words, every number/tool/scope/result supported, no unsupported stronger alternative.",
+        "Concrete optional approved-text-to-resume-PDF handoff with current free-account prerequisite and manual visual/text checks."
+      ],
+      "claim_boundaries": [
+        "Do not mirror the complete TokRepo prompt or catalog body; retrieve it at the exact primary asset.",
+        "No invented metrics, inferred causal wins, interview guarantees, universal ATS pass or claims of tested AI/editor exports.",
+        "Reactive Resume hosted editor requires a free account and service storage; its account-free public ATS checker is a different feature.",
+        "AI chat account/pricing depends on chosen provider; do not claim no account setup based on the prompt catalog.",
+        "Fictional examples are manually checked illustrations, not model output or successful applications."
+      ],
+      "competition": "Career guides and resume builders already address this broad query; useful differentiation is an original evidence worksheet, examples without fabricated metrics, and exact editing-to-layout asset handoff. No easy-ranking claim.",
+      "duplicate_decision": "New: none of six existing asset recipes or six legacy file tools produce job-application bullet wording or a resume PDF. Notes-to-proposal below has different reader/output/decision.",
+      "canonical_path": "/workflows/write-resume-bullet-points/",
+      "search_volume": null,
+      "demand_status": "Qualified qualitatively: exact current US/en suggestion plus 2 independently sourced real recurring problem questions; author/source/runtime and independent editorial review still required.",
+      "tokrepo_role": "Full reusable editing prompt and resume builder source entry are obtained through the exact TokRepo assets; public guide supplies original worksheet/examples/checks and usable handoff.",
+      "category": "Work and writing",
+      "description": "Write concise resume bullet points from facts you can defend, with before-and-after examples and a downloadable evidence worksheet.",
+      "published_on": "2026-10-08",
+      "updated_on": "2026-10-08"
+    },
+    {
+      "slug": "project-proposal-template",
+      "title": "Project proposal template: turn rough notes into a clear draft",
+      "primary_query": "project proposal template",
+      "intent": "Editable template and worked example for an internal or small client project proposal; not a contract, formal procurement response or guaranteed approval.",
+      "intent_id": "project_owner_notes_to_proposal_draft",
+      "reader": "Team members, freelancers and students proposing a practical project",
+      "task": "Structure a proposed project so a decision maker can see scope, exclusions, deliverables and unresolved inputs",
+      "input": "Goal, audience, requirements, constraints, success criteria and undecided items",
+      "output": "Editable proposal draft plus questions still needing confirmation",
+      "autocomplete": {
+        "seed": "project proposal template",
+        "exact_observed_suggestion": "project proposal template",
+        "suggestions": [
+          "project proposal template",
+          "project proposal template word",
+          "project proposal template google docs",
+          "project proposal template free download",
+          "project proposal template free",
+          "project proposal template excel",
+          "project proposal template examples",
+          "project proposal template deped",
+          "project proposal template pdf",
+          "project proposal template ppt"
+        ],
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=project%20proposal%20template",
+        "status": 200,
+        "retrieved_at": "2026-10-08T02:07:27.414070+00:00",
+        "market": "US",
+        "language": "en",
+        "limitation": "US/en request parameters; qualitative suggestion presence, not volume or geographic audience measurement."
+      },
+      "questions": [
+        {
+          "url": "https://www.reddit.com/r/projectmanagement/comments/r01o0y/creating_project_proposal/",
+          "title": "Creating project proposal",
+          "question_intent": "A user asks what to add and what not to add in a project proposal.",
+          "editorial_implication": "Explain sections through a small complete example, explicitly separate scope/out-of-scope and unresolved input.",
+          "retrieved_at": "2026-10-08T02:07:27.414105+00:00",
+          "verification": "Public original question body opened and read on 2026-10-08; distinct post/problem context, not product promotion or crosspost.",
+          "type": "independent public user question",
+          "published_evidence": "Search original post dated November 23 2021; public body opened today.",
+          "monthly_search_volume": null,
+          "limitation": "Historical recurring problem evidence, not frequency/US audience size; comments are not separately counted."
+        },
+        {
+          "url": "https://www.reddit.com/r/freelance/comments/rxigdj/proposal_template_recommendations/",
+          "title": "Proposal template recommendations",
+          "question_intent": "Freelancer needs a reusable proposal structure for a UX audit.",
+          "editorial_implication": "Give genuinely editable blank template plus a worked project example, including deliverables/dependencies instead of generic persuasion.",
+          "retrieved_at": "2026-10-08T02:07:27.414105+00:00",
+          "verification": "Public original question body opened and read on 2026-10-08; distinct post/problem context, not product promotion or crosspost.",
+          "type": "independent public user question",
+          "published_evidence": "Historical original post displays approximately 5 years old; exact publish timestamp not captured.",
+          "monthly_search_volume": null,
+          "limitation": "Historical recurring problem evidence, not frequency/US audience size; comments are not separately counted."
+        }
+      ],
+      "assets": [
+        {
+          "id": 6934,
+          "uuid": "b0c2f372-e91c-45fa-b004-4478bfa17795",
+          "slug": "prompt-notes-project-proposal-b0c2f372",
+          "title": "Prompt: Notes to Project Proposal",
+          "url": "https://tokrepo.com/en/workflows/prompt-notes-project-proposal-b0c2f372",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=6934",
+          "detail_status": 200,
+          "public_status": 200,
+          "english_title_in_page": true,
+          "public_identity_method": "Current detail id/slug/title matched meaningful English title in returned public HTML; not HTTP status alone.",
+          "retrieved_at": "2026-10-08T02:07:18.731198+00:00",
+          "asset_kind": "prompt",
+          "entrypoint": "PROMPT.md",
+          "content_hash": "ee8c6a50f8bf4c93051e4320953ac4e636996f64c52f8fd61441cb1aa574f700",
+          "source_reviewed": true,
+          "runtime_verified": false,
+          "role": "Primary: retrieve complete original Notes to Project Proposal prompt; supplied requirements/constraints become summary, scope, exclusions, deliverables and unresolved questions.",
+          "prerequisites": [
+            "Ordinary text AI chat; provider account/cost separate. Manual template completion is also viable.",
+            "Prepare eight input fields; required first five: title, goal, audience, requirements, constraints."
+          ],
+          "upstream_urls": [
+            "https://tokrepo.com/en/workflows/prompt-notes-project-proposal-b0c2f372"
+          ],
+          "verification_limits": [
+            "Source-reviewed prompt, no executed AI drafting today.",
+            "Cannot verify price, deadlines, facts, approval or commitments."
+          ]
+        },
+        {
+          "id": 69,
+          "uuid": "9bef652e-2e40-490a-943e-172ed7c68c4c",
+          "slug": "claude-official-skill-doc-coauthoring-9bef652e",
+          "title": "Claude Official Skill: doc-coauthoring",
+          "url": "https://tokrepo.com/en/workflows/claude-official-skill-doc-coauthoring-9bef652e",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=69",
+          "detail_status": 200,
+          "public_status": 200,
+          "english_title_in_page": true,
+          "public_identity_method": "Current detail id/slug/title matched meaningful English title in returned public HTML; not HTTP status alone.",
+          "retrieved_at": "2026-10-08T02:07:25.044017+00:00",
+          "asset_kind": "skill",
+          "entrypoint": "Claude Official Skill: doc-coauthoring",
+          "content_hash": "c5cba3098943da189c749fa41e6dc0c42710e358bb33da24bda065eaa844b61a",
+          "source_reviewed": true,
+          "runtime_verified": false,
+          "role": "Complementary: take proposal draft, audience and unanswered questions into context gathering/refinement and fresh-reader review; obtain full upstream co-authoring skill via the source link on TokRepo.",
+          "prerequisites": [
+            "A human colleague can do the original reader checklist; guided AI version requires compatible Claude/chat environment and provider access.",
+            "No installation is needed for the manual template path. If using skill, follow its current official source/setup, not unverified catalog command."
+          ],
+          "upstream_urls": [
+            "https://github.com/anthropics/skills",
+            "https://raw.githubusercontent.com/anthropics/skills/main/skills/doc-coauthoring/SKILL.md"
+          ],
+          "verification_limits": [
+            "Current TokRepo entry includes a three-stage overview but detailed excerpt ends during Stage 1; full upstream SKILL.md 200 reviewed on 2026-10-08 contains refinement and reader testing.",
+            "Do not claim the TokRepo excerpt alone includes full stages or copy unverified claude skill install command.",
+            "Reader-testing workflow source reviewed; no real Claude/subagent/doc integration exercised."
+          ]
+        }
+      ],
+      "asset_handoff": "Fill facts worksheet; use TokRepo 6934 for a first proposal draft; transfer draft+target audience+original constraints to the complete co-authoring workflow obtained through TokRepo 69 source link. A fresh reader answers what is proposed, excluded, delivered, decided and still unknown; author resolves gaps from actual facts.",
+      "deliverables": [
+        "ORIGINAL editable blank project proposal in Markdown plus Word DOCX if the page promises a Word download; at minimum clearly state supported formats.",
+        "ORIGINAL filled fictional small project proposal, with every number/date stated in accompanying input notes and unknown ownership/approval left open.",
+        "Eight-field input worksheet plus requirement-to-section mapping table.",
+        "Fresh-reader checklist and decision-request section, with at least one missing deadline/owner example showing a question rather than invented commitment."
+      ],
+      "claim_boundaries": [
+        "No copying complete prompt/skill/API body into the public packet or downloads.",
+        "TokRepo 69 detailed snapshot is partial: obtain full upstream via its source link for later stages; manual original checklist is not the complete skill.",
+        "No unverified installation commands, connectors, automatically sent proposals or claimed approvals.",
+        "Template is a proposal draft, not a legal contract or compliant formal RFP response.",
+        "Budget/dates/headcount are reader-supplied or unknown; do not research or generate financial valuations.",
+        "Do not target project proposal template word unless an actual valid editable DOCX is delivered; broad template query still requires an immediate editable template."
+      ],
+      "competition": "Project-management publishers offer many proposal templates; author value is a complete small worked example, editable template, requirement traceability and explicit missing-input/fresh-reader handoff. No search-volume or easier-ranking assertion.",
+      "duplicate_decision": "New: proposal seeks approval before execution; meeting-minutes page records a past meeting and presentation page creates slides. Different input/output/reader decision; no separate synonym page for project proposal Word/free/examples.",
+      "canonical_path": "/workflows/project-proposal-template/",
+      "search_volume": null,
+      "demand_status": "Qualified qualitatively: exact current US/en suggestion plus 2 independently authored real template/guide problems; original template delivery and independent review remain required.",
+      "tokrepo_role": "Primary original drafting prompt and complementary co-authoring source entry stay on TokRepo; guide supplies new editable input/template/example/checklist and exact links to retrieve reusable assets.",
+      "category": "Work and writing",
+      "description": "Download an editable project proposal template, fill it from your notes, and check scope, deliverables and unanswered questions before sharing.",
+      "published_on": "2026-10-08",
+      "updated_on": "2026-10-08"
+    }
+  ],
+  "pending_candidates": [
+    {
+      "query": "how to write a cover letter",
+      "status": "not qualified today",
+      "reason": "Current suggestion and exact primary asset found, but no full 2-question/complementary-handoff check; no author assignment."
+    },
+    {
+      "query": "how to write a follow up email",
+      "status": "dropped today",
+      "reason": "Suggestions observed but catalog search did not reveal task-specific primary prompt; outbound email delivery asset is not a useful content-writing handoff."
+    }
+  ],
+  "verification_limits": [
+    "Suggestion parameters do not prove US-only readership or volume; numeric volume, rank, impressions, clicks and TokRepo use remain unknown.",
+    "Demand editor verified source identity and instructions only; model outputs, hosted resume account/export and skill execution not tested.",
+    "Public packet excludes full TokRepo prompts, raw HTML/API bodies and private account data."
+  ],
+  "upstream_checks": [
+    {
+      "url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/doc-coauthoring/SKILL.md",
+      "status": 200,
+      "retrieved_at": "2026-10-08T02:04:39.049358+00:00",
+      "finding": "Full source contains all three stages; TokRepo detailed excerpt stops in Stage 1."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/reactive-resume/reactive-resume/main/README.md",
+      "status": 200,
+      "retrieved_at": "2026-10-08T02:04:38.834234+00:00",
+      "finding": "Hosted account required, manual resume editing and PDF export supported; old upstream repo redirects to reactive-resume/reactive-resume."
+    }
+  ]
+}
