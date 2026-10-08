@@ -1,60 +1,113 @@
 {
+  "schema_version": 2,
   "program": "asset_search",
   "site_url": "https://henu-wang.github.io/practical-ai-workbench/",
-  "cohort_date": "2026-10-07",
-  "inspection_due": [
-    "2026-10-10",
-    "2026-10-14",
-    "2026-10-21"
-  ],
-  "weekly_review_due": "2026-10-14",
-  "cohort_review_due": "2026-11-04",
-  "status": "live_public_verified",
-  "pages": [
+  "cohorts": [
     {
-      "slug": "transcribe-audio-to-text",
-      "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/transcribe-audio-to-text/",
-      "index_status": "UNVERIFIED",
-      "search_visibility": "UNKNOWN",
-      "attributed_tokrepo_visits": "UNKNOWN"
+      "program": "asset_search",
+      "site_url": "https://henu-wang.github.io/practical-ai-workbench/",
+      "cohort_date": "2026-10-07",
+      "inspection_due": [
+        "2026-10-10",
+        "2026-10-14",
+        "2026-10-21"
+      ],
+      "weekly_review_due": "2026-10-14",
+      "cohort_review_due": "2026-11-04",
+      "status": "live_public_verified",
+      "pages": [
+        {
+          "slug": "transcribe-audio-to-text",
+          "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/transcribe-audio-to-text/",
+          "index_status": "UNVERIFIED",
+          "search_visibility": "UNKNOWN",
+          "attributed_tokrepo_visits": "UNKNOWN"
+        },
+        {
+          "slug": "meeting-minutes-template",
+          "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/meeting-minutes-template/",
+          "index_status": "UNVERIFIED",
+          "search_visibility": "UNKNOWN",
+          "attributed_tokrepo_visits": "UNKNOWN"
+        },
+        {
+          "slug": "extract-tables-from-pdf-to-excel",
+          "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/extract-tables-from-pdf-to-excel/",
+          "index_status": "UNVERIFIED",
+          "search_visibility": "UNKNOWN",
+          "attributed_tokrepo_visits": "UNKNOWN"
+        },
+        {
+          "slug": "presentation-from-notes",
+          "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/presentation-from-notes/",
+          "index_status": "UNVERIFIED",
+          "search_visibility": "UNKNOWN",
+          "attributed_tokrepo_visits": "UNKNOWN"
+        },
+        {
+          "slug": "clean-csv-remove-duplicate-rows",
+          "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/clean-csv-remove-duplicate-rows/",
+          "index_status": "UNVERIFIED",
+          "search_visibility": "UNKNOWN",
+          "attributed_tokrepo_visits": "UNKNOWN"
+        },
+        {
+          "slug": "flashcards-from-lecture-notes",
+          "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/flashcards-from-lecture-notes/",
+          "index_status": "UNVERIFIED",
+          "search_visibility": "UNKNOWN",
+          "attributed_tokrepo_visits": "UNKNOWN"
+        }
+      ],
+      "private_records_directory": "../private-monitoring",
+      "utm": {
+        "source": "github_pages",
+        "medium": "referral",
+        "campaign": "tokrepo_search",
+        "content": "recipe slug"
+      },
+      "metric_rule": "No access or missing tracking is unknown, not zero. Technical pass is not indexing; submitted sitemap is not fetched/indexed.",
+      "release_commit": "e815d46a32df0a430a3f88b2f7fc564b17895b3c",
+      "public_verified_at": "2026-10-07T06:17:07.095383+00:00",
+      "gsc_property": "not_registered_verification_pending",
+      "ga4_access": "missing_Analytics_scope"
     },
     {
-      "slug": "meeting-minutes-template",
-      "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/meeting-minutes-template/",
-      "index_status": "UNVERIFIED",
-      "search_visibility": "UNKNOWN",
-      "attributed_tokrepo_visits": "UNKNOWN"
-    },
-    {
-      "slug": "extract-tables-from-pdf-to-excel",
-      "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/extract-tables-from-pdf-to-excel/",
-      "index_status": "UNVERIFIED",
-      "search_visibility": "UNKNOWN",
-      "attributed_tokrepo_visits": "UNKNOWN"
-    },
-    {
-      "slug": "presentation-from-notes",
-      "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/presentation-from-notes/",
-      "index_status": "UNVERIFIED",
-      "search_visibility": "UNKNOWN",
-      "attributed_tokrepo_visits": "UNKNOWN"
-    },
-    {
-      "slug": "clean-csv-remove-duplicate-rows",
-      "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/clean-csv-remove-duplicate-rows/",
-      "index_status": "UNVERIFIED",
-      "search_visibility": "UNKNOWN",
-      "attributed_tokrepo_visits": "UNKNOWN"
-    },
-    {
-      "slug": "flashcards-from-lecture-notes",
-      "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/flashcards-from-lecture-notes/",
-      "index_status": "UNVERIFIED",
-      "search_visibility": "UNKNOWN",
-      "attributed_tokrepo_visits": "UNKNOWN"
+      "program": "asset_search",
+      "site_url": "https://henu-wang.github.io/practical-ai-workbench/",
+      "cohort_date": "2026-10-08",
+      "inspection_due": [
+        "2026-10-11",
+        "2026-10-15",
+        "2026-10-22"
+      ],
+      "weekly_review_due": "2026-10-15",
+      "cohort_review_due": "2026-11-05",
+      "status": "live_public_verified",
+      "release_commit": "c6d4c91b9f057c3fa3c36ee0870deb3768cc8554",
+      "public_verified_at": "2026-10-08T02:16:32.613677+00:00",
+      "gsc_property": "not_registered_verification_pending",
+      "ga4_access": "missing_Analytics_scope",
+      "pages": [
+        {
+          "slug": "write-resume-bullet-points",
+          "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/write-resume-bullet-points/",
+          "index_status": "UNKNOWN",
+          "search_visibility": "UNKNOWN",
+          "attributed_tokrepo_visits": "UNKNOWN",
+          "asset_use": "UNKNOWN"
+        },
+        {
+          "slug": "project-proposal-template",
+          "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/project-proposal-template/",
+          "index_status": "UNKNOWN",
+          "search_visibility": "UNKNOWN",
+          "attributed_tokrepo_visits": "UNKNOWN",
+          "asset_use": "UNKNOWN"
+        }
+      ]
     }
   ],
-  "private_records_directory": "../private-monitoring",
   "utm": {
     "source": "github_pages",
     "medium": "referral",
@@ -62,8 +115,15 @@
     "content": "recipe slug"
   },
   "metric_rule": "No access or missing tracking is unknown, not zero. Technical pass is not indexing; submitted sitemap is not fetched/indexed.",
-  "release_commit": "e815d46a32df0a430a3f88b2f7fc564b17895b3c",
-  "public_verified_at": "2026-10-07T06:17:07.095383+00:00",
-  "gsc_property": "not_registered_verification_pending",
-  "ga4_access": "missing_Analytics_scope"
+  "last_daily_check": {
+    "checked_at": "2026-10-08T02:16:32.613677+00:00",
+    "technical_status": "pass",
+    "recipe_count": 8,
+    "download_count": 33,
+    "asset_targets_with_utm": 17,
+    "indexing": "UNKNOWN",
+    "attribution": "UNKNOWN",
+    "next_due": "2026-10-10"
+  },
+  "private_records_policy": "Raw account reports and detailed receipts remain outside this public repository."
 }

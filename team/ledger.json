@@ -122,8 +122,10 @@
       "program": "asset_search",
       "action": "new_topic",
       "published_on": "2026-10-08",
-      "status": "reviewed_ready_for_release",
-      "canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/write-resume-bullet-points/"
+      "status": "public_verified",
+      "canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/write-resume-bullet-points/",
+      "release_commit": "c6d4c91b9f057c3fa3c36ee0870deb3768cc8554",
+      "verified_at": "2026-10-08T02:16:32.613677+00:00"
     },
     {
       "slug": "project-proposal-template",
@@ -131,8 +133,10 @@
       "program": "asset_search",
       "action": "new_topic",
       "published_on": "2026-10-08",
-      "status": "reviewed_ready_for_release",
-      "canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/project-proposal-template/"
+      "status": "public_verified",
+      "canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/project-proposal-template/",
+      "release_commit": "c6d4c91b9f057c3fa3c36ee0870deb3768cc8554",
+      "verified_at": "2026-10-08T02:16:32.613677+00:00"
     }
   ]
 }

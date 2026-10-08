@@ -1,0 +1,16 @@
+{
+  "release_commit": "e815d46a32df0a430a3f88b2f7fc564b17895b3c",
+  "site_url": "https://henu-wang.github.io/practical-ai-workbench/",
+  "verified_at": "2026-10-07T06:17:07.095383+00:00",
+  "source_sha256": "d8692ee0d7e4fc07d9d429beffddcb8ec6918d188649f50737b22ee1829ec2fd",
+  "editorial": "6 independently reviewed recipes PASS",
+  "render_and_downloads": "PASS: 6 rendered recipes, template bytes and mobile layouts",
+  "public_technical": "pass",
+  "public_recipe_count": 6,
+  "public_template_count": 25,
+  "indexing": "UNKNOWN: GSC property verification pending",
+  "ranking": "UNKNOWN: no own-property settled search performance yet",
+  "tokrepo_attribution": "UTM links deployed; GA interface missing Analytics scope",
+  "asset_usage": "Not measurable from GA arrivals; no confirmed GA install event",
+  "followup": "daily technical checks, D3/D7/D14 inspections when property available, weekly settled-data review, D28 cohort review"
+}
