@@ -224,8 +224,9 @@ def main(argv=None):
     else:
         sitemap_error = "sitemap_http_not_200_or_truncated"
     for url, page in pages.items():
-        page["in_sitemap"] = normalize_url(url) in {normalize_url(item) for item in sitemap_entries}
-        if not page["in_sitemap"]:
+        page["in_sitemap"] = (None if sitemap_error is not None else
+                              normalize_url(url) in {normalize_url(item) for item in sitemap_entries})
+        if page["in_sitemap"] is False:
             page["issues"].append("page_missing_from_sitemap")
         page["technical_pass"] = not page["issues"]
     # Inspect downloaded links as actually published; no invented attachment names.

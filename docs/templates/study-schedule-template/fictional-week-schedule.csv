@@ -1,0 +1,16 @@
+date,day,start,end,minutes,unit,activity_type,finish_check,status
+2026-10-12,Monday,19:00,19:45,45,Information skills,First pass,Annotate the eight supplied facts and identify unclear wording,Planned
+2026-10-12,Monday,19:45,20:00,15,Information skills,Recall,Answer eight source-grounded questions then check and record errors,Planned
+2026-10-13,Tuesday,19:00,19:30,30,Academic writing,First pass,Read the supplied assignment requirements and outline one paragraph,Planned
+2026-10-13,Tuesday,19:30,20:00,30,Academic writing,Practice,Draft one paragraph and mark unsupported statements,Planned
+2026-10-14,Wednesday,19:00,19:30,30,Introductory statistics,First pass,Read worked examples and list steps needing clarification,Planned
+2026-10-14,Wednesday,19:30,19:45,15,Introductory statistics,Review,Explain one worked solution without looking then compare,Planned
+2026-10-15,Thursday,19:00,19:30,30,Computing basics,First pass,Read exercise instructions and identify expected input and output,Planned
+2026-10-15,Thursday,19:30,20:00,30,Computing basics,Practice,Attempt the exercise and record mismatches with expected output,Planned
+2026-10-17,Saturday,10:00,10:45,45,Introductory statistics,Practice,Attempt the practice set and mark unresolved questions,Planned
+2026-10-17,Saturday,10:45,11:15,30,Academic writing,Review,Check paragraph against assignment and identify a revision,Planned
+2026-10-17,Saturday,11:15,11:45,30,Computing basics,Review,Recheck exercise output and explain remaining mismatches,Planned
+2026-10-17,Saturday,11:45,12:00,15,Buffer,Buffer,Keep unassigned for slippage until explicitly replanned,Reserved
+2026-10-18,Sunday,10:00,10:30,30,Information skills,Practice,Apply claim-evidence distinction to a supplied paragraph,Planned
+2026-10-18,Sunday,10:30,11:00,30,Introductory statistics,Review,Reattempt marked questions and record what remains unresolved,Planned
+2026-10-18,Sunday,11:00,11:30,30,Buffer,Buffer,Keep unassigned for slippage until explicitly replanned,Reserved

@@ -1,0 +1,118 @@
+{
+  "checked_at": "2026-10-09T03:07:51.078271+00:00",
+  "author": "/root/project_editor",
+  "classification": "author_template_and_example_checks_not_independent_approval",
+  "checks": [
+    {
+      "check": "CSV parses with consistent columns and dated durations/day names",
+      "observed": true,
+      "rows": 15
+    },
+    {
+      "check": "Every allocated minute within offered slots; no overlap; no fixed commitment overlap (slots independently compared with supplied obligations)",
+      "observed": true
+    },
+    {
+      "check": "Capacity arithmetic and deadline checks",
+      "usable": 435,
+      "study": 390,
+      "buffer": 45,
+      "known_estimated_work": 450,
+      "known_unplaced": 60,
+      "unknown_reflection": "excluded, unknown"
+    },
+    {
+      "check": "Per-unit allocation matches declared coverage",
+      "minutes": {
+        "Information skills": 90,
+        "Academic writing": 90,
+        "Introductory statistics": 120,
+        "Computing basics": 90,
+        "Buffer": 45
+      }
+    },
+    {
+      "check": "XLSX opens and temporary cell edit/saves/reopens",
+      "observed": true,
+      "formulas": "None; static totals explicitly labeled"
+    },
+    {
+      "check": "PDF opens, contains extractable content and renders PNG for visual inspection",
+      "files": {
+        "weekly-study-schedule-printable.pdf": {
+          "pages": 1,
+          "extractable_text_characters": 835
+        },
+        "fictional-week-printable.pdf": {
+          "pages": 1,
+          "extractable_text_characters": 2449
+        }
+      }
+    },
+    {
+      "check": "Manual source-to-question comparison",
+      "facts": 8,
+      "supported_questions": 8,
+      "source_ids": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7",
+        "F8"
+      ],
+      "observed": "Every answer compared with corresponding supplied definition; not official curriculum verification"
+    },
+    {
+      "check": "Recall uses existing slot and budget",
+      "start": "2026-10-12 19:45",
+      "end": "2026-10-12 20:00",
+      "minutes": 15,
+      "parts": [
+        8,
+        5,
+        2
+      ],
+      "additional_five_day_plan": false
+    },
+    {
+      "check": "Markdown no duplicate H1, exact UTM fields and advertised download bytes exist",
+      "observed": true,
+      "tokrepo_links": 3,
+      "download_paths": [
+        "templates/study-schedule-template/weekly-study-schedule.xlsx",
+        "templates/study-schedule-template/weekly-study-schedule.csv",
+        "templates/study-schedule-template/weekly-study-schedule.md",
+        "templates/study-schedule-template/weekly-study-schedule-printable.pdf",
+        "templates/study-schedule-template/fictional-week-inputs.md",
+        "templates/study-schedule-template/fictional-week-schedule.csv",
+        "templates/study-schedule-template/fictional-week-printable.pdf",
+        "templates/study-schedule-template/recall-slot-example.md"
+      ]
+    },
+    {
+      "check": "Both PDFs visually inspected via local rendered PNG",
+      "observed": "One readable page each; no clipped text; final blank form visually rechecked with 42pt daily writing rows."
+    }
+  ],
+  "source_sha256": {
+    "recipes/study-schedule-template.md": "86deaeba4c669e9030160bf997dfd63c19ee2303ecd3f5ccf52fe2ee5028fe84",
+    "templates/study-schedule-template/fictional-week-inputs.md": "346b4165be81c53b301b2985b9f5ef5f3b93c6fd0b27d26ed5e2b0fae51e4774",
+    "templates/study-schedule-template/fictional-week-printable.pdf": "1ccc32f3280ee72c2dc694c6126b7e6c11b77082e8bc1d4c22c0105b38c4f3ea",
+    "templates/study-schedule-template/fictional-week-schedule.csv": "e8b04a12d874f0da45a04768ace08e2218e4b368ea758b9210953b39ff1fa87b",
+    "templates/study-schedule-template/recall-slot-example.md": "564def9e4fdc8a2dbb1171ed6f3f132ae4d97b1c949917f27411ea2116a518a2",
+    "templates/study-schedule-template/weekly-study-schedule-printable.pdf": "cdeb814a0b676248ada4a548d72be99a0c387c83cc2ef6164f318b853fd8cf96",
+    "templates/study-schedule-template/weekly-study-schedule.csv": "2dd1049c16d688993c783fafc83f3fbb02f85a56566188eb58ab2b214910f1e9",
+    "templates/study-schedule-template/weekly-study-schedule.md": "962258bb17330d2c01e8f740e730b9ac2198fa360b88140ef7fbbb98bbdce6d1",
+    "templates/study-schedule-template/weekly-study-schedule.xlsx": "10ef8776d6b2160c254033f047fe82677ce557a408d4ff5f0b59c760fcdb6d32"
+  },
+  "not_run": [
+    "External scheduling or quiz model",
+    "Native Excel visual rendering",
+    "Calendar integration/import",
+    "Timed learner quiz completion",
+    "Official course coverage or grades"
+  ]
+}

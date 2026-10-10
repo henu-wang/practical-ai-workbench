@@ -1,0 +1,51 @@
+{
+  "checked_at": "2026-10-09T03:07:51.073036+00:00",
+  "author": "/root/project_editor",
+  "classification": "author_template_and_example_checks_not_independent_approval",
+  "checks": [
+    {
+      "check": "DOCX opens, temporary copy edits/saves/reopens",
+      "observed": true
+    },
+    {
+      "check": "Example letter inline/full download/body-only handoff agree",
+      "observed": true
+    },
+    {
+      "check": "Complete letter whitespace word count within fictional posting limit",
+      "words": 198,
+      "body_words": 192,
+      "limit": 500
+    },
+    {
+      "check": "Manual requirement and all four paragraph source mapping",
+      "observed": "E1\u2013E5 and fictional posting reviewed; RoomBook gap retained; no measured performance claim"
+    },
+    {
+      "check": "Markdown no duplicate H1, exact UTM fields and advertised download bytes exist",
+      "observed": true,
+      "tokrepo_links": 3,
+      "download_paths": [
+        "templates/write-a-cover-letter/cover-letter-template.docx",
+        "templates/write-a-cover-letter/cover-letter-template.md",
+        "templates/write-a-cover-letter/requirement-evidence-worksheet.md",
+        "templates/write-a-cover-letter/fictional-application-example.md",
+        "templates/write-a-cover-letter/example-letter-body.txt"
+      ]
+    }
+  ],
+  "source_sha256": {
+    "recipes/write-a-cover-letter.md": "22b41f29a472d552fe4fbdf9918b97bad67005a87452ed93ccd06a2cf3497979",
+    "templates/write-a-cover-letter/cover-letter-template.docx": "869a1db5289126600fb862d5a936e278a69f046d39ac73bbf773da7aa9509a55",
+    "templates/write-a-cover-letter/cover-letter-template.md": "8f82416d85344cf301294f61a726c1cdb4e1fe98b8856bf2a5be39aef6b010a2",
+    "templates/write-a-cover-letter/example-letter-body.txt": "da816314c32b0e48ef662ac0292a848f3c3c21ce5137c70dd88f0017941122e6",
+    "templates/write-a-cover-letter/fictional-application-example.md": "e8fb1fe2142fd5b2984bd07162e2f4ddc47791e163849e37f3d402bd62dddd1f",
+    "templates/write-a-cover-letter/requirement-evidence-worksheet.md": "773e5f290ab5d7a185aca2950787e031a7b4fae0397148c9beffe568669f0861"
+  },
+  "not_run": [
+    "External AI prompt execution",
+    "Hosted Reactive Resume account/document/PDF flow",
+    "Native Microsoft Word visual rendering",
+    "Hiring/ATS outcomes"
+  ]
+}

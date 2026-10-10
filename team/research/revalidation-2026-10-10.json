@@ -1,0 +1,323 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-10",
+  "revalidated_at": "2026-10-10T05:33:36.752719+00:00",
+  "editor": "/root/search_editor_1010",
+  "scope": "Revalidate only two unfinished Oct 9 candidate drafts for potential Oct 10 publication. This is a freshness addendum, not a new demand packet, release receipt or independent content approval.",
+  "original_demand_packet": "team/research/demand-2026-10-09.json",
+  "original_packet_sha256": "a35505b3a17853fa04bbe40490b6ad744dd53d46cb24a911d2207a58f5fb9733",
+  "market": "US",
+  "language": "en",
+  "numeric_search_volume": null,
+  "recipes": [
+    {
+      "slug": "write-a-cover-letter",
+      "intent_id": "jobseeker_posting_and_experience_to_cover_letter",
+      "canonical_path": "/workflows/write-a-cover-letter/",
+      "original_demand_packet": "team/research/demand-2026-10-09.json",
+      "demand_revalidation": "QUALIFIED_QUALITATIVE",
+      "release_state": "not_published_by_this_revalidation; independent source-bound content review and public release checks still required",
+      "autocomplete": {
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=how%20to%20write%20a%20cover%20letter",
+        "final_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=how%20to%20write%20a%20cover%20letter",
+        "status": 200,
+        "retrieved_at": "2026-10-10T05:32:24.461299+00:00",
+        "market": "US",
+        "language": "en",
+        "seed": "how to write a cover letter",
+        "exact_observed_suggestion": "how to write a cover letter",
+        "suggestions": [
+          "how to write a cover letter",
+          "how to write a cover letter for a job",
+          "how to write a cover letter for a job application",
+          "how to write a cover letter for a resume",
+          "how to write a cover letter for an internship",
+          "how to write a cover letter examples",
+          "how to write a cover letter reddit",
+          "how to write a cover letter in 2026",
+          "how to write a cover letter with no experience",
+          "how to write a cover letter for a teaching job"
+        ],
+        "response_sha256": "cd4c3e9eaccd3103f1c212e83db17b01dc25d44bc551e332da807345a66e6df3",
+        "comparison_with_oct9": "Same exact suggestion remains present; no change in task intent observed.",
+        "search_volume": null
+      },
+      "questions": [
+        {
+          "url": "https://www.reddit.com/r/GetEmployed/comments/1v3tdd8/help_writing_first_cover_letter_ever/",
+          "title": "help writing first cover letter ever",
+          "question_intent": "Incoming student applying for front-desk roles does not know what to write in a first cover letter capped at 500 words.",
+          "editorial_implication": "Give a complete short example and a blank editable template; use volunteer/coursework facts when supplied without inventing employment.",
+          "observed_at": "2026-10-10T05:33:36.752719+00:00",
+          "verification": "Original public post body freshly opened and read through web tool on Oct 10; distinct authors and problem contexts in separate posts retained.",
+          "published_evidence": "Freshly opened body displayed approximately 3 months old.",
+          "source_freshness": "Web result reports crawled yesterday; read today. Historical original question, not a new-post claim.",
+          "monthly_search_volume": null,
+          "limitation": "Historical recurring problem evidence only; exact timestamp and author geography not captured. No frequency or monthly volume inferred."
+        },
+        {
+          "url": "https://www.reddit.com/r/CoverLetters/comments/umdurm/tips_for_writing_a_cover_letter/",
+          "title": "Tips for writing a cover letter?",
+          "question_intent": "Applicant asks what goes in introductory/body/closing paragraphs and how experience maps to employer requirements.",
+          "editorial_implication": "Map paragraphs to exact posting requirements and one genuine experience item; do not merely list unrelated resume bullets.",
+          "observed_at": "2026-10-10T05:33:36.752719+00:00",
+          "verification": "Original public post body freshly opened and read through web tool on Oct 10; distinct authors and problem contexts in separate posts retained.",
+          "published_evidence": "Freshly opened body displayed approximately 4 years old.",
+          "source_freshness": "Web result reports crawled yesterday; read today. Historical original question, not a new-post claim.",
+          "monthly_search_volume": null,
+          "limitation": "Historical recurring problem evidence only; exact timestamp and author geography not captured. No frequency or monthly volume inferred."
+        }
+      ],
+      "assets": [
+        {
+          "id": 6895,
+          "slug": "evidence-grounded-cover-letter-prompt-11ecd8cf",
+          "title": "Evidence-Grounded Cover Letter Prompt",
+          "url": "https://tokrepo.com/en/workflows/evidence-grounded-cover-letter-prompt-11ecd8cf",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=6895",
+          "detail_status": 200,
+          "detail_retrieved_at": "2026-10-10T05:32:25.908966+00:00",
+          "public_status": 200,
+          "public_final_url": "https://tokrepo.com/en/workflows/evidence-grounded-cover-letter-prompt-11ecd8cf",
+          "public_retrieved_at": "2026-10-10T05:32:28.777926+00:00",
+          "public_html_sha256": "2c846ec4a9c64293a0233e1edc2fdf8ee71ca969a006a0dca5126edec8dc35ef",
+          "public_document_title": "Evidence-Grounded Cover Letter Prompt · TokRepo",
+          "public_identity_method": "Current detail stable id+slug+English title match original packet; unescaped returned English public HTML contains exact workflow title and slug. HTTP status alone is not the identity check.",
+          "asset_content_sha256": "dc1c66540255acd8903b2564e3f20dc9c7444948f6a944c23b3c2caf4363acf2",
+          "asset_content_hash_definition": "UTF-8 joined steps.prompt_template with newline separator; entire bilingual source included; no volatile metrics. Prior packet hash algorithm unspecified, so no byte-change inference made.",
+          "role": "Primary: obtain complete reusable cover-letter drafting prompt; posting plus experience notes become extracted requirements, evidence map, draft and gaps.",
+          "prerequisites": [
+            "Text-capable AI chat; account/fees depend on provider, or complete original worksheet manually.",
+            "Both full posting text and actual experience notes are needed; optional stated length overrides default 250–350 words."
+          ],
+          "upstream_urls": [
+            "https://tokrepo.com/en/workflows/evidence-grounded-cover-letter-prompt-11ecd8cf"
+          ],
+          "source_reviewed": true,
+          "runtime_verified": false,
+          "verification_limits": [
+            "Source reviewed, not model-executed today. Strength labels are model judgement; reader verifies facts.",
+            "This prompt cannot apply, submit or contact an employer."
+          ]
+        },
+        {
+          "id": 866,
+          "slug": "reactive-resume-ai-powered-open-source-resume-builder-0d39058c",
+          "title": "Reactive Resume — AI-Powered Open-Source Resume Builder",
+          "url": "https://tokrepo.com/en/workflows/reactive-resume-ai-powered-open-source-resume-builder-0d39058c",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=866",
+          "detail_status": 200,
+          "detail_retrieved_at": "2026-10-10T05:32:25.932641+00:00",
+          "public_status": 200,
+          "public_final_url": "https://tokrepo.com/en/workflows/reactive-resume-ai-powered-open-source-resume-builder-0d39058c",
+          "public_retrieved_at": "2026-10-10T05:32:29.260625+00:00",
+          "public_html_sha256": "9debd41b651fec17b05a0df849ec36236c1da1de31f4e363fb540f4d791667f0",
+          "public_document_title": "Reactive Resume: AI Open-Source Resume Builder (2026) · TokRepo",
+          "public_identity_method": "Current detail stable id+slug+English title match original packet; unescaped returned English public HTML contains exact workflow title and slug. HTTP status alone is not the identity check.",
+          "asset_content_sha256": "95b6dcc7b36d204718915ddeec27fe255b850f7b656ebe2b2e361804e5b015f2",
+          "asset_content_hash_definition": "UTF-8 joined steps.prompt_template with newline separator; entire bilingual source included; no volatile metrics. Prior packet hash algorithm unspecified, so no byte-change inference made.",
+          "role": "Complementary: take approved letter body into Reactive Resume standalone cover-letter document, format and inspect exported PDF.",
+          "prerequisites": [
+            "Hosted editor requires a free account and stores document/account data with that service.",
+            "Use Documents → New → New cover letter instead; write the approved body manually; optional AI integration remains unnecessary.",
+            "Editor adds greeting and sign-off around the body, so avoid duplicating them."
+          ],
+          "upstream_urls": [
+            "https://docs.rxresu.me/getting-started",
+            "https://docs.rxresu.me/guides/writing-a-cover-letter",
+            "https://raw.githubusercontent.com/reactive-resume/reactive-resume/main/docs/guides/writing-a-cover-letter.mdx"
+          ],
+          "source_reviewed": true,
+          "runtime_verified": false,
+          "verification_limits": [
+            "TokRepo quick-use no-account claim conflicts with current official hosted workflow; use official free-account requirement.",
+            "Official current source supports independent letters/PDF export even though TokRepo entry mainly discusses resumes. No hosted account, editing or export exercised today.",
+            "Do not copy simplified catalog Docker commands, popularity counts or optional provider/model claims."
+          ]
+        }
+      ],
+      "asset_handoff": "Approve each sentence against the posting/evidence map. Transfer only the reviewed body into the standalone letter editor via the complementary TokRepo asset and current official guide; enter/check recipient and sender fields separately, avoid duplicated greeting/sign-off, then inspect PDF names, pagination, missing placeholders and text.",
+      "duplicate_decision": "New output/workflow: posting-specific multi-paragraph application letter and requirement-to-experience mapping. Yesterday resume-bullet page edits short experience statements without a job-posting letter; sharing the optional layout asset does not make the task synonymous.",
+      "claim_boundaries": [
+        "Do not mirror the complete TokRepo prompt or full catalog body.",
+        "Do not invent employer values, years of experience, tool knowledge, credentials or numbers. A blank requirement stays a gap.",
+        "The posting is supplied input, not an invitation to browse or apply automatically.",
+        "Follow employer instructions and stated length; prompt default 250–350 words is not a universal hiring rule.",
+        "Reactive Resume hosted editor requires a free account and service storage; manual letter writing needs no AI provider activation.",
+        "No promise of ATS success, interviews, job offers or tested AI/editor export."
+      ],
+      "editorial_required_actions": [
+        "Preserve employer maximum500 words separately from the fictional requested about200-word draft override; source default250–350 applies only absent reader instruction.",
+        "Use current official hosted free-account prerequisite; avoid catalog no-account and simplified Docker claims.",
+        "Transfer body only; separately check automatic greeting, sign-off, names, contact details and resulting PDF."
+      ]
+    },
+    {
+      "slug": "study-schedule-template",
+      "intent_id": "student_syllabus_and_availability_to_study_schedule",
+      "canonical_path": "/workflows/study-schedule-template/",
+      "original_demand_packet": "team/research/demand-2026-10-09.json",
+      "demand_revalidation": "QUALIFIED_QUALITATIVE",
+      "release_state": "not_published_by_this_revalidation; independent source-bound content review and public release checks still required",
+      "autocomplete": {
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=study%20schedule%20template",
+        "final_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=study%20schedule%20template",
+        "status": 200,
+        "retrieved_at": "2026-10-10T05:32:24.455802+00:00",
+        "market": "US",
+        "language": "en",
+        "seed": "study schedule template",
+        "exact_observed_suggestion": "study schedule template",
+        "suggestions": [
+          "study schedule template",
+          "study schedule template google sheets",
+          "study schedule template google docs",
+          "study schedule template free",
+          "study schedule template pdf",
+          "study schedule template excel",
+          "study schedule template notion",
+          "study schedule template google sheets free",
+          "study schedule template word",
+          "study schedule template weekly"
+        ],
+        "response_sha256": "67423d0849c53fa77c8d1e8fc5f0a77ec766b0bfa807def25ce09c84e9442818",
+        "comparison_with_oct9": "Same exact suggestion remains present; no change in task intent observed.",
+        "search_volume": null
+      },
+      "questions": [
+        {
+          "url": "https://www.reddit.com/r/GetStudying/comments/1lm8nvi/i_need_help_creating_a_study_schedule_around_my/",
+          "title": "I need help creating a study schedule around my full-time work schedule. Where do I begin?",
+          "question_intent": "University learner needs study time around alternating full-time shifts and increased course load.",
+          "editorial_implication": "Begin with actual commitments/free windows; show minutes totals and what cannot fit instead of inventing extra hours.",
+          "observed_at": "2026-10-10T05:33:36.752719+00:00",
+          "verification": "Original public post body freshly opened and read through web tool on Oct 10; distinct authors and problem contexts in separate posts retained.",
+          "published_evidence": "Freshly opened body displayed approximately 1 year old; full work shifts and question read.",
+          "source_freshness": "Web result reports crawled yesterday; read today. Historical original question, not a new-post claim.",
+          "monthly_search_volume": null,
+          "limitation": "Historical recurring problem evidence only; exact timestamp and author geography not captured. No frequency or monthly volume inferred."
+        },
+        {
+          "url": "https://www.reddit.com/r/vce/comments/1d729nq/study_schedule/",
+          "title": "Study Schedule",
+          "question_intent": "Student explicitly requests a downloadable study schedule template that can be printed as a hard copy.",
+          "editorial_implication": "Provide a genuinely editable blank weekly schedule and printable format, not only an AI prompt link.",
+          "observed_at": "2026-10-10T05:33:36.752719+00:00",
+          "verification": "Original public post body freshly opened and read through web tool on Oct 10; distinct authors and problem contexts in separate posts retained.",
+          "published_evidence": "Freshly opened body displayed approximately 2 years old; VCE forum context is not treated as US audience proof.",
+          "source_freshness": "Web result reports crawled yesterday; read today. Historical original question, not a new-post claim.",
+          "monthly_search_volume": null,
+          "limitation": "Historical recurring problem evidence only; exact timestamp and author geography not captured. No frequency or monthly volume inferred."
+        }
+      ],
+      "assets": [
+        {
+          "id": 6877,
+          "slug": "build-study-schedule-your-real-free-hours-12e53779",
+          "title": "Build a Study Schedule From Your Real Free Hours",
+          "url": "https://tokrepo.com/en/workflows/build-study-schedule-your-real-free-hours-12e53779",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=6877",
+          "detail_status": 200,
+          "detail_retrieved_at": "2026-10-10T05:32:26.079795+00:00",
+          "public_status": 200,
+          "public_final_url": "https://tokrepo.com/en/workflows/build-study-schedule-your-real-free-hours-12e53779",
+          "public_retrieved_at": "2026-10-10T05:32:29.411110+00:00",
+          "public_html_sha256": "f659ff0e1052ac982358258a63ed356c7695207b193f8713f3a670d86268cc17",
+          "public_document_title": "Build a Study Schedule From Your Real Free Hours · TokRepo",
+          "public_identity_method": "Current detail stable id+slug+English title match original packet; unescaped returned English public HTML contains exact workflow title and slug. HTTP status alone is not the identity check.",
+          "asset_content_sha256": "e27626851cc34941ce82a3dbb7d1c9f087c2c9d12023003bc1bedf4c80d0e7e8",
+          "asset_content_hash_definition": "UTF-8 joined steps.prompt_template with newline separator; entire bilingual source included; no volatile metrics. Prior packet hash algorithm unspecified, so no byte-change inference made.",
+          "role": "Primary: obtain complete availability-led study-scheduling prompt; supplied syllabus/free windows become dated study blocks, gaps and load warnings.",
+          "prerequisites": [
+            "Syllabus or units as text; real free slots as Day/start-end/minutes; fixed commitments and known constraints.",
+            "Plain text-capable AI chat or original manual template; provider account/pricing separate.",
+            "Confirm dates/timezone and own workload estimates. Missing dates/loads remain unknown."
+          ],
+          "upstream_urls": [
+            "https://tokrepo.com/en/workflows/build-study-schedule-your-real-free-hours-12e53779"
+          ],
+          "source_reviewed": true,
+          "runtime_verified": false,
+          "verification_limits": [
+            "Source reviewed; no model scheduling run or calendar integration today.",
+            "The prompt cannot connect to calendar/school systems and cannot certify official course coverage."
+          ]
+        },
+        {
+          "id": 6848,
+          "slug": "study-quiz-plan-prompt-your-own-notes-db85c0b0",
+          "title": "Study Quiz and Plan Prompt From Your Own Notes",
+          "url": "https://tokrepo.com/en/workflows/study-quiz-plan-prompt-your-own-notes-db85c0b0",
+          "detail_url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=6848",
+          "detail_status": 200,
+          "detail_retrieved_at": "2026-10-10T05:32:27.222703+00:00",
+          "public_status": 200,
+          "public_final_url": "https://tokrepo.com/en/workflows/study-quiz-plan-prompt-your-own-notes-db85c0b0",
+          "public_retrieved_at": "2026-10-10T05:32:29.685217+00:00",
+          "public_html_sha256": "f3085bcc31a44cc699501d80248ea15f6794ab9415bb0aae2db6e1316d25ccb9",
+          "public_document_title": "Study Quiz and Plan Prompt From Your Own Notes · TokRepo",
+          "public_identity_method": "Current detail stable id+slug+English title match original packet; unescaped returned English public HTML contains exact workflow title and slug. HTTP status alone is not the identity check.",
+          "asset_content_sha256": "336c9407a94cad3f997361afb25d80491c0adc28fdb28e56fa718b21c65e8f9a",
+          "asset_content_hash_definition": "UTF-8 joined steps.prompt_template with newline separator; entire bilingual source included; no volatile metrics. Prior packet hash algorithm unspecified, so no byte-change inference made.",
+          "role": "Complementary: take a scheduled unit and practice-block time limit plus 5–15 supplied terms/facts into the quiz prompt; verify questions and fit activity back into the already budgeted block.",
+          "prerequisites": [
+            "Supply topic/unit and sufficient source facts/definitions, not just disconnected terms; add requested question count/format and available minutes.",
+            "Default is eight quiz questions; supports a five-day or shorter study plan with each day under 20 minutes.",
+            "Use only verified quiz/questions/activity in the existing block; do not add its entire default five-day plan on top of the primary schedule."
+          ],
+          "upstream_urls": [
+            "https://tokrepo.com/en/workflows/study-quiz-plan-prompt-your-own-notes-db85c0b0"
+          ],
+          "source_reviewed": true,
+          "runtime_verified": false,
+          "verification_limits": [
+            "Source reviewed, not model-executed; quiz is a draft and may contain errors.",
+            "Insufficient supported material must be requested, not guessed. Remove unsupported questions and ask for additional material if too few remain.",
+            "Catalog says no account setup, but an external AI chat may require an account/payment. This guide must state provider dependence."
+          ]
+        }
+      ],
+      "asset_handoff": "Choose an already budgeted 15–20-minute recall/practice block in the primary schedule. Transfer its unit, available minutes and 5–15 source facts to the secondary quiz asset; trace every answer/reason back to supplied material. Put the approved questions/activity into that same slot, preserving minutes totals and buffer. Secondary default study-plan output does not create extra sessions.",
+      "duplicate_decision": "New task: syllabus/deadlines and real availability produce a dated capacity plan. Existing flashcards-from-lecture-notes produces note-derived cards; it does not budget time/resolve schedule clashes. The secondary quiz is a practice-block fill, not a new flashcard guide or duplicate quiz landing page.",
+      "claim_boundaries": [
+        "Do not mirror full TokRepo prompts or reference sources.",
+        "Do not invent study hours, exam dates, page counts or workloads; unknown fields remain explicit questions.",
+        "Never schedule over fixed commitments or stack the complementary five-day plan on top of the weekly time budget.",
+        "Source-bound answer checks do not prove textbook/official exam correctness; author-created fictional notes and quiz must be labelled.",
+        "No grade, retention or exam-score guarantee; no automatic calendar/reminder creation.",
+        "The searched template must be immediately editable/downloadable on page, with printable material for hard-copy intent. Format-specific variants share this one canonical page.",
+        "AI use is optional where stated; provider access/account/pricing and data sharing are separate prerequisites."
+      ],
+      "editorial_required_actions": [
+        "Retain a usable editable and printable template, capacity-checked dated week, explicit unknown loads and overloaded gap.",
+        "Put secondary quiz into the existing practice slot, with source-grounded answers; do not add the default five-day plan on top.",
+        "External AI chat account/pricing remains provider-dependent; no automatic calendar or test-result claim."
+      ]
+    }
+  ],
+  "upstream_checks": [
+    {
+      "url": "https://raw.githubusercontent.com/reactive-resume/reactive-resume/main/docs/getting-started.mdx",
+      "status": 200,
+      "retrieved_at": "2026-10-10T05:32:27.322309+00:00",
+      "source_sha256": "2d24f5832e85c8dffac457fba3ff0a2a86a4b37e01d25063d513691a04e94980",
+      "finding": "Hosted service creates a free account; own AI provider optional; documents/downloads and account data storage/export described.",
+      "runtime_verified": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/reactive-resume/reactive-resume/main/docs/guides/writing-a-cover-letter.mdx",
+      "status": 200,
+      "retrieved_at": "2026-10-10T05:32:27.396011+00:00",
+      "source_sha256": "e51f7dc8189c89aa43c0a538ece9ed0a30e47f9b7c436503c09f9d09e8074f93",
+      "finding": "Standalone letter in Documents/New/New cover letter instead; Write it myself manual body; automatic greeting/sign-off; Download PDF supported. Current length indicator is guidance, not employer requirement.",
+      "runtime_verified": false
+    }
+  ],
+  "verification_limits": [
+    "US/en autocomplete parameters are a qualitative current suggestion signal, not monthly volume or proof of cited question geography.",
+    "Four original questions freshly opened/read; their stated relative ages are historical context, not recent frequency evidence.",
+    "Current detail and English public asset identities were checked; no AI model, hosted account, export, calendar or quiz runtime was exercised.",
+    "Source hashes cover the exact documented fields; volatile views/popularity counts are excluded from asset_content_sha256. No asset body or complete prompt is mirrored here.",
+    "GSC/GA account access was not checked by this demand editor. Root reports own Pages property absent and GA Analytics scope missing: indexing, visibility, visits and asset use remain UNKNOWN."
+  ]
+}
