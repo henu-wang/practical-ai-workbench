@@ -19,44 +19,50 @@
         {
           "slug": "transcribe-audio-to-text",
           "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/transcribe-audio-to-text/",
-          "index_status": "UNVERIFIED",
+          "index_status": "UNKNOWN",
           "search_visibility": "UNKNOWN",
-          "attributed_tokrepo_visits": "UNKNOWN"
+          "attributed_tokrepo_visits": "UNKNOWN",
+          "asset_use": "UNKNOWN"
         },
         {
           "slug": "meeting-minutes-template",
           "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/meeting-minutes-template/",
-          "index_status": "UNVERIFIED",
+          "index_status": "UNKNOWN",
           "search_visibility": "UNKNOWN",
-          "attributed_tokrepo_visits": "UNKNOWN"
+          "attributed_tokrepo_visits": "UNKNOWN",
+          "asset_use": "UNKNOWN"
         },
         {
           "slug": "extract-tables-from-pdf-to-excel",
           "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/extract-tables-from-pdf-to-excel/",
-          "index_status": "UNVERIFIED",
+          "index_status": "UNKNOWN",
           "search_visibility": "UNKNOWN",
-          "attributed_tokrepo_visits": "UNKNOWN"
+          "attributed_tokrepo_visits": "UNKNOWN",
+          "asset_use": "UNKNOWN"
         },
         {
           "slug": "presentation-from-notes",
           "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/presentation-from-notes/",
-          "index_status": "UNVERIFIED",
+          "index_status": "UNKNOWN",
           "search_visibility": "UNKNOWN",
-          "attributed_tokrepo_visits": "UNKNOWN"
+          "attributed_tokrepo_visits": "UNKNOWN",
+          "asset_use": "UNKNOWN"
         },
         {
           "slug": "clean-csv-remove-duplicate-rows",
           "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/clean-csv-remove-duplicate-rows/",
-          "index_status": "UNVERIFIED",
+          "index_status": "UNKNOWN",
           "search_visibility": "UNKNOWN",
-          "attributed_tokrepo_visits": "UNKNOWN"
+          "attributed_tokrepo_visits": "UNKNOWN",
+          "asset_use": "UNKNOWN"
         },
         {
           "slug": "flashcards-from-lecture-notes",
           "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/flashcards-from-lecture-notes/",
-          "index_status": "UNVERIFIED",
+          "index_status": "UNKNOWN",
           "search_visibility": "UNKNOWN",
-          "attributed_tokrepo_visits": "UNKNOWN"
+          "attributed_tokrepo_visits": "UNKNOWN",
+          "asset_use": "UNKNOWN"
         }
       ],
       "private_records_directory": "../private-monitoring",
@@ -69,8 +75,21 @@
       "metric_rule": "No access or missing tracking is unknown, not zero. Technical pass is not indexing; submitted sitemap is not fetched/indexed.",
       "release_commit": "e815d46a32df0a430a3f88b2f7fc564b17895b3c",
       "public_verified_at": "2026-10-07T06:17:07.095383+00:00",
-      "gsc_property": "not_registered_verification_pending",
-      "ga4_access": "missing_Analytics_scope"
+      "gsc_property": "verification_pending_not_connected_to_Wizard",
+      "ga4_access": "missing_Analytics_scope",
+      "inspection_history": [
+        {
+          "due_on": "2026-10-10",
+          "checkpoint": "D3",
+          "checked_at": "2026-10-10T05:42:24.557322+00:00",
+          "status": "BLOCKED_UNVERIFIED_PROPERTY",
+          "api_called": false,
+          "indexing": "UNKNOWN",
+          "last_crawl_time": null,
+          "google_canonical": null,
+          "next_action": "Publish actual Google verification content when obtained; verify correct property then run overdue inspections."
+        }
+      ]
     },
     {
       "program": "asset_search",
@@ -86,7 +105,7 @@
       "status": "live_public_verified",
       "release_commit": "c6d4c91b9f057c3fa3c36ee0870deb3768cc8554",
       "public_verified_at": "2026-10-08T02:16:32.613677+00:00",
-      "gsc_property": "not_registered_verification_pending",
+      "gsc_property": "verification_pending_not_connected_to_Wizard",
       "ga4_access": "missing_Analytics_scope",
       "pages": [
         {
@@ -106,6 +125,42 @@
           "asset_use": "UNKNOWN"
         }
       ]
+    },
+    {
+      "program": "asset_search",
+      "site_url": "https://henu-wang.github.io/practical-ai-workbench/",
+      "cohort_date": "2026-10-10",
+      "authored_on": "2026-10-09",
+      "inspection_due": [
+        "2026-10-13",
+        "2026-10-17",
+        "2026-10-24"
+      ],
+      "weekly_review_due": "2026-10-17",
+      "cohort_review_due": "2026-11-07",
+      "status": "live_public_verified",
+      "release_commit": "d04c97601dc541cc3e1ce4deb23172b714926bf4",
+      "public_verified_at": "2026-10-10T05:42:24.557322+00:00",
+      "gsc_property": "verification_pending_not_connected_to_Wizard",
+      "ga4_access": "missing_Analytics_scope",
+      "pages": [
+        {
+          "slug": "write-a-cover-letter",
+          "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/write-a-cover-letter/",
+          "index_status": "UNKNOWN",
+          "search_visibility": "UNKNOWN",
+          "attributed_tokrepo_visits": "UNKNOWN",
+          "asset_use": "UNKNOWN"
+        },
+        {
+          "slug": "study-schedule-template",
+          "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/study-schedule-template/",
+          "index_status": "UNKNOWN",
+          "search_visibility": "UNKNOWN",
+          "attributed_tokrepo_visits": "UNKNOWN",
+          "asset_use": "UNKNOWN"
+        }
+      ]
     }
   ],
   "utm": {
@@ -116,14 +171,15 @@
   },
   "metric_rule": "No access or missing tracking is unknown, not zero. Technical pass is not indexing; submitted sitemap is not fetched/indexed.",
   "last_daily_check": {
-    "checked_at": "2026-10-08T02:16:32.613677+00:00",
+    "checked_at": "2026-10-10T05:42:24.557322+00:00",
     "technical_status": "pass",
-    "recipe_count": 8,
-    "download_count": 33,
-    "asset_targets_with_utm": 17,
+    "recipe_count": 10,
+    "download_count": 46,
+    "asset_targets_with_utm": 21,
+    "unique_assets": 18,
     "indexing": "UNKNOWN",
     "attribution": "UNKNOWN",
-    "next_due": "2026-10-10"
+    "next_due": "2026-10-11"
   },
   "private_records_policy": "Raw account reports and detailed receipts remain outside this public repository."
 }

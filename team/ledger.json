@@ -144,9 +144,11 @@
       "program": "asset_search",
       "action": "new_topic",
       "published_on": "2026-10-10",
-      "status": "ready_for_independent_review",
+      "status": "public_verified",
       "canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/write-a-cover-letter/",
-      "authored_on": "2026-10-09"
+      "authored_on": "2026-10-09",
+      "release_commit": "d04c97601dc541cc3e1ce4deb23172b714926bf4",
+      "verified_at": "2026-10-10T05:42:24.557322+00:00"
     },
     {
       "slug": "study-schedule-template",
@@ -154,9 +156,11 @@
       "program": "asset_search",
       "action": "new_topic",
       "published_on": "2026-10-10",
-      "status": "ready_for_independent_review",
+      "status": "public_verified",
       "canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/study-schedule-template/",
-      "authored_on": "2026-10-09"
+      "authored_on": "2026-10-09",
+      "release_commit": "d04c97601dc541cc3e1ce4deb23172b714926bf4",
+      "verified_at": "2026-10-10T05:42:24.557322+00:00"
     }
   ]
 }
