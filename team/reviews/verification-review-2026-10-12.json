@@ -1,0 +1,101 @@
+{
+  "reviewed_at": "2026-10-12T02:02:26.898158+00:00",
+  "reviewer": "independent verification/review editor",
+  "verdict": "PASS",
+  "scope": "Local source and generated-output review of only the parent GSC HTML verification-tag change in scripts/build.py and docs/index.html. Isolated rebuild and baseline comparison; no recipe content reapproval, monitoring review, publication, account action or TokRepo production change.",
+  "baseline_commit": "284fd268fb2c9eb8fc6da82509eb4531ff41a0db",
+  "reviewed_files_sha256": {
+    "scripts/build.py": "c8ff127c0f6ed415abce8fa9f9996a0a0e86325e040a21ce87fffd5ecd3df509",
+    "docs/index.html": "f5273a1c01dd97f0fbfb49b55755d7f58ccce8db7fc0a1cae7b2626e4a61f6e8"
+  },
+  "hash_binding": "SHA256 of exact file bytes; verdict invalid if either reviewed file changes.",
+  "checks": [
+    {
+      "check": "exact_tag_once_inside_home_head",
+      "passed": true,
+      "observed": {
+        "literal_count": 1,
+        "head_values": [
+          "dw16z2BYq7YjfLRoDJAUKhWYeXBFamGbUObFWDUfmAs"
+        ]
+      }
+    },
+    {
+      "check": "own_canonical_unchanged",
+      "passed": true,
+      "observed": {
+        "canonical": [
+          "https://henu-wang.github.io/practical-ai-workbench/"
+        ],
+        "home_equals_HEAD_after_removing_only_tag": true
+      }
+    },
+    {
+      "check": "build_diff_only_two_added_lines",
+      "passed": true,
+      "observed": "HEAD comparison and Python AST parse"
+    },
+    {
+      "check": "isolated_rebuild",
+      "passed": true,
+      "observed": {
+        "exit_code": 0,
+        "stdout": "Built 10 asset workflows and preserved 6 legacy tools.",
+        "stderr": ""
+      }
+    },
+    {
+      "check": "rebuilt_home_matches_reviewed_bytes",
+      "passed": true,
+      "observed": "SHA256 f5273a1c01dd97f0fbfb49b55755d7f58ccce8db7fc0a1cae7b2626e4a61f6e8"
+    },
+    {
+      "check": "rebuild_no_other_docs_drift",
+      "passed": true,
+      "observed": {
+        "changed_paths": []
+      }
+    },
+    {
+      "check": "baseline_to_changed_build_only_home",
+      "passed": true,
+      "observed": {
+        "changed_paths": [
+          "docs/index.html"
+        ],
+        "unchanged_recipe_count": 10,
+        "unchanged_legacy_count": 6
+      }
+    },
+    {
+      "check": "baseline_home_only_exact_tag",
+      "passed": true,
+      "observed": "Exact byte comparison"
+    },
+    {
+      "check": "reviewed_files_stable_during_review",
+      "passed": true,
+      "observed": "Concurrent-edit hash guard"
+    }
+  ],
+  "blockers": [],
+  "provided_context": {
+    "property_url": "https://henu-wang.github.io/practical-ai-workbench/",
+    "google_tag_source": "User reports logged-in Google Search Console showed this exact property and tag; reviewer did not inspect the account."
+  },
+  "status_boundaries": {
+    "local_tag_review": "PASS",
+    "public_deployment": "NOT_CHECKED",
+    "gsc_property_verification": "NOT_VERIFIED_BY_THIS_REVIEW",
+    "sitemap_submission": "NOT_CHECKED",
+    "indexing": "UNKNOWN",
+    "traffic": "UNKNOWN",
+    "tokrepo_production": "No production changes performed; reviewed diff is limited to this Pages repository."
+  },
+  "out_of_scope_observed_changes": [
+    " M docs/index.html",
+    " M scripts/build.py",
+    " M team/reviews/recipes-browser.json"
+  ],
+  "ownership": "Only team/reviews/verification-review-2026-10-12.json written in shared repository; temporary builds removed. Other editors changes preserved."
+}

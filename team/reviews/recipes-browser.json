@@ -1,6 +1,6 @@
 {
-  "recorded_at": "2026-10-10T05:37:27.390785+00:00",
-  "source_sha256": "7331c6ffae364e83e3d2de0080d0bd1dd5cea3acb6899360c758139ea3eff11c",
+  "recorded_at": "2026-10-12T02:01:05.638850+00:00",
+  "source_sha256": "b86d6ff8d9689a4eb001d78da64d6e8b004ceb7a4f548aeb353ba75a28b396cb",
   "status": "PASS",
   "scope": "Rendered guide and original downloadable templates; no claim that third-party models ran",
   "page_errors": [],
