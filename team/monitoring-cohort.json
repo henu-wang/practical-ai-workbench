@@ -19,50 +19,68 @@
         {
           "slug": "transcribe-audio-to-text",
           "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/transcribe-audio-to-text/",
-          "index_status": "UNKNOWN",
+          "index_status": "NOT_INDEXED_GOOGLE_UNKNOWN_URL",
           "search_visibility": "UNKNOWN",
           "attributed_tokrepo_visits": "UNKNOWN",
-          "asset_use": "UNKNOWN"
+          "asset_use": "UNKNOWN",
+          "last_inspection_at": "2026-10-12T02:15:31.066307+00:00",
+          "last_crawl_time": null,
+          "google_canonical": null
         },
         {
           "slug": "meeting-minutes-template",
           "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/meeting-minutes-template/",
-          "index_status": "UNKNOWN",
+          "index_status": "NOT_INDEXED_GOOGLE_UNKNOWN_URL",
           "search_visibility": "UNKNOWN",
           "attributed_tokrepo_visits": "UNKNOWN",
-          "asset_use": "UNKNOWN"
+          "asset_use": "UNKNOWN",
+          "last_inspection_at": "2026-10-12T02:15:31.066307+00:00",
+          "last_crawl_time": null,
+          "google_canonical": null
         },
         {
           "slug": "extract-tables-from-pdf-to-excel",
           "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/extract-tables-from-pdf-to-excel/",
-          "index_status": "UNKNOWN",
+          "index_status": "NOT_INDEXED_GOOGLE_UNKNOWN_URL",
           "search_visibility": "UNKNOWN",
           "attributed_tokrepo_visits": "UNKNOWN",
-          "asset_use": "UNKNOWN"
+          "asset_use": "UNKNOWN",
+          "last_inspection_at": "2026-10-12T02:15:31.066307+00:00",
+          "last_crawl_time": null,
+          "google_canonical": null
         },
         {
           "slug": "presentation-from-notes",
           "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/presentation-from-notes/",
-          "index_status": "UNKNOWN",
+          "index_status": "NOT_INDEXED_GOOGLE_UNKNOWN_URL",
           "search_visibility": "UNKNOWN",
           "attributed_tokrepo_visits": "UNKNOWN",
-          "asset_use": "UNKNOWN"
+          "asset_use": "UNKNOWN",
+          "last_inspection_at": "2026-10-12T02:15:31.066307+00:00",
+          "last_crawl_time": null,
+          "google_canonical": null
         },
         {
           "slug": "clean-csv-remove-duplicate-rows",
           "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/clean-csv-remove-duplicate-rows/",
-          "index_status": "UNKNOWN",
+          "index_status": "NOT_INDEXED_GOOGLE_UNKNOWN_URL",
           "search_visibility": "UNKNOWN",
           "attributed_tokrepo_visits": "UNKNOWN",
-          "asset_use": "UNKNOWN"
+          "asset_use": "UNKNOWN",
+          "last_inspection_at": "2026-10-12T02:15:31.066307+00:00",
+          "last_crawl_time": null,
+          "google_canonical": null
         },
         {
           "slug": "flashcards-from-lecture-notes",
           "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/flashcards-from-lecture-notes/",
-          "index_status": "UNKNOWN",
+          "index_status": "NOT_INDEXED_GOOGLE_UNKNOWN_URL",
           "search_visibility": "UNKNOWN",
           "attributed_tokrepo_visits": "UNKNOWN",
-          "asset_use": "UNKNOWN"
+          "asset_use": "UNKNOWN",
+          "last_inspection_at": "2026-10-12T02:15:31.066307+00:00",
+          "last_crawl_time": null,
+          "google_canonical": null
         }
       ],
       "private_records_directory": "../private-monitoring",
@@ -75,8 +93,8 @@
       "metric_rule": "No access or missing tracking is unknown, not zero. Technical pass is not indexing; submitted sitemap is not fetched/indexed.",
       "release_commit": "e815d46a32df0a430a3f88b2f7fc564b17895b3c",
       "public_verified_at": "2026-10-07T06:17:07.095383+00:00",
-      "gsc_property": "verification_pending_not_connected_to_Wizard",
-      "ga4_access": "missing_Analytics_scope",
+      "gsc_property": "verified_url_prefix_via_Chrome",
+      "ga4_access": "Chrome_available_connector_missing_scope_campaign_report_not_yet_verified",
       "inspection_history": [
         {
           "due_on": "2026-10-10",
@@ -88,8 +106,19 @@
           "last_crawl_time": null,
           "google_canonical": null,
           "next_action": "Publish actual Google verification content when obtained; verify correct property then run overdue inspections."
+        },
+        {
+          "due_on": "2026-10-10",
+          "checkpoint": "D3",
+          "checked_at": "2026-10-12T02:15:31.066307+00:00",
+          "status": "COMPLETED_STORED_INSPECTION_VIA_CHROME",
+          "indexing": "NOT_INDEXED_GOOGLE_UNKNOWN_URL",
+          "last_crawl_time": null,
+          "google_canonical": null,
+          "next_action": "Home indexing request accepted; sitemap submitted and Google live fetch succeeded; recheck sitemap Oct13 and scheduled D7."
         }
-      ]
+      ],
+      "gsc_connector": "payment_required_subscription_expired"
     },
     {
       "program": "asset_search",
@@ -105,24 +134,43 @@
       "status": "live_public_verified",
       "release_commit": "c6d4c91b9f057c3fa3c36ee0870deb3768cc8554",
       "public_verified_at": "2026-10-08T02:16:32.613677+00:00",
-      "gsc_property": "verification_pending_not_connected_to_Wizard",
-      "ga4_access": "missing_Analytics_scope",
+      "gsc_property": "verified_url_prefix_via_Chrome",
+      "ga4_access": "Chrome_available_connector_missing_scope_campaign_report_not_yet_verified",
       "pages": [
         {
           "slug": "write-resume-bullet-points",
           "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/write-resume-bullet-points/",
-          "index_status": "UNKNOWN",
+          "index_status": "NOT_INDEXED_GOOGLE_UNKNOWN_URL",
           "search_visibility": "UNKNOWN",
           "attributed_tokrepo_visits": "UNKNOWN",
-          "asset_use": "UNKNOWN"
+          "asset_use": "UNKNOWN",
+          "last_inspection_at": "2026-10-12T02:15:31.066307+00:00",
+          "last_crawl_time": null,
+          "google_canonical": null
         },
         {
           "slug": "project-proposal-template",
           "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/project-proposal-template/",
-          "index_status": "UNKNOWN",
+          "index_status": "NOT_INDEXED_GOOGLE_UNKNOWN_URL",
           "search_visibility": "UNKNOWN",
           "attributed_tokrepo_visits": "UNKNOWN",
-          "asset_use": "UNKNOWN"
+          "asset_use": "UNKNOWN",
+          "last_inspection_at": "2026-10-12T02:15:31.066307+00:00",
+          "last_crawl_time": null,
+          "google_canonical": null
+        }
+      ],
+      "gsc_connector": "payment_required_subscription_expired",
+      "inspection_history": [
+        {
+          "due_on": "2026-10-11",
+          "checkpoint": "D3",
+          "checked_at": "2026-10-12T02:15:31.066307+00:00",
+          "status": "COMPLETED_STORED_INSPECTION_VIA_CHROME",
+          "indexing": "NOT_INDEXED_GOOGLE_UNKNOWN_URL",
+          "last_crawl_time": null,
+          "google_canonical": null,
+          "next_action": "Home indexing request accepted; sitemap submitted and Google live fetch succeeded; recheck sitemap Oct13 and scheduled D7."
         }
       ]
     },
@@ -141,8 +189,8 @@
       "status": "live_public_verified",
       "release_commit": "d04c97601dc541cc3e1ce4deb23172b714926bf4",
       "public_verified_at": "2026-10-10T05:42:24.557322+00:00",
-      "gsc_property": "verification_pending_not_connected_to_Wizard",
-      "ga4_access": "missing_Analytics_scope",
+      "gsc_property": "verified_url_prefix_via_Chrome",
+      "ga4_access": "Chrome_available_connector_missing_scope_campaign_report_not_yet_verified",
       "pages": [
         {
           "slug": "write-a-cover-letter",
@@ -160,7 +208,8 @@
           "attributed_tokrepo_visits": "UNKNOWN",
           "asset_use": "UNKNOWN"
         }
-      ]
+      ],
+      "gsc_connector": "payment_required_subscription_expired"
     }
   ],
   "utm": {
@@ -171,15 +220,46 @@
   },
   "metric_rule": "No access or missing tracking is unknown, not zero. Technical pass is not indexing; submitted sitemap is not fetched/indexed.",
   "last_daily_check": {
-    "checked_at": "2026-10-10T05:42:24.557322+00:00",
+    "checked_at": "2026-10-12T02:15:31.066307+00:00",
     "technical_status": "pass",
     "recipe_count": 10,
     "download_count": 46,
     "asset_targets_with_utm": 21,
     "unique_assets": 18,
-    "indexing": "UNKNOWN",
-    "attribution": "UNKNOWN",
-    "next_due": "2026-10-11"
+    "indexing": "8_due_guides_and_home_not_indexed_google_unknown_url",
+    "attribution": "GA4_UI_NO_MATCHING_ROWS_CAPTURE_COVERAGE_UNKNOWN",
+    "next_due": "2026-10-13"
   },
-  "private_records_policy": "Raw account reports and detailed receipts remain outside this public repository."
+  "private_records_policy": "Raw account reports and detailed receipts remain outside this public repository.",
+  "gsc_setup": {
+    "property": "https://henu-wang.github.io/practical-ai-workbench/",
+    "verified_on": "2026-10-12",
+    "method": "HTML tag",
+    "verification_commit": "485f36c",
+    "sitemap_url": "https://henu-wang.github.io/practical-ai-workbench/sitemap.xml",
+    "sitemap_submission": "accepted",
+    "sitemap_report": "could_not_fetch_initial",
+    "sitemap_google_live_fetch": "success_2026-10-12",
+    "home_index_request": "accepted_priority_queue",
+    "connector": "payment_required",
+    "next_sitemap_check": "2026-10-13",
+    "index_requests": [
+      {
+        "slug": "home",
+        "status": "accepted_priority_queue"
+      },
+      {
+        "slug": "write-resume-bullet-points",
+        "status": "accepted_priority_queue"
+      }
+    ],
+    "sitemap_submissions": 2
+  },
+  "private_records_directory": "../tokrepo-search-monitoring-private",
+  "ga4_monitoring": {
+    "checked_on": "2026-10-12",
+    "access": "logged_in_Chrome_available",
+    "report_window": "2026-09-14 through 2026-10-11",
+    "observation": "No matching rows in separate github_pages source and tokrepo_search campaign views; attribution coverage and asset use remain unknown."
+  }
 }

@@ -1,6 +1,6 @@
 {
-  "recorded_at": "2026-10-12T02:01:05.638850+00:00",
-  "source_sha256": "b86d6ff8d9689a4eb001d78da64d6e8b004ceb7a4f548aeb353ba75a28b396cb",
+  "recorded_at": "2026-10-12T02:25:53.796428+00:00",
+  "source_sha256": "2fd704839e2dcbc81d62e1d8188d542f2d59f68ef5f60df9c73f6b930ade5236",
   "status": "PASS",
   "scope": "Rendered guide and original downloadable templates; no claim that third-party models ran",
   "page_errors": [],
@@ -312,6 +312,34 @@
           "path": "templates/study-schedule-template/recall-slot-example.md",
           "bytes": 4234,
           "sha256": "564def9e4fdc8a2dbb1171ed6f3f132ae4d97b1c949917f27411ea2116a518a2"
+        }
+      ]
+    },
+    {
+      "slug": "weekly-project-status-report-template",
+      "render": "PASS",
+      "primary_cta": "PASS",
+      "mobile": "PASS",
+      "template_downloads": [
+        {
+          "path": "templates/weekly-project-status-report-template/weekly-project-status-report-template.md",
+          "bytes": 3873,
+          "sha256": "e210289aa2d27be138454e51d4f6481fd27496ae644f6e91184ef440381d5371"
+        },
+        {
+          "path": "templates/weekly-project-status-report-template/source-collection-worksheet.md",
+          "bytes": 3087,
+          "sha256": "d0e21e822ab78fdb95592f8e45e75eee4dbdf9281d1eeadc525890d87e5451cb"
+        },
+        {
+          "path": "templates/weekly-project-status-report-template/fictional-source-notes.md",
+          "bytes": 7898,
+          "sha256": "3bc446b327fce06a21855b4e8b9d2935ab55c909352f28f86d124e54b53dffab"
+        },
+        {
+          "path": "templates/weekly-project-status-report-template/filled-example.md",
+          "bytes": 7955,
+          "sha256": "6cb1d7fbc127e52d347405963fc620d21d6f8fa6631277f99e40b803812daca6"
         }
       ]
     }

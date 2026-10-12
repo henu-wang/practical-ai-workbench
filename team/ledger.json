@@ -161,6 +161,28 @@
       "authored_on": "2026-10-09",
       "release_commit": "d04c97601dc541cc3e1ce4deb23172b714926bf4",
       "verified_at": "2026-10-10T05:42:24.557322+00:00"
+    },
+    {
+      "slug": "weekly-project-status-report-template",
+      "dedupe_key": "asset-search:project_owner_weekly_source_notes_to_status_report",
+      "intent_id": "project_owner_weekly_source_notes_to_status_report",
+      "program": "asset_search",
+      "action": "new_topic_candidate",
+      "status": "independent_content_pass_pending_release_metadata_review",
+      "planned_publish_on": "2026-10-12",
+      "canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/weekly-project-status-report-template/",
+      "primary_query": "weekly project status report template",
+      "related_queries": [
+        "weekly project status report example",
+        "weekly project status report email template",
+        "weekly project status report template word"
+      ],
+      "primary_asset_id": 6827,
+      "secondary_asset_id": 6860,
+      "demand_evidence": "team/research/demand-2026-10-12.json",
+      "author_evidence": "team/research/author-2026-10-12.json",
+      "monthly_search_volume": null,
+      "independent_review": "team/reviews/recipes-review-2026-10-12.json"
     }
   ]
 }

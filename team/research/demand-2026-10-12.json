@@ -1,0 +1,617 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-12",
+  "observed_at": "2026-10-12T02:04:46+00:00",
+  "editor": "independent demand editor",
+  "objective": "At most one genuinely different general English office/task/template intent; demand research only.",
+  "owned_files": [
+    "team/research/demand-2026-10-12.json",
+    "team/research/demand-2026-10-12.md"
+  ],
+  "market": "US",
+  "language": "en",
+  "numeric_search_volume": null,
+  "qualified_candidate_count": 1,
+  "inputs_read": {
+    "contracts": [
+      "AGENTS.md",
+      "team/context/*",
+      "team/PIPELINE.md",
+      "team/STYLE.md",
+      "team/QUALITY.md",
+      "team/MONITORING.md",
+      "team/roles/demand-editor.md"
+    ],
+    "complete_json_inputs": [
+      "recipes.json",
+      "team/ledger.json",
+      "team/research/redirect-demand.json",
+      "team/research/demand.json",
+      "team/research/asset-registry.json",
+      "team/research/demand-2026-10-08.json",
+      "team/research/demand-2026-10-09.json",
+      "team/research/revalidation-2026-10-10.json",
+      "team/research/author-2026-10-08.json",
+      "team/research/author-2026-10-09.json",
+      "team/research/author-2026-10-10.json"
+    ],
+    "relevant_reviews": [
+      "team/reviews/recipes-review-2026-10-10.md",
+      "team/reviews/verification-review-2026-10-12.json"
+    ],
+    "historical_note": "Older standalone-tool objectives and old follow-up-email no-fit screening are superseded by current task and live assets. No historical evidence substituted for today's suggestion/assets."
+  },
+  "candidates": [
+    {
+      "intent_id": "project_owner_weekly_source_notes_to_status_report",
+      "slug": "weekly-project-status-report-template",
+      "title": "Weekly project status report template: progress, blockers and decisions",
+      "primary_query": "weekly project status report template",
+      "related_queries": [
+        "weekly project status report example",
+        "weekly project status report email template",
+        "weekly project status report template word"
+      ],
+      "market": "US",
+      "language": "en",
+      "pillar": "Writing and communication",
+      "reader": "A project coordinator, manager or office team lead preparing a recurring update for a sponsor, client or manager.",
+      "task": "Turn one explicitly dated week's manually collected project notes into an editable, evidence-labelled status report that distinguishes completed outcomes, ongoing work, blockers and decisions needed.",
+      "input": [
+        "A single project and explicit reporting start/end dates.",
+        "Labelled notes manually retrieved from identified source locations.",
+        "Supplied deliverable/completion evidence, blockers, agreed next steps and any known owners/dates.",
+        "Reader, reporting goal and length; optional previous report for comparison."
+      ],
+      "output": "An immediately usable editable blank weekly report and a source-traceable filled fictional report; unknowns/conflicts/proposed actions remain visible.",
+      "canonical_path": "/workflows/weekly-project-status-report-template/",
+      "proposed_canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/weekly-project-status-report-template/",
+      "qualification_status": "QUALIFIED_FOR_AUTHORING",
+      "qualification_reason": "Current exact US/en Google suggestion, two independently inspected original user problems by different authors, current detail/public identities and credible manual collection-to-report drafting handoff. Content and publication gates remain pending.",
+      "autocomplete": {
+        "seed": "weekly project status report",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=weekly%20project%20status%20report",
+        "http_status": 200,
+        "retrieved_at": "2026-10-12T02:01:00.124767+00:00",
+        "exact_observed_suggestion": "weekly project status report template",
+        "suggestions": [
+          "weekly project status report template",
+          "weekly project status report template excel free download",
+          "weekly project status report",
+          "weekly project status report example",
+          "weekly project status report template ppt",
+          "weekly project status report template excel",
+          "weekly project status report template word",
+          "weekly project status report template ppt free download",
+          "weekly project status report template free download",
+          "weekly project status report email template"
+        ],
+        "market": "US",
+        "language": "en",
+        "limitations": [
+          "Qualitative suggestion presence only; not search volume, frequency, rank or conversion.",
+          "US/en request parameters are not controlled physical search location or proof of US user geography.",
+          "Format-specific terms are variants of this canonical intent; Excel/PPT must not be targeted unless those usable formats are actually authored and verified."
+        ]
+      },
+      "questions": [
+        {
+          "url": "https://www.reddit.com/r/projectmanagement/comments/1taz829/am_i_doing_this_right_status_reports/",
+          "title": "Am I doing this right? Status reports",
+          "public_author": "AdventurousFish5314",
+          "inspected_at": "2026-10-12T02:04:46+00:00",
+          "timestamp_semantics": "Evidence log written after separately opening and reading original post body through web.run; not a claimed server fetch timestamp.",
+          "inspection": "Original body, lines 21-31; original-author clarification, lines 70-75. Distinct original post, not search snippet or vendor tutorial.",
+          "displayed_age": "5mo ago",
+          "observed_problem": "A project coordinator loses project context after a key colleague leaves. They collect weekly updates in Monday.com and ask how to report them so details stop getting lost; they want executive summaries and meetings focused on decisions and stuck points.",
+          "editorial_implication": "Give an explicit weekly source-collection step, named input labels and a checked report with blockers/decisions; make retrieval ownership and unsupported completion visible.",
+          "limitations": [
+            "Historical question freshly inspected; exact creation time not independently retrieved.",
+            "US geography unknown; English-language post only.",
+            "The user's desired board automation and meeting reduction are outside this manual prompt/template scope; no Monday connector or time-saving outcome promised."
+          ]
+        },
+        {
+          "url": "https://www.reddit.com/r/ITManagers/comments/1one260/management_reports/",
+          "title": "Management Reports",
+          "public_author": "ahsanalicha",
+          "inspected_at": "2026-10-12T02:04:46+00:00",
+          "timestamp_semantics": "Evidence log written after separately opening and reading original post body through web.run; not a claimed server fetch timestamp.",
+          "inspection": "Original body, lines 21-25. Distinct author and subreddit; original question has no vendor/product-promotion link. Promotional replies not counted.",
+          "displayed_age": "10mo ago",
+          "observed_problem": "An IT manager is asked to give weekly management updates on ongoing projects and operations and asks what belongs in the report and what can help prepare it.",
+          "editorial_implication": "Fulfil the project-report portion with a simple editable section structure and filled example, audience/decision input and only source-supported progress/blockers.",
+          "limitations": [
+            "Historical question freshly inspected; exact creation time not independently retrieved.",
+            "US geography unknown; English-language post only.",
+            "Broader operations dashboard request is only partially served. No live dashboard, ticket metrics, uptime integration or automatic distribution claimed."
+          ]
+        }
+      ],
+      "independence_assessment": "Two separately opened original questions by different public authors in r/projectmanagement and r/ITManagers. Both are on Reddit, so platform/source diversity is limited. No cross-post or reused question observed. Promotional replies and comments are excluded from the two-problem count.",
+      "assets": [
+        {
+          "id": 6827,
+          "uuid": "07ec80f0-046d-44bf-a673-512de73f1177",
+          "slug": "weekly-update-editor-turn-raw-notes-into-clear-status-07ec80f0",
+          "title": "Weekly Update Editor: Turn Raw Notes into Clear Status",
+          "lang_type": "en",
+          "url": "https://tokrepo.com/en/workflows/weekly-update-editor-turn-raw-notes-into-clear-status-07ec80f0",
+          "role": "primary",
+          "role_description": "Draft the actual weekly project status report from supplied work notes: completed work/evidence, work in progress, blockers/risks, next steps and decisions/help, with source labels, UNKNOWN gaps and fact-check list.",
+          "detail_receipt": {
+            "url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=6827",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T02:03:15.649002+00:00",
+            "response_sha256": "7dcf13b68c32fbce7feaaa30b8aaa575a47153fb1e58b8769ec0ff548485c12f"
+          },
+          "public_receipt": {
+            "url": "https://tokrepo.com/en/workflows/weekly-update-editor-turn-raw-notes-into-clear-status-07ec80f0",
+            "final_url": "https://tokrepo.com/en/workflows/weekly-update-editor-turn-raw-notes-into-clear-status-07ec80f0",
+            "http_status": 200,
+            "content_type": "text/html;charset=utf-8",
+            "retrieved_at": "2026-10-12T02:04:19.300048+00:00",
+            "response_sha256": "2c6267bed354ef6370e25082a987538a68ea23d823f17a35230bed94bea86d44",
+            "english_h1": "Weekly Update Editor: Turn Raw Notes into Clear Status",
+            "identity_checks": [
+              "English H1 equals detail title",
+              "Public complete-prompt heading and task-specific English instructions present",
+              "Detail stable integer ID, UUID, slug and language match intended object"
+            ]
+          },
+          "nonbrowser_limitation": {
+            "observed_at": "2026-10-12T02:03:17.394447+00:00",
+            "final_url": "https://tokrepo.com/raw/weekly-update-editor-turn-raw-notes-into-clear-status-07ec80f0",
+            "reason": "Default Python User-Agent redirected to /raw with the same slug and actual prompt content; desktop browser User-Agent returned the original English HTML detail and matching H1. Generic shell HTTP200 was not used as identity proof."
+          },
+          "upstream_source": "Original TokRepo prompt; complete current source read in detail endpoint and English public content. Linked ChatGPT release notes are context only, not evidence of capabilities.",
+          "license_observed": "CC BY 4.0 in asset content; full prompt not copied into this packet.",
+          "supported_use": "Copy the complete prompt from the TokRepo detail into a text-capable AI chat; paste your own supplied material. Manual editorial worksheet/template remains a valid non-AI route.",
+          "prerequisites": [
+            "Your own redacted raw work notes with source labels.",
+            "Text-capable AI chat if using the prompt; provider access, account and fees vary.",
+            "Audience, reporting period and preferred length are optional in this asset; missing audience/period remains unspecified. The proposed weekly report should explicitly supply them.",
+            "Human check of completion, dates, owners, commitments and supported results before sharing."
+          ],
+          "catalog_install_banner_limit": "Current public page also offers an agent install banner. The task is served by its documented plain-text copy/paste route. No CLI install, dry-run, runtime setup or installed capability verified or promised.",
+          "verification_level": "source_reviewed",
+          "runtime_verified": false
+        },
+        {
+          "id": 6860,
+          "uuid": "edacc17d-5d45-48bd-ba73-c05ca1e3c619",
+          "slug": "weekly-summary-workflow-prompt-you-run-yourself-edacc17d",
+          "title": "Weekly Summary Workflow Prompt You Run Yourself",
+          "lang_type": "en",
+          "url": "https://tokrepo.com/en/workflows/weekly-summary-workflow-prompt-you-run-yourself-edacc17d",
+          "role": "complementary_preparation",
+          "role_description": "Before drafting, design a repeatable manual source collection plan: locations, retrieval steps, dated reporting window, missing-source handling and retained input/review pack. Its generic summary prompt is not a second competing report output.",
+          "detail_receipt": {
+            "url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=6860",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T02:03:15.704446+00:00",
+            "response_sha256": "9802c7b799653c6a6a8db8195dce25a3745fc22350ccbc4bc8eb7db48210f80d"
+          },
+          "public_receipt": {
+            "url": "https://tokrepo.com/en/workflows/weekly-summary-workflow-prompt-you-run-yourself-edacc17d",
+            "final_url": "https://tokrepo.com/en/workflows/weekly-summary-workflow-prompt-you-run-yourself-edacc17d",
+            "http_status": 200,
+            "content_type": "text/html;charset=utf-8",
+            "retrieved_at": "2026-10-12T02:04:20.619394+00:00",
+            "response_sha256": "5fbf9077e0566883ea56f85ff798e591df3be0243d2294de5e5d4741367865aa",
+            "english_h1": "Weekly Summary Workflow Prompt You Run Yourself",
+            "identity_checks": [
+              "English H1 equals detail title",
+              "Public complete-prompt heading and task-specific English instructions present",
+              "Detail stable integer ID, UUID, slug and language match intended object"
+            ]
+          },
+          "nonbrowser_limitation": {
+            "observed_at": "2026-10-12T02:03:17.402516+00:00",
+            "final_url": "https://tokrepo.com/raw/weekly-summary-workflow-prompt-you-run-yourself-edacc17d",
+            "reason": "Default Python User-Agent redirected to /raw with the same slug and actual prompt content; desktop browser User-Agent returned the original English HTML detail and matching H1. Generic shell HTTP200 was not used as identity proof."
+          },
+          "upstream_source": "Original TokRepo prompt; complete current source read in detail endpoint and English public content. Linked ChatGPT release notes are context only, not evidence of capabilities.",
+          "license_observed": "CC BY 4.0 in asset content; full prompt not copied into this packet.",
+          "supported_use": "Copy the complete prompt from the TokRepo detail into a text-capable AI chat; paste your own supplied material. Manual editorial worksheet/template remains a valid non-AI route.",
+          "prerequisites": [
+            "Goal/readers and decision supported; named sources with an actual manual retrieval/export path; exact start/end and assembly day.",
+            "Desired section order, recurring items, length/tone/confidentiality constraints; previous report only if available.",
+            "Text-capable AI chat if using the prompt; provider access, account and fees vary.",
+            "Manually retrieve and redact material. Missing goal/sources/time window requires clarification; unavailable source is stopped rather than assumed readable."
+          ],
+          "catalog_install_banner_limit": "Current public page also offers an agent install banner. The task is served by its documented plain-text copy/paste route. No CLI install, dry-run, runtime setup or installed capability verified or promised.",
+          "verification_level": "source_reviewed",
+          "runtime_verified": false
+        }
+      ],
+      "handoff": {
+        "sequence": [
+          "Use complementary asset 6860 to plan retrieval before drafting.",
+          "Human manually follows the plan, collects only the stated week's material and adds original note labels.",
+          "Pass the original labelled notes and verified report context to primary asset 6827.",
+          "Human checks every completed outcome and fills the author's original status-report template; send/share manually only after review."
+        ],
+        "input_passed": "Manually retrieved raw notes with source IDs, exact reporting window, named audience/goal, requested section order and length, explicit unavailable-source/conflict notes. Pass original facts, not an unverified model-written summary.",
+        "secondary_expected_output": "A source table and concrete retrieval checklist, missing-source/period flags and retention/review instructions.",
+        "primary_expected_output": "Evidence-labelled weekly report draft with five task sections, blocker table, UNKNOWN owner/date gaps, confirmation list and fact-check checklist.",
+        "original_bridge_required": "Author creates a small original source-notes worksheet mapping note label → reporting date/window → source location/manual retrieval → supplied fact → evidence of completion → unresolved contradiction. Human follows it and passes approved raw notes to primary.",
+        "compatibility_checks": [
+          "Primary accepts raw notes, so the complement's manually assembled source material is valid input.",
+          "Keep collection planning distinct from report drafting; do not run two generic summarizers and call repetition a complement.",
+          "6860 SINGLE-SOURCE/UNCLEAR safeguards are preserved explicitly in author worksheet/review instructions; 6827 does not guarantee the same exact labels automatically.",
+          "Missing owners/dates remain UNKNOWN; uncertainty goes to work in progress; conflicts remain in confirmation list; planned work is not completed work."
+        ],
+        "verification": "Source-supported handoff inspected; not executed in an AI chat or installed agent, and no generated report/template exists in this research-only task."
+      },
+      "duplicate_decision": {
+        "decision": "NEW_DISTINCT_INTENT",
+        "complete_manifest_count": 10,
+        "complete_ledger_count": 16,
+        "manifest_sha256": "1222b4f7faf43b6c36d616aa43d44ea4b7f670af17626e000f6ec4ef67d8da7f",
+        "ledger_sha256": "faafe06fe1c68b56f2407357af423d4f22265761c248af368bedaa3e4faa2726",
+        "comparison": [
+          "project-proposal-template seeks approval before project execution; this reports actual weekly execution to stakeholders.",
+          "meeting-minutes-template records one meeting's decisions/action items; this assembles multiple dated source notes into a recurring project report.",
+          "presentation-from-notes produces a slide deck; this produces an editable status report.",
+          "All ten asset recipes and six legacy tool intents checked; no weekly status report or equivalent task present."
+        ],
+        "synonym_policy": "Weekly update, weekly status email, Word/free/example variants belong to this one canonical task; no separate format or synonym pages.",
+        "quota_note": "One candidate only. Parent's Oct12 publication cap is one, not a target. No ledger entry or quota reservation written."
+      },
+      "intent_fit": "Broad template intent requires the useful blank template and complete filled example on the page before the TokRepo handoff. Notes-to-weekly-report is a direct fit; pure dashboard/auto-sync and PPT/Excel-specific conversion intent would be a poor fit without corresponding deliverables.",
+      "competition": {
+        "inspection_scope": "Current live search result supply, not a ranked US SERP or difficulty audit.",
+        "observed_supply_urls": [
+          "https://www.smartsheet.com/content/project-status-report-templates",
+          "https://www.projectmanager.co/templates/weekly-status-report"
+        ],
+        "limitation": "Search snippets show existing templates; vendor page bodies were not independently used as demand evidence or instruction sources. No uniqueness, easy-rank, volume or better-performance claim.",
+        "practical_value_required": "Original editable report plus a complete traceable notes-to-report example, completion/conflict checks and a realistic manual collection-to-drafting handoff."
+      },
+      "author_requirements": [
+        "Create ORIGINAL blank editable Markdown report and complete filled fictional report; optional DOCX only if genuinely generated, opened/edited and independently checked. Do not advertise Excel/PPT download variants without those files.",
+        "Create ORIGINAL labelled raw-notes fixture and source-to-report worksheet; explicit reporting period, audience, actual completed outcome, incomplete activity, unsupported/missing owner or due date, contradictory completion and decision-needed item.",
+        "Check every report fact against fixture labels; activity alone cannot be reported as a result. One-source evidence stays one-source; conflicting notes stay unresolved pending confirmation.",
+        "Show secondary retrieval plan → human collection/labelled raw notes → primary drafting → original template → manual fact review. Do not hand off a second summary as facts.",
+        "Any overall RAG status, percentage, milestone, budget or deadline must be explicitly reader-supplied with a basis; otherwise leave unspecified. This candidate requires no financial research.",
+        "Prominent primary asset action near opening and after worked task; complement link enters at source-collection step. Both use agreed UTM tuple and this one canonical slug.",
+        "Keep complete TokRepo prompts at their sources. No source prompt/body copying, runtime success claims or fabricated model output.",
+        "Later independent review must bind actual article/template hashes; research qualification is not publication PASS."
+      ],
+      "cta_contract": {
+        "utm_source": "github_pages",
+        "utm_medium": "referral",
+        "utm_campaign": "tokrepo_search",
+        "utm_content": "weekly-project-status-report-template",
+        "primary_url": "https://tokrepo.com/en/workflows/weekly-update-editor-turn-raw-notes-into-clear-status-07ec80f0?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=weekly-project-status-report-template",
+        "secondary_url": "https://tokrepo.com/en/workflows/weekly-summary-workflow-prompt-you-run-yourself-edacc17d?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=weekly-project-status-report-template",
+        "limitation": "Attributed URLs specified, not clicked or analytics-tested by demand editor."
+      },
+      "claim_boundaries": [
+        "Both assets are source-reviewed text prompts; provider output can violate instructions and must be checked.",
+        "No connectors, live retrieval, automatic scheduling, dashboard, sending, posting or project-tool editing.",
+        "Chat account, fees and confidentiality depend on provider; catalog no-account wording does not establish free anonymous access.",
+        "No search volume, rank, indexing, traffic, TokRepo session, asset-use, productivity or decision-outcome claim."
+      ],
+      "review": {
+        "identity": "independent demand editor, 2026-10-12",
+        "verdict": "QUALIFIED_FOR_AUTHORING",
+        "scope": "Demand evidence, canonical difference, source-level asset identity and handoff only.",
+        "content_source_hash": null,
+        "publication_pass": false
+      },
+      "release_state": "NOT_AUTHORED_NOT_PUBLISHED"
+    }
+  ],
+  "screened_not_selected": [
+    {
+      "query": "professional follow up email",
+      "status": "NOT_QUALIFIED_THIS_RUN",
+      "autocomplete_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=professional%20follow%20up%20email",
+      "retrieved_at": "2026-10-12T02:01:00.188454+00:00",
+      "exact_suggestion_observed": "professional follow up email",
+      "asset_discovered_url": "https://tokrepo.com/en/workflows/draft-polite-follow-up-without-inventing-facts-33c39ad0",
+      "reason": "Task-specific asset now appears in live search, unlike older Oct8 no-fit note; preferred weekly-report candidate qualifies. Full two-problem/complement/detail validation deliberately not completed. Not assigned to author."
+    },
+    {
+      "query": "weekly status report via generic proposal or meeting-minutes assets",
+      "status": "REJECTED_POOR_FIT",
+      "reason": "Pre-execution proposal and single-meeting record are different requested outputs; no forced backlink combination."
+    },
+    {
+      "url": "https://www.reddit.com/r/projectmanagement/comments/1gp7y70/status_reporting_ppt_templates/",
+      "title": "Status Reporting .ppt Templates",
+      "status": "INSPECTED_NOT_COUNTED",
+      "reason": "Original small-firm client-report template problem read, but explicitly PPT-format intent. Not counted among the two core problems and not used to justify a PPT promise."
+    }
+  ],
+  "limitations": [
+    "web.run opened both original user problem bodies independently. A fresh inspection does not make historical questions recent demand or establish their country.",
+    "TokRepo web.run page opens timed out; direct current public HTTP requests with a desktop browser User-Agent returned meaningful English HTML/H1 and task instructions. Detail API was also read. No shell-only identity acceptance.",
+    "In-app browser initialization timed out; interactive browser, copy button, CLI install and AI execution not exercised. HTTP content identity and runtime verification remain separate.",
+    "Parent owns current monitoring/GSC. User reports ownership verified, sitemap submitted but could not fetch, and home stored inspection Google unknown. These are parent-status context only, not independently inspected account evidence; this editor made no GSC/GA or Wizard calls.",
+    "Wizard payment_required warning respected: no Wizard/paid endpoint calls, restricted retries, account changes, publication or production changes.",
+    "Only assigned research files written. No recipe, body, template, ledger or monitoring edit. Author and source-bound independent review remain necessary."
+  ],
+  "parent_status_context": {
+    "reported_by": "User steering message; not independently verified by demand editor",
+    "reported_at": "2026-10-12",
+    "gsc_ownership": "User reports tag ownership verification succeeded.",
+    "sitemap": "User reports sitemap submitted; Google currently reports could not fetch.",
+    "home_inspection": "User reports stored inspection Google unknown.",
+    "execution_priority": "Parent owns GSC fault investigation. Demand result is an unpublished candidate draft only; no publication commitment."
+  },
+  "measurement_state": {
+    "monthly_search_volume": "unknown",
+    "indexing": "parent_owned_not_inspected",
+    "ranking": "unknown",
+    "traffic": "unknown",
+    "tokrepo_arrivals": "unknown",
+    "asset_use": "unknown"
+  },
+  "recipes": [
+    {
+      "intent_id": "project_owner_weekly_source_notes_to_status_report",
+      "slug": "weekly-project-status-report-template",
+      "title": "Weekly project status report template: progress, blockers and decisions",
+      "primary_query": "weekly project status report template",
+      "related_queries": [
+        "weekly project status report example",
+        "weekly project status report email template",
+        "weekly project status report template word"
+      ],
+      "market": "US",
+      "language": "en",
+      "pillar": "Writing and communication",
+      "reader": "A project coordinator, manager or office team lead preparing a recurring update for a sponsor, client or manager.",
+      "task": "Turn one explicitly dated week's manually collected project notes into an editable, evidence-labelled status report that distinguishes completed outcomes, ongoing work, blockers and decisions needed.",
+      "input": [
+        "A single project and explicit reporting start/end dates.",
+        "Labelled notes manually retrieved from identified source locations.",
+        "Supplied deliverable/completion evidence, blockers, agreed next steps and any known owners/dates.",
+        "Reader, reporting goal and length; optional previous report for comparison."
+      ],
+      "output": "An immediately usable editable blank weekly report and a source-traceable filled fictional report; unknowns/conflicts/proposed actions remain visible.",
+      "canonical_path": "/workflows/weekly-project-status-report-template/",
+      "proposed_canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/weekly-project-status-report-template/",
+      "qualification_status": "QUALIFIED_FOR_AUTHORING",
+      "qualification_reason": "Current exact US/en Google suggestion, two independently inspected original user problems by different authors, current detail/public identities and credible manual collection-to-report drafting handoff. Content and publication gates remain pending.",
+      "autocomplete": {
+        "seed": "weekly project status report",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=weekly%20project%20status%20report",
+        "http_status": 200,
+        "retrieved_at": "2026-10-12T02:01:00.124767+00:00",
+        "exact_observed_suggestion": "weekly project status report template",
+        "suggestions": [
+          "weekly project status report template",
+          "weekly project status report template excel free download",
+          "weekly project status report",
+          "weekly project status report example",
+          "weekly project status report template ppt",
+          "weekly project status report template excel",
+          "weekly project status report template word",
+          "weekly project status report template ppt free download",
+          "weekly project status report template free download",
+          "weekly project status report email template"
+        ],
+        "market": "US",
+        "language": "en",
+        "limitations": [
+          "Qualitative suggestion presence only; not search volume, frequency, rank or conversion.",
+          "US/en request parameters are not controlled physical search location or proof of US user geography.",
+          "Format-specific terms are variants of this canonical intent; Excel/PPT must not be targeted unless those usable formats are actually authored and verified."
+        ]
+      },
+      "questions": [
+        {
+          "url": "https://www.reddit.com/r/projectmanagement/comments/1taz829/am_i_doing_this_right_status_reports/",
+          "title": "Am I doing this right? Status reports",
+          "public_author": "AdventurousFish5314",
+          "inspected_at": "2026-10-12T02:04:46+00:00",
+          "timestamp_semantics": "Evidence log written after separately opening and reading original post body through web.run; not a claimed server fetch timestamp.",
+          "inspection": "Original body, lines 21-31; original-author clarification, lines 70-75. Distinct original post, not search snippet or vendor tutorial.",
+          "displayed_age": "5mo ago",
+          "observed_problem": "A project coordinator loses project context after a key colleague leaves. They collect weekly updates in Monday.com and ask how to report them so details stop getting lost; they want executive summaries and meetings focused on decisions and stuck points.",
+          "editorial_implication": "Give an explicit weekly source-collection step, named input labels and a checked report with blockers/decisions; make retrieval ownership and unsupported completion visible.",
+          "limitations": [
+            "Historical question freshly inspected; exact creation time not independently retrieved.",
+            "US geography unknown; English-language post only.",
+            "The user's desired board automation and meeting reduction are outside this manual prompt/template scope; no Monday connector or time-saving outcome promised."
+          ]
+        },
+        {
+          "url": "https://www.reddit.com/r/ITManagers/comments/1one260/management_reports/",
+          "title": "Management Reports",
+          "public_author": "ahsanalicha",
+          "inspected_at": "2026-10-12T02:04:46+00:00",
+          "timestamp_semantics": "Evidence log written after separately opening and reading original post body through web.run; not a claimed server fetch timestamp.",
+          "inspection": "Original body, lines 21-25. Distinct author and subreddit; original question has no vendor/product-promotion link. Promotional replies not counted.",
+          "displayed_age": "10mo ago",
+          "observed_problem": "An IT manager is asked to give weekly management updates on ongoing projects and operations and asks what belongs in the report and what can help prepare it.",
+          "editorial_implication": "Fulfil the project-report portion with a simple editable section structure and filled example, audience/decision input and only source-supported progress/blockers.",
+          "limitations": [
+            "Historical question freshly inspected; exact creation time not independently retrieved.",
+            "US geography unknown; English-language post only.",
+            "Broader operations dashboard request is only partially served. No live dashboard, ticket metrics, uptime integration or automatic distribution claimed."
+          ]
+        }
+      ],
+      "independence_assessment": "Two separately opened original questions by different public authors in r/projectmanagement and r/ITManagers. Both are on Reddit, so platform/source diversity is limited. No cross-post or reused question observed. Promotional replies and comments are excluded from the two-problem count.",
+      "assets": [
+        {
+          "id": 6827,
+          "uuid": "07ec80f0-046d-44bf-a673-512de73f1177",
+          "slug": "weekly-update-editor-turn-raw-notes-into-clear-status-07ec80f0",
+          "title": "Weekly Update Editor: Turn Raw Notes into Clear Status",
+          "lang_type": "en",
+          "url": "https://tokrepo.com/en/workflows/weekly-update-editor-turn-raw-notes-into-clear-status-07ec80f0",
+          "role": "primary",
+          "role_description": "Draft the actual weekly project status report from supplied work notes: completed work/evidence, work in progress, blockers/risks, next steps and decisions/help, with source labels, UNKNOWN gaps and fact-check list.",
+          "detail_receipt": {
+            "url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=6827",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T02:03:15.649002+00:00",
+            "response_sha256": "7dcf13b68c32fbce7feaaa30b8aaa575a47153fb1e58b8769ec0ff548485c12f"
+          },
+          "public_receipt": {
+            "url": "https://tokrepo.com/en/workflows/weekly-update-editor-turn-raw-notes-into-clear-status-07ec80f0",
+            "final_url": "https://tokrepo.com/en/workflows/weekly-update-editor-turn-raw-notes-into-clear-status-07ec80f0",
+            "http_status": 200,
+            "content_type": "text/html;charset=utf-8",
+            "retrieved_at": "2026-10-12T02:04:19.300048+00:00",
+            "response_sha256": "2c6267bed354ef6370e25082a987538a68ea23d823f17a35230bed94bea86d44",
+            "english_h1": "Weekly Update Editor: Turn Raw Notes into Clear Status",
+            "identity_checks": [
+              "English H1 equals detail title",
+              "Public complete-prompt heading and task-specific English instructions present",
+              "Detail stable integer ID, UUID, slug and language match intended object"
+            ]
+          },
+          "nonbrowser_limitation": {
+            "observed_at": "2026-10-12T02:03:17.394447+00:00",
+            "final_url": "https://tokrepo.com/raw/weekly-update-editor-turn-raw-notes-into-clear-status-07ec80f0",
+            "reason": "Default Python User-Agent redirected to /raw with the same slug and actual prompt content; desktop browser User-Agent returned the original English HTML detail and matching H1. Generic shell HTTP200 was not used as identity proof."
+          },
+          "upstream_source": "Original TokRepo prompt; complete current source read in detail endpoint and English public content. Linked ChatGPT release notes are context only, not evidence of capabilities.",
+          "license_observed": "CC BY 4.0 in asset content; full prompt not copied into this packet.",
+          "supported_use": "Copy the complete prompt from the TokRepo detail into a text-capable AI chat; paste your own supplied material. Manual editorial worksheet/template remains a valid non-AI route.",
+          "prerequisites": [
+            "Your own redacted raw work notes with source labels.",
+            "Text-capable AI chat if using the prompt; provider access, account and fees vary.",
+            "Audience, reporting period and preferred length are optional in this asset; missing audience/period remains unspecified. The proposed weekly report should explicitly supply them.",
+            "Human check of completion, dates, owners, commitments and supported results before sharing."
+          ],
+          "catalog_install_banner_limit": "Current public page also offers an agent install banner. The task is served by its documented plain-text copy/paste route. No CLI install, dry-run, runtime setup or installed capability verified or promised.",
+          "verification_level": "source_reviewed",
+          "runtime_verified": false
+        },
+        {
+          "id": 6860,
+          "uuid": "edacc17d-5d45-48bd-ba73-c05ca1e3c619",
+          "slug": "weekly-summary-workflow-prompt-you-run-yourself-edacc17d",
+          "title": "Weekly Summary Workflow Prompt You Run Yourself",
+          "lang_type": "en",
+          "url": "https://tokrepo.com/en/workflows/weekly-summary-workflow-prompt-you-run-yourself-edacc17d",
+          "role": "complementary_preparation",
+          "role_description": "Before drafting, design a repeatable manual source collection plan: locations, retrieval steps, dated reporting window, missing-source handling and retained input/review pack. Its generic summary prompt is not a second competing report output.",
+          "detail_receipt": {
+            "url": "https://api.tokrepo.com/api/v1/tokenboard/workflows/detail?id=6860",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T02:03:15.704446+00:00",
+            "response_sha256": "9802c7b799653c6a6a8db8195dce25a3745fc22350ccbc4bc8eb7db48210f80d"
+          },
+          "public_receipt": {
+            "url": "https://tokrepo.com/en/workflows/weekly-summary-workflow-prompt-you-run-yourself-edacc17d",
+            "final_url": "https://tokrepo.com/en/workflows/weekly-summary-workflow-prompt-you-run-yourself-edacc17d",
+            "http_status": 200,
+            "content_type": "text/html;charset=utf-8",
+            "retrieved_at": "2026-10-12T02:04:20.619394+00:00",
+            "response_sha256": "5fbf9077e0566883ea56f85ff798e591df3be0243d2294de5e5d4741367865aa",
+            "english_h1": "Weekly Summary Workflow Prompt You Run Yourself",
+            "identity_checks": [
+              "English H1 equals detail title",
+              "Public complete-prompt heading and task-specific English instructions present",
+              "Detail stable integer ID, UUID, slug and language match intended object"
+            ]
+          },
+          "nonbrowser_limitation": {
+            "observed_at": "2026-10-12T02:03:17.402516+00:00",
+            "final_url": "https://tokrepo.com/raw/weekly-summary-workflow-prompt-you-run-yourself-edacc17d",
+            "reason": "Default Python User-Agent redirected to /raw with the same slug and actual prompt content; desktop browser User-Agent returned the original English HTML detail and matching H1. Generic shell HTTP200 was not used as identity proof."
+          },
+          "upstream_source": "Original TokRepo prompt; complete current source read in detail endpoint and English public content. Linked ChatGPT release notes are context only, not evidence of capabilities.",
+          "license_observed": "CC BY 4.0 in asset content; full prompt not copied into this packet.",
+          "supported_use": "Copy the complete prompt from the TokRepo detail into a text-capable AI chat; paste your own supplied material. Manual editorial worksheet/template remains a valid non-AI route.",
+          "prerequisites": [
+            "Goal/readers and decision supported; named sources with an actual manual retrieval/export path; exact start/end and assembly day.",
+            "Desired section order, recurring items, length/tone/confidentiality constraints; previous report only if available.",
+            "Text-capable AI chat if using the prompt; provider access, account and fees vary.",
+            "Manually retrieve and redact material. Missing goal/sources/time window requires clarification; unavailable source is stopped rather than assumed readable."
+          ],
+          "catalog_install_banner_limit": "Current public page also offers an agent install banner. The task is served by its documented plain-text copy/paste route. No CLI install, dry-run, runtime setup or installed capability verified or promised.",
+          "verification_level": "source_reviewed",
+          "runtime_verified": false
+        }
+      ],
+      "handoff": {
+        "sequence": [
+          "Use complementary asset 6860 to plan retrieval before drafting.",
+          "Human manually follows the plan, collects only the stated week's material and adds original note labels.",
+          "Pass the original labelled notes and verified report context to primary asset 6827.",
+          "Human checks every completed outcome and fills the author's original status-report template; send/share manually only after review."
+        ],
+        "input_passed": "Manually retrieved raw notes with source IDs, exact reporting window, named audience/goal, requested section order and length, explicit unavailable-source/conflict notes. Pass original facts, not an unverified model-written summary.",
+        "secondary_expected_output": "A source table and concrete retrieval checklist, missing-source/period flags and retention/review instructions.",
+        "primary_expected_output": "Evidence-labelled weekly report draft with five task sections, blocker table, UNKNOWN owner/date gaps, confirmation list and fact-check checklist.",
+        "original_bridge_required": "Author creates a small original source-notes worksheet mapping note label → reporting date/window → source location/manual retrieval → supplied fact → evidence of completion → unresolved contradiction. Human follows it and passes approved raw notes to primary.",
+        "compatibility_checks": [
+          "Primary accepts raw notes, so the complement's manually assembled source material is valid input.",
+          "Keep collection planning distinct from report drafting; do not run two generic summarizers and call repetition a complement.",
+          "6860 SINGLE-SOURCE/UNCLEAR safeguards are preserved explicitly in author worksheet/review instructions; 6827 does not guarantee the same exact labels automatically.",
+          "Missing owners/dates remain UNKNOWN; uncertainty goes to work in progress; conflicts remain in confirmation list; planned work is not completed work."
+        ],
+        "verification": "Source-supported handoff inspected; not executed in an AI chat or installed agent, and no generated report/template exists in this research-only task."
+      },
+      "duplicate_decision": {
+        "decision": "NEW_DISTINCT_INTENT",
+        "complete_manifest_count": 10,
+        "complete_ledger_count": 16,
+        "manifest_sha256": "1222b4f7faf43b6c36d616aa43d44ea4b7f670af17626e000f6ec4ef67d8da7f",
+        "ledger_sha256": "faafe06fe1c68b56f2407357af423d4f22265761c248af368bedaa3e4faa2726",
+        "comparison": [
+          "project-proposal-template seeks approval before project execution; this reports actual weekly execution to stakeholders.",
+          "meeting-minutes-template records one meeting's decisions/action items; this assembles multiple dated source notes into a recurring project report.",
+          "presentation-from-notes produces a slide deck; this produces an editable status report.",
+          "All ten asset recipes and six legacy tool intents checked; no weekly status report or equivalent task present."
+        ],
+        "synonym_policy": "Weekly update, weekly status email, Word/free/example variants belong to this one canonical task; no separate format or synonym pages.",
+        "quota_note": "One candidate only. Parent's Oct12 publication cap is one, not a target. No ledger entry or quota reservation written."
+      },
+      "intent_fit": "Broad template intent requires the useful blank template and complete filled example on the page before the TokRepo handoff. Notes-to-weekly-report is a direct fit; pure dashboard/auto-sync and PPT/Excel-specific conversion intent would be a poor fit without corresponding deliverables.",
+      "competition": {
+        "inspection_scope": "Current live search result supply, not a ranked US SERP or difficulty audit.",
+        "observed_supply_urls": [
+          "https://www.smartsheet.com/content/project-status-report-templates",
+          "https://www.projectmanager.co/templates/weekly-status-report"
+        ],
+        "limitation": "Search snippets show existing templates; vendor page bodies were not independently used as demand evidence or instruction sources. No uniqueness, easy-rank, volume or better-performance claim.",
+        "practical_value_required": "Original editable report plus a complete traceable notes-to-report example, completion/conflict checks and a realistic manual collection-to-drafting handoff."
+      },
+      "author_requirements": [
+        "Create ORIGINAL blank editable Markdown report and complete filled fictional report; optional DOCX only if genuinely generated, opened/edited and independently checked. Do not advertise Excel/PPT download variants without those files.",
+        "Create ORIGINAL labelled raw-notes fixture and source-to-report worksheet; explicit reporting period, audience, actual completed outcome, incomplete activity, unsupported/missing owner or due date, contradictory completion and decision-needed item.",
+        "Check every report fact against fixture labels; activity alone cannot be reported as a result. One-source evidence stays one-source; conflicting notes stay unresolved pending confirmation.",
+        "Show secondary retrieval plan → human collection/labelled raw notes → primary drafting → original template → manual fact review. Do not hand off a second summary as facts.",
+        "Any overall RAG status, percentage, milestone, budget or deadline must be explicitly reader-supplied with a basis; otherwise leave unspecified. This candidate requires no financial research.",
+        "Prominent primary asset action near opening and after worked task; complement link enters at source-collection step. Both use agreed UTM tuple and this one canonical slug.",
+        "Keep complete TokRepo prompts at their sources. No source prompt/body copying, runtime success claims or fabricated model output.",
+        "Later independent review must bind actual article/template hashes; research qualification is not publication PASS."
+      ],
+      "cta_contract": {
+        "utm_source": "github_pages",
+        "utm_medium": "referral",
+        "utm_campaign": "tokrepo_search",
+        "utm_content": "weekly-project-status-report-template",
+        "primary_url": "https://tokrepo.com/en/workflows/weekly-update-editor-turn-raw-notes-into-clear-status-07ec80f0?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=weekly-project-status-report-template",
+        "secondary_url": "https://tokrepo.com/en/workflows/weekly-summary-workflow-prompt-you-run-yourself-edacc17d?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=weekly-project-status-report-template",
+        "limitation": "Attributed URLs specified, not clicked or analytics-tested by demand editor."
+      },
+      "claim_boundaries": [
+        "Both assets are source-reviewed text prompts; provider output can violate instructions and must be checked.",
+        "No connectors, live retrieval, automatic scheduling, dashboard, sending, posting or project-tool editing.",
+        "Chat account, fees and confidentiality depend on provider; catalog no-account wording does not establish free anonymous access.",
+        "No search volume, rank, indexing, traffic, TokRepo session, asset-use, productivity or decision-outcome claim."
+      ],
+      "review": {
+        "identity": "independent demand editor, 2026-10-12",
+        "verdict": "QUALIFIED_FOR_AUTHORING",
+        "scope": "Demand evidence, canonical difference, source-level asset identity and handoff only.",
+        "content_source_hash": null,
+        "publication_pass": false
+      },
+      "release_state": "NOT_AUTHORED_NOT_PUBLISHED"
+    }
+  ],
+  "pipeline_compatibility": "Managing editor aliases qualified candidates to recipes for existing release gate; raw evidence unchanged."
+}

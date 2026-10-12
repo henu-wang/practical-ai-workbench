@@ -1,0 +1,145 @@
+A useful weekly project status report tells readers what changed, what was planned versus delivered, what is blocked, and what decision they need to make. Copy the editable template below, collect dated evidence, and leave missing facts visible rather than filling them with optimistic guesses.
+
+**Draft from your notes:** [Get Weekly Update Editor on TokRepo](https://tokrepo.com/en/workflows/weekly-update-editor-turn-raw-notes-into-clear-status-07ec80f0?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=weekly-project-status-report-template). Asset **6827** provides the reusable text prompt for drafting a report with completed work, ongoing work, blockers, next steps and decisions. You can also fill this original template manually.
+
+## Download the editable report and example
+
+- [Blank weekly project status report — Markdown](../../templates/weekly-project-status-report-template/weekly-project-status-report-template.md)
+- [Source collection worksheet — Markdown](../../templates/weekly-project-status-report-template/source-collection-worksheet.md)
+- [Fictional source notes and manual retrieval plan](../../templates/weekly-project-status-report-template/fictional-source-notes.md)
+- [Complete filled report with source checks](../../templates/weekly-project-status-report-template/filled-example.md)
+
+The downloads are original, editable text. Open them in a text editor or a Markdown editor. For Word, paste the content into a document and adjust its tables; there is no Word download or verified Word formatting in this package.
+
+## A weekly report template you can use now
+
+Copy this block and replace the brackets. Keep the source labels in your working copy so a reader can check a consequential claim.
+
+```text
+Project: [name] | Prepared by: [name] | Readers: [audience]
+Reporting period: [start–end, inclusive, timezone]
+Evidence cutoff: [date/time] | Prepared on: [date/time]
+Purpose: [decision or action this report supports]
+Overall status: [supplied status + assessor/date/basis, or UNKNOWN]
+Headline: [verified change + unresolved impact + decision needed]
+
+Completed work and evidence
+- [deliverable/result actually completed] — [evidence + source ID]
+
+Planned versus actual / work in progress
+Item | Agreed plan/date | Actual at cutoff | Variance | Owner | Source IDs
+[item] | [baseline] | [verified outcome or uncertainty] | [difference] | [explicit owner or UNKNOWN] | [IDs]
+
+Blockers and risks
+Issue | Observed or potential impact | Owner | Requested help | Needed by | Source IDs
+[issue] | [supported impact] | [owner or UNKNOWN] | [request] | [date or UNKNOWN] | [IDs]
+
+Next steps
+Action | Agreed or proposed | Owner | Due date | Dependency | Source IDs
+[action] | [AGREED / PROPOSED—not committed] | [owner or UNKNOWN] | [date or UNKNOWN] | [dependency] | [IDs]
+
+Decisions or help needed
+Decision | Decision owner | Needed by | Choices/tradeoff | Pending/decided + evidence
+[request] | [owner or UNKNOWN] | [date or UNKNOWN] | [supplied choices] | [status + IDs]
+
+Uncertainty and confirmation
+- [conflict, missing source, missing owner/date, or unverified completion]
+- [who must clarify it; proposed follow-up labelled as such]
+
+Check before sharing
+- Trace each completion, number, date and commitment to its source.
+- Preserve SINGLE-SOURCE, UNCLEAR and UNKNOWN labels where applicable.
+- Separate actual results from plans; confirm decisions before marking approved.
+```
+
+The downloadable blank adds space for the source register and a detailed review checklist. Include the reporting window even if the report is prepared later: a Monday preparation date does not turn Monday's work into last week's results.
+
+## 1. Plan collection before drafting
+
+[Weekly Summary Workflow Prompt You Run Yourself on TokRepo](https://tokrepo.com/en/workflows/weekly-summary-workflow-prompt-you-run-yourself-edacc17d?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=weekly-project-status-report-template), asset **6860**, helps plan this preparation step. Give it the report's goal and readers, exact dates and assembly day, source locations and the way you can manually retrieve each source. Add your desired section order, length, confidentiality limits and previous report if available.
+
+Get the complete prompt from its TokRepo page and paste it into a text-capable AI chat with those inputs. Review the suggested source table and retrieval checklist. Use them to fill the collection worksheet. This guide uses 6860 for collection planning; its additional generic summary prompt is not a replacement for the report-drafting asset.
+
+You perform every retrieval. Open the agreed plan, copy dated updates, inspect the acceptance evidence and collect decision notes. Record the exact location, retrieval step, date, raw note and evidence for each source. If a source is inaccessible, mark it UNAVAILABLE and stop using it. Do not translate missing feedback into “no concerns.” Redact material before sending it to an external AI provider; access, accounts and fees depend on that provider.
+
+## 2. Hand off original notes to the report editor
+
+Pass the **raw labelled notes**, not a model-written summary, to asset 6827. Alongside them, supply the project name, readers, purpose, reporting window, evidence cutoff, desired length and section order. Include the agreed baseline for comparison and explicit conflict/unavailable-source notes.
+
+The intended handoff is: **6860 collection plan → your manual retrieval and worksheet → 6827 report draft → your editable template and fact review**. Neither prompt connects to your project tools or fetches evidence. No terminal or API setup is needed for this text-paste route.
+
+Retain the collection labels explicitly when asking for and reviewing the draft. **SINGLE-SOURCE** means only one independent source supports a claim; copying it into another document does not corroborate it. **UNCLEAR** marks ambiguous or conflicting information. **UNKNOWN** means a fact such as an owner or date was not supplied. Asset 6827 asks for source labels and missing-fact handling, but does not guarantee the exact 6860 labels survive; restore them yourself if omitted.
+
+## 3. Compare the plan with actual evidence
+
+Use the baseline that was agreed before the work, including any documented change. For a completion claim, look for the relevant deliverable and acceptance record. Attending a meeting or moving a card to “done” can be an activity or status assertion; it is not automatically evidence of the result.
+
+When sources disagree, write the disagreement and request confirmation. Put that item under work in progress until completion is supported. Use a supplied status assessment with its basis, or leave overall status UNKNOWN. Do not derive a percentage from a count of tasks with different sizes, or assign green/amber/red without an agreed rubric and assessor.
+
+## Worked example: a pilot is marked done, but testing is unfinished
+
+**Synthetic example, prepared manually.** All people, records and outcomes below are fictional. The [source pack](../../templates/weekly-project-status-report-template/fictional-source-notes.md) supplies six available source records, including the baseline, and one unavailable source. It was not collected from real project tools or produced by a model.
+
+Project: Help Center Pilot. Week: **October 5–9, 2026**, inclusive, America/New_York. Evidence cutoff: October 9 at 17:00. Report prepared: October 12 at 09:00. Sponsor: Dana Brooks. Goal: decide how to handle incomplete pilot acceptance before the provisional October 16 launch target.
+
+| Work item | Agreed plan | Actual at cutoff | Variance and evidence |
+| --- | --- | --- | --- |
+| Two help articles | Approved by October 7 | Maya approved both on October 7 | Deliverable met; S0 + S1 |
+| Staging access | Three tester accounts verified by October 8 | Lee's log records all three successful sign-ins on October 8 | Deliverable met; S0 + S2 |
+| Pilot acceptance | Six scenarios tested and signed off by October 9 | QA log: four tested, three passed, one failed, two not run; no sign-off | Acceptance incomplete; board says complete but QA contradicts it; S0 + S3 + S4 |
+| Rollback responsibility | Owner confirmed by October 9 | Meeting notes say owner and action date remain UNKNOWN | Confirmation not supplied by planned date; S0 + S5 |
+
+Completed work is limited to the articles and access verification. The “complete pilot” card stays in work in progress with **UNCLEAR** attached. The four-of-six testing count describes test execution only; it is not project completion, release readiness or a test-success claim for this guide.
+
+| Blocker or decision | Owner | Date | Current position and evidence |
+| --- | --- | --- | --- |
+| Failed retry scenario blocks pilot acceptance | Lee Patel owns the fix | Agreed fix due October 13 | Pending at cutoff; re-test by Priya Chen due October 14, conditional on the fix; S4 + S5 |
+| Delay launch until acceptance, or request review of a reduced pilot scope? | Dana Brooks | Decision requested by October 12 at 12:00 | Pending; neither option approved; S5 |
+| Confirm rollback responsibility | UNKNOWN | Action date UNKNOWN | Prior plan required confirmation October 9; no commitment supplied for the follow-up; S0 + S5 |
+
+Overall status is **UNKNOWN**: no authorized overall assessment was supplied. The October 16 date is a provisional baseline target, not a confirmed forecast. Client feedback is unavailable, so the report makes no claim about client satisfaction or absence of concerns. Priya's optional QA precheck remains a **proposal**, with proposed October 13 timing and no agreed owner.
+
+The [filled report](../../templates/weekly-project-status-report-template/filled-example.md) includes the full next-step list, unresolved questions, and source-to-claim checks. For an email, retain the essentials:
+
+```text
+Subject: Help Center Pilot — weekly status, October 5–9 — decision needed
+
+Dana,
+The two articles were approved and three staging sign-ins verified (S1, S2).
+Pilot acceptance is incomplete: QA records three passes, one failure and
+two unrun scenarios; the board's completion claim needs correction or
+confirmation (S3, S4). Overall project status remains UNKNOWN.
+
+Please decide by October 12 at 12:00 America/New_York whether to delay
+launch until acceptance or request review of a reduced pilot scope (S5).
+Neither option is approved. Lee's fix is due October 13; Priya's re-test
+is due October 14, conditional on the fix (S5). The provisional October 16
+target is not a confirmed forecast (S0). Rollback owner/date remain UNKNOWN;
+client feedback was unavailable (S5, S6).
+
+Jordan
+```
+
+This email is a manually written fictional adaptation. Keep the full report/source register available to the recipient; do not present this abbreviated message as the complete evidence record.
+
+## Check the report before sharing
+
+1. Verify the reporting window, cutoff and timezone. Mark later updates separately.
+2. Reconcile each completion with the acceptance evidence. In the example, four tested equals three passed plus one failed; two scenarios remain unrun.
+3. Preserve baseline dates alongside actual results. A revised date needs its approval source.
+4. Check every owner and due date. A planned date that was missed is different from an UNKNOWN follow-up date.
+5. Keep a pending decision pending, a proposal uncommitted and a conditional action conditional.
+6. Keep single-source claims labelled and conflicts unresolved until confirmed. Missing evidence cannot support “no blockers.”
+7. Review sensitive information, then share manually. Retain the raw notes, report and edits under the reporting dates for next week's comparison.
+
+## Limits and common questions
+
+**What if I missed a week?** State the actual extended dates and the reporting gap. Separate each week's results or clearly label a combined period; do not present two weeks as one. Retrieve the missing material yourself.
+
+**Can I use this for a client?** Replace the audience and detail level, follow your client's required format, and include the decisions they can actually make. Verify permissions before exposing internal source records.
+
+**Can it create a dashboard or send the report automatically?** This package is editable text and a manual workflow. The linked assets plan and draft from supplied text; they do not schedule, monitor, send, remember previous weeks or edit project tools.
+
+**What was checked?** The author compared the fictional report with its supplied source notes and checked local Markdown rendering, download references and UTM fields. The linked asset content was source-reviewed; no AI chat, install, real project retrieval, Word editing, live sending or analytics test was run. These checks do not establish that any real project's underlying notes are true.
+
+For your next report, [open the Weekly Update Editor on TokRepo](https://tokrepo.com/en/workflows/weekly-update-editor-turn-raw-notes-into-clear-status-07ec80f0?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=weekly-project-status-report-template), obtain the complete reusable prompt, and supply your own dated, labelled notes. Review the draft against the evidence before sharing it.
