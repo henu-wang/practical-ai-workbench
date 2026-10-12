@@ -167,9 +167,8 @@
       "dedupe_key": "asset-search:project_owner_weekly_source_notes_to_status_report",
       "intent_id": "project_owner_weekly_source_notes_to_status_report",
       "program": "asset_search",
-      "action": "new_topic_candidate",
-      "status": "independent_content_pass_pending_release_metadata_review",
-      "planned_publish_on": "2026-10-12",
+      "action": "new_topic",
+      "status": "public_verified",
       "canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/weekly-project-status-report-template/",
       "primary_query": "weekly project status report template",
       "related_queries": [
@@ -182,7 +181,12 @@
       "demand_evidence": "team/research/demand-2026-10-12.json",
       "author_evidence": "team/research/author-2026-10-12.json",
       "monthly_search_volume": null,
-      "independent_review": "team/reviews/recipes-review-2026-10-12.json"
+      "independent_review": "team/reviews/recipes-review-2026-10-12.json",
+      "published_on": "2026-10-12",
+      "release_commit": "4da671b0b48f9b32c4b2c29caa23aa1beb8c9f94",
+      "verified_at": "2026-10-12T02:35:49.104306+00:00",
+      "asset_retest_status": "INCONCLUSIVE_RATE_LIMIT_TIMEOUT_OR_REDIRECT_ASSERTION",
+      "source_sha256": "2fd704839e2dcbc81d62e1d8188d542f2d59f68ef5f60df9c73f6b930ade5236"
     }
   ]
 }

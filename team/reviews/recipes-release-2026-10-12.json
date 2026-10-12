@@ -1,0 +1,38 @@
+{
+  "published_on": "2026-10-12",
+  "content_commit": "4da671b0b48f9b32c4b2c29caa23aa1beb8c9f94",
+  "public_verified_at": "2026-10-12T02:35:49.104306+00:00",
+  "slug": "weekly-project-status-report-template",
+  "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/weekly-project-status-report-template/",
+  "source_sha256": "2fd704839e2dcbc81d62e1d8188d542f2d59f68ef5f60df9c73f6b930ade5236",
+  "independent_review": "team/reviews/recipes-review-2026-10-12.json",
+  "independent_verdict": "PASS",
+  "new_topics_today": 1,
+  "technical_checks": {
+    "monitor_public": "PASS",
+    "public_byte_parity": "PASS",
+    "asset_destination_retest": "INCONCLUSIVE_RATE_LIMIT_TIMEOUT_OR_REDIRECT_ASSERTION",
+    "next_asset_retest_on": "2026-10-13",
+    "recipe_count": 11,
+    "download_count": 50,
+    "tagged_asset_targets": 23,
+    "unique_assets": 20,
+    "home_google_verification_tag_preserved": true
+  },
+  "gsc_property": "verified_HTML_tag",
+  "sitemap": {
+    "submitted": "accepted",
+    "scheduled_report": "could_not_fetch",
+    "separate_google_live_fetch": "success",
+    "next_check_on": "2026-10-13"
+  },
+  "indexing": {
+    "stored_inspected_home_and_eight_due_guides": "NOT_INDEXED_GOOGLE_UNKNOWN_URL",
+    "other_three_guides": "UNKNOWN",
+    "index_requests_home_and_resume": "accepted_priority_queue"
+  },
+  "ranking": "UNKNOWN",
+  "ga4": "separate_UTM_table_views_no_matching_rows_capture_coverage_unknown",
+  "asset_use": "UNKNOWN",
+  "private_receipts_policy": "Detailed technical and account receipts retained outside public repository."
+}

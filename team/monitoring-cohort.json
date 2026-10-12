@@ -83,7 +83,7 @@
           "google_canonical": null
         }
       ],
-      "private_records_directory": "../private-monitoring",
+      "private_records_directory": "../tokrepo-search-monitoring-private",
       "utm": {
         "source": "github_pages",
         "medium": "referral",
@@ -94,7 +94,7 @@
       "release_commit": "e815d46a32df0a430a3f88b2f7fc564b17895b3c",
       "public_verified_at": "2026-10-07T06:17:07.095383+00:00",
       "gsc_property": "verified_url_prefix_via_Chrome",
-      "ga4_access": "Chrome_available_connector_missing_scope_campaign_report_not_yet_verified",
+      "ga4_access": "Chrome_available_separate_UTM_views_no_matching_rows_capture_coverage_unknown",
       "inspection_history": [
         {
           "due_on": "2026-10-10",
@@ -135,7 +135,7 @@
       "release_commit": "c6d4c91b9f057c3fa3c36ee0870deb3768cc8554",
       "public_verified_at": "2026-10-08T02:16:32.613677+00:00",
       "gsc_property": "verified_url_prefix_via_Chrome",
-      "ga4_access": "Chrome_available_connector_missing_scope_campaign_report_not_yet_verified",
+      "ga4_access": "Chrome_available_separate_UTM_views_no_matching_rows_capture_coverage_unknown",
       "pages": [
         {
           "slug": "write-resume-bullet-points",
@@ -190,7 +190,7 @@
       "release_commit": "d04c97601dc541cc3e1ce4deb23172b714926bf4",
       "public_verified_at": "2026-10-10T05:42:24.557322+00:00",
       "gsc_property": "verified_url_prefix_via_Chrome",
-      "ga4_access": "Chrome_available_connector_missing_scope_campaign_report_not_yet_verified",
+      "ga4_access": "Chrome_available_separate_UTM_views_no_matching_rows_capture_coverage_unknown",
       "pages": [
         {
           "slug": "write-a-cover-letter",
@@ -210,6 +210,34 @@
         }
       ],
       "gsc_connector": "payment_required_subscription_expired"
+    },
+    {
+      "program": "asset_search",
+      "site_url": "https://henu-wang.github.io/practical-ai-workbench/",
+      "cohort_date": "2026-10-12",
+      "inspection_due": [
+        "2026-10-15",
+        "2026-10-19",
+        "2026-10-26"
+      ],
+      "weekly_review_due": "2026-10-19",
+      "cohort_review_due": "2026-11-09",
+      "status": "live_public_verified",
+      "release_commit": "4da671b0b48f9b32c4b2c29caa23aa1beb8c9f94",
+      "public_verified_at": "2026-10-12T02:35:49.104306+00:00",
+      "gsc_property": "verified_url_prefix_via_Chrome",
+      "gsc_connector": "payment_required_subscription_expired",
+      "ga4_access": "Chrome_available_separate_UTM_views_no_matching_rows_capture_coverage_unknown",
+      "pages": [
+        {
+          "slug": "weekly-project-status-report-template",
+          "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/weekly-project-status-report-template/",
+          "index_status": "UNKNOWN",
+          "search_visibility": "UNKNOWN",
+          "attributed_tokrepo_visits": "UNKNOWN",
+          "asset_use": "UNKNOWN"
+        }
+      ]
     }
   ],
   "utm": {
@@ -220,13 +248,13 @@
   },
   "metric_rule": "No access or missing tracking is unknown, not zero. Technical pass is not indexing; submitted sitemap is not fetched/indexed.",
   "last_daily_check": {
-    "checked_at": "2026-10-12T02:15:31.066307+00:00",
-    "technical_status": "pass",
-    "recipe_count": 10,
-    "download_count": 46,
-    "asset_targets_with_utm": 21,
-    "unique_assets": 18,
-    "indexing": "8_due_guides_and_home_not_indexed_google_unknown_url",
+    "checked_at": "2026-10-12T02:35:49.104306+00:00",
+    "technical_status": "pages_and_downloads_pass_asset_retest_inconclusive",
+    "recipe_count": 11,
+    "download_count": 50,
+    "asset_targets_with_utm": 23,
+    "unique_assets": 20,
+    "indexing": "home_and_8_inspected_guides_not_indexed_google_unknown_url_other_3_guides_unknown",
     "attribution": "GA4_UI_NO_MATCHING_ROWS_CAPTURE_COVERAGE_UNKNOWN",
     "next_due": "2026-10-13"
   },
