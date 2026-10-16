@@ -1,0 +1,52 @@
+{
+  "published_on": "2026-10-16",
+  "authored_on": "2026-10-15",
+  "content_commit": "2be26a126335a4024423900095eedae0ae22a85c",
+  "content_tree": "63ab36edd70d396c07c12166824bb67597370a24",
+  "public_verified_at": "2026-10-16T04:45:39.587572+00:00",
+  "slug": "professional-follow-up-email-after-no-response",
+  "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/professional-follow-up-email-after-no-response/",
+  "source_sha256": "ad428fec2f4478ac143550c6159edd3a599a959d590ace0225d9c21eee1ca01e",
+  "independent_review": "team/reviews/recipes-review-2026-10-16.json",
+  "independent_verdict": "PASS",
+  "new_topics_today": 1,
+  "publication_method": "GitHub MCP create_tree/create_commit/update_ref; expected parent and non-force update; remote tree equals frozen local index.",
+  "technical_checks": {
+    "build": "PASS",
+    "recipe_check": "PASS_source_bound_browser_receipt",
+    "editorial_gate": "PASS",
+    "monitor_public": "PASS",
+    "recipe_count": 12,
+    "all_site_template_accessibility_count": 55,
+    "every_sitemap_html_page_exact_bytes": 20,
+    "new_downloads_exact_reviewed_bytes": 5,
+    "sitemap_exact_bytes": "PASS",
+    "distinct_asset_destinations_current_desktop_identity_and_UTM": 22,
+    "asset_verification_limits": "20 existing destinations paced HTTP check plus2 independent current candidate checks; not asset execution, copying or installation."
+  },
+  "reviewed_issues_resolved": [
+    "Current human English asset identity qualified; initial machine rendering302 retained as evidence, not mislabelled an outage.",
+    "Five-column filled audit converted to stacked claims; independent320/390px readability verification.",
+    "Current stable primary numeric ID metadata reconciled."
+  ],
+  "indexing": {
+    "existing_baseline": "One guide indexed in Oct15 stored inspection; other ten guides/home unknown to Google then.",
+    "new_guide": "NOT_INDEXED_GOOGLE_UNKNOWN_URL_stored_2026_10_16",
+    "new_index_request": "accepted_priority_crawl_queue_2026_10_16"
+  },
+  "sitemap": {
+    "submission": "accepted_2026_10_16",
+    "scheduled_report": "could_not_fetch_at_submission",
+    "earlier_separate_Google_live_fetch": "success_2026_10_12",
+    "next_check": "2026-10-17"
+  },
+  "rank_and_attribution": "No meaningful search sample; separate GA4 UTMs show no matching rows and capture coverage is unknown.",
+  "asset_use": "UNKNOWN",
+  "next_inspection": [
+    "2026-10-19",
+    "2026-10-23",
+    "2026-10-30"
+  ],
+  "cohort_review_due": "2026-11-13",
+  "private_records_policy": "Actual account reports, command outputs and detailed receipts remain outside this public repository."
+}

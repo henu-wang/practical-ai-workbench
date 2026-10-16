@@ -194,9 +194,8 @@
       "dedupe_key": "asset-search:office_worker_prior_correspondence_to_polite_follow_up",
       "intent_id": "office_worker_prior_correspondence_to_polite_follow_up",
       "program": "asset_search",
-      "action": "new_topic_candidate",
-      "status": "independent_pass_pending_public_deployment",
-      "planned_publish_on": "2026-10-16",
+      "action": "new_topic",
+      "status": "public_verified",
       "canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/professional-follow-up-email-after-no-response/",
       "primary_query": "professional follow up email after no response",
       "primary_asset_id": 6929,
@@ -207,7 +206,12 @@
       "revision_evidence": "team/research/author-revision-2026-10-16.json",
       "independent_review": "team/reviews/recipes-review-2026-10-16.json",
       "source_sha256": "ad428fec2f4478ac143550c6159edd3a599a959d590ace0225d9c21eee1ca01e",
-      "monthly_search_volume": null
+      "monthly_search_volume": null,
+      "published_on": "2026-10-16",
+      "release_commit": "2be26a126335a4024423900095eedae0ae22a85c",
+      "verified_at": "2026-10-16T04:45:39.587572+00:00",
+      "content_sha256": "855cf36c353c9c1230c3408d6ca29dfdf4afbf09583a3b8ea3b8d3f2af3e98db",
+      "asset_retest_status": "PASS_DESKTOP_ENGLISH_IDENTITY_AND_UTM_2026_10_16"
     }
   ]
 }
