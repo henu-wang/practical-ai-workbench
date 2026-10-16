@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-16",
+  "observed_at": "2026-10-16T04:36:28.606404+00:00",
+  "role": "practical revision author",
+  "status": "author_revision_complete_pending_independent_review",
+  "scope": "R2 only: filled audit readability in the existing guide and matching worked example; author receipt only. No shared manifest, reviewer, browser, ledger, build, CSS, slug or other template changes.",
+  "owned_files": [
+    "recipes/professional-follow-up-email-after-no-response.md",
+    "templates/professional-follow-up-email-after-no-response/fictional-worked-example.md",
+    "team/research/author-revision-2026-10-16.json"
+  ],
+  "review_basis": {
+    "path": "team/reviews/recipes-review-2026-10-16.md",
+    "sha256_at_read": "8de14c7d9327ed0ecff6d9bc165662899b0277ce8daabdeede4154cfb31a7ba5",
+    "finding_id": "R2",
+    "observed_problem": "Independent review found five-column audit cells approximately four characters wide at 390px despite no horizontal overflow.",
+    "requested_resolution": "Stack claim/source exact excerpt/gap/correction/approved text; parent builds and independent reviewer verifies 390px and 320px."
+  },
+  "changes": [
+    {
+      "path": "recipes/professional-follow-up-email-after-no-response.md",
+      "before_sha256": "8262cb32e85b18f7d6213fa4594acf097228974730db3bbe2a6162a3cb8cd52b",
+      "after_sha256": "855cf36c353c9c1230c3408d6ca29dfdf4afbf09583a3b8ea3b8d3f2af3e98db",
+      "rationale": "Replace the five-column filled audit table with five separately headed claims. Each original cell becomes a labelled paragraph at full content width, preserving every finding, source excerpt, correction and approved wording. Clarify that asset descriptions use October 14 source evidence and current verification remains pending, without exposing internal review steps.",
+      "unified_diff": "--- before/recipes/professional-follow-up-email-after-no-response.md\n+++ after/recipes/professional-follow-up-email-after-no-response.md\n@@ -115,13 +115,65 @@\n \n These are plain-English findings from a manual comparison, not model-generated status labels.\n \n-| Draft assertion | Original source and exact excerpt | Gap / finding | Human correction | Approved final wording |\n-| --- | --- | --- | --- | --- |\n-| I emailed orientation room-layout options on October 8. | S1: “Date: October 8, 2026, 10:00 Europe/London”; “Here are two room-layout options for the staff orientation at Riverbend Learning Centre”. | Supported by supplied fictional email; delivery/read status unknown. | Keep only the sent-message reference. | “I'm following up on the orientation room-layout options I emailed on October 8.” |\n-| There was a prior agreement (“As agreed”). | No matching agreement in S1; S2: “I have no recorded layout choice, prior agreement, or promised reply date from Owen.” | Unsupported; absence from this pack does not prove an agreement never existed elsewhere. | Remove the agreement claim. | Removed. |\n-| We will use Room B. | S1: “Room B: chairs arranged in rows.” S2: “I have no recorded layout choice”. | An option is documented; its selection is unsupported. | Remove the decision; ask for the choice. | Removed; final question leaves both options open. |\n-| Owen supplied an October 16 deadline. | No matching excerpt. S2: “I have no reply deadline to include.” | Unsupported attributed deadline. October 16 occurs only in the faulty draft. | Delete the deadline and the additional confirmation request. | Removed. |\n-| The options are Room A and Room B for the staff orientation (inside the question). | S1: “for the staff orientation”; “Room A: tables arranged in small groups.”; “Room B: chairs arranged in rows.” | Supported context embedded in a request; no selection implied. | Keep the context. | “Could you let me know whether you prefer Room A or Room B for the staff orientation?” |\n+#### 1. Earlier email and date\n+\n+**Claim:** I emailed orientation room-layout options on October 8.\n+\n+**Original source and exact excerpt:** S1: “Date: October 8, 2026, 10:00 Europe/London”; “Here are two room-layout options for the staff orientation at Riverbend Learning Centre”.\n+\n+**Gap / finding:** Supported by supplied fictional email; delivery/read status unknown.\n+\n+**Human correction:** Keep only the sent-message reference.\n+\n+**Approved final wording:** “I'm following up on the orientation room-layout options I emailed on October 8.”\n+\n+#### 2. Prior agreement\n+\n+**Claim:** There was a prior agreement (“As agreed”).\n+\n+**Original source and exact excerpt:** No matching agreement in S1; S2: “I have no recorded layout choice, prior agreement, or promised reply date from Owen.”\n+\n+**Gap / finding:** Unsupported; absence from this pack does not prove an agreement never existed elsewhere.\n+\n+**Human correction:** Remove the agreement claim.\n+\n+**Approved final wording:** Removed.\n+\n+#### 3. Room B selection\n+\n+**Claim:** We will use Room B.\n+\n+**Original source and exact excerpt:** S1: “Room B: chairs arranged in rows.” S2: “I have no recorded layout choice”.\n+\n+**Gap / finding:** An option is documented; its selection is unsupported.\n+\n+**Human correction:** Remove the decision; ask for the choice.\n+\n+**Approved final wording:** Removed; final question leaves both options open.\n+\n+#### 4. Attributed reply deadline\n+\n+**Claim:** Owen supplied an October 16 deadline.\n+\n+**Original source and exact excerpt:** No matching excerpt. S2: “I have no reply deadline to include.”\n+\n+**Gap / finding:** Unsupported attributed deadline. October 16 occurs only in the faulty draft.\n+\n+**Human correction:** Delete the deadline and the additional confirmation request.\n+\n+**Approved final wording:** Removed.\n+\n+#### 5. Room options and event context\n+\n+**Claim:** The options are Room A and Room B for the staff orientation (inside the question).\n+\n+**Original source and exact excerpt:** S1: “for the staff orientation”; “Room A: tables arranged in small groups.”; “Room B: chairs arranged in rows.”\n+\n+**Gap / finding:** Supported context embedded in a request; no selection implied.\n+\n+**Human correction:** Keep the context.\n+\n+**Approved final wording:** “Could you let me know whether you prefer Room A or Room B for the staff orientation?”\n \n “Owen” and “Maya Chen” match S1's recipient/sender metadata. “I'm following up” states this message's purpose; “Thank you” is courtesy. The question is a request, not a factual claim in its own right, though its room options and event context can be checked. Do not force a SOURCED row for a pure request.\n \n@@ -173,6 +225,6 @@\n \n **What if there is still no reply?** Reconsider whether the request is clear and the contact/channel is appropriate. Follow your organization's process where one exists; this page supplies wording, not an escalation policy or evidence about the recipient's intentions.\n \n-**What was checked?** The author manually compared the fictional draft and final with the source pack and checked local template bytes, Markdown rendering, download references and exact UTM fields. The asset descriptions rely on supplied source evidence from October 14, 2026; they were not fetched again for this draft. No model run, mailbox connection, installation, delivery, sending or analytics test is claimed. Neither prompt guarantees a reply.\n+**What was checked?** The author manually compared the fictional draft and final with the source pack and checked local template bytes, Markdown rendering, download references and exact UTM fields. The asset descriptions are based on source evidence dated October 14, 2026. Current asset verification is pending. No model run, mailbox connection, installation, delivery, sending or analytics test is claimed. Neither prompt guarantees a reply.\n \n For your own follow-up, [get the complete drafting prompt on TokRepo](https://tokrepo.com/en/workflows/draft-polite-follow-up-without-inventing-facts-33c39ad0?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=professional-follow-up-email-after-no-response), fill the six inputs, and check the chosen draft against your original correspondence. Use the complementary audit to flag gaps, then make the final edits yourself.\n"
+    },
+    {
+      "path": "templates/professional-follow-up-email-after-no-response/fictional-worked-example.md",
+      "before_sha256": "79a8148a3d8cf9c33a9f2677f1ef807b4bdac1821e7bb3ea1f83dfdfe8cd468b",
+      "after_sha256": "d9cd52d3fc927bc6a89760fada5c87bda2343b87d4dcd631232f275f38e0dc75",
+      "rationale": "Replace the five-column filled audit table with five separately headed claims. Each original cell becomes a labelled paragraph at full content width, preserving every finding, source excerpt, correction and approved wording. Retain the complete fictional source pack, manual-execution labels, caveats and final email.",
+      "unified_diff": "--- before/templates/professional-follow-up-email-after-no-response/fictional-worked-example.md\n+++ after/templates/professional-follow-up-email-after-no-response/fictional-worked-example.md\n@@ -68,13 +68,65 @@\n \n Plain-English findings below describe support in the supplied fictional pack. They are not simulated A–E model output or truth ratings.\n \n-| Draft assertion | Original source and exact excerpt | Gap / finding | Human correction | Approved final wording |\n-| --- | --- | --- | --- | --- |\n-| I emailed orientation room-layout options on October 8. | S1: “Date: October 8, 2026, 10:00 Europe/London”; “Here are two room-layout options for the staff orientation at Riverbend Learning Centre”. | Supported by supplied fictional email; delivery/read status unknown. | Keep only the sent-message reference. | “I'm following up on the orientation room-layout options I emailed on October 8.” |\n-| There was a prior agreement (“As agreed”). | No matching agreement in S1; S2: “I have no recorded layout choice, prior agreement, or promised reply date from Owen.” | Unsupported; absence from this pack does not prove an agreement never existed elsewhere. | Remove the agreement claim. | Removed. |\n-| We will use Room B. | S1: “Room B: chairs arranged in rows.” S2: “I have no recorded layout choice”. | An option is documented; its selection is unsupported. | Remove the decision; ask for the choice. | Removed; final question leaves both options open. |\n-| Owen supplied an October 16 deadline. | No matching excerpt. S2: “I have no reply deadline to include.” | Unsupported attributed deadline. October 16 occurs only in the faulty draft. | Delete the deadline and the additional confirmation request. | Removed. |\n-| The options are Room A and Room B for the staff orientation (inside the question). | S1: “for the staff orientation”; “Room A: tables arranged in small groups.”; “Room B: chairs arranged in rows.” | Supported context embedded in a request; no selection implied. | Keep the context. | “Could you let me know whether you prefer Room A or Room B for the staff orientation?” |\n+### 1. Earlier email and date\n+\n+**Claim:** I emailed orientation room-layout options on October 8.\n+\n+**Original source and exact excerpt:** S1: “Date: October 8, 2026, 10:00 Europe/London”; “Here are two room-layout options for the staff orientation at Riverbend Learning Centre”.\n+\n+**Gap / finding:** Supported by supplied fictional email; delivery/read status unknown.\n+\n+**Human correction:** Keep only the sent-message reference.\n+\n+**Approved final wording:** “I'm following up on the orientation room-layout options I emailed on October 8.”\n+\n+### 2. Prior agreement\n+\n+**Claim:** There was a prior agreement (“As agreed”).\n+\n+**Original source and exact excerpt:** No matching agreement in S1; S2: “I have no recorded layout choice, prior agreement, or promised reply date from Owen.”\n+\n+**Gap / finding:** Unsupported; absence from this pack does not prove an agreement never existed elsewhere.\n+\n+**Human correction:** Remove the agreement claim.\n+\n+**Approved final wording:** Removed.\n+\n+### 3. Room B selection\n+\n+**Claim:** We will use Room B.\n+\n+**Original source and exact excerpt:** S1: “Room B: chairs arranged in rows.” S2: “I have no recorded layout choice”.\n+\n+**Gap / finding:** An option is documented; its selection is unsupported.\n+\n+**Human correction:** Remove the decision; ask for the choice.\n+\n+**Approved final wording:** Removed; final question leaves both options open.\n+\n+### 4. Attributed reply deadline\n+\n+**Claim:** Owen supplied an October 16 deadline.\n+\n+**Original source and exact excerpt:** No matching excerpt. S2: “I have no reply deadline to include.”\n+\n+**Gap / finding:** Unsupported attributed deadline. October 16 occurs only in the faulty draft.\n+\n+**Human correction:** Delete the deadline and the additional confirmation request.\n+\n+**Approved final wording:** Removed.\n+\n+### 5. Room options and event context\n+\n+**Claim:** The options are Room A and Room B for the staff orientation (inside the question).\n+\n+**Original source and exact excerpt:** S1: “for the staff orientation”; “Room A: tables arranged in small groups.”; “Room B: chairs arranged in rows.”\n+\n+**Gap / finding:** Supported context embedded in a request; no selection implied.\n+\n+**Human correction:** Keep the context.\n+\n+**Approved final wording:** “Could you let me know whether you prefer Room A or Room B for the staff orientation?”\n \n Greeting “Owen” and signature “Maya Chen” match S1's To/From metadata. “I'm following up” states the purpose of the present message. “Could you let me know…” is a request; only its embedded option/event facts need source mapping. “Thank you” is courtesy, not a sourced fact. No reply is visible in S2, but the final email makes no claim about Owen's inbox or intent.\n \n"
+    }
+  ],
+  "source_sha256": {
+    "recipes/professional-follow-up-email-after-no-response.md": "855cf36c353c9c1230c3408d6ca29dfdf4afbf09583a3b8ea3b8d3f2af3e98db",
+    "templates/professional-follow-up-email-after-no-response/fictional-worked-example.md": "d9cd52d3fc927bc6a89760fada5c87bda2343b87d4dcd631232f275f38e0dc75"
+  },
+  "source_evidence": {
+    "author_basis_date": "2026-10-14",
+    "author_basis_receipt": "team/research/author-2026-10-15.json",
+    "current_refresh_date": "2026-10-16",
+    "current_refresh_status": "pending parent reconciliation / independent qualification; no current verification claimed by revision author",
+    "author_fetched_assets": false,
+    "reader_sentence_before": "The asset descriptions rely on supplied source evidence from October 14, 2026; they were not fetched again for this draft.",
+    "reader_sentence_after": "The asset descriptions are based on source evidence dated October 14, 2026. Current asset verification is pending."
+  },
+  "preserved_files_sha256": {
+    "team/research/author-2026-10-15.json": "c1f4e55c81d14cce8f59df7e39ff1cd6b82508ad16718d2216b9005e12f0b45f",
+    "templates/professional-follow-up-email-after-no-response/follow-up-email-template.md": "18c9c6831d4a017bf8898398827f8daa1a4d61a2c97b3240ee0a1160f32a0698",
+    "templates/professional-follow-up-email-after-no-response/six-input-and-audit-worksheet.md": "bbbbd3925d0b1492bc69b35de4cd9d67ebc318815e33afda06ae0cd893edd97b",
+    "templates/professional-follow-up-email-after-no-response/fictional-final-email.txt": "aa43efdb70dc33e153604f611a0a5e26834712b81026b0e0fb8988aeae988e04",
+    "templates/professional-follow-up-email-after-no-response/follow-up-email-template.txt": "de41ed07cbfd246dcfc416d4ee175b4254d283159c54cffb0ff58eaad4448840"
+  },
+  "historical_author_receipt_unchanged": true,
+  "author_checks": {
+    "classification": "local preservation and Markdown structure checks only; no independent verdict",
+    "renderer": "MarkdownIt('commonmark', {'html': False}).enable('table'); HTML held in memory; no generated repository files written",
+    "files": [
+      {
+        "path": "recipes/professional-follow-up-email-after-no-response.md",
+        "all_25_original_cells_preserved_verbatim": true,
+        "all_text_code_blocks_unchanged": true,
+        "final_text_matches_unchanged_txt_bytes": true,
+        "all_link_destinations_unchanged": true,
+        "only_expected_edits": true,
+        "markdown_rendered_in_memory": true,
+        "audit_heading_count": 5,
+        "audit_labelled_paragraph_count": 25,
+        "audit_table_count": 0,
+        "whole_document_table_count": 1
+      },
+      {
+        "path": "templates/professional-follow-up-email-after-no-response/fictional-worked-example.md",
+        "all_25_original_cells_preserved_verbatim": true,
+        "all_text_code_blocks_unchanged": true,
+        "final_text_matches_unchanged_txt_bytes": true,
+        "all_link_destinations_unchanged": true,
+        "only_expected_edits": true,
+        "markdown_rendered_in_memory": true,
+        "audit_heading_count": 5,
+        "audit_labelled_paragraph_count": 25,
+        "audit_table_count": 0,
+        "whole_document_table_count": 0
+      }
+    ],
+    "protected_file_hashes_unchanged": true
+  },
+  "pending_checks": [
+    {
+      "owner": "parent",
+      "check": "Run shared build and required release checks on frozen source."
+    },
+    {
+      "owner": "independent reviewer",
+      "check": "Verify actual built guide and worked example readability at 390px and 320px and issue source-bound independent verdict."
+    }
+  ],
+  "not_run": [
+    "current asset fetching",
+    "AI/provider runtime or mailbox/send",
+    "build.py, recipe_check.py, editorial_gate.py",
+    "browser or viewport validation",
+    "deployment/publication"
+  ],
+  "independent_review": {
+    "status": "pending",
+    "verdict": null
+  },
+  "receipt_hash_method": "Source hashes bind the two revised content files. This JSON excludes its own hash; its final byte hash is provided in the handoff."
+}

@@ -1,0 +1,866 @@
+{
+  "schema_version": 1,
+  "packet_kind": "demand_revalidation_addendum",
+  "date": "2026-10-16",
+  "timezone": "Asia/Shanghai",
+  "revalidated_at": "2026-10-16T04:30:44.152672+00:00",
+  "revalidated_at_beijing": "2026-10-16T12:30:44.152672+08:00",
+  "editor": "independent demand editor, 2026-10-16",
+  "owned_files": [
+    "team/research/revalidation-2026-10-16.json",
+    "team/research/revalidation-2026-10-16.md"
+  ],
+  "scope": "Only the existing professional-follow-up-email-after-no-response candidate for the October 16 release decision; no new topics, source edits or approval of the author.",
+  "original_demand_packet": "team/research/demand-2026-10-14.json",
+  "original_packet_sha256": "836b93203aba5d15ada88f294cd0b3918da2700579f4414dc2a00b152ae34ee8",
+  "prior_refresh_packet": "team/research/revalidation-2026-10-15.json",
+  "prior_refresh_sha256": "bf81c57b221e8ea70b53a483db533c2caed07466224b4bae5db563a33148067d",
+  "gate_packet_policy": {
+    "original_packet_remains_single_authoritative_demand_brief": true,
+    "new_gate_demand_packet_created": false,
+    "contains_gate_recipes_array": false,
+    "current_gate_discovery": "redirect-demand.json plus demand-????-??-??.json only; parent must explicitly bind this dated addendum and must not duplicate the original slug into another demand packet."
+  },
+  "verdict": "QUALIFIED",
+  "demand_evidence_verdict": "QUALIFIED",
+  "asset_fit_from_oct15": "RECONFIRMED_BY_CURRENT_DESKTOP_SOURCE_INSPECTION",
+  "publication_approval": false,
+  "reason": "Current qualitative demand already qualified. The user-authorized ordinary desktop-UA rendering check now verifies both exact English human landing pages, stable id/UUID objects and source instructions at the attributed URLs. Initial 302 was an observed rendering variant, not an authentication/security failure; this read-only demand/source qualification is not content or publication approval.",
+  "blockers": [
+    {
+      "code": "INDEPENDENT_SOURCE_BOUND_REVIEW_REQUIRED",
+      "owner": "independent verification/managing editor",
+      "resolution": "Review the existing October 15 author package at the captured source hashes, then perform parent-owned release checks. This demand editor issues no content PASS.",
+      "scope": "Remaining independent content/release requirement; does not negate demand/source QUALIFIED."
+    }
+  ],
+  "intent_id": "office_worker_prior_correspondence_to_polite_follow_up",
+  "slug": "professional-follow-up-email-after-no-response",
+  "market": "US",
+  "language": "en",
+  "numeric_search_volume": null,
+  "qualified_existing_demand_count": 1,
+  "new_topics": 0,
+  "fully_revalidated_publication_candidates": 1,
+  "inputs_read": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "080af6ceed44b82445993cd7beba35a10d6d4ac5d0bd6aa9ce8f53479d1b80fc"
+    },
+    {
+      "path": "team/context/ASSET-POLICY.md",
+      "sha256": "6c87a5c309e749a4b8115b41bcd96004a05b9e86b232100a29f8912f56c62137"
+    },
+    {
+      "path": "team/context/AUDIENCE.md",
+      "sha256": "442a59c3468c18935104e40fff2084e9465ffec48382da61c0f62b9f6d110fe2"
+    },
+    {
+      "path": "team/context/METRICS.md",
+      "sha256": "0803a7664f7d2718e86f52a82348e67abe2195fc85abb18cb3b147e18bc2c340"
+    },
+    {
+      "path": "team/context/PROJECT.md",
+      "sha256": "a791f483e96871b5f690ee7b69fb884055057dff04c4cc1f28ad93b290a7630d"
+    },
+    {
+      "path": "team/context/USER-BRIEF.md",
+      "sha256": "b7620db969b61da35c02c57387f2ab764e0dad189295b78abe33fb67772b35cd"
+    },
+    {
+      "path": "team/PIPELINE.md",
+      "sha256": "b07605bd3dce1ac88fa0dfcf84eff2377986d156a572f9e37cb40f2b8efb35b0"
+    },
+    {
+      "path": "team/STYLE.md",
+      "sha256": "e0dff6e417953ae05376bdcee105449af58e73175e049bbdda084556214dd5c0"
+    },
+    {
+      "path": "team/QUALITY.md",
+      "sha256": "e62344e1569a97cc2ade52e438687dcafae886e39841e466519e09bbaf5ed31b"
+    },
+    {
+      "path": "team/MONITORING.md",
+      "sha256": "af7c73c1526f047cdd0a8ca39f2e8611c2424ce0650e0cee6c91595ca8459e40"
+    },
+    {
+      "path": "team/roles/demand-editor.md",
+      "sha256": "a9f535ad5ce22e58d02f9728ac3f7dd05b6c33390285169488293a6639cf1024"
+    },
+    {
+      "path": "recipes.json",
+      "sha256": "12edbcc18ff8fdae4aba1868963048c49ce1f9b80061aec201d02f31f2aa6a89"
+    },
+    {
+      "path": "team/ledger.json",
+      "sha256": "58f63e6fd0d788110863581394c80722f5b81d9ecc2d9f359ccb33e8a327103e"
+    },
+    {
+      "path": "team/research/redirect-demand.json",
+      "sha256": "e3278a548323823b7fc8e36e4bc6b039237193799fdfc604cbf6ba742005214f"
+    },
+    {
+      "path": "team/research/demand-2026-10-14.json",
+      "sha256": "836b93203aba5d15ada88f294cd0b3918da2700579f4414dc2a00b152ae34ee8"
+    },
+    {
+      "path": "team/research/demand-2026-10-14.md",
+      "sha256": "5f98b636158f9556d0f9776d648d16b5674191912e0732a4aa8c2972a90ecc7c"
+    },
+    {
+      "path": "team/research/revalidation-2026-10-15.json",
+      "sha256": "bf81c57b221e8ea70b53a483db533c2caed07466224b4bae5db563a33148067d"
+    },
+    {
+      "path": "team/research/revalidation-2026-10-15.md",
+      "sha256": "528767b8c392a5433756304c8f3ac6fa3e4e64d8f37fb66851c32989bd41a07a"
+    },
+    {
+      "path": "team/research/author-2026-10-15.json",
+      "sha256": "c1f4e55c81d14cce8f59df7e39ff1cd6b82508ad16718d2216b9005e12f0b45f"
+    },
+    {
+      "path": "team/reviews/recipes-review-2026-10-12.json",
+      "sha256": "176200f06e88f634b38ae8ab5fe43ca5d77b5885ff22c1bd185b653cd11abcbd"
+    },
+    {
+      "path": "team/reviews/recipes-release-2026-10-12.json",
+      "sha256": "540479a987299785c72260e78abd2363b6583740fb2c4735549e4a161a204782"
+    },
+    {
+      "path": "scripts/editorial_gate.py",
+      "sha256": "f6c4d62696ff93a50ad3e907ef58754361ec49928619bfab1a0aa976c2641025"
+    }
+  ],
+  "topic": {
+    "reader": "Office workers, freelancers and applicants who need a professional reply request after prior correspondence.",
+    "task": "Turn supplied prior correspondence and one concrete request into a short professional follow-up, then audit factual assertions and manually approve the wording.",
+    "input": [
+      "Recipient role/relationship and the earlier message or dated factual notes.",
+      "One current request; chosen tone; supplied hard facts and exclusions.",
+      "An explicitly labelled source pack containing relevant excerpts and unresolved gaps."
+    ],
+    "output": "Immediately copyable editable email template, complete original fictional examples, and a draft-to-source audit worksheet; chosen message remains for human review.",
+    "primary_query": "professional follow up email after no response",
+    "related_queries": [
+      "professional follow up email sample",
+      "professional follow up email example after no response",
+      "professional follow up email to client",
+      "professional follow up email requesting information"
+    ],
+    "canonical_path": "/workflows/professional-follow-up-email-after-no-response/",
+    "proposed_canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/professional-follow-up-email-after-no-response/",
+    "intent_fit": "Supply an immediately usable email template and complete short examples on page. Main promise is wording after prior contact, not mailbox automation or guaranteed response.",
+    "competition": {
+      "inspection_scope": "No current controlled US SERP competition/rank/difficulty audit performed; task is revalidation of this existing candidate only.",
+      "observed_supply_urls": [],
+      "limitation": "No uniqueness, low-competition or easy-ranking assertion; broad email templates are an established alternative.",
+      "practical_value_required": "Original six-input worksheet, complete fictional emails and exact draft-to-source human audit, with reusable TokRepo prompts."
+    }
+  },
+  "autocomplete": {
+    "name": "autocomplete",
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=professional%20follow%20up%20email",
+    "final_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=professional%20follow%20up%20email",
+    "request_started_at": "2026-10-16T04:28:13.973440+00:00",
+    "response_completed_at": "2026-10-16T04:28:15.395798+00:00",
+    "http_status": 200,
+    "response_body_sha256": "04144221e6bdd18575413c4a45c0c7dda225ee40ab092716ddb70552eb9103b4",
+    "response_bytes": 592,
+    "error": null,
+    "headers": {
+      "Content-Type": "text/javascript; charset=UTF-8",
+      "Date": "Fri, 16 Oct 2026 04:28:16 GMT",
+      "Cache-Control": "no-cache, must-revalidate"
+    },
+    "seed": "professional follow up email",
+    "suggestions": [
+      "professional follow up email",
+      "professional follow up email after interview",
+      "professional follow up email after no response",
+      "professional follow up email for job application",
+      "professional follow up email sample",
+      "professional follow up email example",
+      "professional follow up email after application",
+      "professional follow up email requesting information",
+      "professional follow up email example after no response",
+      "professional follow up email to client"
+    ],
+    "exact_observed_suggestion": "professional follow up email after no response",
+    "exact_match_present": true,
+    "market": "US",
+    "language": "en",
+    "limitations": [
+      "Qualitative suggestion presence only; volume, frequency, competition, rank and traffic unknown.",
+      "hl=en and gl=us are request parameters, not a controlled physical US location."
+    ]
+  },
+  "questions": [
+    {
+      "url": "https://workplace.stackexchange.com/questions/10203/what-is-appropriate-email-follow-up-etiquette-after-no-response",
+      "title": "What is appropriate email follow-up etiquette after no response?",
+      "public_author": "enderland",
+      "published_at_displayed": "2013-03-11 18:32",
+      "observed_problem": "A worker receives no reply to important or manager-requested work emails and asks how to follow up.",
+      "original_body_location": "Original question lines 40-45; author and displayed date lines 56-60.",
+      "editorial_implication": "Supply an editable office follow-up with one concrete request grounded in the earlier correspondence.",
+      "display_delta_from_oct15": null,
+      "inspected_at": "2026-10-16T04:30:44.152672+00:00",
+      "timestamp_semantics": "Evidence log completed after opening and reading the original question through web text rendering; not an HTTP origin-fetch timestamp.",
+      "method": "web.open of the existing original URL; original body and author identity read, not a search snippet or answers.",
+      "readable": true,
+      "web_crawl_freshness_displayed": "today",
+      "country": null,
+      "language": "en",
+      "limitations": [
+        "Historical question freshly inspected; does not establish recent question frequency, search volume or US author geography.",
+        "Web renderer crawl label is not an independently timed origin fetch.",
+        "Answers, votes and historical views excluded as demand metrics."
+      ],
+      "source_observation_sha256": "568cb01a6b4fe0b43dc3652e2094ac3c5753b915fce53abf073b4cf8e3dc0fbd",
+      "source_observation_hash_definition": "SHA256 of UTF-8 compact sorted-key JSON of url,title,public_author,published_at_displayed,observed_problem,original_body_location. Normalized inspected evidence, not raw origin HTML or a full-body content hash."
+    },
+    {
+      "url": "https://www.reddit.com/r/teaching/comments/1uzbz7v/professional_email_to_follow_up/",
+      "title": "Professional email to follow up",
+      "public_author": "AnironSidh",
+      "published_at_displayed": null,
+      "displayed_age": "3mo ago",
+      "observed_problem": "After a short recruitment-fair interview, an applicant asks whether an HR update request sounds professional and clarifies that no next-step update has arrived.",
+      "original_body_location": "Original post title/author/body lines 14-23; same-author clarification lines 251-256.",
+      "editorial_implication": "Retain a short hiring wording illustration using supplied contact and interview facts, with no inferred rejection or promised reply.",
+      "display_delta_from_oct15": "Current rendering shows 3mo ago versus 2mo ago in the October 15 refresh. Relative age is not an exact creation timestamp; prior date disagreement is not resolved.",
+      "image_inspected": false,
+      "inspected_at": "2026-10-16T04:30:44.152672+00:00",
+      "timestamp_semantics": "Evidence log completed after opening and reading the original question through web text rendering; not an HTTP origin-fetch timestamp.",
+      "method": "web.open of the existing original URL; original body and author identity read, not a search snippet or answers.",
+      "readable": true,
+      "web_crawl_freshness_displayed": "today",
+      "country": null,
+      "language": "en",
+      "limitations": [
+        "Historical question freshly inspected; does not establish recent question frequency, search volume or US author geography.",
+        "Web renderer crawl label is not an independently timed origin fetch.",
+        "Answers, votes and historical views excluded as demand metrics.",
+        "Attached draft image not opened; no exact wording critique or hiring-process advice."
+      ],
+      "source_observation_sha256": "9af8ed24a2a80bc817889e86fa1032a16f0022b86fc1aa957dc6afa69e204263",
+      "source_observation_hash_definition": "SHA256 of UTF-8 compact sorted-key JSON of url,title,public_author,published_at_displayed,observed_problem,original_body_location. Normalized inspected evidence, not raw origin HTML or a full-body content hash."
+    }
+  ],
+  "independence_assessment": {
+    "distinct_platforms": [
+      "workplace.stackexchange.com",
+      "reddit.com/r/teaching"
+    ],
+    "distinct_original_authors": [
+      "enderland",
+      "AnironSidh"
+    ],
+    "same_two_original_links_as_oct14": true,
+    "no_crosspost_observed": true,
+    "conclusion": "Independent original questions in office and recruitment contexts; historical qualitative recurrence, not measured recent frequency."
+  },
+  "assets": [
+    {
+      "role": "primary",
+      "expected_id": 6929,
+      "expected_uuid": "33c39ad0-e242-4b24-98e3-b012d7679faa",
+      "expected_slug": "draft-polite-follow-up-without-inventing-facts-33c39ad0",
+      "expected_english_h1": "Draft a Polite Follow-Up Without Inventing Facts",
+      "url": "https://tokrepo.com/en/workflows/draft-polite-follow-up-without-inventing-facts-33c39ad0",
+      "attributed_url": "https://tokrepo.com/en/workflows/draft-polite-follow-up-without-inventing-facts-33c39ad0?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=professional-follow-up-email-after-no-response",
+      "current_public_receipt": {
+        "role": "primary",
+        "url": "https://tokrepo.com/en/workflows/draft-polite-follow-up-without-inventing-facts-33c39ad0?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=professional-follow-up-email-after-no-response",
+        "final_url": "https://tokrepo.com/en/workflows/draft-polite-follow-up-without-inventing-facts-33c39ad0?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=professional-follow-up-email-after-no-response",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+        "request_started_at": "2026-10-16T04:32:47.515939+00:00",
+        "response_completed_at": "2026-10-16T04:32:51.973479+00:00",
+        "http_status": 200,
+        "response_body_sha256": "e1da0a2295ea23fbe48b9cf291e965520298ef070edb81fbddf64287f24ace2e",
+        "response_bytes": 74184,
+        "redirect_chain": [],
+        "error": null,
+        "headers": {
+          "Date": "Fri, 16 Oct 2026 04:32:52 GMT",
+          "Content-Type": "text/html;charset=utf-8"
+        }
+      },
+      "current_observed_h1": "Draft a Polite Follow-Up Without Inventing Facts",
+      "current_canonical": "https://tokrepo.com/en/workflows/draft-polite-follow-up-without-inventing-facts-33c39ad0",
+      "current_hydrated_detail_identity": {
+        "id": 6929,
+        "uuid": "33c39ad0-e242-4b24-98e3-b012d7679faa",
+        "slug": "draft-polite-follow-up-without-inventing-facts-33c39ad0",
+        "title": "Draft a Polite Follow-Up Without Inventing Facts",
+        "lang_type": "en"
+      },
+      "current_prompt_content_sha256": "62c4f324ea0fe4eae05cefe7a0604cffce5d82afdbaf16ce5921569f6dd4bf30",
+      "current_identity_verified": true,
+      "current_source_reviewed": true,
+      "response_classification": "MEANINGFUL_ENGLISH_DESKTOP_LANDING",
+      "meta_refresh_target_observed": null,
+      "meta_refresh_target_absolute": null,
+      "redirect_target_requested": false,
+      "location_header": null,
+      "current_limitation": "HTTP desktop-UA HTML/source inspection, not interactive browser, copy-button, model execution, installation or sending. Initial 302 evidence remains in initial_observation.",
+      "prior_verified_source": {
+        "packet": "team/research/revalidation-2026-10-15.json",
+        "packet_sha256": "bf81c57b221e8ea70b53a483db533c2caed07466224b4bae5db563a33148067d",
+        "source_reviewed_at": "2026-10-15T03:38:22.214539+00:00",
+        "id": 6929,
+        "uuid": "33c39ad0-e242-4b24-98e3-b012d7679faa",
+        "english_h1": "Draft a Polite Follow-Up Without Inventing Facts",
+        "lang_type": "en",
+        "asset_content_sha256": "62c4f324ea0fe4eae05cefe7a0604cffce5d82afdbaf16ce5921569f6dd4bf30",
+        "asset_content_hash_definition": "UTF-8 newline-joined prompt_template values in step order, including bilingual text; excludes volatile popularity metrics. Hash only; full prompt not redistributed.",
+        "upstream_source": "Original TokRepo text prompt; English public detail and source instructions reviewed in October 15 evidence.",
+        "license_observed": "CC BY 4.0 per October 15 packet; not freshly confirmed today.",
+        "freshness": "INHERITED_OCT15_NOT_CURRENT_REVALIDATION"
+      },
+      "supported_role_from_prior_source": "Draft a polite follow-up from six supplied inputs, separating facts from missing facts and offering shorter/softer variants plus checks before sending.",
+      "supported_use_from_prior_source": "Obtain the complete prompt on TokRepo, copy/paste into an ordinary text AI chat and fill its six inputs; manual original worksheet also usable.",
+      "prerequisites_from_prior_source": [
+        "Ordinary text-capable AI chat if using these prompts; provider account, price and data handling depend on provider.",
+        "Use your own redacted material; no mailbox credentials, connector, terminal setup or CLI installation required for the documented copy/paste route.",
+        "Human confirms every date, name, prior agreement, deadline and commitment; AI output is a draft.",
+        "Supply recipient role/relationship, previous events in own notes, current request, tone, hard facts to include and exclusions.",
+        "Missing agreements and dates remain gaps; do not invent delivery/read confirmation or recipient intent."
+      ],
+      "runtime_verified": false,
+      "identity_method": "Decoded only the workflow-detail-<exact-slug> workflow object, index 5 in the response __NUXT_DATA__; related/featured cards excluded. Matched English H1, own canonical, id/full UUID/slug/title/lang_type and source instructions.",
+      "upstream_source_verified_now": {
+        "owner_name": "Prompt Lab",
+        "source_url": "https://tokrepo.com/en/workflows/draft-polite-follow-up-without-inventing-facts-33c39ad0",
+        "source_kind": "Original TokRepo text prompt",
+        "entrypoint": "PROMPT.md",
+        "asset_kind": "prompt",
+        "license_observed": "CC BY 4.0 stated in current prompt source. Contextual OpenAI release-notes references do not prove runtime functionality.",
+        "verification_commands": [],
+        "no_external_upstream_requests": true
+      },
+      "prompt_hash_definition": "UTF-8 newline-joined prompt_template values in step order, including bilingual text; excludes volatile popularity metrics. Hash only; full prompt not redistributed.",
+      "prompt_hash_matches_oct15": true,
+      "final_url_and_utm_intact": true,
+      "source_reviewed_at": "2026-10-16T04:35:02.997327+00:00",
+      "supported_role_verified_now": "Draft a polite follow-up from six supplied inputs, separating facts from missing facts and offering shorter/softer variants plus checks before sending.",
+      "supported_use_verified_now": "Obtain the complete prompt on TokRepo, copy/paste into an ordinary text AI chat and fill its six inputs; manual original worksheet also usable.",
+      "prerequisites_verified_now": [
+        "Ordinary text-capable AI chat if using these prompts; provider account, price and data handling depend on provider.",
+        "Use your own redacted material; no mailbox credentials, connector, terminal setup or CLI installation required for the documented copy/paste route.",
+        "Human confirms every date, name, prior agreement, deadline and commitment; AI output is a draft.",
+        "Supply recipient role/relationship, previous events in own notes, current request, tone, hard facts to include and exclusions.",
+        "Missing agreements and dates remain gaps; do not invent delivery/read confirmation or recipient intent."
+      ],
+      "source_instruction_findings": [
+        "Current source takes six supplied fields covering recipient relationship, prior events, current request, tone, hard facts and exclusions.",
+        "Output separates supplied facts and missing facts, draft/shorter/softer versions and review checks.",
+        "Ordinary text-chat copy/paste route; no installation. Draft only, no sending/scheduling/contacting; human confirms names, dates and commitments."
+      ]
+    },
+    {
+      "role": "secondary",
+      "expected_id": 6924,
+      "expected_uuid": "a82f6e1c-45d7-44d9-91f5-0d51bc9352fc",
+      "expected_slug": "prompt-fact-check-your-draft-into-claim-grid-a82f6e1c",
+      "expected_english_h1": "Prompt: Fact-Check Your Draft Into a Claim Grid",
+      "url": "https://tokrepo.com/en/workflows/prompt-fact-check-your-draft-into-claim-grid-a82f6e1c",
+      "attributed_url": "https://tokrepo.com/en/workflows/prompt-fact-check-your-draft-into-claim-grid-a82f6e1c?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=professional-follow-up-email-after-no-response",
+      "current_public_receipt": {
+        "role": "secondary",
+        "url": "https://tokrepo.com/en/workflows/prompt-fact-check-your-draft-into-claim-grid-a82f6e1c?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=professional-follow-up-email-after-no-response",
+        "final_url": "https://tokrepo.com/en/workflows/prompt-fact-check-your-draft-into-claim-grid-a82f6e1c?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=professional-follow-up-email-after-no-response",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+        "request_started_at": "2026-10-16T04:33:01.977857+00:00",
+        "response_completed_at": "2026-10-16T04:33:09.285331+00:00",
+        "http_status": 200,
+        "response_body_sha256": "d9d2a0499716a7219667d9481709dd80791daf9d75bf28764e2b5900f2b9be8f",
+        "response_bytes": 96742,
+        "redirect_chain": [],
+        "error": null,
+        "headers": {
+          "Date": "Fri, 16 Oct 2026 04:33:08 GMT",
+          "Content-Type": "text/html;charset=utf-8"
+        }
+      },
+      "current_observed_h1": "Prompt: Fact-Check Your Draft Into a Claim Grid",
+      "current_canonical": "https://tokrepo.com/en/workflows/prompt-fact-check-your-draft-into-claim-grid-a82f6e1c",
+      "current_hydrated_detail_identity": {
+        "id": 6924,
+        "uuid": "a82f6e1c-45d7-44d9-91f5-0d51bc9352fc",
+        "slug": "prompt-fact-check-your-draft-into-claim-grid-a82f6e1c",
+        "title": "Prompt: Fact-Check Your Draft Into a Claim Grid",
+        "lang_type": "en"
+      },
+      "current_prompt_content_sha256": "76755f99a931b855d82f0d4a85d095f3781f549c9064a233dd29ca4f6640a6e2",
+      "current_identity_verified": true,
+      "current_source_reviewed": true,
+      "response_classification": "MEANINGFUL_ENGLISH_DESKTOP_LANDING",
+      "meta_refresh_target_observed": null,
+      "meta_refresh_target_absolute": null,
+      "redirect_target_requested": false,
+      "location_header": null,
+      "current_limitation": "HTTP desktop-UA HTML/source inspection, not interactive browser, copy-button, model execution, installation or sending. Initial 302 evidence remains in initial_observation.",
+      "prior_verified_source": {
+        "packet": "team/research/revalidation-2026-10-15.json",
+        "packet_sha256": "bf81c57b221e8ea70b53a483db533c2caed07466224b4bae5db563a33148067d",
+        "source_reviewed_at": "2026-10-15T03:38:22.214539+00:00",
+        "id": 6924,
+        "uuid": "a82f6e1c-45d7-44d9-91f5-0d51bc9352fc",
+        "english_h1": "Prompt: Fact-Check Your Draft Into a Claim Grid",
+        "lang_type": "en",
+        "asset_content_sha256": "76755f99a931b855d82f0d4a85d095f3781f549c9064a233dd29ca4f6640a6e2",
+        "asset_content_hash_definition": "UTF-8 newline-joined prompt_template values in step order, including bilingual text; excludes volatile popularity metrics. Hash only; full prompt not redistributed.",
+        "upstream_source": "Original TokRepo text prompt; English public detail and source instructions reviewed in October 15 evidence.",
+        "license_observed": "CC BY 4.0 per October 15 packet; not freshly confirmed today.",
+        "freshness": "INHERITED_OCT15_NOT_CURRENT_REVALIDATION"
+      },
+      "supported_role_from_prior_source": "Take the chosen follow-up draft and human-labelled source notes into an assertion-to-source grid, risky wording list, fix types and open questions; human makes edits.",
+      "supported_use_from_prior_source": "Copy complete prompt into text AI chat; paste DRAFT, labelled SOURCES and audience/purpose.",
+      "prerequisites_from_prior_source": [
+        "Ordinary text-capable AI chat if using these prompts; provider account, price and data handling depend on provider.",
+        "Use your own redacted material; no mailbox credentials, connector, terminal setup or CLI installation required for the documented copy/paste route.",
+        "Human confirms every date, name, prior agreement, deadline and commitment; AI output is a draft.",
+        "Full chosen draft plus numbered source labels; include actual redacted excerpts, not labels alone, for meaningful human comparison.",
+        "Optional-source wording conflicts with stop-on-missing/too-short-source instruction. This recipe requires a substantive source pack; do not promise useful checks without it."
+      ],
+      "runtime_verified": false,
+      "identity_method": "Decoded only the workflow-detail-<exact-slug> workflow object, index 5 in the response __NUXT_DATA__; related/featured cards excluded. Matched English H1, own canonical, id/full UUID/slug/title/lang_type and source instructions.",
+      "upstream_source_verified_now": {
+        "owner_name": "Prompt Lab",
+        "source_url": "https://tokrepo.com/en/workflows/prompt-fact-check-your-draft-into-claim-grid-a82f6e1c",
+        "source_kind": "Original TokRepo text prompt",
+        "entrypoint": "PROMPT.md",
+        "asset_kind": "prompt",
+        "license_observed": "CC BY 4.0 stated in current prompt source. Contextual OpenAI release-notes references do not prove runtime functionality.",
+        "verification_commands": [],
+        "no_external_upstream_requests": true
+      },
+      "prompt_hash_definition": "UTF-8 newline-joined prompt_template values in step order, including bilingual text; excludes volatile popularity metrics. Hash only; full prompt not redistributed.",
+      "prompt_hash_matches_oct15": true,
+      "final_url_and_utm_intact": true,
+      "source_reviewed_at": "2026-10-16T04:35:02.997327+00:00",
+      "supported_role_verified_now": "Take the chosen follow-up draft and human-labelled source notes into an assertion-to-source grid, risky wording list, fix types and open questions; human makes edits.",
+      "supported_use_verified_now": "Copy complete prompt into text AI chat; paste DRAFT, labelled SOURCES and audience/purpose.",
+      "prerequisites_verified_now": [
+        "Ordinary text-capable AI chat if using these prompts; provider account, price and data handling depend on provider.",
+        "Use your own redacted material; no mailbox credentials, connector, terminal setup or CLI installation required for the documented copy/paste route.",
+        "Human confirms every date, name, prior agreement, deadline and commitment; AI output is a draft.",
+        "Full chosen draft plus numbered source labels; include actual redacted excerpts, not labels alone, for meaningful human comparison.",
+        "Optional-source wording conflicts with stop-on-missing/too-short-source instruction. This recipe requires a substantive source pack; do not promise useful checks without it."
+      ],
+      "source_instruction_findings": [
+        "Current source accepts full article/post/email/report drafts plus source material and audience/purpose, and returns assertion/source traceability and correction types.",
+        "Explicitly labels traceability, not truth; no browsing, opening links, contacting people or modifying the draft/files.",
+        "Optional-source wording and missing-or-too-short source stop instruction still conflict. Require substantive original labelled excerpts; human resolves unsupported claims and final wording.",
+        "Ordinary text AI chat; no terminal, API keys or installation required for the documented route."
+      ]
+    }
+  ],
+  "handoff": {
+    "sequence": [
+      "Human fills an original six-input fact worksheet from prior correspondence, with source labels and missing information.",
+      "Primary prompt drafts the follow-up; human chooses one variant and supplies the whole chosen draft to the complement.",
+      "Complement receives DRAFT plus original source pack, audience and purpose; produces traceability grid, risky wording and fix types.",
+      "Human checks each assertion against actual excerpts, corrects/removes unsupported wording, confirms one clear request and fills the final editable email template."
+    ],
+    "input_passed": "The exact chosen draft, original redacted correspondence/fact notes labelled S1/S2, audience/purpose and stated missing facts. Do not use the primary model-generated Facts I supplied section as independent evidence.",
+    "secondary_expected_output": "A-E summary counts, claim-to-source grid, risky wording table, ordered fix types and open questions. This is traceability, not truth or etiquette certification.",
+    "primary_expected_output": "Facts I supplied; Missing facts; Draft; Shorter version; Softer version; Check before sending.",
+    "original_bridge_required": "Author-created worksheet maps each chosen draft claim to source label, exact excerpt, supplied date/agreement, audit status, human correction and approved text; preserve uncertainty.",
+    "compatibility_checks": [
+      "Secondary explicitly accepts full emails and factual assertions; follow-up draft is supported input.",
+      "Complement analyzes without rewriting; human owns the correction and final message.",
+      "Separate primary fact extraction from downstream exhaustive claim mapping; no second generic drafting prompt.",
+      "Require full source excerpts because labels alone do not prove support and optional-source instructions are internally inconsistent.",
+      "Request sentences may contain no factual assertion; still review clarity/tone manually. Do not manufacture audit rows or SOURCED counts."
+    ],
+    "verification": "Source instructions rechecked in current desktop-UA English landings on October 16. Both prompt hashes match October 15; email input, six-field drafting, traceability limits and source ambiguity reconfirmed. No AI execution, browser interaction or sending."
+  },
+  "prerequisite_caveats": [
+    "Primary takes six human-supplied fields: recipient relationship, prior events, one current request, tone, hard facts and exclusions. Missing dates/agreements stay unknown.",
+    "Secondary requires the chosen complete draft, substantive original labelled excerpts and audience/purpose. Labels or model-extracted facts are not independent evidence.",
+    "Secondary labels traceability, not truth; it does not open links, rewrite or send. Optional-source guidance conflicts with a missing-or-too-short-source stop rule in the previously reviewed source.",
+    "Human checks actual excerpts, corrections, tone and final request. A pure request may contain no factual assertion; do not fabricate audit rows.",
+    "Prior supported copy/paste route needs ordinary text AI chat if AI is used, provider-dependent account/cost/data handling and redacted inputs. No mailbox connector or CLI installation required for that documented route. Current source route reconfirmed by desktop-UA HTML/source inspection."
+  ],
+  "duplicate_decision": {
+    "decision": "REFRESH_EXISTING_INTENT_ONLY",
+    "complete_manifest_count": 12,
+    "complete_ledger_count": 17,
+    "manifest_sha256": "12edbcc18ff8fdae4aba1868963048c49ce1f9b80061aec201d02f31f2aa6a89",
+    "ledger_sha256": "58f63e6fd0d788110863581394c80722f5b81d9ecc2d9f359ccb33e8a327103e",
+    "all_manifest_slugs": [
+      "transcribe-audio-to-text",
+      "meeting-minutes-template",
+      "extract-tables-from-pdf-to-excel",
+      "presentation-from-notes",
+      "clean-csv-remove-duplicate-rows",
+      "flashcards-from-lecture-notes",
+      "write-resume-bullet-points",
+      "project-proposal-template",
+      "write-a-cover-letter",
+      "study-schedule-template",
+      "weekly-project-status-report-template",
+      "professional-follow-up-email-after-no-response"
+    ],
+    "all_ledger_slugs": [
+      "merge-pdf",
+      "extract-pdf-pages",
+      "compress-image",
+      "resize-image",
+      "remove-duplicate-csv-rows",
+      "csv-to-json",
+      "transcribe-audio-to-text",
+      "meeting-minutes-template",
+      "extract-tables-from-pdf-to-excel",
+      "presentation-from-notes",
+      "clean-csv-remove-duplicate-rows",
+      "flashcards-from-lecture-notes",
+      "write-resume-bullet-points",
+      "project-proposal-template",
+      "write-a-cover-letter",
+      "study-schedule-template",
+      "weekly-project-status-report-template"
+    ],
+    "target_occurrences_in_manifest": 1,
+    "target_occurrences_in_ledger": 0,
+    "comparison": [
+      "Cover letter: new application letter mapping qualifications to posting. Follow-up: existing contact and unanswered request become a short request for an update.",
+      "Weekly project status: recurring multi-source report of execution. Follow-up: one recipient/action from prior correspondence; no project-report page or dashboard.",
+      "Meeting minutes: records a meeting and actions. Follow-up: message to seek a reply; no new meeting transcript or minutes.",
+      "Proposal and presentation: approval document or slide deck; follow-up does not create either.",
+      "Audio transcription, PDF tables, CSV dedupe, flashcards, resume bullets and study scheduling have different inputs/outputs.",
+      "Six legacy routes also checked: PDF merge/extract, image compress/resize, duplicate CSV removal and CSV-to-JSON do not own this intent."
+    ],
+    "synonym_policy": "Keep professional/polite/client/information/example/after-no-response variants in one canonical page. Hiring illustration does not create another cover-letter or interview-timing page.",
+    "integration_context": "Current manifest includes the existing candidate once; ledger has 17 earlier entries and no target release entry. Proposed manifest published_on 2026-10-16 is not evidence of a deployment. No ledger reservation or new quota topic created."
+  },
+  "author_handoff": {
+    "path": "team/research/author-2026-10-15.json",
+    "author_packet_sha256": "c1f4e55c81d14cce8f59df7e39ff1cd6b82508ad16718d2216b9005e12f0b45f",
+    "author": "independent practical author, 2026-10-15",
+    "author_status": "ready_for_independent_review_not_approved",
+    "authored_on": "2026-10-15",
+    "source_sha256_observed_now": {
+      "recipes/professional-follow-up-email-after-no-response.md": "8262cb32e85b18f7d6213fa4594acf097228974730db3bbe2a6162a3cb8cd52b",
+      "templates/professional-follow-up-email-after-no-response/fictional-final-email.txt": "aa43efdb70dc33e153604f611a0a5e26834712b81026b0e0fb8988aeae988e04",
+      "templates/professional-follow-up-email-after-no-response/fictional-worked-example.md": "79a8148a3d8cf9c33a9f2677f1ef807b4bdac1821e7bb3ea1f83dfdfe8cd468b",
+      "templates/professional-follow-up-email-after-no-response/follow-up-email-template.md": "18c9c6831d4a017bf8898398827f8daa1a4d61a2c97b3240ee0a1160f32a0698",
+      "templates/professional-follow-up-email-after-no-response/follow-up-email-template.txt": "de41ed07cbfd246dcfc416d4ee175b4254d283159c54cffb0ff58eaad4448840",
+      "templates/professional-follow-up-email-after-no-response/six-input-and-audit-worksheet.md": "bbbbd3925d0b1492bc69b35de4cd9d67ebc318815e33afda06ae0cd893edd97b"
+    },
+    "all_six_source_files_match_author_receipt": true,
+    "package_sha256_from_author": "10f581efa1d2347abcf68c7db87cc8db3a740c4154bf2458a9b228edc87907d3",
+    "package_hash_method": "SHA256 of sorted relative path + NUL + source SHA256 + LF. Author JSON excluded to avoid recursive self-hash; its final byte hash is provided in handoff.",
+    "review_status": "pending independent content/source review; hash comparison is not approval",
+    "author_cannot_self_approve": true,
+    "source_hashes_rechecked_at_resolution": "2026-10-16T04:35:02.997327+00:00",
+    "source_hashes_still_match_at_resolution": true
+  },
+  "request_policy": {
+    "total_asset_navigation_requests": 4,
+    "requests_per_asset_across_two_authorized_phases": 2,
+    "initial_phase_requests": 2,
+    "desktop_phase_requests": 2,
+    "desktop_requests_per_asset": 1,
+    "desktop_user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+    "desktop_redirects_enabled": true,
+    "desktop_redirect_hops_observed": 0,
+    "automatic_retries": 0,
+    "http_429_observed": false,
+    "on_429": "Stop further asset requests immediately; no equivalent retry.",
+    "minimum_spacing_seconds": 10,
+    "desktop_primary_completion_to_secondary_start_seconds": 10.004378,
+    "initial_primary_completion_to_secondary_start_seconds": 10.000319,
+    "autocomplete_requests": 1,
+    "public_api_requests": 0,
+    "shared_chrome_used": false,
+    "parent_old_asset_monitoring_touched": false
+  },
+  "measurement_state": {
+    "indexing": "UNKNOWN_NOT_CHECKED_PARENT_OWNS_MONITORING",
+    "visibility": "UNKNOWN_NOT_CHECKED_PARENT_OWNS_MONITORING",
+    "search_clicks": "UNKNOWN_NOT_CHECKED_PARENT_OWNS_MONITORING",
+    "attributed_tokrepo_arrivals": "UNKNOWN_NOT_CHECKED_PARENT_OWNS_MONITORING",
+    "asset_use": "UNKNOWN_NOT_CHECKED_PARENT_OWNS_MONITORING"
+  },
+  "verification_limits": [
+    "Demand/source QUALIFIED is not an independent content PASS or publication approval.",
+    "No full prompts redistributed; current landing/source identities, hashes and practical findings only.",
+    "No AI/model run, interactive browser/copy-button test, installation, mailbox/send, build, public download, deployment, GSC or analytics check.",
+    "Initial 302 HOLD evidence is preserved chronologically; current desktop evidence resolves its identity/source uncertainty without claiming an access restriction or outage.",
+    "The UA, attributed query and observation time differ between phases; no claim that UA alone caused the rendering difference.",
+    "Only the same two owned research files edited; no Git staging/commit/push, other public writes or shared Chrome use."
+  ],
+  "initial_observation": {
+    "revalidated_at": "2026-10-16T04:30:44.152672+00:00",
+    "revalidated_at_beijing": "2026-10-16T12:30:44.152672+08:00",
+    "verdict": "HOLD",
+    "reason": "Exact Google suggestion and two independent original questions remain supported. Both exact English TokRepo URLs returned HTTP302 meta-refresh responses rather than meaningful asset details; current identity/prerequisites/use handoff cannot be freshly qualified within the one-request limit.",
+    "blockers": [
+      {
+        "code": "CURRENT_ENGLISH_ASSET_IDENTITY_UNCONFIRMED",
+        "assets": [
+          6929,
+          6924
+        ],
+        "owner": "parent managing/release editor",
+        "resolution": "Reconcile the parent’s separately paced current asset check, if already available, against exact English meaningful H1, full object identity and source/use prerequisites. A 302 alone neither validates nor disproves destination health. Do not add immediate retries or batches."
+      },
+      {
+        "code": "INDEPENDENT_SOURCE_BOUND_REVIEW_REQUIRED",
+        "owner": "independent verification/managing editor",
+        "resolution": "Review the existing October 15 author package at the captured source hashes, then perform parent-owned release checks. This demand editor issues no content PASS."
+      }
+    ],
+    "asset_fit_from_oct15": "SOURCE_SUPPORTED_BUT_CURRENT_DESTINATIONS_NOT_REVALIDATED",
+    "fully_revalidated_publication_candidates": 0,
+    "assets": [
+      {
+        "role": "primary",
+        "expected_id": 6929,
+        "expected_uuid": "33c39ad0-e242-4b24-98e3-b012d7679faa",
+        "expected_slug": "draft-polite-follow-up-without-inventing-facts-33c39ad0",
+        "expected_english_h1": "Draft a Polite Follow-Up Without Inventing Facts",
+        "url": "https://tokrepo.com/en/workflows/draft-polite-follow-up-without-inventing-facts-33c39ad0",
+        "attributed_url": "https://tokrepo.com/en/workflows/draft-polite-follow-up-without-inventing-facts-33c39ad0?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=professional-follow-up-email-after-no-response",
+        "current_public_receipt": {
+          "name": "primary",
+          "url": "https://tokrepo.com/en/workflows/draft-polite-follow-up-without-inventing-facts-33c39ad0",
+          "final_url": "https://tokrepo.com/en/workflows/draft-polite-follow-up-without-inventing-facts-33c39ad0",
+          "request_started_at": "2026-10-16T04:28:15.397169+00:00",
+          "response_completed_at": "2026-10-16T04:28:18.509260+00:00",
+          "http_status": 302,
+          "response_body_sha256": "ff39021e1e00d974b472b0901b47be548817e0bf9567001d50fcde97743ca7e2",
+          "response_bytes": 146,
+          "error": "HTTP Error 302: Found",
+          "headers": {
+            "Date": "Fri, 16 Oct 2026 04:28:19 GMT",
+            "Content-Type": "text/html"
+          }
+        },
+        "current_observed_h1": null,
+        "current_canonical": null,
+        "current_hydrated_detail_identity": null,
+        "current_prompt_content_sha256": null,
+        "current_identity_verified": false,
+        "current_source_reviewed": false,
+        "response_classification": "HTTP_302_META_REFRESH_WITHOUT_ASSET_DETAIL",
+        "meta_refresh_target_observed": "/raw/draft-polite-follow-up-without-inventing-facts-33c39ad0",
+        "meta_refresh_target_absolute": "https://tokrepo.com/raw/draft-polite-follow-up-without-inventing-facts-33c39ad0",
+        "redirect_target_requested": false,
+        "location_header": "Not retained by receipt header filter; target recorded only from the observed meta-refresh body.",
+        "current_limitation": "Single bounded request returned a 302 HTML meta-refresh body. No meaningful English H1, numeric ID/UUID detail object, canonical or prompt instructions in this response. Destination health, language and content remain unverified; no outage or broken-link claim.",
+        "prior_verified_source": {
+          "packet": "team/research/revalidation-2026-10-15.json",
+          "packet_sha256": "bf81c57b221e8ea70b53a483db533c2caed07466224b4bae5db563a33148067d",
+          "source_reviewed_at": "2026-10-15T03:38:22.214539+00:00",
+          "id": 6929,
+          "uuid": "33c39ad0-e242-4b24-98e3-b012d7679faa",
+          "english_h1": "Draft a Polite Follow-Up Without Inventing Facts",
+          "lang_type": "en",
+          "asset_content_sha256": "62c4f324ea0fe4eae05cefe7a0604cffce5d82afdbaf16ce5921569f6dd4bf30",
+          "asset_content_hash_definition": "UTF-8 newline-joined prompt_template values in step order, including bilingual text; excludes volatile popularity metrics. Hash only; full prompt not redistributed.",
+          "upstream_source": "Original TokRepo text prompt; English public detail and source instructions reviewed in October 15 evidence.",
+          "license_observed": "CC BY 4.0 per October 15 packet; not freshly confirmed today.",
+          "freshness": "INHERITED_OCT15_NOT_CURRENT_REVALIDATION"
+        },
+        "supported_role_from_prior_source": "Draft a polite follow-up from six supplied inputs, separating facts from missing facts and offering shorter/softer variants plus checks before sending.",
+        "supported_use_from_prior_source": "Obtain the complete prompt on TokRepo, copy/paste into an ordinary text AI chat and fill its six inputs; manual original worksheet also usable.",
+        "prerequisites_from_prior_source": [
+          "Ordinary text-capable AI chat if using these prompts; provider account, price and data handling depend on provider.",
+          "Use your own redacted material; no mailbox credentials, connector, terminal setup or CLI installation required for the documented copy/paste route.",
+          "Human confirms every date, name, prior agreement, deadline and commitment; AI output is a draft.",
+          "Supply recipient role/relationship, previous events in own notes, current request, tone, hard facts to include and exclusions.",
+          "Missing agreements and dates remain gaps; do not invent delivery/read confirmation or recipient intent."
+        ],
+        "runtime_verified": false
+      },
+      {
+        "role": "secondary",
+        "expected_id": 6924,
+        "expected_uuid": "a82f6e1c-45d7-44d9-91f5-0d51bc9352fc",
+        "expected_slug": "prompt-fact-check-your-draft-into-claim-grid-a82f6e1c",
+        "expected_english_h1": "Prompt: Fact-Check Your Draft Into a Claim Grid",
+        "url": "https://tokrepo.com/en/workflows/prompt-fact-check-your-draft-into-claim-grid-a82f6e1c",
+        "attributed_url": "https://tokrepo.com/en/workflows/prompt-fact-check-your-draft-into-claim-grid-a82f6e1c?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=professional-follow-up-email-after-no-response",
+        "current_public_receipt": {
+          "name": "secondary",
+          "url": "https://tokrepo.com/en/workflows/prompt-fact-check-your-draft-into-claim-grid-a82f6e1c",
+          "final_url": "https://tokrepo.com/en/workflows/prompt-fact-check-your-draft-into-claim-grid-a82f6e1c",
+          "request_started_at": "2026-10-16T04:28:28.509579+00:00",
+          "response_completed_at": "2026-10-16T04:28:30.603307+00:00",
+          "http_status": 302,
+          "response_body_sha256": "122d2368ca1ad3ad8a2378fb6d7c2ccb738891084efaf3d3765c5e8791b5ee25",
+          "response_bytes": 144,
+          "error": "HTTP Error 302: Found",
+          "headers": {
+            "Date": "Fri, 16 Oct 2026 04:28:31 GMT",
+            "Content-Type": "text/html"
+          }
+        },
+        "current_observed_h1": null,
+        "current_canonical": null,
+        "current_hydrated_detail_identity": null,
+        "current_prompt_content_sha256": null,
+        "current_identity_verified": false,
+        "current_source_reviewed": false,
+        "response_classification": "HTTP_302_META_REFRESH_WITHOUT_ASSET_DETAIL",
+        "meta_refresh_target_observed": "/raw/prompt-fact-check-your-draft-into-claim-grid-a82f6e1c",
+        "meta_refresh_target_absolute": "https://tokrepo.com/raw/prompt-fact-check-your-draft-into-claim-grid-a82f6e1c",
+        "redirect_target_requested": false,
+        "location_header": "Not retained by receipt header filter; target recorded only from the observed meta-refresh body.",
+        "current_limitation": "Single bounded request returned a 302 HTML meta-refresh body. No meaningful English H1, numeric ID/UUID detail object, canonical or prompt instructions in this response. Destination health, language and content remain unverified; no outage or broken-link claim.",
+        "prior_verified_source": {
+          "packet": "team/research/revalidation-2026-10-15.json",
+          "packet_sha256": "bf81c57b221e8ea70b53a483db533c2caed07466224b4bae5db563a33148067d",
+          "source_reviewed_at": "2026-10-15T03:38:22.214539+00:00",
+          "id": 6924,
+          "uuid": "a82f6e1c-45d7-44d9-91f5-0d51bc9352fc",
+          "english_h1": "Prompt: Fact-Check Your Draft Into a Claim Grid",
+          "lang_type": "en",
+          "asset_content_sha256": "76755f99a931b855d82f0d4a85d095f3781f549c9064a233dd29ca4f6640a6e2",
+          "asset_content_hash_definition": "UTF-8 newline-joined prompt_template values in step order, including bilingual text; excludes volatile popularity metrics. Hash only; full prompt not redistributed.",
+          "upstream_source": "Original TokRepo text prompt; English public detail and source instructions reviewed in October 15 evidence.",
+          "license_observed": "CC BY 4.0 per October 15 packet; not freshly confirmed today.",
+          "freshness": "INHERITED_OCT15_NOT_CURRENT_REVALIDATION"
+        },
+        "supported_role_from_prior_source": "Take the chosen follow-up draft and human-labelled source notes into an assertion-to-source grid, risky wording list, fix types and open questions; human makes edits.",
+        "supported_use_from_prior_source": "Copy complete prompt into text AI chat; paste DRAFT, labelled SOURCES and audience/purpose.",
+        "prerequisites_from_prior_source": [
+          "Ordinary text-capable AI chat if using these prompts; provider account, price and data handling depend on provider.",
+          "Use your own redacted material; no mailbox credentials, connector, terminal setup or CLI installation required for the documented copy/paste route.",
+          "Human confirms every date, name, prior agreement, deadline and commitment; AI output is a draft.",
+          "Full chosen draft plus numbered source labels; include actual redacted excerpts, not labels alone, for meaningful human comparison.",
+          "Optional-source wording conflicts with stop-on-missing/too-short-source instruction. This recipe requires a substantive source pack; do not promise useful checks without it."
+        ],
+        "runtime_verified": false
+      }
+    ],
+    "handoff": {
+      "sequence": [
+        "Human fills an original six-input fact worksheet from prior correspondence, with source labels and missing information.",
+        "Primary prompt drafts the follow-up; human chooses one variant and supplies the whole chosen draft to the complement.",
+        "Complement receives DRAFT plus original source pack, audience and purpose; produces traceability grid, risky wording and fix types.",
+        "Human checks each assertion against actual excerpts, corrects/removes unsupported wording, confirms one clear request and fills the final editable email template."
+      ],
+      "input_passed": "The exact chosen draft, original redacted correspondence/fact notes labelled S1/S2, audience/purpose and stated missing facts. Do not use the primary model-generated Facts I supplied section as independent evidence.",
+      "secondary_expected_output": "A-E summary counts, claim-to-source grid, risky wording table, ordered fix types and open questions. This is traceability, not truth or etiquette certification.",
+      "primary_expected_output": "Facts I supplied; Missing facts; Draft; Shorter version; Softer version; Check before sending.",
+      "original_bridge_required": "Author-created worksheet maps each chosen draft claim to source label, exact excerpt, supplied date/agreement, audit status, human correction and approved text; preserve uncertainty.",
+      "compatibility_checks": [
+        "Secondary explicitly accepts full emails and factual assertions; follow-up draft is supported input.",
+        "Complement analyzes without rewriting; human owns the correction and final message.",
+        "Separate primary fact extraction from downstream exhaustive claim mapping; no second generic drafting prompt.",
+        "Require full source excerpts because labels alone do not prove support and optional-source instructions are internally inconsistent.",
+        "Request sentences may contain no factual assertion; still review clarity/tone manually. Do not manufacture audit rows or SOURCED counts."
+      ],
+      "verification": "Inherited source-supported handoff from October 15, not newly source-verified on October 16 due to 302-only responses. No AI execution or sending."
+    },
+    "prerequisite_caveats": [
+      "Primary takes six human-supplied fields: recipient relationship, prior events, one current request, tone, hard facts and exclusions. Missing dates/agreements stay unknown.",
+      "Secondary requires the chosen complete draft, substantive original labelled excerpts and audience/purpose. Labels or model-extracted facts are not independent evidence.",
+      "Secondary labels traceability, not truth; it does not open links, rewrite or send. Optional-source guidance conflicts with a missing-or-too-short-source stop rule in the previously reviewed source.",
+      "Human checks actual excerpts, corrections, tone and final request. A pure request may contain no factual assertion; do not fabricate audit rows.",
+      "Prior supported copy/paste route needs ordinary text AI chat if AI is used, provider-dependent account/cost/data handling and redacted inputs. No mailbox connector or CLI installation required for that documented route. Current source content was not revalidated."
+    ],
+    "request_policy": {
+      "asset_requests": 2,
+      "requests_per_asset": 1,
+      "autocomplete_requests": 1,
+      "public_api_requests": 0,
+      "redirects_followed": false,
+      "retries": 0,
+      "http_429_observed": false,
+      "on_429": "Stop further asset requests immediately; no equivalent retry.",
+      "minimum_spacing_seconds": 10,
+      "observed_primary_completion_to_secondary_start_seconds": 10.000319,
+      "asset_requests_were_sequential": true,
+      "shared_chrome_used": false,
+      "parent_old_asset_monitoring_touched": false
+    },
+    "verification_limits": [
+      "No full prompt text redistributed; response/prompt hashes and practical summaries only.",
+      "No AI/model run, installation, mailbox access, send, build, browser, public download, deployment, GSC or analytics check.",
+      "Historical source instructions and prompt hashes are explicitly inherited; neither current semantic stability nor source change is proven by the 302 bodies.",
+      "No false volume, runtime result, approval, publication, indexing or traffic claim.",
+      "Only the two owned research files written inside the workspace; no Git staging, commit, push, external publication or other public writes."
+    ],
+    "original_json_sha256": "3009e8969a17af175461b1ceb7ddce835ec4881be603f375f9bb9677b63c3db8",
+    "original_md_sha256": "6772111cd330b531750290a6c0a68849c1ecd45c53b8b4019ba90f317017bd23",
+    "preservation_note": "Initial HOLD, all 302 receipts and then-unverified identity/source fields retained verbatim here. Initial Markdown report preserved in full below the current-resolution banner."
+  },
+  "initial_verdict": "HOLD",
+  "asset_verification_verdict": "QUALIFIED",
+  "last_updated_at": "2026-10-16T04:35:02.997327+00:00",
+  "last_updated_at_beijing": "2026-10-16T12:35:02.997518+08:00",
+  "desktop_resolution": {
+    "observed_at": "2026-10-16T04:35:02.997327+00:00",
+    "verdict": "QUALIFIED",
+    "resolves": "CURRENT_ENGLISH_ASSET_IDENTITY_UNCONFIRMED",
+    "authorization": "Direct user follow-up requested one ordinary desktop-browser-UA rendering request per already observed attributed URL, normal HTTP redirects, >=10s spacing and stop on 429. Parent will not duplicate these requests.",
+    "method": "Single HTTP navigation per exact attributed URL with the specified ordinary desktop UA; inspect returned SSR HTML and its asset-specific hydrated source. No browser automation or shared Chrome.",
+    "initial_vs_current_interpretation": "The initial custom-UA requests returned 302 meta-refresh bodies pointing to public /raw/<slug>. Neither 429 nor authentication/access restriction was observed. The later desktop-UA requests returned exact English HTML directly. This comparison supports an ordinary rendering variant; it does not isolate UA from attribution query/cache/time changes.",
+    "receipts": [
+      {
+        "role": "primary",
+        "url": "https://tokrepo.com/en/workflows/draft-polite-follow-up-without-inventing-facts-33c39ad0?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=professional-follow-up-email-after-no-response",
+        "final_url": "https://tokrepo.com/en/workflows/draft-polite-follow-up-without-inventing-facts-33c39ad0?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=professional-follow-up-email-after-no-response",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+        "request_started_at": "2026-10-16T04:32:47.515939+00:00",
+        "response_completed_at": "2026-10-16T04:32:51.973479+00:00",
+        "http_status": 200,
+        "response_body_sha256": "e1da0a2295ea23fbe48b9cf291e965520298ef070edb81fbddf64287f24ace2e",
+        "response_bytes": 74184,
+        "redirect_chain": [],
+        "error": null,
+        "headers": {
+          "Date": "Fri, 16 Oct 2026 04:32:52 GMT",
+          "Content-Type": "text/html;charset=utf-8"
+        }
+      },
+      {
+        "role": "secondary",
+        "url": "https://tokrepo.com/en/workflows/prompt-fact-check-your-draft-into-claim-grid-a82f6e1c?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=professional-follow-up-email-after-no-response",
+        "final_url": "https://tokrepo.com/en/workflows/prompt-fact-check-your-draft-into-claim-grid-a82f6e1c?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=professional-follow-up-email-after-no-response",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+        "request_started_at": "2026-10-16T04:33:01.977857+00:00",
+        "response_completed_at": "2026-10-16T04:33:09.285331+00:00",
+        "http_status": 200,
+        "response_body_sha256": "d9d2a0499716a7219667d9481709dd80791daf9d75bf28764e2b5900f2b9be8f",
+        "response_bytes": 96742,
+        "redirect_chain": [],
+        "error": null,
+        "headers": {
+          "Date": "Fri, 16 Oct 2026 04:33:08 GMT",
+          "Content-Type": "text/html;charset=utf-8"
+        }
+      }
+    ],
+    "primary_completion_to_secondary_start_seconds": 10.004378,
+    "normal_redirects_enabled": true,
+    "redirect_hops_observed": 0,
+    "retry_count": 0,
+    "http_429_observed": false,
+    "source_hash_stability": "Both UTF-8 newline-joined prompt_template SHA256 values exactly match October 15. Different whole-page hashes are not prompt changes.",
+    "runtime_verified": false,
+    "publication_approval": false,
+    "remaining_requirement": "Independent source-bound review of existing author package, then parent-owned build/browser/release acceptance."
+  },
+  "chronology": [
+    {
+      "at": "2026-10-16T04:30:44.152672+00:00",
+      "verdict": "HOLD",
+      "reason": "Qualitative demand qualified, but two custom-UA 302-only responses did not supply current English identity/source evidence.",
+      "evidence_path": "initial_observation"
+    },
+    {
+      "at": "2026-10-16T04:35:02.997327+00:00",
+      "verdict": "QUALIFIED",
+      "reason": "Two newly authorized single desktop-UA requests verified current meaningful English H1, stable identity, unchanged prompt source and intact attributed destination URLs.",
+      "evidence_path": "desktop_resolution"
+    }
+  ]
+}

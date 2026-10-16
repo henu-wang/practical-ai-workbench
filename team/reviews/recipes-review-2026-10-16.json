@@ -1,0 +1,638 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-16T04:41:34.618235+00:00",
+  "reviewer": "Independent final managing/verification editor Codex, 2026-10-16",
+  "verdict": "PASS",
+  "blockers": [],
+  "scope": "Fresh independent final managing/verification review of the new follow-up guide and all5 templates on the parent-notified frozen build.11 unchanged guides retain their original independent approvals with all65 current source/template bindings verified; no new authorselfapproval.",
+  "final_manifest_frozen": true,
+  "freeze_authority": "Direct parent/user FINAL FREEZE DELIVERY; verified exact current source hash before and after final checks.",
+  "reviewed_source_sha256": "ad428fec2f4478ac143550c6159edd3a599a959d590ace0225d9c21eee1ca01e",
+  "manifest_sha256": "a4e36900df8655caa842a90edb305ee4010a6d9080a726711552024d7cf98f2c",
+  "content_sha256_definition": "SHA256 of raw UTF8 guide Markdown bytes. Each page file_sha256 covers exactly its guide and every file in its template subtree.",
+  "recipe_and_templates_sha256_definition": "Fresh page method recorded on its entry. Carried-forward package hashes retain their prior packet definitions.",
+  "shared_file_sha256": {
+    "recipes.json": "a4e36900df8655caa842a90edb305ee4010a6d9080a726711552024d7cf98f2c",
+    "team/research/demand-2026-10-14.json": "836b93203aba5d15ada88f294cd0b3918da2700579f4414dc2a00b152ae34ee8",
+    "team/research/demand-2026-10-14.md": "5f98b636158f9556d0f9776d648d16b5674191912e0732a4aa8c2972a90ecc7c",
+    "team/research/revalidation-2026-10-15.json": "bf81c57b221e8ea70b53a483db533c2caed07466224b4bae5db563a33148067d",
+    "team/research/revalidation-2026-10-15.md": "528767b8c392a5433756304c8f3ac6fa3e4e64d8f37fb66851c32989bd41a07a",
+    "team/research/revalidation-2026-10-16.json": "0d817322edb27f76f6bc60666250c1f19126c31e403224d3261ea4669631db0c",
+    "team/research/revalidation-2026-10-16.md": "ddd42787d3f6dd9d1bef7beddb7424140100fb9e775f05d7397cb8c5e04d048a",
+    "team/research/author-2026-10-15.json": "c1f4e55c81d14cce8f59df7e39ff1cd6b82508ad16718d2216b9005e12f0b45f",
+    "team/research/author-revision-2026-10-16.json": "94467759f88dcc9557dd694d83b804b89b3fe6f76d41028e4f030facdf412b0b",
+    "AGENTS.md": "080af6ceed44b82445993cd7beba35a10d6d4ac5d0bd6aa9ce8f53479d1b80fc",
+    "team/PIPELINE.md": "b07605bd3dce1ac88fa0dfcf84eff2377986d156a572f9e37cb40f2b8efb35b0",
+    "team/STYLE.md": "e0dff6e417953ae05376bdcee105449af58e73175e049bbdda084556214dd5c0",
+    "team/QUALITY.md": "e62344e1569a97cc2ade52e438687dcafae886e39841e466519e09bbaf5ed31b",
+    "team/context/USER-BRIEF.md": "b7620db969b61da35c02c57387f2ab764e0dad189295b78abe33fb67772b35cd",
+    "team/context/PROJECT.md": "a791f483e96871b5f690ee7b69fb884055057dff04c4cc1f28ad93b290a7630d",
+    "team/context/AUDIENCE.md": "442a59c3468c18935104e40fff2084e9465ffec48382da61c0f62b9f6d110fe2",
+    "team/context/ASSET-POLICY.md": "6c87a5c309e749a4b8115b41bcd96004a05b9e86b232100a29f8912f56c62137",
+    "team/context/METRICS.md": "0803a7664f7d2718e86f52a82348e67abe2195fc85abb18cb3b147e18bc2c340",
+    "scripts/build.py": "c8ff127c0f6ed415abce8fa9f9996a0a0e86325e040a21ce87fffd5ecd3df509",
+    "scripts/recipe_check.py": "9dbdff7efb15b498f5e0b2079ad7230c4bccaed570c098b9943fada48c4b30b1",
+    "scripts/editorial_gate.py": "f6c4d62696ff93a50ad3e907ef58754361ec49928619bfab1a0aa976c2641025",
+    "scripts/source_hash.py": "e1ebf6ac9bd24767916c0eb9fb3635ee487a5fb7a2c01029f1e26014621c8b1f",
+    "docs/assets/style.css": "673a09dbba4c47ea848defc36c3b33135abf4892aafaae40c57ea5857c3838a9",
+    "team/reviews/recipes-browser.json": "026725113e5677a6231583026bc9d6d3475b649f5c9b2bc34c4764158c98cc28"
+  },
+  "rendered_file_sha256": {
+    "docs/index.html": "89e32c1b5814c81f27d83e67445ffd85ec5c3b271b90dd9d9a574870fe223307",
+    "docs/sitemap.xml": "308464072db793fb3d8beefa6ceb6e6d179db39ce9a192455faef5765e7529c1",
+    "docs/workflows/transcribe-audio-to-text/index.html": "658d2adb6cfeaedab4101b9587052304b1a7853fb66562eeca6758ebc5168033",
+    "docs/workflows/meeting-minutes-template/index.html": "4ba1f8cb79ff7f7f6a0c980800c7ec9eb736141273a58aa93429ef7e03f7f271",
+    "docs/workflows/extract-tables-from-pdf-to-excel/index.html": "aef57acc857f190237142cb371b9ab173d87d6e9542530cd6d335a9d8aa57017",
+    "docs/workflows/presentation-from-notes/index.html": "023aa00c185877266eb9b01462f09b5fb516427dbf81ea64c812ea453b823a13",
+    "docs/workflows/clean-csv-remove-duplicate-rows/index.html": "0b51bcf4ab1903521e3db9b593081dea2698532a9f398fc1faf11b7556467e17",
+    "docs/workflows/flashcards-from-lecture-notes/index.html": "4d0d9f44d9d8fe8b9f78aee67d586979859e32b8de39bdd22dcdfdb90b3584b2",
+    "docs/workflows/write-resume-bullet-points/index.html": "57052a6b64a8691282f2b53f2a76af33c6ed5c647e706f98f1b6159c26a0d810",
+    "docs/workflows/project-proposal-template/index.html": "25ec3a083062fa1734a7dd29c576053bec0b3f86811fee25a25ed52ee52d326c",
+    "docs/workflows/write-a-cover-letter/index.html": "3c48479b884a13ebb908ff01fa0f762864e2e51d6857c0b88aad1289326121b9",
+    "docs/workflows/study-schedule-template/index.html": "6457424ca30b7199d24e7160145cbcc54c07b460bc1da1760f6a274517a327b5",
+    "docs/workflows/weekly-project-status-report-template/index.html": "aac0f4eceb1936ca8d2a1c653b080c0a30d7fb2dba0edd20ebf53dfc602d7495",
+    "docs/workflows/professional-follow-up-email-after-no-response/index.html": "6edc42824117b4689dcdb9ada6d73bc9b8f788336f7a7258aea208767b6fdea0"
+  },
+  "pages": [
+    {
+      "slug": "transcribe-audio-to-text",
+      "author": "/root/project_editor",
+      "reviewer": "/root/managing_editor",
+      "content_sha256": "5c1c8c0ba38715e527725f8d74a9e3fccbe154ace33bc1118719e121c3c077a5",
+      "file_sha256": {
+        "recipes/transcribe-audio-to-text.md": "5c1c8c0ba38715e527725f8d74a9e3fccbe154ace33bc1118719e121c3c077a5",
+        "templates/transcribe-audio-to-text/fictional-transcript.md": "9f271ee7c54e42ed9c50fa7012a4751bfed4e39ece119f30bbfedd69eb631a15",
+        "templates/transcribe-audio-to-text/review-checklist.md": "ae8ea1c6f5061d3e2c16ebf9819025738bf0f8c2f2e2cf433ad464af51f1863f"
+      },
+      "verdict": "PASS",
+      "blockers": [],
+      "recipe_and_templates_sha256": "8cb6227900c0381ff7b89bbf52b18e2873839a25079196ad332a952bccd2c826",
+      "review_basis": "CARRY_FORWARD_UNCHANGED_SOURCES_FROM_PRIOR_INDEPENDENT_APPROVAL",
+      "prior_review_path": "team/reviews/recipes-review-first.json",
+      "prior_review_packet_sha256": "120c90526cfc35b2911d02e6ca0fcaf40f0db823e3a514820c17d1a6501c9ec4",
+      "prior_reviewed_at": "2026-10-07T06:06:44.355902+00:00",
+      "current_source_binding_verified_by": "Independent final managing/verification editor Codex, 2026-10-16",
+      "rendered_html_sha256": "658d2adb6cfeaedab4101b9587052304b1a7853fb66562eeca6758ebc5168033"
+    },
+    {
+      "slug": "meeting-minutes-template",
+      "author": "/root/project_editor",
+      "reviewer": "/root/managing_editor",
+      "content_sha256": "48f5a854167accedd583d05591d9888bdee603fe7b056b8653f7a8de81a458a8",
+      "file_sha256": {
+        "recipes/meeting-minutes-template.md": "48f5a854167accedd583d05591d9888bdee603fe7b056b8653f7a8de81a458a8",
+        "templates/meeting-minutes-template/filled-example.md": "60b1b474855cba82fbf1104810e0d302fcc620486dbdd6c1043c95b51651cc24",
+        "templates/meeting-minutes-template/meeting-minutes-template.docx": "edc3a11ee04a2e16b95d9704117d316e7f33abff897d12fca79ebc365ae5d6de",
+        "templates/meeting-minutes-template/meeting-minutes-template.md": "2237a7bfa11c3c510d223adf1a12b6163d535faedd544b8f2276e395b249b784"
+      },
+      "verdict": "PASS",
+      "blockers": [],
+      "recipe_and_templates_sha256": "2eb41a2f7ae32ea07f9834cdf925f1d1b8a8cadf735f595a623415d91c66077e",
+      "review_basis": "CARRY_FORWARD_UNCHANGED_SOURCES_FROM_PRIOR_INDEPENDENT_APPROVAL",
+      "prior_review_path": "team/reviews/recipes-review-first.json",
+      "prior_review_packet_sha256": "120c90526cfc35b2911d02e6ca0fcaf40f0db823e3a514820c17d1a6501c9ec4",
+      "prior_reviewed_at": "2026-10-07T06:06:44.355902+00:00",
+      "current_source_binding_verified_by": "Independent final managing/verification editor Codex, 2026-10-16",
+      "rendered_html_sha256": "4ba1f8cb79ff7f7f6a0c980800c7ec9eb736141273a58aa93429ef7e03f7f271"
+    },
+    {
+      "slug": "extract-tables-from-pdf-to-excel",
+      "author": "/root/project_editor",
+      "reviewer": "/root/managing_editor",
+      "content_sha256": "d7537ce7383a041a0577f88c9cf735759192f27cfed5b071af5bd95e4f2353c8",
+      "file_sha256": {
+        "recipes/extract-tables-from-pdf-to-excel.md": "d7537ce7383a041a0577f88c9cf735759192f27cfed5b071af5bd95e4f2353c8",
+        "templates/extract-tables-from-pdf-to-excel/expected-table.csv": "733636dfdda24fbcf3d640972a87678118ec595c72355c704c8017e2c0efce6d",
+        "templates/extract-tables-from-pdf-to-excel/export_pdf_tables.py": "2874f89b78601caed8f90907d5c57e897835efae19fa96295141ec93265698a6",
+        "templates/extract-tables-from-pdf-to-excel/sample-table.pdf": "3992d54e0732b53e8f7d8edf65e887a4d5c8c46fce6570f0a84c8dba229d0355",
+        "templates/extract-tables-from-pdf-to-excel/verification-checklist.md": "6be23102881a420067e00f6010f580e528b49f658b481c4212c22e9471d6ea1b"
+      },
+      "verdict": "PASS",
+      "blockers": [],
+      "recipe_and_templates_sha256": "9967f0bf68b1e9b62a3a930b632bde8766ff17b8d404a5a82ebf575ebddef179",
+      "review_basis": "CARRY_FORWARD_UNCHANGED_SOURCES_FROM_PRIOR_INDEPENDENT_APPROVAL",
+      "prior_review_path": "team/reviews/recipes-review-first.json",
+      "prior_review_packet_sha256": "120c90526cfc35b2911d02e6ca0fcaf40f0db823e3a514820c17d1a6501c9ec4",
+      "prior_reviewed_at": "2026-10-07T06:06:44.355902+00:00",
+      "current_source_binding_verified_by": "Independent final managing/verification editor Codex, 2026-10-16",
+      "rendered_html_sha256": "aef57acc857f190237142cb371b9ab173d87d6e9542530cd6d335a9d8aa57017"
+    },
+    {
+      "slug": "presentation-from-notes",
+      "author": "/root/managing_editor",
+      "reviewer": "/root/project_editor",
+      "content_sha256": "c02dfcae651990639514cf980dba0a8f8e90328cbe685b4404e514a324da0b3d",
+      "file_sha256": {
+        "recipes/presentation-from-notes.md": "c02dfcae651990639514cf980dba0a8f8e90328cbe685b4404e514a324da0b3d",
+        "templates/presentation-from-notes/deck-review-checklist.md": "8b1cc69f585b62322627b1f1cf339dba83570e385c0729af74013b02e539a8ab",
+        "templates/presentation-from-notes/presentation-brief.md": "aec08eef56a1fc3b27d2aef880635d142a5e4f54732a2cc01b542501ba144e11",
+        "templates/presentation-from-notes/six-slide-outline.md": "863b2aed106f3fad7a3894d1f7e0da0219f36192d611ccb2502eb2dcbbb576bc",
+        "templates/presentation-from-notes/source-notes.md": "38d800607c3309cbbd9f684ee1ee640fc96d5050677e8f43bc5d648fb75bdb05"
+      },
+      "verdict": "PASS",
+      "blockers": [],
+      "recipe_and_templates_sha256": "64391d3111413253c9d8fcec8c9022760fb90be051b11650a82d89941d06a582",
+      "review_basis": "CARRY_FORWARD_UNCHANGED_SOURCES_FROM_PRIOR_INDEPENDENT_APPROVAL",
+      "prior_review_path": "team/reviews/recipes-review-last.json",
+      "prior_review_packet_sha256": "5d6e932bf63452664e1de78e0adeddd378b1eff0b697af9a2df50834d29b5e0b",
+      "prior_reviewed_at": "2026-10-07T06:08:16.413950+00:00",
+      "current_source_binding_verified_by": "Independent final managing/verification editor Codex, 2026-10-16",
+      "rendered_html_sha256": "023aa00c185877266eb9b01462f09b5fb516427dbf81ea64c812ea453b823a13"
+    },
+    {
+      "slug": "clean-csv-remove-duplicate-rows",
+      "author": "/root/managing_editor",
+      "reviewer": "/root/project_editor",
+      "content_sha256": "f0b685a80c5ac0798880512c50774a420f7625e579e787bd67ab0be46c9306e6",
+      "file_sha256": {
+        "recipes/clean-csv-remove-duplicate-rows.md": "f0b685a80c5ac0798880512c50774a420f7625e579e787bd67ab0be46c9306e6",
+        "templates/clean-csv-remove-duplicate-rows/README.md": "1e8f0c11e7474ac2d99ba128ac83bb9ab17d3bd0b25266d6017117a0a511b9b4",
+        "templates/clean-csv-remove-duplicate-rows/clean_csv.py": "ee9a4339366293865a8498897a42216900c1e000eb648f877afc3807dbb94e2e",
+        "templates/clean-csv-remove-duplicate-rows/messy.csv": "1e276d199ec87a82097312603509fe2fbc9315bc8204c81b0431edda476f940a",
+        "templates/clean-csv-remove-duplicate-rows/sample-output/cleaned.csv": "cd0d3fb2f844379172a11fa208445db36015d3f4dbd9f8cff480fffc56a73696",
+        "templates/clean-csv-remove-duplicate-rows/sample-output/duplicate-audit.csv": "de413e5b591759c8041e138603ed3944753457db70f39eb65293d0b09dc3b9b7",
+        "templates/clean-csv-remove-duplicate-rows/sample-output/summary.json": "3bcf248b1c03d1034f546bfdd027a6c6ba9dd9d986ba513113585e86b937a5a3",
+        "templates/clean-csv-remove-duplicate-rows/validate_handoff.cjs": "245ef6e7084ce5a0ec60490845332de65076afba7d824b695ef264d80cad919b",
+        "templates/clean-csv-remove-duplicate-rows/verification.json": "eff5b7dc4eeb6cd38e0e94f5751e4c431d3da3dbed73c13e52637b782e2c2807"
+      },
+      "verdict": "PASS",
+      "blockers": [],
+      "recipe_and_templates_sha256": "f3eb9eadcd8ee4c3e940e4d74c15abd7b5e9a3c49c7a11a55a3c190d8d15aaf5",
+      "review_basis": "CARRY_FORWARD_UNCHANGED_SOURCES_FROM_PRIOR_INDEPENDENT_APPROVAL",
+      "prior_review_path": "team/reviews/recipes-review-last.json",
+      "prior_review_packet_sha256": "5d6e932bf63452664e1de78e0adeddd378b1eff0b697af9a2df50834d29b5e0b",
+      "prior_reviewed_at": "2026-10-07T06:08:16.413950+00:00",
+      "current_source_binding_verified_by": "Independent final managing/verification editor Codex, 2026-10-16",
+      "rendered_html_sha256": "0b51bcf4ab1903521e3db9b593081dea2698532a9f398fc1faf11b7556467e17"
+    },
+    {
+      "slug": "flashcards-from-lecture-notes",
+      "author": "/root/managing_editor",
+      "reviewer": "/root/project_editor",
+      "content_sha256": "2eca53712dd2f73767278f60c12dc3e0254469174ebd4b39a03174cc81e7f599",
+      "file_sha256": {
+        "recipes/flashcards-from-lecture-notes.md": "2eca53712dd2f73767278f60c12dc3e0254469174ebd4b39a03174cc81e7f599",
+        "templates/flashcards-from-lecture-notes/card-planning-brief.md": "270aee7aae7d2caca355e90207452304467f3bc788fb3f0ea27b488d34bb50bc",
+        "templates/flashcards-from-lecture-notes/cards.tsv": "389520acc3207bbf72b47605b0fa695b9245a3457c0320433dcdba5852327783",
+        "templates/flashcards-from-lecture-notes/lecture-excerpt.md": "268b446bc7fffc61a19fa7f02cc9386fe5188bcb1fa1eeefb52258cb3bbbdd37",
+        "templates/flashcards-from-lecture-notes/review-plan.md": "cba6da2d660374d4bbd4d3b88d0a018608a52a52907961a3b0d5c5a5daae31a1"
+      },
+      "verdict": "PASS",
+      "blockers": [],
+      "recipe_and_templates_sha256": "d5599f18f0ddcba51cc1daf14f5ba862c6678b65cb759176565ea5314e9da3f0",
+      "review_basis": "CARRY_FORWARD_UNCHANGED_SOURCES_FROM_PRIOR_INDEPENDENT_APPROVAL",
+      "prior_review_path": "team/reviews/recipes-review-last.json",
+      "prior_review_packet_sha256": "5d6e932bf63452664e1de78e0adeddd378b1eff0b697af9a2df50834d29b5e0b",
+      "prior_reviewed_at": "2026-10-07T06:08:16.413950+00:00",
+      "current_source_binding_verified_by": "Independent final managing/verification editor Codex, 2026-10-16",
+      "rendered_html_sha256": "4d0d9f44d9d8fe8b9f78aee67d586979859e32b8de39bdd22dcdfdb90b3584b2"
+    },
+    {
+      "slug": "write-resume-bullet-points",
+      "author": "/root/project_editor",
+      "reviewer": "/root/managing_editor",
+      "content_sha256": "441c2704d12a31ea164deb30039814dd8c65f94e20693c2441f52d8b3b35be1c",
+      "file_sha256": {
+        "recipes/write-resume-bullet-points.md": "441c2704d12a31ea164deb30039814dd8c65f94e20693c2441f52d8b3b35be1c",
+        "templates/write-resume-bullet-points/author-checks.json": "443ddfb008fc12e69f2b0310e1eaefc62f1ad95fab853d3f8189c7c89aa02ba3",
+        "templates/write-resume-bullet-points/before-after-examples.md": "14b56d81d2619c9ba4654bb360a28e3081a25c06f7eab1ac66aab74b0f7562d3",
+        "templates/write-resume-bullet-points/resume-evidence-worksheet.docx": "8fce6b19884dab9fb3943d8e3be7a5ba258fe634560c6da463041b18c8db4013",
+        "templates/write-resume-bullet-points/resume-evidence-worksheet.md": "a7804ea66ca39c36a73f9f6d7898f2052c268bee3c076a77d39cce0b98c332f8"
+      },
+      "verdict": "PASS",
+      "blockers": [],
+      "recipe_and_templates_sha256": "5779d03a080eea0bde72ae18a94a89a04d2b7197e3cc2358d0f637f8d5846672",
+      "review_basis": "CARRY_FORWARD_UNCHANGED_SOURCES_FROM_PRIOR_INDEPENDENT_APPROVAL",
+      "prior_review_path": "team/reviews/recipes-review-2026-10-08.json",
+      "prior_review_packet_sha256": "dd83b5ae0649122c571ff71ff6e77964f3b26c6b885744faf05d717ad038a309",
+      "prior_reviewed_at": "2026-10-08T02:14:03.355999+00:00",
+      "current_source_binding_verified_by": "Independent final managing/verification editor Codex, 2026-10-16",
+      "rendered_html_sha256": "57052a6b64a8691282f2b53f2a76af33c6ed5c647e706f98f1b6159c26a0d810"
+    },
+    {
+      "slug": "project-proposal-template",
+      "author": "/root/project_editor",
+      "reviewer": "/root/managing_editor",
+      "content_sha256": "42bddc70bdde9ac46fc668e70c25ccb51ce2626d4d1448e424d326de73d09dcc",
+      "file_sha256": {
+        "recipes/project-proposal-template.md": "42bddc70bdde9ac46fc668e70c25ccb51ce2626d4d1448e424d326de73d09dcc",
+        "templates/project-proposal-template/author-checks.json": "2b1c786a2c82d3bcdbc095c9efa8d9b1326805aa5b3ad87d956b07442bd706d9",
+        "templates/project-proposal-template/filled-proposal.md": "e4002b285eb40f3b183157973cb127d97c42911dc2cb26b402235b66a9935af8",
+        "templates/project-proposal-template/input-worksheet.md": "2db41fc32ec55b073aec8df2df142ac05071ef23657485ec8ead2f6ba03c71df",
+        "templates/project-proposal-template/project-proposal-template.docx": "1ecbd0eade890d1d3183a59f27cc5e71e2fa70ae5247a0bf861bc504bb083750",
+        "templates/project-proposal-template/project-proposal-template.md": "75b8e556ccb273a694c2f35fc030df933c000659b30f9da5bd69e1d322edf879",
+        "templates/project-proposal-template/reader-checklist.md": "6b91c8a9c2c909916e2f4460057bd3617d10318fd97b82fabae58bd9bfc91ec4"
+      },
+      "verdict": "PASS",
+      "blockers": [],
+      "recipe_and_templates_sha256": "14154cbc28d4f98c2c33ba6bdbcba4b5f90175706c8ab0d1e40c38e245fd2ed9",
+      "review_basis": "CARRY_FORWARD_UNCHANGED_SOURCES_FROM_PRIOR_INDEPENDENT_APPROVAL",
+      "prior_review_path": "team/reviews/recipes-review-2026-10-08.json",
+      "prior_review_packet_sha256": "dd83b5ae0649122c571ff71ff6e77964f3b26c6b885744faf05d717ad038a309",
+      "prior_reviewed_at": "2026-10-08T02:14:03.355999+00:00",
+      "current_source_binding_verified_by": "Independent final managing/verification editor Codex, 2026-10-16",
+      "rendered_html_sha256": "25ec3a083062fa1734a7dd29c576053bec0b3f86811fee25a25ed52ee52d326c"
+    },
+    {
+      "slug": "write-a-cover-letter",
+      "author": "/root/project_editor_1010",
+      "reviewer": "/root/managing_editor_1010",
+      "content_sha256": "4c16e78f0fd6efacb4d93a2136dbc5c99f3094a3533a062a276011aa9dd439fb",
+      "file_sha256": {
+        "recipes/write-a-cover-letter.md": "4c16e78f0fd6efacb4d93a2136dbc5c99f3094a3533a062a276011aa9dd439fb",
+        "templates/write-a-cover-letter/author-checks.json": "f5f47344d1ae101e030d968d3e581dbd2cbd0d7b10a43c36ae2df8b8b80ad8d5",
+        "templates/write-a-cover-letter/cover-letter-template.docx": "869a1db5289126600fb862d5a936e278a69f046d39ac73bbf773da7aa9509a55",
+        "templates/write-a-cover-letter/cover-letter-template.md": "8f82416d85344cf301294f61a726c1cdb4e1fe98b8856bf2a5be39aef6b010a2",
+        "templates/write-a-cover-letter/example-letter-body.txt": "da816314c32b0e48ef662ac0292a848f3c3c21ce5137c70dd88f0017941122e6",
+        "templates/write-a-cover-letter/fictional-application-example.md": "3deb3825ac46c4b8ca70e8961edd0d2278806ac77e83d9ace85bfb11717ec3bc",
+        "templates/write-a-cover-letter/requirement-evidence-worksheet.md": "773e5f290ab5d7a185aca2950787e031a7b4fae0397148c9beffe568669f0861"
+      },
+      "verdict": "PASS",
+      "blockers": [],
+      "recipe_and_templates_sha256": "6c04d5c512ffe11139d8dcf1d25adfe3a3dba937aa91c63b69a141543173abeb",
+      "review_basis": "CARRY_FORWARD_UNCHANGED_SOURCES_FROM_PRIOR_INDEPENDENT_APPROVAL",
+      "prior_review_path": "team/reviews/recipes-review-2026-10-10.json",
+      "prior_review_packet_sha256": "615dce844c2cca72404673cf595dc7e53be4790f54781a5a6431237b3792f73f",
+      "prior_reviewed_at": "2026-10-10T05:39:42.016360+00:00",
+      "current_source_binding_verified_by": "Independent final managing/verification editor Codex, 2026-10-16",
+      "rendered_html_sha256": "3c48479b884a13ebb908ff01fa0f762864e2e51d6857c0b88aad1289326121b9"
+    },
+    {
+      "slug": "study-schedule-template",
+      "author": "/root/project_editor_1010",
+      "reviewer": "/root/managing_editor_1010",
+      "content_sha256": "86deaeba4c669e9030160bf997dfd63c19ee2303ecd3f5ccf52fe2ee5028fe84",
+      "file_sha256": {
+        "recipes/study-schedule-template.md": "86deaeba4c669e9030160bf997dfd63c19ee2303ecd3f5ccf52fe2ee5028fe84",
+        "templates/study-schedule-template/author-checks.json": "11483afcc3bc2cc61f572b5f62ca29790fc7ace5a7970913a58da12b0be26ab0",
+        "templates/study-schedule-template/fictional-week-inputs.md": "346b4165be81c53b301b2985b9f5ef5f3b93c6fd0b27d26ed5e2b0fae51e4774",
+        "templates/study-schedule-template/fictional-week-printable.pdf": "1ccc32f3280ee72c2dc694c6126b7e6c11b77082e8bc1d4c22c0105b38c4f3ea",
+        "templates/study-schedule-template/fictional-week-schedule.csv": "e8b04a12d874f0da45a04768ace08e2218e4b368ea758b9210953b39ff1fa87b",
+        "templates/study-schedule-template/recall-slot-example.md": "564def9e4fdc8a2dbb1171ed6f3f132ae4d97b1c949917f27411ea2116a518a2",
+        "templates/study-schedule-template/weekly-study-schedule-printable.pdf": "cdeb814a0b676248ada4a548d72be99a0c387c83cc2ef6164f318b853fd8cf96",
+        "templates/study-schedule-template/weekly-study-schedule.csv": "2dd1049c16d688993c783fafc83f3fbb02f85a56566188eb58ab2b214910f1e9",
+        "templates/study-schedule-template/weekly-study-schedule.md": "962258bb17330d2c01e8f740e730b9ac2198fa360b88140ef7fbbb98bbdce6d1",
+        "templates/study-schedule-template/weekly-study-schedule.xlsx": "10ef8776d6b2160c254033f047fe82677ce557a408d4ff5f0b59c760fcdb6d32"
+      },
+      "verdict": "PASS",
+      "blockers": [],
+      "recipe_and_templates_sha256": "61e78cd481a103d63fa2ae8d8174a0ec883a4eea174bb643cdcf575a5c201fb3",
+      "review_basis": "CARRY_FORWARD_UNCHANGED_SOURCES_FROM_PRIOR_INDEPENDENT_APPROVAL",
+      "prior_review_path": "team/reviews/recipes-review-2026-10-10.json",
+      "prior_review_packet_sha256": "615dce844c2cca72404673cf595dc7e53be4790f54781a5a6431237b3792f73f",
+      "prior_reviewed_at": "2026-10-10T05:39:42.016360+00:00",
+      "current_source_binding_verified_by": "Independent final managing/verification editor Codex, 2026-10-16",
+      "rendered_html_sha256": "6457424ca30b7199d24e7160145cbcc54c07b460bc1da1760f6a274517a327b5"
+    },
+    {
+      "slug": "weekly-project-status-report-template",
+      "author": "author agent Archimedes",
+      "reviewer": "independent reviewer Codex managing editor 2026-10-12",
+      "content_sha256": "b3414f0770ac0acaaa72102406b53268547b6873f679ff4fd792decab12912c7",
+      "file_sha256": {
+        "recipes/weekly-project-status-report-template.md": "b3414f0770ac0acaaa72102406b53268547b6873f679ff4fd792decab12912c7",
+        "templates/weekly-project-status-report-template/fictional-source-notes.md": "3bc446b327fce06a21855b4e8b9d2935ab55c909352f28f86d124e54b53dffab",
+        "templates/weekly-project-status-report-template/filled-example.md": "6cb1d7fbc127e52d347405963fc620d21d6f8fa6631277f99e40b803812daca6",
+        "templates/weekly-project-status-report-template/source-collection-worksheet.md": "d0e21e822ab78fdb95592f8e45e75eee4dbdf9281d1eeadc525890d87e5451cb",
+        "templates/weekly-project-status-report-template/weekly-project-status-report-template.md": "e210289aa2d27be138454e51d4f6481fd27496ae644f6e91184ef440381d5371"
+      },
+      "verdict": "PASS",
+      "blockers": [],
+      "recipe_and_templates_sha256": "74732410e928cb0f4889563a2c5ec59edba7bf591649fe91cae1cddc73aae1bb",
+      "review_basis": "CARRY_FORWARD_UNCHANGED_SOURCES_FROM_PRIOR_INDEPENDENT_APPROVAL",
+      "prior_review_path": "team/reviews/recipes-review-2026-10-12.json",
+      "prior_review_packet_sha256": "176200f06e88f634b38ae8ab5fe43ca5d77b5885ff22c1bd185b653cd11abcbd",
+      "prior_reviewed_at": "2026-10-12T02:28:00.678194+00:00",
+      "current_source_binding_verified_by": "Independent final managing/verification editor Codex, 2026-10-16",
+      "rendered_html_sha256": "aac0f4eceb1936ca8d2a1c653b080c0a30d7fb2dba0edd20ebf53dfc602d7495"
+    },
+    {
+      "slug": "professional-follow-up-email-after-no-response",
+      "author": "independent practical author, 2026-10-15",
+      "author_agent": "Wegener",
+      "revision_author": "separate practical revision author, 2026-10-16",
+      "reviewer": "Independent final managing/verification editor Codex, 2026-10-16",
+      "review_basis": "FRESH_INDEPENDENT_SOURCE_TEMPLATE_AND_FINAL_MOBILE_REVIEW",
+      "verdict": "PASS",
+      "blockers": [],
+      "content_sha256": "855cf36c353c9c1230c3408d6ca29dfdf4afbf09583a3b8ea3b8d3f2af3e98db",
+      "file_sha256": {
+        "recipes/professional-follow-up-email-after-no-response.md": "855cf36c353c9c1230c3408d6ca29dfdf4afbf09583a3b8ea3b8d3f2af3e98db",
+        "templates/professional-follow-up-email-after-no-response/fictional-final-email.txt": "aa43efdb70dc33e153604f611a0a5e26834712b81026b0e0fb8988aeae988e04",
+        "templates/professional-follow-up-email-after-no-response/fictional-worked-example.md": "d9cd52d3fc927bc6a89760fada5c87bda2343b87d4dcd631232f275f38e0dc75",
+        "templates/professional-follow-up-email-after-no-response/follow-up-email-template.md": "18c9c6831d4a017bf8898398827f8daa1a4d61a2c97b3240ee0a1160f32a0698",
+        "templates/professional-follow-up-email-after-no-response/follow-up-email-template.txt": "de41ed07cbfd246dcfc416d4ee175b4254d283159c54cffb0ff58eaad4448840",
+        "templates/professional-follow-up-email-after-no-response/six-input-and-audit-worksheet.md": "bbbbd3925d0b1492bc69b35de4cd9d67ebc318815e33afda06ae0cd893edd97b"
+      },
+      "recipe_and_templates_sha256": "0796f9067dc38dbbbc02d4777bd160103b9c97d771be209cd76b1996a7c716eb",
+      "recipe_and_templates_sha256_method": "SHA256 of sorted relative path + NUL + raw bytes + NUL for guide and entire template subtree.",
+      "demand_evidence_path": "team/research/demand-2026-10-14.json",
+      "demand_revalidation_path": "team/research/revalidation-2026-10-16.json",
+      "author_evidence_path": "team/research/author-2026-10-15.json",
+      "author_revision_evidence_path": "team/research/author-revision-2026-10-16.json",
+      "rendered_html_sha256": "6edc42824117b4689dcdb9ada6d73bc9b8f788336f7a7258aea208767b6fdea0",
+      "resolved_finding_ids": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "checks": [
+        "Direct template and complete synthetic source/draft/audit/final/hiring examples independently read; immediately useful English intent match.",
+        "Original sources and all5 audit claims checked; invented agreement/room choice/attributed deadline removed. Traceability is not truth or recipient receipt/intent; request/courtesy not forced factual statuses.",
+        "Six-input primary prompt to whole-draft-plus-original-excerpts secondary audit to human correction is supported by actual source text; generated facts are not independent evidence.",
+        "All5 advertised downloads match original/generated source bytes and open asUTF8; temporary edits saved/reopened; Markdown rendered. Final TXT and blank TXT agree with example/page.",
+        "All25 former table cells preserved verbatim in both stacked audits. Actual built guide and temporary worked-example rendering independently viewed at390/320px;354/284px full-width16px text and no horizontal page overflow.",
+        "Exact primary/secondary destination paths and all4 UTM fields checked. Current demand16 desktop SSR receipts verify title/H1/canonical/id/fullUUID/language and source instructions; initial302 history preserved. No extra public request.",
+        "Provider account/cost/privacy limits and manual source checks are explicit; no AI/model run, installation, mailbox access, delivery, sending or analytics claim. Full upstream prompts remain at source.",
+        "Final manifest content hash/template paths/revision path/current qualification/proposed publication and update dates agree with frozen deliverable. Authored date remainsOctober15; metadata date does not establish deployment."
+      ]
+    }
+  ],
+  "revision_history": [
+    {
+      "at": "2026-10-16T04:33:41.516270+00:00",
+      "phase": "initial_pre_freeze_working_findings",
+      "findings": [
+        {
+          "id": "R1",
+          "status": "RESOLVED",
+          "area": "current_asset_destination_qualification",
+          "evidence": "October16 demand addendum is HOLD: both initial302 responses contain no current English detail H1, canonical, full ID/UUID detail object or prompt source. This is an evidence gap, not a proven broken link or access restriction.",
+          "correction": "Parent reconcile paced current redirect/header/browser evidence for exact assets6929/6924 and meaningful usable English source before qualification/freeze. No further independent requests are scheduled.",
+          "supplementary_reviewer_evidence": "Separate redirect-following requests returned intended English Markdown prompt text; secondary recorded finalHTTP200 text/plain at https://tokrepo.com/raw/prompt-fact-check-your-draft-into-claim-grid-a82f6e1c at2026-10-16T04:29:53.027080+00:00. Raw documents match expected title and original source URL footer but do not contain current numeric ID/full UUID, HTML H1 or canonical. Primary successful source body was saved; response metadata was not retained, so no reconstructed HTTPstatus or exact chain is asserted.",
+          "resolution": "Independent demand16 desktop_resolution records both exact attributed URLs HTTP200 meaningful English HTML, matching H1/canonical/id/fullUUID/lang_type, current source instructions and unchanged semantic prompt hashes; initial302 evidence preserved. Reviewer read resolution; no new public requests.",
+          "resolution_packet_sha256": "0d817322edb27f76f6bc60666250c1f19126c31e403224d3261ea4669631db0c"
+        },
+        {
+          "id": "R2",
+          "status": "REVISE",
+          "area": "mobile_audit_readability",
+          "evidence": "At390px viewport the 5-column audit table is354px wide with cell widths65/91/69/56/67px. All content is forced inside it; overflow:auto has no horizontal overflow (scrollWidth354). Screenshot shows repeated midword fragmentation into approximately4-character lines. Width/no-overflow assertions pass but do not establish practical readability.",
+          "source_location": "recipes/professional-follow-up-email-after-no-response.md, section Audit the assertions against the original sources; built article table2; docs/assets/style.css .recipe-guide table and table cell wrapping.",
+          "correction": "Make this audit readable at narrow widths using stacked claim sections/cards or a genuinely horizontally scrollable table with a readable minimum content width. Keep exact findings/source distinctions and verify390/320px rendering after correction.",
+          "scope": "Targeted mobile presentation correction; no new tool, fixed length or additional source requirement."
+        },
+        {
+          "id": "R3",
+          "status": "RESOLVED",
+          "area": "manifest_identity_metadata",
+          "source_location": "recipes.json, final recipe claim_boundaries last item",
+          "evidence": "Claim says Primary integer ID unknown, while the same entry assets[0].id is6929 and October15 refresh verifies6929.",
+          "correction": "Remove or update the stale unknown-ID clause while parent edits its owned manifest; preserve historic author evidence unchanged.",
+          "resolution": "Parent corrected stale unknown-ID clause to verified6929/fullUUID with October15 observation scope and current-access evidence separated. Current manifest demand status is QUALIFIED_CURRENT_US_EN_2026_10_16."
+        }
+      ],
+      "initial_source_sha256": {
+        "recipes/professional-follow-up-email-after-no-response.md": "8262cb32e85b18f7d6213fa4594acf097228974730db3bbe2a6162a3cb8cd52b",
+        "templates/professional-follow-up-email-after-no-response/fictional-final-email.txt": "aa43efdb70dc33e153604f611a0a5e26834712b81026b0e0fb8988aeae988e04",
+        "templates/professional-follow-up-email-after-no-response/fictional-worked-example.md": "79a8148a3d8cf9c33a9f2677f1ef807b4bdac1821e7bb3ea1f83dfdfe8cd468b",
+        "templates/professional-follow-up-email-after-no-response/follow-up-email-template.md": "18c9c6831d4a017bf8898398827f8daa1a4d61a2c97b3240ee0a1160f32a0698",
+        "templates/professional-follow-up-email-after-no-response/follow-up-email-template.txt": "de41ed07cbfd246dcfc416d4ee175b4254d283159c54cffb0ff58eaad4448840",
+        "templates/professional-follow-up-email-after-no-response/six-input-and-audit-worksheet.md": "bbbbd3925d0b1492bc69b35de4cd9d67ebc318815e33afda06ae0cd893edd97b"
+      }
+    },
+    {
+      "at": "2026-10-16T04:41:34.618235+00:00",
+      "phase": "final_frozen_source_recheck",
+      "findings": [
+        {
+          "id": "R1",
+          "status": "RESOLVED",
+          "area": "current_asset_destination_qualification",
+          "evidence": "October16 demand addendum is HOLD: both initial302 responses contain no current English detail H1, canonical, full ID/UUID detail object or prompt source. This is an evidence gap, not a proven broken link or access restriction.",
+          "correction": "Parent reconcile paced current redirect/header/browser evidence for exact assets6929/6924 and meaningful usable English source before qualification/freeze. No further independent requests are scheduled.",
+          "supplementary_reviewer_evidence": "Separate redirect-following requests returned intended English Markdown prompt text; secondary recorded finalHTTP200 text/plain at https://tokrepo.com/raw/prompt-fact-check-your-draft-into-claim-grid-a82f6e1c at2026-10-16T04:29:53.027080+00:00. Raw documents match expected title and original source URL footer but do not contain current numeric ID/full UUID, HTML H1 or canonical. Primary successful source body was saved; response metadata was not retained, so no reconstructed HTTPstatus or exact chain is asserted.",
+          "resolution": "Independent demand16 desktop_resolution records both exact attributed URLs HTTP200 meaningful English HTML, matching H1/canonical/id/fullUUID/lang_type, current source instructions and unchanged semantic prompt hashes; initial302 evidence preserved. Reviewer read resolution; no new public requests.",
+          "resolution_packet_sha256": "0d817322edb27f76f6bc60666250c1f19126c31e403224d3261ea4669631db0c"
+        },
+        {
+          "id": "R2",
+          "status": "RESOLVED",
+          "area": "mobile_audit_readability",
+          "evidence": "At390px viewport the 5-column audit table is354px wide with cell widths65/91/69/56/67px. All content is forced inside it; overflow:auto has no horizontal overflow (scrollWidth354). Screenshot shows repeated midword fragmentation into approximately4-character lines. Width/no-overflow assertions pass but do not establish practical readability.",
+          "source_location": "recipes/professional-follow-up-email-after-no-response.md, section Audit the assertions against the original sources; built article table2; docs/assets/style.css .recipe-guide table and table cell wrapping.",
+          "correction": "Make this audit readable at narrow widths using stacked claim sections/cards or a genuinely horizontally scrollable table with a readable minimum content width. Keep exact findings/source distinctions and verify390/320px rendering after correction.",
+          "scope": "Targeted mobile presentation correction; no new tool, fixed length or additional source requirement.",
+          "resolution": "Separate author replaced both filled5-column audit tables with5 full-width claim sections preserving all25 original cells. Final isolated browser screenshots independently inspected at390/320px: readable16px paragraphs with354/284px content width, no page overflow. Exact final guide and all5 template hashes verified."
+        },
+        {
+          "id": "R3",
+          "status": "RESOLVED",
+          "area": "manifest_identity_metadata",
+          "source_location": "recipes.json, final recipe claim_boundaries last item",
+          "evidence": "Claim says Primary integer ID unknown, while the same entry assets[0].id is6929 and October15 refresh verifies6929.",
+          "correction": "Remove or update the stale unknown-ID clause while parent edits its owned manifest; preserve historic author evidence unchanged.",
+          "resolution": "Parent corrected stale unknown-ID clause to verified6929/fullUUID with October15 observation scope and current-access evidence separated. Current manifest demand status is QUALIFIED_CURRENT_US_EN_2026_10_16."
+        }
+      ],
+      "source_sha256": "ad428fec2f4478ac143550c6159edd3a599a959d590ace0225d9c21eee1ca01e"
+    }
+  ],
+  "hard_gates": {
+    "current_demand_and_intent": "PASS: exact currentUS/en autocomplete and2 separately authored original questions; qualitative only. Demand16 desktop source resolution completes current asset qualification.",
+    "practical_original_deliverable": "PASS: immediate editable template, complete original fictional source/draft/audit/final and short hiring example; all5 materials editable.",
+    "real_asset_combination_and_handoff": "PASS: drafting prompt6929 plus complementary claim-audit6924, original excerpts and human correction; traceability not truth.",
+    "prominent_exact_attributed_CTA": "PASS: primary near opening and after task, complementary at audit; exact paths and UTM tuple.",
+    "prerequisites_permissions_limits": "PASS: optional ordinary text AI route, provider-dependent account/cost/privacy, redaction and manual checks; no unrun runtime/send/install claim.",
+    "canonical_ownership": "PASS: existing candidate occurs once; no separate synonym/hiring page; prior11 manifest entries unchanged.",
+    "rendering_download_navigation_integrity": "PASS: parent12-page browser receipt matches frozen source; independent final new-page5-download/metadata/320-and390px check; readable stacked audit.",
+    "independent_source_bound_review": "PASS: final pages array names different author/reviewer and exact complete source/template SHA256; original approvals retained for unchanged pages."
+  },
+  "independent_final_browser_check": {
+    "checked_at": "2026-10-16T04:39:11.274707+00:00",
+    "source_sha256": "ad428fec2f4478ac143550c6159edd3a599a959d590ace0225d9c21eee1ca01e",
+    "manifest_sha256": "a4e36900df8655caa842a90edb305ee4010a6d9080a726711552024d7cf98f2c",
+    "status": "PASS",
+    "downloads": [
+      {
+        "path": "templates/professional-follow-up-email-after-no-response/follow-up-email-template.md",
+        "bytes": 1353,
+        "sha256": "18c9c6831d4a017bf8898398827f8daa1a4d61a2c97b3240ee0a1160f32a0698",
+        "content_type": "text/markdown"
+      },
+      {
+        "path": "templates/professional-follow-up-email-after-no-response/follow-up-email-template.txt",
+        "bytes": 219,
+        "sha256": "de41ed07cbfd246dcfc416d4ee175b4254d283159c54cffb0ff58eaad4448840",
+        "content_type": "text/plain"
+      },
+      {
+        "path": "templates/professional-follow-up-email-after-no-response/six-input-and-audit-worksheet.md",
+        "bytes": 3378,
+        "sha256": "bbbbd3925d0b1492bc69b35de4cd9d67ebc318815e33afda06ae0cd893edd97b",
+        "content_type": "text/markdown"
+      },
+      {
+        "path": "templates/professional-follow-up-email-after-no-response/fictional-worked-example.md",
+        "bytes": 7105,
+        "sha256": "d9cd52d3fc927bc6a89760fada5c87bda2343b87d4dcd631232f275f38e0dc75",
+        "content_type": "text/markdown"
+      },
+      {
+        "path": "templates/professional-follow-up-email-after-no-response/fictional-final-email.txt",
+        "bytes": 235,
+        "sha256": "aa43efdb70dc33e153604f611a0a5e26834712b81026b0e0fb8988aeae988e04",
+        "content_type": "text/plain"
+      }
+    ],
+    "viewports": [
+      {
+        "document": "actual_built_guide",
+        "width": 390,
+        "metrics": {
+          "width": 354,
+          "heading": "2. Prior agreement",
+          "bodyWidth": 354,
+          "font": "16px"
+        }
+      },
+      {
+        "document": "actual_built_guide",
+        "width": 320,
+        "metrics": {
+          "width": 284,
+          "heading": "2. Prior agreement",
+          "bodyWidth": 284,
+          "font": "16px"
+        }
+      },
+      {
+        "document": "temporary_worked_example_render",
+        "width": 390,
+        "metrics": {
+          "width": 354,
+          "heading": "2. Prior agreement",
+          "bodyWidth": 354,
+          "font": "16px"
+        }
+      },
+      {
+        "document": "temporary_worked_example_render",
+        "width": 320,
+        "metrics": {
+          "width": 284,
+          "heading": "2. Prior agreement",
+          "bodyWidth": 284,
+          "font": "16px"
+        }
+      }
+    ],
+    "screenshots_independently_viewed": true,
+    "worked_example_render_scope": "Temporary in-memory HTML using the project MarkdownIt configuration and currentCSS. Actual advertised Markdown download bytes separately checked; no new public HTML artifact created.",
+    "page_errors": [],
+    "console_note": "One/favicon.ico404 from local preview server confirmed by consoleURL; no page exception, template failure or source issue. Nonblocking.",
+    "original25cells_preserved_both_documents": true,
+    "pending_clause_absent": true,
+    "all5_templates_edit_save_reopen": true,
+    "source_stable_after_checks": true
+  },
+  "parent_browser_receipt_observed": {
+    "path": "team/reviews/recipes-browser.json",
+    "sha256": "026725113e5677a6231583026bc9d6d3475b649f5c9b2bc34c4764158c98cc28",
+    "status": "PASS",
+    "source_sha256": "ad428fec2f4478ac143550c6159edd3a599a959d590ace0225d9c21eee1ca01e",
+    "pages": 12,
+    "page_errors": [],
+    "ownership": "Parent executed this check; reviewer read and bound its receipt."
+  },
+  "external_source_resolution": {
+    "packet": "team/research/revalidation-2026-10-16.json",
+    "packet_sha256": "0d817322edb27f76f6bc60666250c1f19126c31e403224d3261ea4669631db0c",
+    "initial_verdict": "HOLD",
+    "final_verdict": "QUALIFIED",
+    "initial302_preserved": true,
+    "current_desktop_resolution": {
+      "observed_at": "2026-10-16T04:35:02.997327+00:00",
+      "verdict": "QUALIFIED",
+      "resolves": "CURRENT_ENGLISH_ASSET_IDENTITY_UNCONFIRMED",
+      "authorization": "Direct user follow-up requested one ordinary desktop-browser-UA rendering request per already observed attributed URL, normal HTTP redirects, >=10s spacing and stop on 429. Parent will not duplicate these requests.",
+      "method": "Single HTTP navigation per exact attributed URL with the specified ordinary desktop UA; inspect returned SSR HTML and its asset-specific hydrated source. No browser automation or shared Chrome.",
+      "initial_vs_current_interpretation": "The initial custom-UA requests returned 302 meta-refresh bodies pointing to public /raw/<slug>. Neither 429 nor authentication/access restriction was observed. The later desktop-UA requests returned exact English HTML directly. This comparison supports an ordinary rendering variant; it does not isolate UA from attribution query/cache/time changes.",
+      "receipts": [
+        {
+          "role": "primary",
+          "url": "https://tokrepo.com/en/workflows/draft-polite-follow-up-without-inventing-facts-33c39ad0?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=professional-follow-up-email-after-no-response",
+          "final_url": "https://tokrepo.com/en/workflows/draft-polite-follow-up-without-inventing-facts-33c39ad0?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=professional-follow-up-email-after-no-response",
+          "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+          "request_started_at": "2026-10-16T04:32:47.515939+00:00",
+          "response_completed_at": "2026-10-16T04:32:51.973479+00:00",
+          "http_status": 200,
+          "response_body_sha256": "e1da0a2295ea23fbe48b9cf291e965520298ef070edb81fbddf64287f24ace2e",
+          "response_bytes": 74184,
+          "redirect_chain": [],
+          "error": null,
+          "headers": {
+            "Date": "Fri, 16 Oct 2026 04:32:52 GMT",
+            "Content-Type": "text/html;charset=utf-8"
+          }
+        },
+        {
+          "role": "secondary",
+          "url": "https://tokrepo.com/en/workflows/prompt-fact-check-your-draft-into-claim-grid-a82f6e1c?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=professional-follow-up-email-after-no-response",
+          "final_url": "https://tokrepo.com/en/workflows/prompt-fact-check-your-draft-into-claim-grid-a82f6e1c?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=professional-follow-up-email-after-no-response",
+          "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+          "request_started_at": "2026-10-16T04:33:01.977857+00:00",
+          "response_completed_at": "2026-10-16T04:33:09.285331+00:00",
+          "http_status": 200,
+          "response_body_sha256": "d9d2a0499716a7219667d9481709dd80791daf9d75bf28764e2b5900f2b9be8f",
+          "response_bytes": 96742,
+          "redirect_chain": [],
+          "error": null,
+          "headers": {
+            "Date": "Fri, 16 Oct 2026 04:33:08 GMT",
+            "Content-Type": "text/html;charset=utf-8"
+          }
+        }
+      ],
+      "primary_completion_to_secondary_start_seconds": 10.004378,
+      "normal_redirects_enabled": true,
+      "redirect_hops_observed": 0,
+      "retry_count": 0,
+      "http_429_observed": false,
+      "source_hash_stability": "Both UTF-8 newline-joined prompt_template SHA256 values exactly match October 15. Different whole-page hashes are not prompt changes.",
+      "runtime_verified": false,
+      "publication_approval": false,
+      "remaining_requirement": "Independent source-bound review of existing author package, then parent-owned build/browser/release acceptance."
+    },
+    "current_asset_identities": [
+      {
+        "role": "primary",
+        "h1": "Draft a Polite Follow-Up Without Inventing Facts",
+        "canonical": "https://tokrepo.com/en/workflows/draft-polite-follow-up-without-inventing-facts-33c39ad0",
+        "identity": {
+          "id": 6929,
+          "uuid": "33c39ad0-e242-4b24-98e3-b012d7679faa",
+          "slug": "draft-polite-follow-up-without-inventing-facts-33c39ad0",
+          "title": "Draft a Polite Follow-Up Without Inventing Facts",
+          "lang_type": "en"
+        },
+        "prompt_sha256": "62c4f324ea0fe4eae05cefe7a0604cffce5d82afdbaf16ce5921569f6dd4bf30"
+      },
+      {
+        "role": "secondary",
+        "h1": "Prompt: Fact-Check Your Draft Into a Claim Grid",
+        "canonical": "https://tokrepo.com/en/workflows/prompt-fact-check-your-draft-into-claim-grid-a82f6e1c",
+        "identity": {
+          "id": 6924,
+          "uuid": "a82f6e1c-45d7-44d9-91f5-0d51bc9352fc",
+          "slug": "prompt-fact-check-your-draft-into-claim-grid-a82f6e1c",
+          "title": "Prompt: Fact-Check Your Draft Into a Claim Grid",
+          "lang_type": "en"
+        },
+        "prompt_sha256": "76755f99a931b855d82f0d4a85d095f3781f549c9064a233dd29ca4f6640a6e2"
+      }
+    ],
+    "reviewer_source_content_read": "Before finalfreeze, reviewer separately read matching complete public raw-source documents to verify instructions, source ambiguity, output format, privacy/prerequisites and CC BY4 statement. Final identity qualification relies on independent demand16 desktop resolution. No new public request during final review."
+  },
+  "checks_not_run": [
+    "AI/provider/model runtime",
+    "installation",
+    "mailbox/account access or sending",
+    "parent-owned build.py/recipe_check.py/editorial_gate.py execution",
+    "publication/deployment",
+    "indexing/GSC/analytics"
+  ],
+  "release_status": "INDEPENDENT_CONTENT_PASS_ON_FROZEN_SOURCE; parent-owned editorial_gate and publication/deployment remain separate.",
+  "measurement_status": "No indexing, visibility, traffic, attributed arrivals or asset-use result asserted.",
+  "ownership": "Only team/reviews/recipes-review-2026-10-16.json and matching.md written; temporary local verification artifacts outside repository. No sharedsource/browser/profile mutation."
+}

@@ -1,6 +1,6 @@
 {
-  "recorded_at": "2026-10-12T02:25:53.796428+00:00",
-  "source_sha256": "2fd704839e2dcbc81d62e1d8188d542f2d59f68ef5f60df9c73f6b930ade5236",
+  "recorded_at": "2026-10-16T04:37:24.627710+00:00",
+  "source_sha256": "ad428fec2f4478ac143550c6159edd3a599a959d590ace0225d9c21eee1ca01e",
   "status": "PASS",
   "scope": "Rendered guide and original downloadable templates; no claim that third-party models ran",
   "page_errors": [],
@@ -340,6 +340,39 @@
           "path": "templates/weekly-project-status-report-template/filled-example.md",
           "bytes": 7955,
           "sha256": "6cb1d7fbc127e52d347405963fc620d21d6f8fa6631277f99e40b803812daca6"
+        }
+      ]
+    },
+    {
+      "slug": "professional-follow-up-email-after-no-response",
+      "render": "PASS",
+      "primary_cta": "PASS",
+      "mobile": "PASS",
+      "template_downloads": [
+        {
+          "path": "templates/professional-follow-up-email-after-no-response/follow-up-email-template.md",
+          "bytes": 1353,
+          "sha256": "18c9c6831d4a017bf8898398827f8daa1a4d61a2c97b3240ee0a1160f32a0698"
+        },
+        {
+          "path": "templates/professional-follow-up-email-after-no-response/follow-up-email-template.txt",
+          "bytes": 219,
+          "sha256": "de41ed07cbfd246dcfc416d4ee175b4254d283159c54cffb0ff58eaad4448840"
+        },
+        {
+          "path": "templates/professional-follow-up-email-after-no-response/six-input-and-audit-worksheet.md",
+          "bytes": 3378,
+          "sha256": "bbbbd3925d0b1492bc69b35de4cd9d67ebc318815e33afda06ae0cd893edd97b"
+        },
+        {
+          "path": "templates/professional-follow-up-email-after-no-response/fictional-worked-example.md",
+          "bytes": 7105,
+          "sha256": "d9cd52d3fc927bc6a89760fada5c87bda2343b87d4dcd631232f275f38e0dc75"
+        },
+        {
+          "path": "templates/professional-follow-up-email-after-no-response/fictional-final-email.txt",
+          "bytes": 235,
+          "sha256": "aa43efdb70dc33e153604f611a0a5e26834712b81026b0e0fb8988aeae988e04"
         }
       ]
     }

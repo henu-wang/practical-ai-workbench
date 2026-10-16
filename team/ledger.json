@@ -185,8 +185,29 @@
       "published_on": "2026-10-12",
       "release_commit": "4da671b0b48f9b32c4b2c29caa23aa1beb8c9f94",
       "verified_at": "2026-10-12T02:35:49.104306+00:00",
-      "asset_retest_status": "INCONCLUSIVE_RATE_LIMIT_TIMEOUT_OR_REDIRECT_ASSERTION",
-      "source_sha256": "2fd704839e2dcbc81d62e1d8188d542f2d59f68ef5f60df9c73f6b930ade5236"
+      "asset_retest_status": "PASS_2026_10_16_DESKTOP_ENGLISH_IDENTITY_UTM",
+      "source_sha256": "2fd704839e2dcbc81d62e1d8188d542f2d59f68ef5f60df9c73f6b930ade5236",
+      "asset_retest_on": "2026-10-16"
+    },
+    {
+      "slug": "professional-follow-up-email-after-no-response",
+      "dedupe_key": "asset-search:office_worker_prior_correspondence_to_polite_follow_up",
+      "intent_id": "office_worker_prior_correspondence_to_polite_follow_up",
+      "program": "asset_search",
+      "action": "new_topic_candidate",
+      "status": "independent_pass_pending_public_deployment",
+      "planned_publish_on": "2026-10-16",
+      "canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/professional-follow-up-email-after-no-response/",
+      "primary_query": "professional follow up email after no response",
+      "primary_asset_id": 6929,
+      "secondary_asset_id": 6924,
+      "demand_evidence": "team/research/demand-2026-10-14.json",
+      "demand_revalidation": "team/research/revalidation-2026-10-16.json",
+      "author_evidence": "team/research/author-2026-10-15.json",
+      "revision_evidence": "team/research/author-revision-2026-10-16.json",
+      "independent_review": "team/reviews/recipes-review-2026-10-16.json",
+      "source_sha256": "ad428fec2f4478ac143550c6159edd3a599a959d590ace0225d9c21eee1ca01e",
+      "monthly_search_volume": null
     }
   ]
 }

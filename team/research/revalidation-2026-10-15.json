@@ -1,0 +1,403 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-15",
+  "timezone": "Asia/Shanghai",
+  "revalidated_at": "2026-10-15T03:38:22.214539+00:00",
+  "editor": "independent demand editor",
+  "verdict": "QUALIFIED",
+  "scope": "Revalidate only professional-follow-up-email-after-no-response from the Oct14 packet. Owned research addendum only; no parallel-author approval, source edits, manifest edits, release or account operations.",
+  "owned_files": [
+    "team/research/revalidation-2026-10-15.json",
+    "team/research/revalidation-2026-10-15.md"
+  ],
+  "original_demand_packet": "team/research/demand-2026-10-14.json",
+  "original_packet_sha256": "836b93203aba5d15ada88f294cd0b3918da2700579f4414dc2a00b152ae34ee8",
+  "market": "US",
+  "language": "en",
+  "numeric_search_volume": null,
+  "qualified_candidate_count": 1,
+  "inputs_read": {
+    "complete_manifest_count": 11,
+    "complete_ledger_count": 17,
+    "files_sha256": {
+      "AGENTS.md": "080af6ceed44b82445993cd7beba35a10d6d4ac5d0bd6aa9ce8f53479d1b80fc",
+      "team/context/ASSET-POLICY.md": "6c87a5c309e749a4b8115b41bcd96004a05b9e86b232100a29f8912f56c62137",
+      "team/context/AUDIENCE.md": "442a59c3468c18935104e40fff2084e9465ffec48382da61c0f62b9f6d110fe2",
+      "team/context/METRICS.md": "0803a7664f7d2718e86f52a82348e67abe2195fc85abb18cb3b147e18bc2c340",
+      "team/context/PROJECT.md": "a791f483e96871b5f690ee7b69fb884055057dff04c4cc1f28ad93b290a7630d",
+      "team/context/USER-BRIEF.md": "b7620db969b61da35c02c57387f2ab764e0dad189295b78abe33fb67772b35cd",
+      "team/PIPELINE.md": "b07605bd3dce1ac88fa0dfcf84eff2377986d156a572f9e37cb40f2b8efb35b0",
+      "team/STYLE.md": "e0dff6e417953ae05376bdcee105449af58e73175e049bbdda084556214dd5c0",
+      "team/QUALITY.md": "e62344e1569a97cc2ade52e438687dcafae886e39841e466519e09bbaf5ed31b",
+      "team/MONITORING.md": "af7c73c1526f047cdd0a8ca39f2e8611c2424ce0650e0cee6c91595ca8459e40",
+      "team/roles/demand-editor.md": "a9f535ad5ce22e58d02f9728ac3f7dd05b6c33390285169488293a6639cf1024",
+      "recipes.json": "430ea095ec330ff618a0e6c2761db0bf98dd9cffe3342ee57a4a9775e34776f0",
+      "team/ledger.json": "58f63e6fd0d788110863581394c80722f5b81d9ecc2d9f359ccb33e8a327103e",
+      "team/research/redirect-demand.json": "e3278a548323823b7fc8e36e4bc6b039237193799fdfc604cbf6ba742005214f",
+      "team/research/demand-2026-10-14.json": "836b93203aba5d15ada88f294cd0b3918da2700579f4414dc2a00b152ae34ee8",
+      "team/research/demand-2026-10-14.md": "5f98b636158f9556d0f9776d648d16b5674191912e0732a4aa8c2972a90ecc7c",
+      "team/research/revalidation-2026-10-10.json": "2d412b3202ba859b08d0a8cd4bc908b90211848a623fb09c09e30f82b6ae197a",
+      "team/monitoring-cohort.json": "36510d9e648633eafb585bda78878fe8ea44d2c2da3e473eda94fb182cc45484",
+      "team/reviews/verification-review-2026-10-12.json": "185c32c9a270fa04f1227fa3604957302d715ac54d6c590c5188159edf30b481"
+    },
+    "review_scope_note": "Historical reviews/context are reference only, not current author-output approval."
+  },
+  "recipes": [
+    {
+      "intent_id": "office_worker_prior_correspondence_to_polite_follow_up",
+      "slug": "professional-follow-up-email-after-no-response",
+      "title": "Professional follow-up email after no response: template and examples",
+      "primary_query": "professional follow up email after no response",
+      "related_queries": [
+        "professional follow up email sample",
+        "professional follow up email example after no response",
+        "professional follow up email to client",
+        "professional follow up email requesting information"
+      ],
+      "market": "US",
+      "language": "en",
+      "pillar": "Writing and communication",
+      "reader": "Office workers, freelancers and applicants who need a professional reply request after prior correspondence.",
+      "task": "Turn supplied prior correspondence and one concrete request into a short professional follow-up, then audit factual assertions and manually approve the wording.",
+      "input": [
+        "Recipient role/relationship and the earlier message or dated factual notes.",
+        "One current request; chosen tone; supplied hard facts and exclusions.",
+        "An explicitly labelled source pack containing relevant excerpts and unresolved gaps."
+      ],
+      "output": "Immediately copyable editable email template, complete original fictional examples, and a draft-to-source audit worksheet; chosen message remains for human review.",
+      "canonical_path": "/workflows/professional-follow-up-email-after-no-response/",
+      "proposed_canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/professional-follow-up-email-after-no-response/",
+      "qualification_status": "QUALIFIED_FOR_AUTHORING",
+      "qualification_reason": "Current exact US/en autocomplete suggestion, two readable independently authored original questions, and two current English SSR detail objects with matching identities and compatible text-prompt roles. Historical/cached question limits retained; no volume invented.",
+      "autocomplete": {
+        "key": "autocomplete",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=professional%20follow%20up%20email",
+        "request_started_at": "2026-10-15T03:34:44.244188+00:00",
+        "method": "single public HTTP GET; no redirect following; no retries",
+        "http_status": 200,
+        "final_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=professional%20follow%20up%20email",
+        "content_type": "text/javascript; charset=UTF-8",
+        "response_sha256": "04144221e6bdd18575413c4a45c0c7dda225ee40ab092716ddb70552eb9103b4",
+        "response_bytes": 592,
+        "retrieved_at": "2026-10-15T03:34:46.089807+00:00",
+        "seed": "professional follow up email",
+        "exact_observed_suggestion": "professional follow up email after no response",
+        "suggestions": [
+          "professional follow up email",
+          "professional follow up email after interview",
+          "professional follow up email after no response",
+          "professional follow up email for job application",
+          "professional follow up email sample",
+          "professional follow up email example",
+          "professional follow up email after application",
+          "professional follow up email requesting information",
+          "professional follow up email example after no response",
+          "professional follow up email to client"
+        ],
+        "market": "US",
+        "language": "en",
+        "limitations": [
+          "Current qualitative autocomplete presence only; numeric volume, frequency and rank are unknown.",
+          "gl=us and hl=en are request parameters, not a controlled physical US location or evidence of question-author geography."
+        ]
+      },
+      "questions": [
+        {
+          "url": "https://workplace.stackexchange.com/questions/10203/what-is-appropriate-email-follow-up-etiquette-after-no-response",
+          "title": "What is appropriate email follow-up etiquette after no response?",
+          "public_author": "enderland",
+          "inspected_at": "2026-10-15T03:38:22.214539+00:00",
+          "timestamp_semantics": "Time this evidence log was completed after reading the original question in the current web-tool rendering; not an origin response timestamp.",
+          "method": "web open of original question URL",
+          "readable": true,
+          "original_body_location": "Lines 40-45; question author/date at 56-60 of the inspected rendering.",
+          "published_at_displayed": "2013-03-11 18:32",
+          "web_crawl_freshness_displayed": "today",
+          "observed_problem": "Work-related or manager-requested emails go unanswered; the author asks how to follow up.",
+          "editorial_implication": "Provide an immediately usable short message grounded in prior correspondence and one concrete request.",
+          "country": null,
+          "language": "en",
+          "limitations": [
+            "Historical original question freshly inspected, not a new-post/frequency/volume claim.",
+            "Views, votes, answers and comments are not counted as additional independent questions or search volume.",
+            "Country unknown; no universal timing or escalation policy established."
+          ]
+        },
+        {
+          "url": "https://www.reddit.com/r/teaching/comments/1uzbz7v/professional_email_to_follow_up/",
+          "title": "Professional email to follow up",
+          "public_author": "AnironSidh",
+          "inspected_at": "2026-10-15T03:38:22.214539+00:00",
+          "timestamp_semantics": "Time this evidence log was completed after reading the original post and same-author clarification in the current web-tool rendering; not an origin response timestamp.",
+          "method": "web open of existing original post URL",
+          "readable": true,
+          "original_body_location": "Lines 16-23; same-author clarification at 253-258 of the inspected rendering.",
+          "published_at": null,
+          "displayed_age": "2mo ago",
+          "web_crawl_freshness_displayed": "3 weeks ago",
+          "observed_problem": "Following a short recruitment-fair interview, the applicant wants to ask district HR about next steps and asks whether the wording sounds professional.",
+          "editorial_implication": "A short supporting hiring illustration may ask for an update using supplied interview facts; no inferred rejection or promised reply.",
+          "country": null,
+          "language": "en",
+          "limitations": [
+            "Read today through the web tool; its rendering reports a crawl three weeks ago. Origin freshness and exact creation time were not verified.",
+            "The attached email image was not opened; its exact wording was not inspected or reproduced.",
+            "Historical qualitative question; age is displayed text, not a verified date. Country and recurring frequency unknown.",
+            "Same-author clarification supports this one question; comments are not a second question."
+          ]
+        }
+      ],
+      "independence_assessment": "Two existing original questions, distinct public authors (enderland and AnironSidh), platforms (Workplace Stack Exchange and Reddit), and work/hiring contexts. No cross-post observed. Count is two; same-author comments are clarification only.",
+      "assets": [
+        {
+          "id": 6929,
+          "uuid": "33c39ad0-e242-4b24-98e3-b012d7679faa",
+          "slug": "draft-polite-follow-up-without-inventing-facts-33c39ad0",
+          "title": "Draft a Polite Follow-Up Without Inventing Facts",
+          "lang_type": "en",
+          "url": "https://tokrepo.com/en/workflows/draft-polite-follow-up-without-inventing-facts-33c39ad0",
+          "role": "primary",
+          "role_description": "Draft a polite follow-up from six supplied inputs, separating facts from missing facts and offering shorter/softer variants plus checks before sending.",
+          "upstream_source": "Original TokRepo text prompt; present English public instructions and complete prompt inspected from the one SSR response. The release-notes reference is contextual, not runtime verification.",
+          "license_observed": "CC BY 4.0 stated on current public source; complete prompt remains on TokRepo.",
+          "supported_use": "Obtain the complete prompt on TokRepo, copy/paste into an ordinary text AI chat and fill its six inputs; manual original worksheet also usable.",
+          "prerequisites": [
+            "Ordinary text-capable AI chat if using these prompts; provider account, price and data handling depend on provider.",
+            "Use your own redacted material; no mailbox credentials, connector, terminal setup or CLI installation required for the documented copy/paste route.",
+            "Human confirms every date, name, prior agreement, deadline and commitment; AI output is a draft.",
+            "Supply recipient role/relationship, previous events in own notes, current request, tone, hard facts to include and exclusions.",
+            "Missing agreements and dates remain gaps; do not invent delivery/read confirmation or recipient intent."
+          ],
+          "catalog_install_banner_limit": "Install banner and embedded installReady metadata are not runtime proof. Only the documented no-install text route is recommended.",
+          "verification_level": "source_reviewed",
+          "runtime_verified": false,
+          "numeric_id": 6929,
+          "public_receipt": {
+            "key": "primary",
+            "url": "https://tokrepo.com/en/workflows/draft-polite-follow-up-without-inventing-facts-33c39ad0",
+            "request_started_at": "2026-10-15T03:34:46.090771+00:00",
+            "method": "single public HTTP GET; no redirect following; no retries",
+            "http_status": 200,
+            "final_url": "https://tokrepo.com/en/workflows/draft-polite-follow-up-without-inventing-facts-33c39ad0",
+            "content_type": "text/html;charset=utf-8",
+            "response_sha256": "f3a59a0d49b63ef502c0344da9db9bdebdae52a6244803428543d557098c4c80",
+            "response_bytes": 89495,
+            "retrieved_at": "2026-10-15T03:34:51.324409+00:00",
+            "english_h1": "Draft a Polite Follow-Up Without Inventing Facts",
+            "canonical_url": "https://tokrepo.com/en/workflows/draft-polite-follow-up-without-inventing-facts-33c39ad0",
+            "identity_method": "Decoded the asset-specific detail object at index 5 of this response __NUXT_DATA__; id, full uuid, slug, English title and lang_type match the English H1, canonical URL and task-specific instructions. Related-card objects were excluded.",
+            "verified_identity": {
+              "id": 6929,
+              "uuid": "33c39ad0-e242-4b24-98e3-b012d7679faa",
+              "slug": "draft-polite-follow-up-without-inventing-facts-33c39ad0",
+              "title": "Draft a Polite Follow-Up Without Inventing Facts",
+              "lang_type": "en"
+            },
+            "generic_shell_rejected": true
+          },
+          "source_reviewed": true,
+          "source_reviewed_at": "2026-10-15T03:38:22.214539+00:00",
+          "asset_content_sha256": "62c4f324ea0fe4eae05cefe7a0604cffce5d82afdbaf16ce5921569f6dd4bf30",
+          "asset_content_hash_definition": "UTF-8 newline-joined prompt_template values in step order, including bilingual text; excludes volatile popularity metrics. Hash only; full prompt not redistributed.",
+          "nonbrowser_limitation": {
+            "reason": "One public English SSR GET only; no API request, browser interaction, copy-button test, model execution or installation. Numeric ID read from the same exact hydrated detail object, not guessed."
+          }
+        },
+        {
+          "id": 6924,
+          "uuid": "a82f6e1c-45d7-44d9-91f5-0d51bc9352fc",
+          "slug": "prompt-fact-check-your-draft-into-claim-grid-a82f6e1c",
+          "title": "Prompt: Fact-Check Your Draft Into a Claim Grid",
+          "lang_type": "en",
+          "url": "https://tokrepo.com/en/workflows/prompt-fact-check-your-draft-into-claim-grid-a82f6e1c",
+          "role": "complementary_post_draft_audit",
+          "role_description": "Take the chosen follow-up draft and human-labelled source notes into an assertion-to-source grid, risky wording list, fix types and open questions; human makes edits.",
+          "upstream_source": "Original TokRepo text prompt; present English public instructions and complete prompt inspected from the one SSR response. The release-notes reference is contextual, not runtime verification.",
+          "license_observed": "CC BY 4.0 stated on current public source; complete prompt remains on TokRepo.",
+          "supported_use": "Copy complete prompt into text AI chat; paste DRAFT, labelled SOURCES and audience/purpose.",
+          "prerequisites": [
+            "Ordinary text-capable AI chat if using these prompts; provider account, price and data handling depend on provider.",
+            "Use your own redacted material; no mailbox credentials, connector, terminal setup or CLI installation required for the documented copy/paste route.",
+            "Human confirms every date, name, prior agreement, deadline and commitment; AI output is a draft.",
+            "Full chosen draft plus numbered source labels; include actual redacted excerpts, not labels alone, for meaningful human comparison.",
+            "Optional-source wording conflicts with stop-on-missing/too-short-source instruction. This recipe requires a substantive source pack; do not promise useful checks without it."
+          ],
+          "catalog_install_banner_limit": "Plain-text route documented; no install command, connector or current installed capability claimed.",
+          "verification_level": "source_reviewed",
+          "runtime_verified": false,
+          "numeric_id": 6924,
+          "public_receipt": {
+            "key": "secondary",
+            "url": "https://tokrepo.com/en/workflows/prompt-fact-check-your-draft-into-claim-grid-a82f6e1c",
+            "request_started_at": "2026-10-15T03:35:01.331695+00:00",
+            "method": "single public HTTP GET; no redirect following; no retries",
+            "http_status": 200,
+            "final_url": "https://tokrepo.com/en/workflows/prompt-fact-check-your-draft-into-claim-grid-a82f6e1c",
+            "content_type": "text/html;charset=utf-8",
+            "response_sha256": "999f6dca90e2b979e78054224ffbc67819c75feb5c496ccdca8685e2b4c9f29f",
+            "response_bytes": 96628,
+            "retrieved_at": "2026-10-15T03:35:06.959028+00:00",
+            "english_h1": "Prompt: Fact-Check Your Draft Into a Claim Grid",
+            "canonical_url": "https://tokrepo.com/en/workflows/prompt-fact-check-your-draft-into-claim-grid-a82f6e1c",
+            "identity_method": "Decoded the asset-specific detail object at index 5 of this response __NUXT_DATA__; id, full uuid, slug, English title and lang_type match the English H1, canonical URL and task-specific instructions. Related-card objects were excluded.",
+            "verified_identity": {
+              "id": 6924,
+              "uuid": "a82f6e1c-45d7-44d9-91f5-0d51bc9352fc",
+              "slug": "prompt-fact-check-your-draft-into-claim-grid-a82f6e1c",
+              "title": "Prompt: Fact-Check Your Draft Into a Claim Grid",
+              "lang_type": "en"
+            },
+            "generic_shell_rejected": true
+          },
+          "source_reviewed": true,
+          "source_reviewed_at": "2026-10-15T03:38:22.214539+00:00",
+          "asset_content_sha256": "76755f99a931b855d82f0d4a85d095f3781f549c9064a233dd29ca4f6640a6e2",
+          "asset_content_hash_definition": "UTF-8 newline-joined prompt_template values in step order, including bilingual text; excludes volatile popularity metrics. Hash only; full prompt not redistributed.",
+          "nonbrowser_limitation": {
+            "reason": "One public English SSR GET only; no API request, browser interaction, copy-button test, model execution or installation. Numeric ID read from the same exact hydrated detail object, not guessed."
+          }
+        }
+      ],
+      "handoff": {
+        "sequence": [
+          "Human fills an original six-input fact worksheet from prior correspondence, with source labels and missing information.",
+          "Primary prompt drafts the follow-up; human chooses one variant and supplies the whole chosen draft to the complement.",
+          "Complement receives DRAFT plus original source pack, audience and purpose; produces traceability grid, risky wording and fix types.",
+          "Human checks each assertion against actual excerpts, corrects/removes unsupported wording, confirms one clear request and fills the final editable email template."
+        ],
+        "input_passed": "The exact chosen draft, original redacted correspondence/fact notes labelled S1/S2, audience/purpose and stated missing facts. Do not use the primary model-generated Facts I supplied section as independent evidence.",
+        "secondary_expected_output": "A-E summary counts, claim-to-source grid, risky wording table, ordered fix types and open questions. This is traceability, not truth or etiquette certification.",
+        "primary_expected_output": "Facts I supplied; Missing facts; Draft; Shorter version; Softer version; Check before sending.",
+        "original_bridge_required": "Author-created worksheet maps each chosen draft claim to source label, exact excerpt, supplied date/agreement, audit status, human correction and approved text; preserve uncertainty.",
+        "compatibility_checks": [
+          "Secondary explicitly accepts full emails and factual assertions; follow-up draft is supported input.",
+          "Complement analyzes without rewriting; human owns the correction and final message.",
+          "Separate primary fact extraction from downstream exhaustive claim mapping; no second generic drafting prompt.",
+          "Require full source excerpts because labels alone do not prove support and optional-source instructions are internally inconsistent.",
+          "Request sentences may contain no factual assertion; still review clarity/tone manually. Do not manufacture audit rows or SOURCED counts."
+        ],
+        "verification": "Current source instructions inspected on 2026-10-15, including email acceptance, six-input drafting and audit stop/source ambiguity. Source-supported handoff only; no AI execution or sent message."
+      },
+      "duplicate_decision": {
+        "decision": "REVALIDATE_EXISTING_CANDIDATE_NO_COMPETING_TOPIC",
+        "complete_manifest_count": 11,
+        "complete_ledger_count": 17,
+        "manifest_sha256": "430ea095ec330ff618a0e6c2761db0bf98dd9cffe3342ee57a4a9775e34776f0",
+        "ledger_sha256": "58f63e6fd0d788110863581394c80722f5b81d9ecc2d9f359ccb33e8a327103e",
+        "existing_canonical_slugs": [
+          "transcribe-audio-to-text",
+          "meeting-minutes-template",
+          "extract-tables-from-pdf-to-excel",
+          "presentation-from-notes",
+          "clean-csv-remove-duplicate-rows",
+          "flashcards-from-lecture-notes",
+          "write-resume-bullet-points",
+          "project-proposal-template",
+          "write-a-cover-letter",
+          "study-schedule-template",
+          "weekly-project-status-report-template"
+        ],
+        "comparison": [
+          "Cover letter: new application letter mapping qualifications to posting. Follow-up: existing contact and unanswered request become a short request for an update.",
+          "Weekly project status: recurring multi-source report of execution. Follow-up: one recipient/action from prior correspondence; no project-report page or dashboard.",
+          "Meeting minutes: records a meeting and actions. Follow-up: message to seek a reply; no new meeting transcript or minutes.",
+          "Proposal and presentation: approval document or slide deck; follow-up does not create either.",
+          "Audio transcription, PDF tables, CSV dedupe, flashcards, resume bullets and study scheduling have different inputs/outputs.",
+          "Six legacy routes also checked: PDF merge/extract, image compress/resize, duplicate CSV removal and CSV-to-JSON do not own this intent."
+        ],
+        "synonym_policy": "Keep professional/polite/client/information/example/after-no-response variants in one canonical page. Hiring illustration does not create another cover-letter or interview-timing page.",
+        "quota_note": "Same Oct14 candidate revalidated; no new research topic, ledger reservation, manifest entry or publication created.",
+        "checked_at": "2026-10-15T03:38:22.214539+00:00"
+      },
+      "intent_fit": "Supply an immediately usable email template and complete short examples on page. Main promise is wording after prior contact, not mailbox automation or guaranteed response.",
+      "competition": {
+        "inspection_scope": "No current controlled US SERP competition/rank/difficulty audit performed; task is revalidation of this existing candidate only.",
+        "observed_supply_urls": [],
+        "limitation": "No uniqueness, low-competition or easy-ranking assertion; broad email templates are an established alternative.",
+        "practical_value_required": "Original six-input worksheet, complete fictional emails and exact draft-to-source human audit, with reusable TokRepo prompts."
+      },
+      "author_requirements": [
+        "Create original editable Markdown/plain-text email template with recipient, subject, prior-context fact, one request, optional supplied deadline and signature. Clearly mark unknowns; remove placeholders before use.",
+        "Create complete original synthetic office/client example with earlier message, facts, first draft, problematic unsupported agreement/deadline, audit worksheet and corrected final message. This is hand-checked illustration, not model output.",
+        "Include a short distinct hiring follow-up example to address secondary public-question context; do not claim a rejection, certification status or prior promise not supplied.",
+        "Show primary six-input route and secondary whole-draft-plus-original-source route. Never pass model summaries as independent sources.",
+        "Discuss timing as context/reader choice only; no universal N-day rule, repeated chase sequence or assumed response obligation.",
+        "Require substantive pasted source excerpts for the complementary audit; flag catalog optional-source/stop-rule ambiguity.",
+        "Keep full TokRepo prompts at source. No source prompt copying, unverified CLI command, connector setup or public user email/image reproduction.",
+        "Prominent primary CTA near opening and after worked example; secondary at audit step; exact agreed UTM tuple.",
+        "Later independent practical/content review binds actual recipe and template hashes. No author self-PASS or release from this packet."
+      ],
+      "cta_contract": {
+        "utm_source": "github_pages",
+        "utm_medium": "referral",
+        "utm_campaign": "tokrepo_search",
+        "utm_content": "professional-follow-up-email-after-no-response",
+        "primary_url": "https://tokrepo.com/en/workflows/draft-polite-follow-up-without-inventing-facts-33c39ad0?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=professional-follow-up-email-after-no-response",
+        "secondary_url": "https://tokrepo.com/en/workflows/prompt-fact-check-your-draft-into-claim-grid-a82f6e1c?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=professional-follow-up-email-after-no-response",
+        "limitation": "URLs specified only; no analytics or click/install test."
+      },
+      "claim_boundaries": [
+        "Source-reviewed text prompts, not executed or installed. Provider output may violate instructions.",
+        "Complement labels traceability, not truth; it does not inspect URLs, validate delivery/read status, certify tone or decide optimal timing.",
+        "No automatic inbox reading, integration, send, schedule, follow-up sequence, response-rate, productivity or hiring-result promise.",
+        "Source labels are not sufficient evidence; human checks actual excerpts, names/dates and supplied commitments.",
+        "No invented volume, ranking, indexing, traffic, attributed arrivals or asset-use claim.",
+        "Primary ID 6929 and secondary ID 6924 were decoded from their current asset-specific SSR detail objects together with full UUIDs; no inferred or guessed ID."
+      ],
+      "review": {
+        "identity": "Independent demand editor, 2026-10-15",
+        "verdict": "QUALIFIED",
+        "scope": "Demand freshness, canonical intent distinction, exact public asset identity and source-supported handoff only. Parallel author output is not reviewed or approved.",
+        "content_source_hash": null,
+        "publication_pass": false,
+        "requires_separate_independent_content_review": true
+      },
+      "release_state": "NOT_ASSESSED_BY_DEMAND_EDITOR",
+      "demand_revalidation": "QUALIFIED",
+      "original_demand_packet": "team/research/demand-2026-10-14.json"
+    }
+  ],
+  "request_policy": {
+    "asset_requests": 2,
+    "requests_per_asset": 1,
+    "public_api_requests": 0,
+    "redirect_following": false,
+    "retries": 0,
+    "http_429_observed": false,
+    "on_429": "Stop; no equivalent retry.",
+    "primary_response_completed_to_secondary_request_started_seconds": 10.007286,
+    "shared_chrome_used": false,
+    "gsc_used": false
+  },
+  "identity_delta_from_prior_packet": {
+    "primary": {
+      "previous_numeric_id": null,
+      "current_numeric_id": 6929,
+      "uuid": "33c39ad0-e242-4b24-98e3-b012d7679faa",
+      "reason": "Directly decoded from the same current SSR asset detail object; not inferred from UUID/slug."
+    },
+    "secondary": {
+      "previous_numeric_id": 6924,
+      "current_numeric_id": 6924,
+      "uuid": "a82f6e1c-45d7-44d9-91f5-0d51bc9352fc"
+    },
+    "content_change_inference": "Current response hashes recorded; Oct14 has no comparable semantic prompt hash, so changed response bytes are not claimed to prove changed prompt content."
+  },
+  "measurement_state": {
+    "indexing": "UNKNOWN_NOT_CHECKED",
+    "visibility": "UNKNOWN_NOT_CHECKED",
+    "search_clicks": "UNKNOWN_NOT_CHECKED",
+    "attributed_tokrepo_arrivals": "UNKNOWN_NOT_CHECKED",
+    "asset_use": "UNKNOWN_NOT_CHECKED",
+    "owner": "Parent owns Chrome/GSC and account evidence."
+  },
+  "verification_limits": [
+    "QUALIFIED is demand/source qualification only; content/template usefulness and release gates require separate independent review of actual source hashes.",
+    "US/en request parameters and English original questions do not establish US user geography or quantitative volume.",
+    "Both questions are historical; the Reddit web rendering reports a three-week-old crawl. Current readability does not prove current origin content or recent question frequency.",
+    "Two HTTP200 responses are backed by exact H1/canonical/hydrated identity and meaningful source content, not generic application shells.",
+    "Secondary optional-source advice conflicts with its stop rule. Require substantive labelled original excerpts; never use model-extracted facts as independent evidence.",
+    "No full prompts copied, model runs, email sends, browser/account access, deployment, manifest, source or release writes.",
+    "Revalidation schema follows schema_version 1 with one recipes brief. Current editorial_gate.py discovers demand-*.json, not revalidation-*.json; this file is an evidence handoff and is not a gate PASS or automatic manifest change."
+  ]
+}
