@@ -226,7 +226,7 @@
         "2026-10-17",
         "2026-10-24"
       ],
-      "weekly_review_due": "2026-10-17",
+      "weekly_review_due": "2026-10-24",
       "cohort_review_due": "2026-11-07",
       "status": "live_public_verified",
       "release_commit": "d04c97601dc541cc3e1ce4deb23172b714926bf4",
@@ -241,12 +241,15 @@
           "search_visibility": "UNKNOWN",
           "attributed_tokrepo_visits": "UNKNOWN",
           "asset_use": "UNKNOWN",
-          "last_inspection_on": "2026-10-15",
+          "last_inspection_on": "2026-10-17",
           "last_inspection_source": "logged_in_Chrome_stored_index",
           "last_crawl_time": null,
           "last_crawl_timezone": null,
           "google_canonical": null,
-          "sitemap_association": "no_referring_sitemap_detected"
+          "sitemap_association": "no_referring_sitemap_detected",
+          "last_inspection_at": "2026-10-17T04:30:10.741Z",
+          "index_request": "accepted_priority_crawl_queue_2026_10_17",
+          "index_request_confirmed_at": "2026-10-17T04:32:35.196Z"
         },
         {
           "slug": "study-schedule-template",
@@ -255,12 +258,15 @@
           "search_visibility": "UNKNOWN",
           "attributed_tokrepo_visits": "UNKNOWN",
           "asset_use": "UNKNOWN",
-          "last_inspection_on": "2026-10-15",
+          "last_inspection_on": "2026-10-17",
           "last_inspection_source": "logged_in_Chrome_stored_index",
           "last_crawl_time": null,
           "last_crawl_timezone": null,
           "google_canonical": null,
-          "sitemap_association": "no_referring_sitemap_detected"
+          "sitemap_association": "no_referring_sitemap_detected",
+          "last_inspection_at": "2026-10-17T04:30:13.240Z",
+          "index_request": "accepted_priority_crawl_queue_2026_10_17",
+          "index_request_confirmed_at": "2026-10-17T04:31:39.317Z"
         }
       ],
       "gsc_connector": "payment_required_subscription_expired",
@@ -273,6 +279,30 @@
           "status": "COMPLETED_STORED_INSPECTION_VIA_CHROME",
           "indexing": "BY_PAGE",
           "next_action": "Retain URLs; continue scheduled inspections and sitemap diagnosis. No CTR/title change without a measured sample."
+        },
+        {
+          "due_on": "2026-10-17",
+          "checkpoint": "D7",
+          "observed_on": "2026-10-17",
+          "status": "COMPLETED_STORED_INSPECTION_VIA_CHROME",
+          "indexing": "NOT_INDEXED_GOOGLE_UNKNOWN_URL",
+          "index_requests": "accepted_once_each_priority_queue",
+          "next_action": "D14 October24; accepted requests are not indexing."
+        }
+      ],
+      "weekly_review_history": [
+        {
+          "observed_on": "2026-10-17",
+          "requested_window": [
+            "2026-10-07",
+            "2026-10-13"
+          ],
+          "visible_coverage": [
+            "2026-10-09",
+            "2026-10-13"
+          ],
+          "status": "COMPLETED_LIMITED_SAMPLE_NO_DETAIL_ROWS",
+          "next_full_window_review": "2026-10-21"
         }
       ]
     },
@@ -374,16 +404,16 @@
   },
   "metric_rule": "No access or missing tracking is unknown, not zero. Technical pass is not indexing; submitted sitemap is not fetched/indexed.",
   "last_daily_check": {
-    "checked_at": "2026-10-16T04:45:39.587572+00:00",
-    "technical_status": "pass_public_release",
+    "checked_at": "2026-10-17T04:33:10.064030+00:00",
+    "technical_status": "pass",
     "recipe_count": 12,
     "download_count": 55,
     "asset_targets_with_utm": 25,
     "unique_assets": 22,
-    "indexing": "One guide confirmed indexed Oct15; other10 earlier guides/home not indexed Oct15; new guide not indexed Oct16; check individual page dates.",
+    "indexing": "Two October10 guides checked Oct17: still URL unknown; one index request accepted each. Other results retain Oct15/16 dates; no claim of fresh inspection of all12.",
     "attribution": "GA4_UI_NO_MATCHING_ROWS_CAPTURE_COVERAGE_UNKNOWN",
-    "next_due": "2026-10-17",
-    "indexing_observed_on": "2026-10-15_and_2026-10-16"
+    "next_due": "2026-10-18",
+    "indexing_observed_on": "BY_PAGE_2026_10_15_16_17"
   },
   "private_records_policy": "Raw account reports and detailed receipts remain outside this public repository.",
   "gsc_setup": {
@@ -393,11 +423,11 @@
     "verification_commit": "485f36c",
     "sitemap_url": "https://henu-wang.github.io/practical-ai-workbench/sitemap.xml",
     "sitemap_submission": "accepted_2026_10_16_after_verified_content_update",
-    "sitemap_report": "could_not_fetch_at_submission",
-    "sitemap_google_live_fetch": "success_2026-10-12",
+    "sitemap_report": "could_not_fetch",
+    "sitemap_google_live_fetch": "success_2026-10-17",
     "home_index_request": "accepted_priority_queue",
     "connector": "payment_required",
-    "next_sitemap_check": "2026-10-17",
+    "next_sitemap_check": "2026-10-18",
     "index_requests": [
       {
         "slug": "home",
@@ -412,12 +442,26 @@
         "status": "accepted_priority_crawl_queue",
         "requested_on": "2026-10-16",
         "confirmed_at": "2026-10-16T04:47:20.449Z"
+      },
+      {
+        "slug": "write-a-cover-letter",
+        "requested_on": "2026-10-17",
+        "status": "accepted_priority_crawl_queue",
+        "confirmed_at": "2026-10-17T04:32:35.196Z"
+      },
+      {
+        "slug": "study-schedule-template",
+        "requested_on": "2026-10-17",
+        "status": "accepted_priority_crawl_queue",
+        "confirmed_at": "2026-10-17T04:31:39.317Z"
       }
     ],
     "sitemap_submissions": 3,
-    "sitemap_report_checked_on": "2026-10-16",
-    "diagnosis": "Valid reachable XML and earlier successful Google live fetch; scheduled sitemap processing remains unresolved. No unsupported canonical/robots rewrite.",
-    "last_sitemap_submission_on": "2026-10-16"
+    "sitemap_report_checked_on": "2026-10-17",
+    "diagnosis": "Independent bounded technical audit finds no repository defect; fresh Google live fetch succeeds, while scheduled processing reports generic unable-to-read with no HTTP cause. Preserve current sources; compare next report without duplicate submission.",
+    "last_sitemap_submission_on": "2026-10-16",
+    "sitemap_last_read_displayed": "2026/10/16",
+    "sitemap_live_displayed_crawl_time": "2026年10月17日12:31:40 (UI timezone not stated)"
   },
   "private_records_directory": "../tokrepo-search-monitoring-private",
   "ga4_monitoring": {
@@ -427,14 +471,14 @@
     "observation": "Separate source/medium and campaign table searches show no matching rows; capture coverage and asset use remain unknown."
   },
   "weekly_review": {
-    "checked_on": "2026-10-16",
+    "checked_on": "2026-10-17",
     "requested_window": [
-      "2026-10-06",
-      "2026-10-12"
+      "2026-10-07",
+      "2026-10-13"
     ],
     "visible_coverage": [
       "2026-10-09",
-      "2026-10-12"
+      "2026-10-13"
     ],
     "observation": "No meaningful search sample; detailed query/page/country tables have no rows. Do not interpret zero-impression position placeholder as rank. Full week-on-week comparison unavailable.",
     "next_review_on": "2026-10-21",

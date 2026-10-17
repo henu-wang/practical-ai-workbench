@@ -1,0 +1,1063 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-10-17",
+  "role": "Independent discovery / technical editor",
+  "verdict": "NO_REPOSITORY_DEFECT_FOUND",
+  "confidence_boundary": "No reproducible defect within local static output and the scoped public HTTP sample; Google scheduled fetch cause remains unresolved. This is not an all-site live audit or indexing approval.",
+  "observed_at_utc": "2026-10-17T04:31:13.203832+00:00",
+  "site_url": "https://henu-wang.github.io/practical-ai-workbench/",
+  "ownership": {
+    "files": [
+      "team/reviews/discovery-audit-2026-10-17.json",
+      "team/reviews/discovery-audit-2026-10-17.md"
+    ],
+    "source_edits": false,
+    "build_or_global_tests_run": false,
+    "accounts_or_browser_used": false,
+    "tokrepo_requests": 0,
+    "sitemap_submissions": 0,
+    "index_requests": 0,
+    "publication": false
+  },
+  "baseline": {
+    "git_head": "1998b6be65dbc8501e78e213f35792252d5b59e0",
+    "initial_git_status": "",
+    "source_fingerprints": {
+      "scripts/build.py": "c8ff127c0f6ed415abce8fa9f9996a0a0e86325e040a21ce87fffd5ecd3df509",
+      "scripts/monitor_public.py": "0bf62ef6bbd6b98376f692a102669266335af0b6002a3a0ca26cb1bcd382920a",
+      "recipes.json": "a4e36900df8655caa842a90edb305ee4010a6d9080a726711552024d7cf98f2c",
+      "docs/index.html": "89e32c1b5814c81f27d83e67445ffd85ec5c3b271b90dd9d9a574870fe223307",
+      "docs/robots.txt": "79a14de6e9185003153a10dfe66c882d50461e921ad2c68d5d0a39780d0db5ff",
+      "docs/sitemap.xml": "308464072db793fb3d8beefa6ceb6e6d179db39ce9a192455faef5765e7529c1"
+    },
+    "tracked_files_changed_during_probe": [],
+    "note": "HEAD identifies the local checkout only; public byte matches establish serving equivalence for the sampled files, not a live deployment commit fingerprint."
+  },
+  "method": {
+    "requested_urls": 9,
+    "host_allowlist": [
+      "henu-wang.github.io"
+    ],
+    "request_user_agent": "TokRepo-Discovery-Technical-Audit/1.0",
+    "cross_host_redirects_refused": true,
+    "full_monitor_run": false,
+    "build_run": false,
+    "browser_or_accounts_used": false,
+    "network_gets_including_redirect_hops": 10,
+    "live_html_unique_pages": 5,
+    "local_html_pages": 20,
+    "not_repeated": "Parent full daily/template checks and 22-asset probe; all links were parsed without following TokRepo destinations."
+  },
+  "reviewed_repository_material": [
+    "AGENTS.md",
+    "team/context/*",
+    "team/PIPELINE.md",
+    "team/STYLE.md",
+    "team/QUALITY.md",
+    "team/MONITORING.md",
+    "team/ledger.json",
+    "team/monitoring-cohort.json",
+    "recipes.json",
+    "team/research/redirect-demand.json (scope metadata only)",
+    "team/research/INDEXING-AUDIT.md",
+    "team/observations/2026-10-16.md",
+    "team/reviews/recipes-release-2026-10-16.json",
+    "team/reviews/recipes-review-2026-10-16.json",
+    "scripts/build.py",
+    "scripts/monitor_public.py",
+    ".github/workflows/checks.yml",
+    "docs/sitemap.xml",
+    "docs/robots.txt",
+    "all 20 sitemap HTML outputs"
+  ],
+  "local_sitemap": {
+    "sha256": "308464072db793fb3d8beefa6ceb6e6d179db39ce9a192455faef5765e7529c1",
+    "byte_count": 2141,
+    "strict_utf8": true,
+    "root_tag": "{http://www.sitemaps.org/schemas/sitemap/0.9}urlset",
+    "url_count": 20,
+    "unique_url_count": 20,
+    "all_under_exact_prefix": true,
+    "all_paths_map_to_html": true,
+    "manifest_workflows_missing": [],
+    "homepage_workflow_links_missing": []
+  },
+  "local_html": [
+    {
+      "url": "https://henu-wang.github.io/practical-ai-workbench/",
+      "path": "docs/index.html",
+      "sha256": "89e32c1b5814c81f27d83e67445ffd85ec5c3b271b90dd9d9a574870fe223307",
+      "canonicals": [
+        "https://henu-wang.github.io/practical-ai-workbench/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index,follow"
+        }
+      ],
+      "internal_link_count": 20,
+      "meta_refresh": [],
+      "base_href": []
+    },
+    {
+      "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/transcribe-audio-to-text/",
+      "path": "docs/workflows/transcribe-audio-to-text/index.html",
+      "sha256": "658d2adb6cfeaedab4101b9587052304b1a7853fb66562eeca6758ebc5168033",
+      "canonicals": [
+        "https://henu-wang.github.io/practical-ai-workbench/workflows/transcribe-audio-to-text/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index,follow"
+        }
+      ],
+      "internal_link_count": 15,
+      "meta_refresh": [],
+      "base_href": []
+    },
+    {
+      "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/meeting-minutes-template/",
+      "path": "docs/workflows/meeting-minutes-template/index.html",
+      "sha256": "4ba1f8cb79ff7f7f6a0c980800c7ec9eb736141273a58aa93429ef7e03f7f271",
+      "canonicals": [
+        "https://henu-wang.github.io/practical-ai-workbench/workflows/meeting-minutes-template/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index,follow"
+        }
+      ],
+      "internal_link_count": 16,
+      "meta_refresh": [],
+      "base_href": []
+    },
+    {
+      "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/extract-tables-from-pdf-to-excel/",
+      "path": "docs/workflows/extract-tables-from-pdf-to-excel/index.html",
+      "sha256": "aef57acc857f190237142cb371b9ab173d87d6e9542530cd6d335a9d8aa57017",
+      "canonicals": [
+        "https://henu-wang.github.io/practical-ai-workbench/workflows/extract-tables-from-pdf-to-excel/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index,follow"
+        }
+      ],
+      "internal_link_count": 17,
+      "meta_refresh": [],
+      "base_href": []
+    },
+    {
+      "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/presentation-from-notes/",
+      "path": "docs/workflows/presentation-from-notes/index.html",
+      "sha256": "023aa00c185877266eb9b01462f09b5fb516427dbf81ea64c812ea453b823a13",
+      "canonicals": [
+        "https://henu-wang.github.io/practical-ai-workbench/workflows/presentation-from-notes/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index,follow"
+        }
+      ],
+      "internal_link_count": 17,
+      "meta_refresh": [],
+      "base_href": []
+    },
+    {
+      "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/clean-csv-remove-duplicate-rows/",
+      "path": "docs/workflows/clean-csv-remove-duplicate-rows/index.html",
+      "sha256": "0b51bcf4ab1903521e3db9b593081dea2698532a9f398fc1faf11b7556467e17",
+      "canonicals": [
+        "https://henu-wang.github.io/practical-ai-workbench/workflows/clean-csv-remove-duplicate-rows/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index,follow"
+        }
+      ],
+      "internal_link_count": 21,
+      "meta_refresh": [],
+      "base_href": []
+    },
+    {
+      "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/flashcards-from-lecture-notes/",
+      "path": "docs/workflows/flashcards-from-lecture-notes/index.html",
+      "sha256": "4d0d9f44d9d8fe8b9f78aee67d586979859e32b8de39bdd22dcdfdb90b3584b2",
+      "canonicals": [
+        "https://henu-wang.github.io/practical-ai-workbench/workflows/flashcards-from-lecture-notes/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index,follow"
+        }
+      ],
+      "internal_link_count": 17,
+      "meta_refresh": [],
+      "base_href": []
+    },
+    {
+      "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/write-resume-bullet-points/",
+      "path": "docs/workflows/write-resume-bullet-points/index.html",
+      "sha256": "57052a6b64a8691282f2b53f2a76af33c6ed5c647e706f98f1b6159c26a0d810",
+      "canonicals": [
+        "https://henu-wang.github.io/practical-ai-workbench/workflows/write-resume-bullet-points/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index,follow"
+        }
+      ],
+      "internal_link_count": 16,
+      "meta_refresh": [],
+      "base_href": []
+    },
+    {
+      "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/project-proposal-template/",
+      "path": "docs/workflows/project-proposal-template/index.html",
+      "sha256": "25ec3a083062fa1734a7dd29c576053bec0b3f86811fee25a25ed52ee52d326c",
+      "canonicals": [
+        "https://henu-wang.github.io/practical-ai-workbench/workflows/project-proposal-template/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index,follow"
+        }
+      ],
+      "internal_link_count": 18,
+      "meta_refresh": [],
+      "base_href": []
+    },
+    {
+      "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/write-a-cover-letter/",
+      "path": "docs/workflows/write-a-cover-letter/index.html",
+      "sha256": "3c48479b884a13ebb908ff01fa0f762864e2e51d6857c0b88aad1289326121b9",
+      "canonicals": [
+        "https://henu-wang.github.io/practical-ai-workbench/workflows/write-a-cover-letter/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index,follow"
+        }
+      ],
+      "internal_link_count": 18,
+      "meta_refresh": [],
+      "base_href": []
+    },
+    {
+      "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/study-schedule-template/",
+      "path": "docs/workflows/study-schedule-template/index.html",
+      "sha256": "6457424ca30b7199d24e7160145cbcc54c07b460bc1da1760f6a274517a327b5",
+      "canonicals": [
+        "https://henu-wang.github.io/practical-ai-workbench/workflows/study-schedule-template/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index,follow"
+        }
+      ],
+      "internal_link_count": 21,
+      "meta_refresh": [],
+      "base_href": []
+    },
+    {
+      "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/weekly-project-status-report-template/",
+      "path": "docs/workflows/weekly-project-status-report-template/index.html",
+      "sha256": "aac0f4eceb1936ca8d2a1c653b080c0a30d7fb2dba0edd20ebf53dfc602d7495",
+      "canonicals": [
+        "https://henu-wang.github.io/practical-ai-workbench/workflows/weekly-project-status-report-template/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index,follow"
+        }
+      ],
+      "internal_link_count": 17,
+      "meta_refresh": [],
+      "base_href": []
+    },
+    {
+      "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/professional-follow-up-email-after-no-response/",
+      "path": "docs/workflows/professional-follow-up-email-after-no-response/index.html",
+      "sha256": "6edc42824117b4689dcdb9ada6d73bc9b8f788336f7a7258aea208767b6fdea0",
+      "canonicals": [
+        "https://henu-wang.github.io/practical-ai-workbench/workflows/professional-follow-up-email-after-no-response/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index,follow"
+        }
+      ],
+      "internal_link_count": 18,
+      "meta_refresh": [],
+      "base_href": []
+    },
+    {
+      "url": "https://henu-wang.github.io/practical-ai-workbench/merge-pdf/",
+      "path": "docs/merge-pdf/index.html",
+      "sha256": "c35193db4d421011482a511cd9f6e17ddfe65e81c6635be1bde0b2739b35f13e",
+      "canonicals": [
+        "https://henu-wang.github.io/practical-ai-workbench/merge-pdf/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index,follow"
+        }
+      ],
+      "internal_link_count": 9,
+      "meta_refresh": [],
+      "base_href": []
+    },
+    {
+      "url": "https://henu-wang.github.io/practical-ai-workbench/extract-pdf-pages/",
+      "path": "docs/extract-pdf-pages/index.html",
+      "sha256": "f7b3af9cbf4c8d73db7ed6d65247029ac8e70c997cf884f186d797b76d6f91e2",
+      "canonicals": [
+        "https://henu-wang.github.io/practical-ai-workbench/extract-pdf-pages/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index,follow"
+        }
+      ],
+      "internal_link_count": 9,
+      "meta_refresh": [],
+      "base_href": []
+    },
+    {
+      "url": "https://henu-wang.github.io/practical-ai-workbench/compress-image/",
+      "path": "docs/compress-image/index.html",
+      "sha256": "7aff95f3f3e1be8fe2280f051518522037787d13c948e0d46854faf3e4c2e13f",
+      "canonicals": [
+        "https://henu-wang.github.io/practical-ai-workbench/compress-image/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index,follow"
+        }
+      ],
+      "internal_link_count": 8,
+      "meta_refresh": [],
+      "base_href": []
+    },
+    {
+      "url": "https://henu-wang.github.io/practical-ai-workbench/resize-image/",
+      "path": "docs/resize-image/index.html",
+      "sha256": "159fcf7c7ae1033bd7b1f115a73bdca0186dce42f7d6a7c4c2f5bbab8ba9cd0e",
+      "canonicals": [
+        "https://henu-wang.github.io/practical-ai-workbench/resize-image/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index,follow"
+        }
+      ],
+      "internal_link_count": 8,
+      "meta_refresh": [],
+      "base_href": []
+    },
+    {
+      "url": "https://henu-wang.github.io/practical-ai-workbench/remove-duplicate-csv-rows/",
+      "path": "docs/remove-duplicate-csv-rows/index.html",
+      "sha256": "f6a5a0087a28193e14c57491c2bf39af6f940ba793dabce7187362b7f1930199",
+      "canonicals": [
+        "https://henu-wang.github.io/practical-ai-workbench/remove-duplicate-csv-rows/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index,follow"
+        }
+      ],
+      "internal_link_count": 8,
+      "meta_refresh": [],
+      "base_href": []
+    },
+    {
+      "url": "https://henu-wang.github.io/practical-ai-workbench/csv-to-json/",
+      "path": "docs/csv-to-json/index.html",
+      "sha256": "4825e93ecc10f7815005c6c7e4982dcbd996c6629b60e058b0290a95c866e3d7",
+      "canonicals": [
+        "https://henu-wang.github.io/practical-ai-workbench/csv-to-json/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index,follow"
+        }
+      ],
+      "internal_link_count": 8,
+      "meta_refresh": [],
+      "base_href": []
+    },
+    {
+      "url": "https://henu-wang.github.io/practical-ai-workbench/privacy/",
+      "path": "docs/privacy/index.html",
+      "sha256": "76255465cade227cc4a6a71fcc2c21f224f58bdfcbf259959947a9fe20f13e06",
+      "canonicals": [
+        "https://henu-wang.github.io/practical-ai-workbench/privacy/"
+      ],
+      "robots": [
+        {
+          "name": "robots",
+          "content": "index,follow"
+        }
+      ],
+      "internal_link_count": 2,
+      "meta_refresh": [],
+      "base_href": []
+    }
+  ],
+  "public_http": [
+    {
+      "url": "https://henu-wang.github.io/practical-ai-workbench/sitemap.xml",
+      "started_at": "2026-10-17T04:31:00.047523+00:00",
+      "status": 200,
+      "final_url": "https://henu-wang.github.io/practical-ai-workbench/sitemap.xml",
+      "redirects": [],
+      "bytes": 2141,
+      "sha256": "308464072db793fb3d8beefa6ceb6e6d179db39ce9a192455faef5765e7529c1",
+      "headers": {
+        "Content-Type": [
+          "application/xml"
+        ],
+        "Content-Length": [
+          "2141"
+        ],
+        "Cache-Control": [
+          "max-age=600"
+        ],
+        "ETag": [
+          "\"6ad1ac88-85d\""
+        ],
+        "Last-Modified": [
+          "Fri, 16 Oct 2026 04:48:08 GMT"
+        ],
+        "Date": [
+          "Sat, 17 Oct 2026 04:31:02 GMT"
+        ],
+        "Server": [
+          "GitHub.com"
+        ]
+      },
+      "body_truncated": false,
+      "xml": {
+        "strict_utf8": true,
+        "declaration": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+        "root_tag": "{http://www.sitemaps.org/schemas/sitemap/0.9}urlset",
+        "urls": [
+          "https://henu-wang.github.io/practical-ai-workbench/",
+          "https://henu-wang.github.io/practical-ai-workbench/workflows/transcribe-audio-to-text/",
+          "https://henu-wang.github.io/practical-ai-workbench/workflows/meeting-minutes-template/",
+          "https://henu-wang.github.io/practical-ai-workbench/workflows/extract-tables-from-pdf-to-excel/",
+          "https://henu-wang.github.io/practical-ai-workbench/workflows/presentation-from-notes/",
+          "https://henu-wang.github.io/practical-ai-workbench/workflows/clean-csv-remove-duplicate-rows/",
+          "https://henu-wang.github.io/practical-ai-workbench/workflows/flashcards-from-lecture-notes/",
+          "https://henu-wang.github.io/practical-ai-workbench/workflows/write-resume-bullet-points/",
+          "https://henu-wang.github.io/practical-ai-workbench/workflows/project-proposal-template/",
+          "https://henu-wang.github.io/practical-ai-workbench/workflows/write-a-cover-letter/",
+          "https://henu-wang.github.io/practical-ai-workbench/workflows/study-schedule-template/",
+          "https://henu-wang.github.io/practical-ai-workbench/workflows/weekly-project-status-report-template/",
+          "https://henu-wang.github.io/practical-ai-workbench/workflows/professional-follow-up-email-after-no-response/",
+          "https://henu-wang.github.io/practical-ai-workbench/merge-pdf/",
+          "https://henu-wang.github.io/practical-ai-workbench/extract-pdf-pages/",
+          "https://henu-wang.github.io/practical-ai-workbench/compress-image/",
+          "https://henu-wang.github.io/practical-ai-workbench/resize-image/",
+          "https://henu-wang.github.io/practical-ai-workbench/remove-duplicate-csv-rows/",
+          "https://henu-wang.github.io/practical-ai-workbench/csv-to-json/",
+          "https://henu-wang.github.io/practical-ai-workbench/privacy/"
+        ],
+        "matches_working_bytes": true,
+        "bom": false
+      },
+      "finished_at": "2026-10-17T04:31:01.318040+00:00"
+    },
+    {
+      "url": "https://henu-wang.github.io/robots.txt",
+      "started_at": "2026-10-17T04:31:01.318526+00:00",
+      "status": 404,
+      "final_url": "https://henu-wang.github.io/robots.txt",
+      "redirects": [],
+      "bytes": 9115,
+      "sha256": "70d613e3acfba24fd2876fcbacaf639e1e111ef4d54baf70761c47673f37d6a3",
+      "headers": {
+        "Content-Type": [
+          "text/html; charset=utf-8"
+        ],
+        "Content-Length": [
+          "9115"
+        ],
+        "ETag": [
+          "\"6abcf5c5-239b\""
+        ],
+        "Date": [
+          "Sat, 17 Oct 2026 04:31:03 GMT"
+        ],
+        "Server": [
+          "GitHub.com"
+        ]
+      },
+      "body_truncated": false,
+      "finished_at": "2026-10-17T04:31:02.451002+00:00"
+    },
+    {
+      "url": "https://henu-wang.github.io/practical-ai-workbench/robots.txt",
+      "started_at": "2026-10-17T04:31:02.451547+00:00",
+      "status": 200,
+      "final_url": "https://henu-wang.github.io/practical-ai-workbench/robots.txt",
+      "redirects": [],
+      "bytes": 95,
+      "sha256": "79a14de6e9185003153a10dfe66c882d50461e921ad2c68d5d0a39780d0db5ff",
+      "headers": {
+        "Content-Type": [
+          "text/plain; charset=utf-8"
+        ],
+        "Content-Length": [
+          "95"
+        ],
+        "Cache-Control": [
+          "max-age=600"
+        ],
+        "ETag": [
+          "\"6ad1ac88-5f\""
+        ],
+        "Last-Modified": [
+          "Fri, 16 Oct 2026 04:48:08 GMT"
+        ],
+        "Date": [
+          "Sat, 17 Oct 2026 04:31:04 GMT"
+        ],
+        "Server": [
+          "GitHub.com"
+        ]
+      },
+      "body_truncated": false,
+      "robots_text": "User-agent: *\nAllow: /\nSitemap: https://henu-wang.github.io/practical-ai-workbench/sitemap.xml\n",
+      "finished_at": "2026-10-17T04:31:03.712570+00:00"
+    },
+    {
+      "url": "https://henu-wang.github.io/practical-ai-workbench/",
+      "started_at": "2026-10-17T04:31:03.713025+00:00",
+      "status": 200,
+      "final_url": "https://henu-wang.github.io/practical-ai-workbench/",
+      "redirects": [],
+      "bytes": 7715,
+      "sha256": "89e32c1b5814c81f27d83e67445ffd85ec5c3b271b90dd9d9a574870fe223307",
+      "headers": {
+        "Content-Type": [
+          "text/html; charset=utf-8"
+        ],
+        "Content-Length": [
+          "7715"
+        ],
+        "Cache-Control": [
+          "max-age=600"
+        ],
+        "ETag": [
+          "\"6ad1ac88-1e23\""
+        ],
+        "Last-Modified": [
+          "Fri, 16 Oct 2026 04:48:08 GMT"
+        ],
+        "Date": [
+          "Sat, 17 Oct 2026 04:31:06 GMT"
+        ],
+        "Server": [
+          "GitHub.com"
+        ]
+      },
+      "body_truncated": false,
+      "html": {
+        "canonicals": [
+          "https://henu-wang.github.io/practical-ai-workbench/"
+        ],
+        "robots": [
+          {
+            "name": "robots",
+            "content": "index,follow"
+          }
+        ],
+        "meta_refresh": [],
+        "base_href": [],
+        "h1_count": 1,
+        "nofollow_internal_links": []
+      },
+      "matches_working_bytes": true,
+      "finished_at": "2026-10-17T04:31:04.991819+00:00",
+      "internal_link_count": 20
+    },
+    {
+      "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/write-a-cover-letter/",
+      "started_at": "2026-10-17T04:31:04.992224+00:00",
+      "status": 200,
+      "final_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/write-a-cover-letter/",
+      "redirects": [],
+      "bytes": 14776,
+      "sha256": "3c48479b884a13ebb908ff01fa0f762864e2e51d6857c0b88aad1289326121b9",
+      "headers": {
+        "Content-Type": [
+          "text/html; charset=utf-8"
+        ],
+        "Content-Length": [
+          "14776"
+        ],
+        "Cache-Control": [
+          "max-age=600"
+        ],
+        "ETag": [
+          "\"6ad1ac88-39b8\""
+        ],
+        "Last-Modified": [
+          "Fri, 16 Oct 2026 04:48:08 GMT"
+        ],
+        "Date": [
+          "Sat, 17 Oct 2026 04:31:07 GMT"
+        ],
+        "Server": [
+          "GitHub.com"
+        ]
+      },
+      "body_truncated": false,
+      "html": {
+        "canonicals": [
+          "https://henu-wang.github.io/practical-ai-workbench/workflows/write-a-cover-letter/"
+        ],
+        "robots": [
+          {
+            "name": "robots",
+            "content": "index,follow"
+          }
+        ],
+        "meta_refresh": [],
+        "base_href": [],
+        "h1_count": 1,
+        "nofollow_internal_links": []
+      },
+      "matches_working_bytes": true,
+      "finished_at": "2026-10-17T04:31:06.341208+00:00",
+      "internal_link_count": 18
+    },
+    {
+      "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/study-schedule-template/",
+      "started_at": "2026-10-17T04:31:06.341615+00:00",
+      "status": 200,
+      "final_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/study-schedule-template/",
+      "redirects": [],
+      "bytes": 14596,
+      "sha256": "6457424ca30b7199d24e7160145cbcc54c07b460bc1da1760f6a274517a327b5",
+      "headers": {
+        "Content-Type": [
+          "text/html; charset=utf-8"
+        ],
+        "Content-Length": [
+          "14596"
+        ],
+        "Cache-Control": [
+          "max-age=600"
+        ],
+        "ETag": [
+          "\"6ad1ac88-3904\""
+        ],
+        "Last-Modified": [
+          "Fri, 16 Oct 2026 04:48:08 GMT"
+        ],
+        "Date": [
+          "Sat, 17 Oct 2026 04:31:08 GMT"
+        ],
+        "Server": [
+          "GitHub.com"
+        ]
+      },
+      "body_truncated": false,
+      "html": {
+        "canonicals": [
+          "https://henu-wang.github.io/practical-ai-workbench/workflows/study-schedule-template/"
+        ],
+        "robots": [
+          {
+            "name": "robots",
+            "content": "index,follow"
+          }
+        ],
+        "meta_refresh": [],
+        "base_href": [],
+        "h1_count": 1,
+        "nofollow_internal_links": []
+      },
+      "matches_working_bytes": true,
+      "finished_at": "2026-10-17T04:31:07.777397+00:00",
+      "internal_link_count": 21
+    },
+    {
+      "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/write-resume-bullet-points/",
+      "started_at": "2026-10-17T04:31:07.777761+00:00",
+      "status": 200,
+      "final_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/write-resume-bullet-points/",
+      "redirects": [],
+      "bytes": 12660,
+      "sha256": "57052a6b64a8691282f2b53f2a76af33c6ed5c647e706f98f1b6159c26a0d810",
+      "headers": {
+        "Content-Type": [
+          "text/html; charset=utf-8"
+        ],
+        "Content-Length": [
+          "12660"
+        ],
+        "Cache-Control": [
+          "max-age=600"
+        ],
+        "ETag": [
+          "\"6ad1ac88-3174\""
+        ],
+        "Last-Modified": [
+          "Fri, 16 Oct 2026 04:48:08 GMT"
+        ],
+        "Date": [
+          "Sat, 17 Oct 2026 04:31:10 GMT"
+        ],
+        "Server": [
+          "GitHub.com"
+        ]
+      },
+      "body_truncated": false,
+      "html": {
+        "canonicals": [
+          "https://henu-wang.github.io/practical-ai-workbench/workflows/write-resume-bullet-points/"
+        ],
+        "robots": [
+          {
+            "name": "robots",
+            "content": "index,follow"
+          }
+        ],
+        "meta_refresh": [],
+        "base_href": [],
+        "h1_count": 1,
+        "nofollow_internal_links": []
+      },
+      "matches_working_bytes": true,
+      "finished_at": "2026-10-17T04:31:09.171532+00:00",
+      "internal_link_count": 16
+    },
+    {
+      "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/professional-follow-up-email-after-no-response/",
+      "started_at": "2026-10-17T04:31:09.171975+00:00",
+      "status": 200,
+      "final_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/professional-follow-up-email-after-no-response/",
+      "redirects": [],
+      "bytes": 21335,
+      "sha256": "6edc42824117b4689dcdb9ada6d73bc9b8f788336f7a7258aea208767b6fdea0",
+      "headers": {
+        "Content-Type": [
+          "text/html; charset=utf-8"
+        ],
+        "Content-Length": [
+          "21335"
+        ],
+        "Cache-Control": [
+          "max-age=600"
+        ],
+        "ETag": [
+          "\"6ad1ac88-5357\""
+        ],
+        "Last-Modified": [
+          "Fri, 16 Oct 2026 04:48:08 GMT"
+        ],
+        "Date": [
+          "Sat, 17 Oct 2026 04:31:11 GMT"
+        ],
+        "Server": [
+          "GitHub.com"
+        ]
+      },
+      "body_truncated": false,
+      "html": {
+        "canonicals": [
+          "https://henu-wang.github.io/practical-ai-workbench/workflows/professional-follow-up-email-after-no-response/"
+        ],
+        "robots": [
+          {
+            "name": "robots",
+            "content": "index,follow"
+          }
+        ],
+        "meta_refresh": [],
+        "base_href": [],
+        "h1_count": 1,
+        "nofollow_internal_links": []
+      },
+      "matches_working_bytes": true,
+      "finished_at": "2026-10-17T04:31:10.526861+00:00",
+      "internal_link_count": 18
+    },
+    {
+      "url": "https://henu-wang.github.io/practical-ai-workbench",
+      "started_at": "2026-10-17T04:31:10.527283+00:00",
+      "status": 200,
+      "final_url": "https://henu-wang.github.io/practical-ai-workbench/",
+      "redirects": [
+        {
+          "from": "https://henu-wang.github.io/practical-ai-workbench",
+          "status": 301,
+          "to": "https://henu-wang.github.io/practical-ai-workbench/"
+        }
+      ],
+      "bytes": 7715,
+      "sha256": "89e32c1b5814c81f27d83e67445ffd85ec5c3b271b90dd9d9a574870fe223307",
+      "headers": {
+        "Content-Type": [
+          "text/html; charset=utf-8"
+        ],
+        "Content-Length": [
+          "7715"
+        ],
+        "Cache-Control": [
+          "max-age=600"
+        ],
+        "ETag": [
+          "\"6ad1ac88-1e23\""
+        ],
+        "Last-Modified": [
+          "Fri, 16 Oct 2026 04:48:08 GMT"
+        ],
+        "Date": [
+          "Sat, 17 Oct 2026 04:31:14 GMT"
+        ],
+        "Server": [
+          "GitHub.com"
+        ]
+      },
+      "body_truncated": false,
+      "html": {
+        "canonicals": [
+          "https://henu-wang.github.io/practical-ai-workbench/"
+        ],
+        "robots": [
+          {
+            "name": "robots",
+            "content": "index,follow"
+          }
+        ],
+        "meta_refresh": [],
+        "base_href": [],
+        "h1_count": 1,
+        "nofollow_internal_links": []
+      },
+      "matches_working_bytes": true,
+      "finished_at": "2026-10-17T04:31:13.151009+00:00",
+      "internal_link_count": 20
+    }
+  ],
+  "findings": [
+    {
+      "id": "robots",
+      "status": "NO_BLOCK_OBSERVED",
+      "evidence": "Host-root /robots.txt returned 404 without redirects; project robots returned 200 text/plain with Allow:/ and the exact sitemap URL. Project robots is informational, not authoritative.",
+      "implication": "Missing host-root sitemap advertisement is not a crawl-deny rule or an explanation for the already-submitted sitemap fetch failure.",
+      "action": "No robots rewrite or new root repository.",
+      "references": [
+        "google-robots",
+        "github-project"
+      ]
+    },
+    {
+      "id": "sitemap",
+      "status": "VALID_CURRENT_PUBLIC_XML",
+      "evidence": "200 application/xml, 2141 bytes, no redirect, no Content-Encoding or X-Robots-Tag header; strict UTF-8; standard urlset namespace; 20 unique absolute HTTPS URLs, all under exact project prefix and mapping to existing local HTML. Public SHA256 equals working docs/sitemap.xml.",
+      "implication": "No observed XML encoding, namespace, MIME, path/scope, truncation or redirect defect. Missing optional lastmod is not a demonstrated defect.",
+      "action": "Keep existing sitemap and URL paths.",
+      "references": [
+        "google-sitemap"
+      ]
+    },
+    {
+      "id": "html",
+      "status": "NO_CANONICAL_OR_NOINDEX_DEFECT_OBSERVED",
+      "evidence": "All 20 local sitemap HTML files have one exact self-canonical and index,follow. Live home and four workflow samples match local bytes, return HTML at exact URLs without redirects, and have no X-Robots-Tag, Link canonical override, meta refresh or base-href override. Bare project URL redirects once (301) to the canonical slash URL.",
+      "implication": "No demonstrated accidental noindex, cross-domain canonical or malformed project-prefix routing. This is not a current Google canonical/indexing verdict.",
+      "action": "Do not rewrite canonicals or remove useful content.",
+      "references": [
+        "google-canonical",
+        "google-noindex"
+      ]
+    },
+    {
+      "id": "discovery",
+      "status": "INTERNAL_DISCOVERY_PRESENT",
+      "evidence": "Current public home contains ordinary HTML href links to all 12 manifest workflow URLs; all 20 sitemap pages are linked from the local home. Workflow samples contain home and related-workflow links; no nofollow internal anchors observed.",
+      "implication": "The workflows are not orphaned or dependent on JavaScript to expose their links. An unfetched sitemap does not eliminate these discovery paths.",
+      "action": "Preserve homepage navigation and existing canonical URLs.",
+      "references": [
+        "google-links"
+      ]
+    },
+    {
+      "id": "monitor",
+      "status": "CURRENT_SITE_DIAGNOSIS_SUPPORTED_WITH_LIMITS",
+      "evidence": "build.py emits the correct BASE, static links, canonical tags and standard XML. monitor_public.py checks host-root robots independently, meta/X-Robots directives, expected workflow canonicals, sitemap membership and attachments. Its sitemap parser accepts local tag names rather than enforcing the namespace; this audit separately validated the actual namespace. The normal monitor covers home plus workflows, not all legacy/privacy HTML, and does not observe Google fetches or account state.",
+      "implication": "An earlier monitor PASS is technical reachability evidence, not scheduled-sitemap success. No current output defect supports a source change.",
+      "action": "Leave monitor/build unchanged; parent retains full daily checks."
+    },
+    {
+      "id": "google-scheduled-fetch",
+      "status": "CAUSE_UNRESOLVED",
+      "evidence": "Existing sanitized Oct16 release/cohort summaries record scheduled Could not fetch, accepted submission, and a separate Oct12 Google live-fetch success. These were read as dated repository records; no current GSC/account evidence was collected by this audit.",
+      "implication": "A current public success and an older Google live success do not explain a later scheduled fetch failure. Transient serving/network differences, Google processing/crawl demand, and account/report-side issues remain unproven possibilities.",
+      "action": "Parent should capture exact current sitemap details privately before choosing any fix.",
+      "references": [
+        "google-report"
+      ]
+    }
+  ],
+  "fix_recommendation": {
+    "source_rewrite": "NOT_SUPPORTED",
+    "supported_patch": null,
+    "reason": "No reproduced repository or current public-serving defect accounts for the reported scheduled fetch failure."
+  },
+  "next_diagnostics": [
+    {
+      "owner": "parent",
+      "due": "2026-10-18",
+      "action": "At the next daily review, read the same exact-prefix sitemap report once; compare last read, type, discovered count and available error detail against the parent-observed Oct17 snapshot. Keep raw evidence private. No speculative source rewrite or repeat submission/index request."
+    },
+    {
+      "owner": "parent",
+      "due": "2026-10-24",
+      "action": "Complete D14 stored inspections for write-a-cover-letter and study-schedule-template. Compare coverage, last crawl, Google canonical and sitemap association; Oct17 request acceptance is not indexing."
+    },
+    {
+      "owner": "parent",
+      "due": "only_if_new_error_or_state_change",
+      "action": "Investigate a newly exposed HTTP/DNS/robots/host error using its actual details. If scheduled failure persists despite live success, retain source and assess private host/Crawl Stats evidence where authorized; do not fabricate an HTTP code or diagnose crawl demand/Google defect without evidence."
+    }
+  ],
+  "current_account_fields": {
+    "scheduled_sitemap_status": "PARENT_OBSERVED_2026-10-17_UNABLE_TO_READ_LAST_READ_2026-10-16",
+    "google_live_fetch": "PARENT_OBSERVED_SUCCESS_2026-10-17",
+    "due_D7_stored_inspections": "PARENT_OBSERVED_BOTH_NOT_INDEXED_GOOGLE_UNKNOWN_URL",
+    "index_requests": "PARENT_OBSERVED_ACCEPTED_ONCE_EACH_2026-10-17",
+    "indexing_ranking_traffic_asset_use": "No new indexing success, ranking, traffic or asset-use measurement established by this audit."
+  },
+  "primary_references": [
+    {
+      "id": "google-robots",
+      "url": "https://developers.google.com/crawling/docs/robots-txt/robots-txt-spec",
+      "title": "Google robots.txt specification",
+      "interpretation": "Only origin-root robots.txt applies; 404 imposes no crawl restrictions. Google cached state is not measured here.",
+      "read_on": "2026-10-17"
+    },
+    {
+      "id": "google-sitemap",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap",
+      "title": "Google build and submit a sitemap",
+      "interpretation": "UTF-8, absolute canonical URLs and the project-directory scope match this sitemap. A sitemap submission is only a hint.",
+      "read_on": "2026-10-17"
+    },
+    {
+      "id": "google-report",
+      "url": "https://support.google.com/webmasters/answer/7451001?hl=en",
+      "title": "Google Sitemaps report",
+      "interpretation": "Could not fetch concerns retrieval of the sitemap itself. Inspect its detail/error panel and exact-URL live test; public success does not identify the failed Google request.",
+      "read_on": "2026-10-17"
+    },
+    {
+      "id": "github-project",
+      "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages",
+      "title": "GitHub Pages site types",
+      "interpretation": "Project sites default to owner.github.io/repositoryname; this project does not control the host-root robots path through docs/robots.txt.",
+      "read_on": "2026-10-17"
+    },
+    {
+      "id": "google-links",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/links-crawlable",
+      "title": "Google crawlable links",
+      "interpretation": "Ordinary anchor elements with href provide a discovery path; actual crawling is not guaranteed.",
+      "read_on": "2026-10-17"
+    },
+    {
+      "id": "google-canonical",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls",
+      "title": "Google canonical URLs",
+      "interpretation": "Canonical declarations and sitemap inclusion are signals; Google-selected canonical remains an account-inspection field.",
+      "read_on": "2026-10-17"
+    },
+    {
+      "id": "google-noindex",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/block-indexing",
+      "title": "Google noindex",
+      "interpretation": "Meta robots and X-Robots-Tag can block indexing; no such blocking directive was found in the inspected responses.",
+      "read_on": "2026-10-17"
+    }
+  ],
+  "privacy": "Only public HTTP metadata, public URL paths, source fingerprints and existing sanitized repository summaries. No raw account reports, private report paths, credentials, verification tokens or browser/profile data.",
+  "scope_context_check": {
+    "redirect_demand_read": true,
+    "type": "dict",
+    "outbound_links_not_requested": true
+  },
+  "parent_observed_update": {
+    "observed_on": "2026-10-17",
+    "provenance": "Parent-observed Chrome/GSC findings supplied directly by parent; not independently inspected by this auditor.",
+    "exact_submitted_url_and_property_prefix": "parent_checked_correct",
+    "scheduled_sitemap": {
+      "last_read_display": "2026/10/16",
+      "discovered_pages": 0,
+      "type": "unknown",
+      "status_display": "无法读取此站点地图",
+      "expanded_http_or_error_code": null,
+      "detail_limit": "Parent observed generic error container only; no HTTP/error code exposed."
+    },
+    "google_live_sitemap_test": {
+      "displayed_time": "12:31:40",
+      "displayed_time_timezone": "not independently established",
+      "crawler_display": "Google检查工具智能手机版",
+      "crawl_allowed": "YES",
+      "page_fetch": "SUCCESS",
+      "index_allowed": "YES",
+      "declared_canonical": null,
+      "google_canonical": "not_determined",
+      "interpretation": "No declared canonical is expected for this XML sitemap. Fresh live success does not establish scheduled processing success."
+    },
+    "due_D7_inspections": {
+      "slugs": [
+        "write-a-cover-letter",
+        "study-schedule-template"
+      ],
+      "stored_status": "NOT_INDEXED_GOOGLE_UNKNOWN_URL",
+      "index_request": "accepted_once_each_2026-10-17_parent_observed",
+      "interpretation": "Request acceptance is not indexing."
+    },
+    "sitemap_submissions_today": 0,
+    "raw_receipt": "Parent retains actual UI receipt in private monitoring storage; no raw account data copied or private receipt read by this auditor.",
+    "interpretation": "Current parent-observed live success and stale scheduled last-read still do not identify the failure cause. Zero discovered in the sitemap report does not establish zero site indexing."
+  },
+  "final_freeze": {
+    "frozen_at_utc": "2026-10-17T04:33:48.384677+00:00",
+    "status": "FINAL_FROZEN",
+    "verdict": "NO_REPOSITORY_DEFECT_FOUND",
+    "source_rewrite": "NOT_SUPPORTED",
+    "parent_update_only": true,
+    "further_http_or_account_checks_by_auditor": false,
+    "source_edits": false,
+    "files": [
+      "team/reviews/discovery-audit-2026-10-17.json",
+      "team/reviews/discovery-audit-2026-10-17.md"
+    ]
+  }
+}
