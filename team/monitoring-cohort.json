@@ -394,6 +394,51 @@
           "index_request": "accepted_priority_crawl_queue"
         }
       ]
+    },
+    {
+      "program": "asset_search",
+      "site_url": "https://henu-wang.github.io/practical-ai-workbench/",
+      "cohort_date": "2026-10-18",
+      "authored_on": "2026-10-18",
+      "inspection_due": [
+        "2026-10-21",
+        "2026-10-25",
+        "2026-11-01"
+      ],
+      "weekly_review_due": "2026-10-25",
+      "cohort_review_due": "2026-11-15",
+      "status": "live_public_verified",
+      "release_commit": "6157c4c68bc1188c7d2dedcefdf36a209722b89a",
+      "public_verified_at": "2026-10-18T04:56:12.768375+00:00",
+      "gsc_property": "verified_url_prefix_via_Chrome",
+      "gsc_connector": "payment_required_subscription_expired",
+      "ga4_access": "Chrome_available_separate_UTM_views_no_matching_rows_capture_coverage_unknown",
+      "pages": [
+        {
+          "slug": "standard-operating-procedure-template",
+          "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/standard-operating-procedure-template/",
+          "index_status": "NOT_INDEXED_GOOGLE_UNKNOWN_URL",
+          "last_inspection_at": "2026-10-18T04:56:37.211Z",
+          "last_inspection_on": "2026-10-18",
+          "last_inspection_source": "logged_in_Chrome_stored_index",
+          "last_crawl_time": null,
+          "google_canonical": null,
+          "index_request": "accepted_priority_crawl_queue_2026_10_18",
+          "index_request_confirmed_at": "2026-10-18T04:57:05.168Z",
+          "search_visibility": "UNKNOWN",
+          "attributed_tokrepo_visits": "UNKNOWN",
+          "asset_use": "UNKNOWN"
+        }
+      ],
+      "inspection_history": [
+        {
+          "checkpoint": "D0_after_release",
+          "observed_on": "2026-10-18",
+          "status": "COMPLETED_STORED_INSPECTION_VIA_CHROME",
+          "indexing": "NOT_INDEXED_GOOGLE_UNKNOWN_URL",
+          "index_request": "accepted_priority_crawl_queue"
+        }
+      ]
     }
   ],
   "utm": {
@@ -404,16 +449,16 @@
   },
   "metric_rule": "No access or missing tracking is unknown, not zero. Technical pass is not indexing; submitted sitemap is not fetched/indexed.",
   "last_daily_check": {
-    "checked_at": "2026-10-18T04:38:16.397062+00:00",
-    "technical_status": "pass",
-    "recipe_count": 12,
-    "download_count": 55,
-    "asset_targets_with_utm": 25,
+    "checked_at": "2026-10-18T04:56:12.768375+00:00",
+    "technical_status": "pass_public_release",
+    "recipe_count": 13,
+    "download_count": 59,
+    "asset_targets_with_utm": 27,
     "unique_assets": 22,
-    "indexing": "No stored inspections due October18; retain per-page October15/16/17 observations. Next due October19. No fresh all-page indexing claim.",
+    "indexing": "Home INDEXED stored check Oct18; resume INDEXED stored check Oct15 (listed in dated indexed report Oct18). New SOP not indexed Oct18; request accepted. Other page observations retain Oct15/16/17 dates.",
     "attribution": "GA4_UI_NO_MATCHING_ROWS_CAPTURE_COVERAGE_UNKNOWN",
     "next_due": "2026-10-19",
-    "indexing_observed_on": "BY_PAGE_2026_10_15_16_17"
+    "indexing_observed_on": "BY_PAGE_2026_10_15_16_17_18"
   },
   "private_records_policy": "Raw account reports and detailed receipts remain outside this public repository.",
   "gsc_setup": {
@@ -454,11 +499,17 @@
         "requested_on": "2026-10-17",
         "status": "accepted_priority_crawl_queue",
         "confirmed_at": "2026-10-17T04:31:39.317Z"
+      },
+      {
+        "slug": "standard-operating-procedure-template",
+        "requested_on": "2026-10-18",
+        "status": "accepted_priority_crawl_queue",
+        "confirmed_at": "2026-10-18T04:57:05.168Z"
       }
     ],
     "sitemap_submissions": 3,
     "sitemap_report_checked_on": "2026-10-18",
-    "diagnosis": "October18 scheduled report unchanged: generic unable-to-read, last read October16, no exposed HTTP cause. Fresh Google live fetch success remains dated October17. Independent October17 technical audit found no repository defect. Preserve sources; no unchanged resubmission. Next scheduled comparison October21 unless meaningful state/content change.",
+    "diagnosis": "October18 scheduled report unchanged: generic unable-to-read, last read October16, no exposed HTTP cause. Fresh Google live fetch success remains dated October17. Independent October17 technical audit found no repository defect. Preserve sources; no unchanged resubmission. Next scheduled comparison October21 unless meaningful state/content change. Updated public XML includes one new guide; no sitemap resubmission today. Homepage independently confirmed indexed October18; scheduled processing remains separate.",
     "last_sitemap_submission_on": "2026-10-16",
     "sitemap_last_read_displayed": "2026/10/16",
     "sitemap_live_displayed_crawl_time": "2026年10月17日12:31:40 (UI timezone not stated)"
@@ -483,5 +534,15 @@
     "observation": "No meaningful search sample; detailed query/page/country tables have no rows. Do not interpret zero-impression position placeholder as rank. Full week-on-week comparison unavailable.",
     "next_review_on": "2026-10-21",
     "raw_reports": "private_outside_repository"
+  },
+  "home_index_observation": {
+    "checked_at": "2026-10-18T04:57:23.763Z",
+    "source": "logged_in_Chrome_stored_index",
+    "index_status": "INDEXED",
+    "last_crawl_time": "2026-10-12T10:06:58",
+    "last_crawl_timezone": "not_stated_by_UI",
+    "google_canonical": "https://henu-wang.github.io/practical-ai-workbench/",
+    "previous_observation": "October15 URL unknown; October18 result supersedes it without inferring exact indexing date",
+    "referring_sitemap": "none_detected"
   }
 }

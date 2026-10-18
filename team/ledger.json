@@ -219,7 +219,7 @@
       "intent_id": "office_process_owner_existing_steps_to_repeatable_procedure",
       "program": "asset_search",
       "action": "new_topic",
-      "status": "pending_independent_review",
+      "status": "public_verified",
       "canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/standard-operating-procedure-template/",
       "primary_query": "standard operating procedure template",
       "primary_asset_id": 6825,
@@ -231,7 +231,12 @@
       "monthly_search_volume": null,
       "authored_on": "2026-10-18",
       "published_on": "2026-10-18",
-      "published_on_note": "intended release date; pending_independent_review is not published"
+      "source_sha256": "cd2c20b268a7fe80d4db4d94ac449d9df770662332470507fe3fa6e7b6f1358a",
+      "content_sha256": "702ba41f33a17c6dba548de154d51d94d4fc6a1a5afff77b48f273633454bc81",
+      "release_commit": "6157c4c68bc1188c7d2dedcefdf36a209722b89a",
+      "verified_at": "2026-10-18T04:56:12.768375+00:00",
+      "revision_evidence": "team/research/author-revision-2026-10-18.json",
+      "asset_retest_status": "PASS_2026_10_18_DESKTOP_ENGLISH_IDENTITY_UTM"
     }
   ]
 }

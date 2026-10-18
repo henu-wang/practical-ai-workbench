@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-18",
+  "status": "PUBLIC_VERIFIED",
+  "content_commit": "6157c4c68bc1188c7d2dedcefdf36a209722b89a",
+  "source_sha256": "cd2c20b268a7fe80d4db4d94ac449d9df770662332470507fe3fa6e7b6f1358a",
+  "new_guides": [
+    "standard-operating-procedure-template"
+  ],
+  "existing_body_updates": 0,
+  "original_downloads_added": 4,
+  "independent_review": "team/reviews/recipes-review-2026-10-18.json",
+  "revision_evidence": "team/research/author-revision-2026-10-18.json",
+  "checks": {
+    "build": "PASS",
+    "recipe_check": "PASS_13_GUIDES_TEMPLATE_BYTES_CTA_MOBILE",
+    "editorial_gate": "PASS",
+    "public_monitor": "PASS_13_GUIDES_59_DOWNLOADS",
+    "public_byte_parity": "PASS_21_SITEMAP_HTML_PAGES_FOUR_NEW_DOWNLOADS_AND_SITEMAP",
+    "asset_identity_utm": "PASS_22_DISTINCT_EXISTING_TARGETS_PLUS_NEW_PAGE_6825_6924_ATTRIBUTED_LINKS"
+  },
+  "verified_at": "2026-10-18T04:56:12.768375+00:00",
+  "measurement_limits": "Publication and accessibility only; home indexing separately confirmed, new guide not indexed and request accepted. No new traffic, arrival or asset-use result established. Raw account receipts remain private outside repository."
+}
