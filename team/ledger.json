@@ -212,6 +212,26 @@
       "verified_at": "2026-10-16T04:45:39.587572+00:00",
       "content_sha256": "855cf36c353c9c1230c3408d6ca29dfdf4afbf09583a3b8ea3b8d3f2af3e98db",
       "asset_retest_status": "PASS_DESKTOP_ENGLISH_IDENTITY_AND_UTM_2026_10_16"
+    },
+    {
+      "slug": "standard-operating-procedure-template",
+      "dedupe_key": "asset-search:office_process_owner_existing_steps_to_repeatable_procedure",
+      "intent_id": "office_process_owner_existing_steps_to_repeatable_procedure",
+      "program": "asset_search",
+      "action": "new_topic",
+      "status": "pending_independent_review",
+      "canonical_url": "https://henu-wang.github.io/practical-ai-workbench/workflows/standard-operating-procedure-template/",
+      "primary_query": "standard operating procedure template",
+      "primary_asset_id": 6825,
+      "secondary_asset_id": 6924,
+      "demand_evidence": "team/research/demand-2026-10-17.json",
+      "demand_revalidation": "team/research/revalidation-2026-10-18.json",
+      "author_evidence": "team/research/author-2026-10-18.json",
+      "independent_review": "team/reviews/recipes-review-2026-10-18.json",
+      "monthly_search_volume": null,
+      "authored_on": "2026-10-18",
+      "published_on": "2026-10-18",
+      "published_on_note": "intended release date; pending_independent_review is not published"
     }
   ]
 }

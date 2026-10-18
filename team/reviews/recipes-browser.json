@@ -1,6 +1,6 @@
 {
-  "recorded_at": "2026-10-16T04:37:24.627710+00:00",
-  "source_sha256": "ad428fec2f4478ac143550c6159edd3a599a959d590ace0225d9c21eee1ca01e",
+  "recorded_at": "2026-10-18T04:51:15.429423+00:00",
+  "source_sha256": "cd2c20b268a7fe80d4db4d94ac449d9df770662332470507fe3fa6e7b6f1358a",
   "status": "PASS",
   "scope": "Rendered guide and original downloadable templates; no claim that third-party models ran",
   "page_errors": [],
@@ -373,6 +373,34 @@
           "path": "templates/professional-follow-up-email-after-no-response/fictional-final-email.txt",
           "bytes": 235,
           "sha256": "aa43efdb70dc33e153604f611a0a5e26834712b81026b0e0fb8988aeae988e04"
+        }
+      ]
+    },
+    {
+      "slug": "standard-operating-procedure-template",
+      "render": "PASS",
+      "primary_cta": "PASS",
+      "mobile": "PASS",
+      "template_downloads": [
+        {
+          "path": "templates/standard-operating-procedure-template/standard-operating-procedure-template.md",
+          "bytes": 2209,
+          "sha256": "6cb2c9ee2169a0e0687de2ef62cf75b228b718bf559ef7166a610d71e1507d29"
+        },
+        {
+          "path": "templates/standard-operating-procedure-template/standard-operating-procedure-template.txt",
+          "bytes": 2094,
+          "sha256": "33ce858a802db37020e732ae446846ff66203ef5382df04a2f1d89f7f39fd605"
+        },
+        {
+          "path": "templates/standard-operating-procedure-template/fictional-process-notes-and-filled-sop.md",
+          "bytes": 10678,
+          "sha256": "4d9b7bf1c265c1086de181fb9f1cfe6f9362db06c47949ae8a2e4420fc5cb5fe"
+        },
+        {
+          "path": "templates/standard-operating-procedure-template/source-map-and-walkthrough-checklist.md",
+          "bytes": 7109,
+          "sha256": "4ddeea55abcbe8ba2fe20e04b4897663d42fae33c0e96511fabe676c68566899"
         }
       ]
     }

@@ -1,0 +1,437 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-18",
+  "observed_at": "2026-10-18T04:36:07+00:00",
+  "role": "Independent demand editor for TokRepo English search program",
+  "packet_type": "retained_brief_revalidation",
+  "owned_files": [
+    "team/research/revalidation-2026-10-18.json",
+    "team/research/revalidation-2026-10-18.md"
+  ],
+  "verdict": "QUALIFIED",
+  "qualification_scope": "Retained demand/source/template brief only. No authored page, content PASS, operational approval or publication approval.",
+  "retained_brief": {
+    "path": "team/research/demand-2026-10-17.json",
+    "pointer": "/recipes/0",
+    "sha256": "f6b9bb6861fc9965977c12bdfd9ce396db7dd3608e2adbc9aa1d3468e08fb60b",
+    "intent_id": "office_process_owner_existing_steps_to_repeatable_procedure",
+    "slug": "standard-operating-procedure-template",
+    "canonical_path": "/workflows/standard-operating-procedure-template/",
+    "new_demand_packet_created": false,
+    "duplicate_demand_array_created": false
+  },
+  "decision_reasons": [
+    "One current US/en autocomplete includes the exact query and the retained examples variant.",
+    "The same two original public questions were separately re-opened and their bodies inspected; distinct authors/communities demonstrate historical qualitative recurrence with limited geographic and sector breadth.",
+    "Both paced desktop English detail responses match exact IDs, UUIDs, slugs, H1s and canonicals and expose the asset-specific source instructions.",
+    "Five supplied writing blocks to full draft to original-note traceability and human step review form a credible combination.",
+    "No current canonical matches the repeatable-procedure output; the template plan provides editable original value beyond generic definitions or two asset links."
+  ],
+  "hold_triggers": [
+    "HOLD the brief if a current signal no longer matches or either required independent question cannot substantiate the retained intent.",
+    "HOLD the combination if an asset identity/source is unavailable, changes incompatibly, or a 429 prevents needed verification; stop at the restriction without retries.",
+    "HOLD authoring for an actual assignment/ownership conflict or inability to deliver the original editable template and concrete process-note/exception package.",
+    "HOLD content approval/release until actual authored source has independent source-bound review and applicable release checks; this research qualification is not that review."
+  ],
+  "market": "US",
+  "language": "en",
+  "numeric_monthly_search_volume": null,
+  "volume_basis": "No volume provider queried; autocomplete and historical questions are qualitative only.",
+  "autocomplete": {
+    "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=standard%20operating%20procedure%20template",
+    "request_started_at": "2026-10-18T04:35:24.047159+00:00",
+    "completed_at": "2026-10-18T04:35:25.307311+00:00",
+    "http_status": 200,
+    "final_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=standard%20operating%20procedure%20template",
+    "response_sha256": "38bd30d8974bc0480ec0b00ca889bdad0eb808f2e950abc79810c50fcc7c4b8e",
+    "seed": "standard operating procedure template",
+    "suggestions": [
+      "standard operating procedure template",
+      "standard operating procedure template word pdf",
+      "standard operating procedure template word pdf free",
+      "standard operating procedure template google docs",
+      "standard operating procedure template pdf",
+      "standard operating procedure template excel",
+      "standard operating procedure template examples",
+      "standard operating procedure template free download",
+      "standard operating procedure template for it department",
+      "standard operating procedure template for hospital"
+    ],
+    "exact_query_present": true,
+    "examples_variant_present": true,
+    "requests": 1,
+    "physical_us_location_verified": false,
+    "limitations": "hl=en and gl=us specify requested language/market, not physical US origin, current frequency or monthly volume. Word/PDF/Google Docs/Excel variants do not authorize file promises; hospital variant is excluded from this low-risk office brief."
+  },
+  "questions": [
+    {
+      "url": "https://www.reddit.com/r/msp/comments/15z6co8/looking_for_recommendations_on_sop_templates_for/",
+      "title": "Looking for recommendations on SOP Templates for Process Standardization",
+      "author": "RE_H",
+      "community": "r/msp",
+      "displayed_age": "3y ago",
+      "renderer_crawl_label": "6 days ago",
+      "body_lines": "21-36",
+      "summary": "An MSP team wants an adaptable procedure template with clear language, consistent structure and maintainability.",
+      "implication": "Provide an editable blank plus a filled example and fields for ownership, changes and review.",
+      "inspection_logged_at": "2026-10-18T04:36:07+00:00",
+      "inspection_method": "Exact original URL separately opened through web text rendering; original author, title and post body inspected; comments and related cards excluded.",
+      "origin_freshness": "Not established: the renderer may serve cached material.",
+      "exact_creation_time": null,
+      "author_country": null
+    },
+    {
+      "url": "https://www.reddit.com/r/sysadmin/comments/1hx8d63/it_department_sops/",
+      "title": "IT Department SOPs",
+      "author": "EmotionalSong7125",
+      "community": "r/sysadmin",
+      "displayed_age": "1y ago",
+      "renderer_crawl_label": "4 months ago",
+      "body_lines": "83",
+      "summary": "A startup IT lead new to procedure writing asks how to begin, naming helpdesk as one example.",
+      "implication": "Show how existing process notes become one bounded draft; do not generate live system administration instructions.",
+      "inspection_logged_at": "2026-10-18T04:36:07+00:00",
+      "inspection_method": "Exact original URL separately opened through web text rendering; original author, title and post body inspected; comments and related cards excluded.",
+      "origin_freshness": "Not established: the renderer may serve cached material.",
+      "exact_creation_time": null,
+      "author_country": null
+    }
+  ],
+  "question_independence": "Different original bodies, authors RE_H and EmotionalSong7125, communities and organizational contexts; same platform and related MSP/IT settings limit breadth. No comments, answers, vendor tutorials, views or votes counted as additional demand evidence.",
+  "question_age_caveat": "The second renderer currently says 1y ago versus 2y ago in October17's packet. Cached relative ages are not exact creation dates; neither age is treated as an exact timeline or a new current question.",
+  "assets": [
+    {
+      "id": 6825,
+      "uuid": "3128c956-a9b4-41a8-8d39-6e7dec2bc503",
+      "slug": "reusable-draft-final-writing-prompt-3128c956",
+      "title": "Reusable Draft-to-Final Writing Prompt",
+      "role": "Primary: draft an SOP from all five supplied writing blocks; SOP structure is the author's explicit adaptation of a general writing prompt.",
+      "url": "https://tokrepo.com/en/workflows/reusable-draft-final-writing-prompt-3128c956",
+      "attributed_url": "https://tokrepo.com/en/workflows/reusable-draft-final-writing-prompt-3128c956?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=standard-operating-procedure-template",
+      "identity": {
+        "request_started_at": "2026-10-18T04:35:25.307369+00:00",
+        "completed_at": "2026-10-18T04:35:31.402559+00:00",
+        "http_status": 200,
+        "final_url": "https://tokrepo.com/en/workflows/reusable-draft-final-writing-prompt-3128c956?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=standard-operating-procedure-template",
+        "content_type": "text/html;charset=utf-8",
+        "response_bytes": 96803,
+        "response_sha256": "6946ec31fc9da32e8f082898fab9d47b1581c090c95d45319b266606bfe8d7f3",
+        "english_h1": "Reusable Draft-to-Final Writing Prompt",
+        "canonical": "https://tokrepo.com/en/workflows/reusable-draft-final-writing-prompt-3128c956",
+        "hydrated_detail_index": 5,
+        "lang_type": "en",
+        "exact_id_uuid_slug_title_match": true,
+        "related_cards_excluded": true,
+        "attribution_query_preserved": true
+      },
+      "source": {
+        "kind": "Original TokRepo Prompt Lab text prompt",
+        "source_url": "https://tokrepo.com/en/workflows/reusable-draft-final-writing-prompt-3128c956",
+        "entrypoint": "PROMPT.md",
+        "asset_kind": "prompt",
+        "license_stated": "CC BY 4.0 for original prompt; external references retain their rights",
+        "source_content_hash_reported": "e82f0bf0e80122c24ee465cd41e99094d4a34341e4c23486aa501a51e61569e3",
+        "hash_caveat": "Catalog-reported content hash, not an independently recomputed digest of PROMPT.md.",
+        "updated_at_reported": "2026-10-18 11:51:00",
+        "updated_at_timezone": "not stated",
+        "english_instructions_reviewed": true,
+        "english_source_contains_separate_chinese_translation": true,
+        "full_prompt_redistributed": false,
+        "external_announcements": "Context only; neither upstream executable source nor capability evidence."
+      },
+      "prerequisites": [
+        "Obtain the complete prompt on the exact English TokRepo page and use an ordinary text-capable AI chat if choosing AI.",
+        "Supply nonempty TASK, AUDIENCE AND RELATIONSHIP, TONE, CONSTRAINTS, and ROUGH DRAFT OR NOTES blocks; missing blocks require clarification before drafting.",
+        "Use original notes for one already-understood, low-risk recurring office process, including actual roles, input/access requirements, order, exceptions and observable completion.",
+        "Specify the SOP as the requested Draft format. The assistant's surrounding brief/outline/review sections are not part of the chosen SOP body.",
+        "Redact confidential material and check the selected provider's account, price and data-handling terms. This copy/paste route needs no terminal, API key, installation or account connector."
+      ],
+      "findings": [
+        "Instructions limit drafting to pasted material, require missing-input/conflict questions, and prohibit invented facts, numbers, dates or promises; this is not a behavioral guarantee.",
+        "Prescribed reply includes brief confirmation, goal, outline, draft, self-review, limited variations and a human next step.",
+        "Cannot browse, fetch files, send, schedule or perform the SOP; general writing asset rather than a dedicated SOP generator.",
+        "Source excludes medical, legal, financial and safety-critical advice; editorial scenario also excludes security-administration instructions."
+      ],
+      "verification_level": "source_reviewed_runtime_not_tested",
+      "browser_interaction_tested": false,
+      "model_run": false,
+      "install_tested": false
+    },
+    {
+      "id": 6924,
+      "uuid": "a82f6e1c-45d7-44d9-91f5-0d51bc9352fc",
+      "slug": "prompt-fact-check-your-draft-into-claim-grid-a82f6e1c",
+      "title": "Prompt: Fact-Check Your Draft Into a Claim Grid",
+      "role": "Complement: audit factual assertions in the chosen full draft against the same original labelled process-note excerpts.",
+      "url": "https://tokrepo.com/en/workflows/prompt-fact-check-your-draft-into-claim-grid-a82f6e1c",
+      "attributed_url": "https://tokrepo.com/en/workflows/prompt-fact-check-your-draft-into-claim-grid-a82f6e1c?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=standard-operating-procedure-template",
+      "identity": {
+        "request_started_at": "2026-10-18T04:35:37.607701+00:00",
+        "completed_at": "2026-10-18T04:35:42.690232+00:00",
+        "http_status": 200,
+        "final_url": "https://tokrepo.com/en/workflows/prompt-fact-check-your-draft-into-claim-grid-a82f6e1c?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=standard-operating-procedure-template",
+        "content_type": "text/html;charset=utf-8",
+        "response_bytes": 96743,
+        "response_sha256": "d54503b2f0ec7fe78b5a110866067cb307142928e6fbb1ee3ab63ae629a85919",
+        "english_h1": "Prompt: Fact-Check Your Draft Into a Claim Grid",
+        "canonical": "https://tokrepo.com/en/workflows/prompt-fact-check-your-draft-into-claim-grid-a82f6e1c",
+        "hydrated_detail_index": 5,
+        "lang_type": "en",
+        "exact_id_uuid_slug_title_match": true,
+        "related_cards_excluded": true,
+        "attribution_query_preserved": true
+      },
+      "source": {
+        "kind": "Original TokRepo Prompt Lab text prompt",
+        "source_url": "https://tokrepo.com/en/workflows/prompt-fact-check-your-draft-into-claim-grid-a82f6e1c",
+        "entrypoint": "PROMPT.md",
+        "asset_kind": "prompt",
+        "license_stated": "CC BY 4.0 for original prompt; external references retain their rights",
+        "source_content_hash_reported": "3679b985b4a8126310f14b9f3af9c07e3000a25110bc86ca5ca5975d956879ef",
+        "hash_caveat": "Catalog-reported content hash, not an independently recomputed digest of PROMPT.md.",
+        "updated_at_reported": "2026-10-18 04:49:57",
+        "updated_at_timezone": "not stated",
+        "english_instructions_reviewed": true,
+        "english_source_contains_separate_chinese_translation": true,
+        "full_prompt_redistributed": false,
+        "external_announcements": "Context only; neither upstream executable source nor capability evidence."
+      },
+      "prerequisites": [
+        "Obtain the full complement prompt on its exact English TokRepo page.",
+        "Paste one full selected SOP draft, a labelled list WITH substantive original N1-N5 excerpts, and explicit intended audience and purpose.",
+        "Do not pass labels/URLs alone or substitute a model-generated summary for the underlying process evidence.",
+        "Resolve missing or contradictory source inputs first. The source-optional introduction conflicts with its missing/too-short-source stop rule; do not promise a no-source audit.",
+        "A human must check every source assignment, apply edits and separately review imperative steps, order, roles, access, stop conditions and completion."
+      ],
+      "findings": [
+        "Produces counts, a factual claim-to-source grid, risky wording, repair types and open questions.",
+        "SOURCED means purported traceability, not truth; model/source-label errors remain possible.",
+        "Does not browse/open source URLs, rewrite or apply edits. No-source operation is not a reliable promised route because of conflicting instructions.",
+        "Imperative actions may not be factual assertions. A clean claim grid cannot establish complete steps, correct ordering, permissions, operational safety or approval."
+      ],
+      "verification_level": "source_reviewed_runtime_not_tested",
+      "browser_interaction_tested": false,
+      "model_run": false,
+      "install_tested": false
+    }
+  ],
+  "handoff": {
+    "reader": "A process owner documenting one known, low-risk recurring office task for a colleague and reviewer.",
+    "input": "Original process-note excerpts plus supplied roles, actual input/access requirements, trigger, ordered actions, exceptions and completion criteria; unknowns stay explicit.",
+    "output": "Original editable blank SOP, synthetic filled SOP, traceability/exception log and manual walkthrough checklist; process-owner review remains pending.",
+    "five_blocks": [
+      {
+        "block": "TASK",
+        "example": "Draft an editable SOP for preparing an orientation handout packet from a coordinator's approved-file list."
+      },
+      {
+        "block": "AUDIENCE AND RELATIONSHIP",
+        "example": "An assistant prepares the packet; the coordinator reviews it and handles distribution. Actual access requirements must be supplied; do not infer access from this example."
+      },
+      {
+        "block": "TONE",
+        "example": "Plain, neutral, concrete action language suitable for a colleague following a recurring office procedure."
+      },
+      {
+        "block": "CONSTRAINTS",
+        "example": "Mark DRAFT; include trigger, scope, input, role, ordered action, observable result, source label and exceptions. Preserve original files, prohibit substitution, leave approval/folder naming/retention unresolved, and invent no facts or policy."
+      },
+      {
+        "block": "ROUGH DRAFT OR NOTES",
+        "example": "Paste all original N1-N5 excerpts below, not a model summary or labels alone."
+      }
+    ],
+    "original_synthetic_note_brief": {
+      "provenance": "Original synthetic scenario retained from October17 author brief, not upstream prompt text or a real organization.",
+      "N1": "The coordinator supplies the current approved-file list and destination packet folder.",
+      "N2": "The assistant copies only listed files into the supplied folder without changing source files.",
+      "N3": "Before handoff the assistant compares filenames and revision dates with the approved list.",
+      "N4": "A missing file or different revision requires stopping and asking the coordinator; substitute versions are not allowed.",
+      "N5": "After checking, provide the packet location to the coordinator for distribution. Folder naming and retention policy have not been supplied."
+    },
+    "sequence": [
+      "Human fills all five blocks, resolves missing required material and retrieves the primary prompt on TokRepo.",
+      "Choose one complete SOP body from the primary's Draft section and retain original N1-N5 excerpts unchanged; its self-review is not an independent audit.",
+      "Send the full selected SOP body, substantive labelled original excerpts, intended audience and purpose to 6924. Expected audit: counts, claim grid, risky wording, repair types and open questions.",
+      "Human verifies every claimed source assignment against the actual note text, makes all edits, and records what was removed or remains unresolved.",
+      "Separately map every action/role/input/result and exception to notes; walk a successful path and the missing-or-mismatched-file stop path. Human review catches instructions that the factual-claim grid omits.",
+      "Process owner reviews source coverage, actual access and unresolved approval/policy before real use; neither prompt performs, approves or distributes anything."
+    ],
+    "manual_check_plan": {
+      "label": "Proposed author acceptance checks only; no walkthrough or model execution performed by demand editor.",
+      "expected_step_map": [
+        {
+          "step": "Obtain approved list and supplied destination",
+          "sources": [
+            "N1"
+          ]
+        },
+        {
+          "step": "Check listed source files and revisions; stop on a missing/mismatched item",
+          "sources": [
+            "N1",
+            "N3",
+            "N4"
+          ]
+        },
+        {
+          "step": "Copy only approved listed files while preserving sources",
+          "sources": [
+            "N2"
+          ]
+        },
+        {
+          "step": "Compare completed packet filenames/revisions with approved list",
+          "sources": [
+            "N3"
+          ]
+        },
+        {
+          "step": "Provide packet location for coordinator review/distribution",
+          "sources": [
+            "N5"
+          ]
+        }
+      ],
+      "error_to_seed": "Author-written faulty draft says the packet is automatically approved and retained for seven days. Neither is supplied by N1-N5.",
+      "expected_detection": "Human must flag/remove the unsupported approval and retention assertions, regardless of model output, preserve unknown policy, and record the missing-file stop branch.",
+      "completion_check": "Every planned file has the supplied name/revision; exception paths stop before handoff; no invented policy/approval, public sharing, operational execution or claimed efficiency gain."
+    }
+  },
+  "authoring_recommendation": {
+    "decision": "RECOMMEND_ONE_USEFUL_EDITABLE_SOP_RECIPE_TODAY",
+    "reason": "The retained task is qualitatively supported, distinct and deliverable as an original editable template with source/exception checks. Parent monitoring can proceed in parallel; unresolved sitemap processing is not an authoring prerequisite.",
+    "change_from_october17": "Replace the earlier scheduling HOLD with a one-recipe recommendation under today's explicit scope. No evidence of sitemap repair, traffic, new demand volume or indexed status is assumed.",
+    "assignment_boundary": "Recommendation only. Parent must assign one practical author without file conflict; this editor owns only revalidation files.",
+    "proposed_source_path": "recipes/standard-operating-procedure-template.md",
+    "proposed_download_paths": [
+      "templates/standard-operating-procedure-template/standard-operating-procedure-template.md",
+      "templates/standard-operating-procedure-template/standard-operating-procedure-template.txt",
+      "templates/standard-operating-procedure-template/fictional-process-notes-and-filled-sop.md",
+      "templates/standard-operating-procedure-template/source-map-and-walkthrough-checklist.md"
+    ],
+    "path_status": "Proposed only; no source or templates created here.",
+    "author_prerequisites": [
+      "Deliver a copyable blank near the opening, downloadable editable Markdown/plain text and a complete original synthetic filled example.",
+      "Blank fields cover title/ID/version/DRAFT; owner/reviewer/supplied dates; purpose/trigger/scope/exclusions; inputs and actual access; numbered action/role/input/result/source; branch/stop/clarification; completion/handoff; unknowns/approval/change log.",
+      "Include original substantive notes, source-to-step mapping, the missing/mismatched-file branch and a documented manual walkthrough if actually performed.",
+      "Explain the five-block-to-traceability route and source contradiction; AI remains optional and manual template completion works without AI.",
+      "Keep this single canonical; do not create free/examples/Word/PDF synonym pages or promise uncreated file formats.",
+      "Obtain independent source-hash-bound review of future authored material. Parent owns applicable build, deployment and public readback."
+    ],
+    "unresolved_sitemap_is_authoring_prerequisite": false,
+    "publication_approved": false,
+    "author_assigned": false
+  },
+  "deduplication": {
+    "manifest_count": 12,
+    "ledger_entry_count": 18,
+    "legacy_route_count": 6,
+    "checked_manifest_slugs": [
+      "transcribe-audio-to-text",
+      "meeting-minutes-template",
+      "extract-tables-from-pdf-to-excel",
+      "presentation-from-notes",
+      "clean-csv-remove-duplicate-rows",
+      "flashcards-from-lecture-notes",
+      "write-resume-bullet-points",
+      "project-proposal-template",
+      "write-a-cover-letter",
+      "study-schedule-template",
+      "weekly-project-status-report-template",
+      "professional-follow-up-email-after-no-response"
+    ],
+    "checked_legacy_slugs": [
+      "merge-pdf",
+      "extract-pdf-pages",
+      "compress-image",
+      "resize-image",
+      "remove-duplicate-csv-rows",
+      "csv-to-json"
+    ],
+    "retained_sop_already_published": false,
+    "decision": "Retain original October17 intent ownership; no new demand-array entry.",
+    "distinction": "SOP explains how to repeat an existing understood task; minutes record decisions, status reports describe a period, proposals seek a project decision, presentations create slides and follow-up creates a message. Shared general-purpose assets do not alone make an intent distinct.",
+    "synonyms": "SOP template, standard operating procedure template, examples and editable/free variants remain one canonical intent.",
+    "competition_limit": "Existing suppliers mentioned in the retained packet are supply only. No current SERP difficulty, competitor ranking or traffic assessment was performed."
+  },
+  "cta_contract": {
+    "utm_source": "github_pages",
+    "utm_medium": "referral",
+    "utm_campaign": "tokrepo_search",
+    "utm_content": "standard-operating-procedure-template",
+    "placement": "Primary near opening and after worked example; complement at actual traceability handoff.",
+    "attribution_capture_tested": false
+  },
+  "monitoring_context": {
+    "provenance": "Dated sanitized repository records read at this run; no independent current account or public-site monitoring by demand editor.",
+    "audit_path": "team/reviews/discovery-audit-2026-10-17.json",
+    "audit_verdict": "NO_REPOSITORY_DEFECT_FOUND within its bounded checks; no source rewrite supported.",
+    "last_recorded_sitemap": "October17 scheduled report unable to read; last read October16; generic detail exposes no HTTP code. Separate October17 Google live test succeeded. Cause unresolved.",
+    "weekly_review_correction": "Current cohort ledger records October17 limited-sample weekly review completed, visible coverage October9-13 for requested October7-13; detailed query/page/country rows absent and full week-on-week comparison unavailable. October17 demand MD's uncertainty about completion is superseded by this dated ledger record.",
+    "parent_owns": "October18 sitemap/daily monitoring and account interpretation run in parallel; do not duplicate GSC, GA, submissions or index requests.",
+    "next_recorded_reviews": [
+      "October19: weekly-status D7 and weekly review; follow-up D3.",
+      "October21: next recorded full-window weekly review and October7 cohort D14.",
+      "October24: October10 cohort D14."
+    ],
+    "caution": "Sitemap-discovered 0 is not whole-site indexing. Account/arrival/use gaps remain unknown; this packet establishes no current indexed state, rank, clicks, sessions or supported asset use."
+  },
+  "request_policy": {
+    "shared_chrome_used": false,
+    "any_browser_used": false,
+    "web_text_renderer_used_for_two_original_questions": true,
+    "autocomplete_calls": 1,
+    "tokrepo_urlopen_calls": 2,
+    "per_asset_calls": 1,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+    "accept_language": "en-US,en;q=0.9",
+    "minimum_gap_required_seconds": 6,
+    "actual_secondary_start_after_primary_completion_seconds": 6.205142,
+    "redirect_policy": "Normal urllib redirects enabled; final attributed URLs unchanged; individual redirect hops not separately instrumented.",
+    "observed_429": false,
+    "stop_on_429": true,
+    "retries": 0,
+    "restricted_api_calls": 0,
+    "raw_source_endpoint_calls": 0,
+    "full_prompt_redistribution": false
+  },
+  "verification_limits": [
+    "Desktop HTTP HTML/source inspection, not interactive browser rendering or clipboard/copy-button verification.",
+    "One source-specific Nuxt detail at index5 matched each exact identity; HTTP200 shell alone was not accepted. Hydration index differs from October17 and is not treated as identity.",
+    "Original question text inspected through cached-capable web rendering; current origin fetch and question creation dates are unknown.",
+    "Instructions, source labels and source-report hashes do not prove runtime performance, factual truth, executable installability or operational approval.",
+    "No model calls, real file-operation task, walkthrough execution, authoring, independent content PASS, production, publication, build, git, GSC or GA actions.",
+    "Only the two assigned revalidation files are outputs; no new demand packet or duplicated recipes demand array."
+  ],
+  "inputs_read_sha256": {
+    "AGENTS.md": "080af6ceed44b82445993cd7beba35a10d6d4ac5d0bd6aa9ce8f53479d1b80fc",
+    "team/PIPELINE.md": "b07605bd3dce1ac88fa0dfcf84eff2377986d156a572f9e37cb40f2b8efb35b0",
+    "team/STYLE.md": "e0dff6e417953ae05376bdcee105449af58e73175e049bbdda084556214dd5c0",
+    "team/QUALITY.md": "e62344e1569a97cc2ade52e438687dcafae886e39841e466519e09bbaf5ed31b",
+    "team/MONITORING.md": "af7c73c1526f047cdd0a8ca39f2e8611c2424ce0650e0cee6c91595ca8459e40",
+    "team/roles/demand-editor.md": "a9f535ad5ce22e58d02f9728ac3f7dd05b6c33390285169488293a6639cf1024",
+    "recipes.json": "a4e36900df8655caa842a90edb305ee4010a6d9080a726711552024d7cf98f2c",
+    "team/ledger.json": "b25ede88cfa9091463091333df9add60f036f01ca061fc068436196ea71a3098",
+    "team/monitoring-cohort.json": "bc3fa5a06a4ca75904e547f14cd24b6bb829d994c76ba90026ae5cbb09e9f520",
+    "team/research/redirect-demand.json": "e3278a548323823b7fc8e36e4bc6b039237193799fdfc604cbf6ba742005214f",
+    "team/research/demand-2026-10-17.json": "f6b9bb6861fc9965977c12bdfd9ce396db7dd3608e2adbc9aa1d3468e08fb60b",
+    "team/research/demand-2026-10-17.md": "9372a430db13daad75dd1c1002a394a6202706ff0d5816ba45d70ec44faafc7b",
+    "team/reviews/discovery-audit-2026-10-17.json": "c4eaf86b0161d1231502e16fe7f2e212c4b97a0641f354ea2a2a1c35b571d47d",
+    "team/reviews/discovery-audit-2026-10-17.md": "2e671d533a22062415fd84ac7860c0cd6cced84d09fedf65bf493e79361da481",
+    "team/context/ASSET-POLICY.md": "6c87a5c309e749a4b8115b41bcd96004a05b9e86b232100a29f8912f56c62137",
+    "team/context/AUDIENCE.md": "442a59c3468c18935104e40fff2084e9465ffec48382da61c0f62b9f6d110fe2",
+    "team/context/METRICS.md": "0803a7664f7d2718e86f52a82348e67abe2195fc85abb18cb3b147e18bc2c340",
+    "team/context/PROJECT.md": "a791f483e96871b5f690ee7b69fb884055057dff04c4cc1f28ad93b290a7630d",
+    "team/context/USER-BRIEF.md": "b7620db969b61da35c02c57387f2ab764e0dad189295b78abe33fb67772b35cd"
+  },
+  "measurement_state": {
+    "monthly_volume": null,
+    "indexing": null,
+    "search_visibility": null,
+    "search_clicks": null,
+    "attributed_tokrepo_arrivals": null,
+    "asset_use": null
+  },
+  "release_state": "REVALIDATED_BRIEF_ONLY_UNAUTHORED_UNREVIEWED_UNPUBLISHED"
+}

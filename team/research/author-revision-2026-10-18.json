@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-18",
+  "recorded_at": "2026-10-18T04:51:15.216369+00:00",
+  "role": "Release editor formatting correction, separate from independent reviewer",
+  "issue": "Independent review R1: prose blank 11.7px codefont, internal horizontal scrolling at320/390 despite pageoverflow PASS",
+  "action": "Replace inline fenced prose blank with existing original editable Markdown blank using body-text stacked sections; demote headings to fit page hierarchy. No global CSS or download edits.",
+  "files_changed": [
+    "recipes/standard-operating-procedure-template.md",
+    "recipes.json"
+  ],
+  "before_content_sha256": "8219a22c27020640eac58b7067049cbf34d02bff63a1a21cf83d2f3e64306aad",
+  "after_content_sha256": "702ba41f33a17c6dba548de154d51d94d4fc6a1a5afff77b48f273633454bc81",
+  "template_bytes": "all four unchanged",
+  "author_evidence": "author-2026-10-18.json binds original authored version, retained as historical evidence",
+  "independent_approval": "PENDING_REVIEWER_RECHECK",
+  "model_or_operations_tested": false
+}

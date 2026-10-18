@@ -1,0 +1,463 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-18T12:54:18.583374+08:00",
+  "reviewer": "Independent final verification/managing editor Codex, 2026-10-18",
+  "verdict": "PASS",
+  "blockers": [],
+  "scope": "Final independent verification/managing review of only new standard-operating-procedure-template after R1 correction and renewed parent freeze. Existing12 retain finalreview16. Content/template PASS; parent owns release and deployed readback.",
+  "final_manifest_frozen": true,
+  "freeze_authority": "Direct parent renewed FINAL_FREEZE after release-editor source-only R1 correction, manifest update and build.",
+  "frozen_at": "2026-10-18T04:51:32.636026+00:00",
+  "reviewed_source_sha256": "cd2c20b268a7fe80d4db4d94ac449d9df770662332470507fe3fa6e7b6f1358a",
+  "manifest_sha256": "8f875b8d1f8564cf1ca8fab5e3429c7f68a0a4bab3a29ac1cdd1bb87e045bcf1",
+  "build_py_sha256": "c8ff127c0f6ed415abce8fa9f9996a0a0e86325e040a21ce87fffd5ecd3df509",
+  "rendered_sha256": "debec662ff539ca0cb2de8442f63bee12f4c6c6d5b42d6d229fba5de3666d358",
+  "content_sha256_definition": "SHA256 of raw guide bytes; page file_sha256 covers exactly guide plus entire four-file template subtree.",
+  "shared_file_sha256": {
+    "recipes.json": "8f875b8d1f8564cf1ca8fab5e3429c7f68a0a4bab3a29ac1cdd1bb87e045bcf1",
+    "scripts/build.py": "c8ff127c0f6ed415abce8fa9f9996a0a0e86325e040a21ce87fffd5ecd3df509",
+    "scripts/source_hash.py": "e1ebf6ac9bd24767916c0eb9fb3635ee487a5fb7a2c01029f1e26014621c8b1f",
+    "scripts/recipe_check.py": "9dbdff7efb15b498f5e0b2079ad7230c4bccaed570c098b9943fada48c4b30b1",
+    "scripts/editorial_gate.py": "f6c4d62696ff93a50ad3e907ef58754361ec49928619bfab1a0aa976c2641025",
+    "docs/assets/style.css": "673a09dbba4c47ea848defc36c3b33135abf4892aafaae40c57ea5857c3838a9",
+    "team/research/demand-2026-10-17.json": "f6b9bb6861fc9965977c12bdfd9ce396db7dd3608e2adbc9aa1d3468e08fb60b",
+    "team/research/demand-2026-10-17.md": "9372a430db13daad75dd1c1002a394a6202706ff0d5816ba45d70ec44faafc7b",
+    "team/research/revalidation-2026-10-18.json": "d5e1d79f0d177d8bee559cdf234d1c4bfbb746c6161a8313780be440ad63c5de",
+    "team/research/revalidation-2026-10-18.md": "3917cb6e6d549768e77fa9e2c801ad189a934bdd0cd91a93432f968b34e93552",
+    "team/research/author-2026-10-18.json": "7cf35a766400468311b643c26b9ba33b1a67944593f61fb66f984c09967615ac",
+    "team/research/author-2026-10-18.md": "6a1b19b021e1df71ec3833ac98fbe3a1b656164445040053d2c2d97efb356da5",
+    "team/reviews/recipes-review-2026-10-16.json": "6fac1b32d6a3163bd737840059daf07f3adc1c2bf350b5dfd02552de3d185ca3",
+    "team/reviews/recipes-browser.json": "6c32b9e8a0e86b2a8261a0bf8b5960785f717423442606f35ce60cb3c3155ffe",
+    "AGENTS.md": "080af6ceed44b82445993cd7beba35a10d6d4ac5d0bd6aa9ce8f53479d1b80fc",
+    "team/PIPELINE.md": "b07605bd3dce1ac88fa0dfcf84eff2377986d156a572f9e37cb40f2b8efb35b0",
+    "team/STYLE.md": "e0dff6e417953ae05376bdcee105449af58e73175e049bbdda084556214dd5c0",
+    "team/QUALITY.md": "e62344e1569a97cc2ade52e438687dcafae886e39841e466519e09bbaf5ed31b",
+    "team/MONITORING.md": "af7c73c1526f047cdd0a8ca39f2e8611c2424ce0650e0cee6c91595ca8459e40",
+    "team/context/ASSET-POLICY.md": "6c87a5c309e749a4b8115b41bcd96004a05b9e86b232100a29f8912f56c62137",
+    "team/context/AUDIENCE.md": "442a59c3468c18935104e40fff2084e9465ffec48382da61c0f62b9f6d110fe2",
+    "team/context/METRICS.md": "0803a7664f7d2718e86f52a82348e67abe2195fc85abb18cb3b147e18bc2c340",
+    "team/context/PROJECT.md": "a791f483e96871b5f690ee7b69fb884055057dff04c4cc1f28ad93b290a7630d",
+    "team/context/USER-BRIEF.md": "b7620db969b61da35c02c57387f2ab764e0dad189295b78abe33fb67772b35cd",
+    "team/research/author-revision-2026-10-18.json": "bfb1af0cd58a5c138c8c0c39ce0eb44c9cb13a3165e655d252557906f5fdc9e3"
+  },
+  "rendered_file_sha256": {
+    "docs/workflows/standard-operating-procedure-template/index.html": "debec662ff539ca0cb2de8442f63bee12f4c6c6d5b42d6d229fba5de3666d358",
+    "docs/index.html": "8c2d32317af9934213de86183e2a1582d6343a3777dcb7210ba4b7c7ab88129a",
+    "docs/sitemap.xml": "8feda62d16f2e35ec8d5d019cf3182b7140828ef7074a1e9736b6a15c6d115ef",
+    "docs/robots.txt": "79a14de6e9185003153a10dfe66c882d50461e921ad2c68d5d0a39780d0db5ff",
+    "docs/templates/standard-operating-procedure-template/fictional-process-notes-and-filled-sop.md": "4d9b7bf1c265c1086de181fb9f1cfe6f9362db06c47949ae8a2e4420fc5cb5fe",
+    "docs/templates/standard-operating-procedure-template/source-map-and-walkthrough-checklist.md": "4ddeea55abcbe8ba2fe20e04b4897663d42fae33c0e96511fabe676c68566899",
+    "docs/templates/standard-operating-procedure-template/standard-operating-procedure-template.md": "6cb2c9ee2169a0e0687de2ef62cf75b228b718bf559ef7166a610d71e1507d29",
+    "docs/templates/standard-operating-procedure-template/standard-operating-procedure-template.txt": "33ce858a802db37020e732ae446846ff66203ef5382df04a2f1d89f7f39fd605"
+  },
+  "pages": [
+    {
+      "slug": "standard-operating-procedure-template",
+      "author": "Independent practical author Einstein, 2026-10-18",
+      "author_agent": "Einstein",
+      "reviewer": "Independent final verification/managing editor Codex, 2026-10-18",
+      "review_basis": "INDEPENDENT_FROZEN_SOURCE_TEMPLATE_REVIEW_PLUS_TARGETED_R1_MOBILE_RECHECK",
+      "verdict": "PASS",
+      "blockers": [],
+      "content_sha256": "702ba41f33a17c6dba548de154d51d94d4fc6a1a5afff77b48f273633454bc81",
+      "file_sha256": {
+        "recipes/standard-operating-procedure-template.md": "702ba41f33a17c6dba548de154d51d94d4fc6a1a5afff77b48f273633454bc81",
+        "templates/standard-operating-procedure-template/fictional-process-notes-and-filled-sop.md": "4d9b7bf1c265c1086de181fb9f1cfe6f9362db06c47949ae8a2e4420fc5cb5fe",
+        "templates/standard-operating-procedure-template/source-map-and-walkthrough-checklist.md": "4ddeea55abcbe8ba2fe20e04b4897663d42fae33c0e96511fabe676c68566899",
+        "templates/standard-operating-procedure-template/standard-operating-procedure-template.md": "6cb2c9ee2169a0e0687de2ef62cf75b228b718bf559ef7166a610d71e1507d29",
+        "templates/standard-operating-procedure-template/standard-operating-procedure-template.txt": "33ce858a802db37020e732ae446846ff66203ef5382df04a2f1d89f7f39fd605"
+      },
+      "recipe_and_templates_sha256": "0f0f09511bbd3858d9647c34343f732500658952593a0eb434d731015b7b722f",
+      "recipe_and_templates_sha256_method": "SHA256 sorted repository-relative path + NUL + raw bytes + NUL",
+      "demand_evidence_path": "team/research/demand-2026-10-17.json",
+      "demand_revalidation_path": "team/research/revalidation-2026-10-18.json",
+      "author_evidence_path": "team/research/author-2026-10-18.json",
+      "rendered_html_sha256": "debec662ff539ca0cb2de8442f63bee12f4c6c6d5b42d6d229fba5de3666d358",
+      "checks": [
+        "Current revalidation18 QUALIFIED is a separate addendum to demand17 /recipes/0; retained hash matches and no duplicate demand recipes array. Qualitative/historical/geographic limits remain explicit.",
+        "Actual guide plus all four templates independently read; immediately usable manual blank, original N1-N5/L1, complete faulty/corrected SOP, source map and exception worksheet fulfill a distinct procedure-writing task.",
+        "Five nonempty writing blocks -> complete selected draft plus original excerpts/audience/purpose -> claim audit -> human edits -> separate action/order/exception walkthrough -> actual process-owner decision is supported by independent source evidence. No primary-model summary substitutes for originals.",
+        "Automatic approval and seven-day deletion are removed from corrected SOP; coordinator distribution is not approval authority. Source optional/stop-rule conflict is addressed; imperative steps need human review; traceability is not truth.",
+        "Reviewer independently paper-traced matching two-file sequence to location handoff; missing file and wrong revision stop at step2; a late mismatch at step4 stops handoff. No substitution/resume policy is invented. Pre-copy order is explicitly a proposal for owner review. These are written-logic checks, not operational tests.",
+        "Access, named owner/reviewer, approval, dates, naming/retention and resume rules stay unresolved as appropriate; manual route works without AI; chat account/cost/privacy vary; no terminal/API/install/connector needed for documented text route.",
+        "Original source/package text decoded as UTF8; temporary copies edited/saved/reopened; guide and three Markdown downloads rendered with project MarkdownIt settings. Complete upstream prompts/private content are absent.",
+        "All nine built asset CTA URLs match the exact primary6825/complement6924 paths and all four canonical UTM values. Primary near opening and repeat after example; complement at audit. No TokRepo request made.",
+        "Frozen render served byte-identically on reviewer localhost; one English H1, own canonical and Article metadata match integrated manifest. October18 publish/update dates are proposed release metadata, not evidence of publication.",
+        "Four source/build/HTTP/browser-save byte matches: 2209-byte MD blank, 2094-byte TXT blank, 10678-byte synthetic example and 7109-byte map/checklist. Browser-save attribute added only in reviewer DOM; existing file href behavior remains unchanged.",
+        "All71 files for12 prior recipes remain identical to finalreview16. They retain that review; this packet contains exactly one newly reviewed page. Source/manifest/build/render/parent receipt hashes were stable at completion.",
+        "R1 resolved: inline blank is byte-for-byte the original Markdown download body with headings demoted. Reconstructing the old fenced block and removing the extra section newline reproduces original manuscript SHA2568219a22c27020640eac58b7067049cbf34d02bff63a1a21cf83d2f3e64306aad; all other guide content is unchanged.",
+        "Targeted final390/320 check:39 block/field entries wrap at minimum16px, no preformatted blank, no horizontally clipped fields or page overflow. Visually inspected document-control, procedure/source/sequence, exceptions, completion and owner-decision sections.",
+        "All four unchanged downloads rechecked source/build/HTTP byte-identical. New source, manifest, build and render match renewed freeze and refreshed parent browser PASS. Original author receipt remains historical; separate revision receipt binds the corrected source."
+      ],
+      "revision_author": "Separate release editor, source-only inline blank formatting, 2026-10-18",
+      "author_revision_evidence_path": "team/research/author-revision-2026-10-18.json",
+      "resolved_finding_ids": [
+        "R1"
+      ]
+    }
+  ],
+  "unchanged_prior_approvals": {
+    "path": "team/reviews/recipes-review-2026-10-16.json",
+    "pages": 12,
+    "source_template_files": 71,
+    "mismatches": [],
+    "carried_into_pages": false
+  },
+  "independent_local_verification": {
+    "status": "PASS",
+    "scope": "R1 affected mobile inline blank plus source/manifest/render and unchanged-download/CTA regression only",
+    "receipt_path": "/var/folders/nh/hqrfk8650_v6r0g74t11fnl80000gn/T/sop-r1-recheck-zyv479e_/receipt.json",
+    "receipt_sha256": "dc1f3b7328c6fd24bd33dd4d87cb4c49d36cf01163fbbcfd2a2c20b4d07bc8b6",
+    "browser_version": "155.0.8059.82",
+    "environment": "Installed Chrome via .venv Playwright in a new isolated headless context; own ephemeral localhost server, stopped after checks.",
+    "viewports": [
+      {
+        "viewport": 390,
+        "article_width": 354,
+        "field_blocks": 39,
+        "minimum_font_px": 16.0,
+        "page_scroll_width": 390,
+        "blank_pre_count": 0,
+        "horizontal_field_overflow": false
+      },
+      {
+        "viewport": 320,
+        "article_width": 284,
+        "field_blocks": 39,
+        "minimum_font_px": 16.0,
+        "page_scroll_width": 320,
+        "blank_pre_count": 0,
+        "horizontal_field_overflow": false
+      }
+    ],
+    "downloads": [
+      {
+        "path": "templates/standard-operating-procedure-template/fictional-process-notes-and-filled-sop.md",
+        "bytes": 10678,
+        "sha256": "4d9b7bf1c265c1086de181fb9f1cfe6f9362db06c47949ae8a2e4420fc5cb5fe",
+        "status": 200,
+        "source_build_http_equal": true
+      },
+      {
+        "path": "templates/standard-operating-procedure-template/source-map-and-walkthrough-checklist.md",
+        "bytes": 7109,
+        "sha256": "4ddeea55abcbe8ba2fe20e04b4897663d42fae33c0e96511fabe676c68566899",
+        "status": 200,
+        "source_build_http_equal": true
+      },
+      {
+        "path": "templates/standard-operating-procedure-template/standard-operating-procedure-template.md",
+        "bytes": 2209,
+        "sha256": "6cb2c9ee2169a0e0687de2ef62cf75b228b718bf559ef7166a610d71e1507d29",
+        "status": 200,
+        "source_build_http_equal": true
+      },
+      {
+        "path": "templates/standard-operating-procedure-template/standard-operating-procedure-template.txt",
+        "bytes": 2094,
+        "sha256": "33ce858a802db37020e732ae446846ff66203ef5382df04a2f1d89f7f39fd605",
+        "status": 200,
+        "source_build_http_equal": true
+      }
+    ],
+    "page_errors": [],
+    "external_requests": [],
+    "screenshots_visually_inspected": [
+      "/var/folders/nh/hqrfk8650_v6r0g74t11fnl80000gn/T/sop-r1-recheck-zyv479e_/320-blank-start.png",
+      "/var/folders/nh/hqrfk8650_v6r0g74t11fnl80000gn/T/sop-r1-recheck-zyv479e_/320-blank-procedure.png",
+      "/var/folders/nh/hqrfk8650_v6r0g74t11fnl80000gn/T/sop-r1-recheck-zyv479e_/320-blank-exceptions.png",
+      "/var/folders/nh/hqrfk8650_v6r0g74t11fnl80000gn/T/sop-r1-recheck-zyv479e_/320-blank-decision.png",
+      "/var/folders/nh/hqrfk8650_v6r0g74t11fnl80000gn/T/sop-r1-recheck-zyv479e_/390-blank-start.png"
+    ],
+    "source_before": "cd2c20b268a7fe80d4db4d94ac449d9df770662332470507fe3fa6e7b6f1358a",
+    "source_after": "cd2c20b268a7fe80d4db4d94ac449d9df770662332470507fe3fa6e7b6f1358a",
+    "reused_unchanged_checks": "Earlier full source/template critique,1280px layout and explicit browser-save bytes retained under failed_review_history. Only inline blank changed; exact source-only reconstruction and unchanged4-template/CSS/build checks justify targeted390/320 recheck. No repeated external research or global build/check run."
+  },
+  "parent_browser_receipt": {
+    "path": "team/reviews/recipes-browser.json",
+    "sha256": "6c32b9e8a0e86b2a8261a0bf8b5960785f717423442606f35ce60cb3c3155ffe",
+    "status": "PASS",
+    "source_sha256": "cd2c20b268a7fe80d4db4d94ac449d9df770662332470507fe3fa6e7b6f1358a",
+    "scope": "Parent13-page recipe check; not a replacement for independent mobile content judgment.",
+    "overwritten_by_reviewer": false
+  },
+  "verification_limits": [
+    "External source identity/instructions use current independent revalidation18; reviewer made no TokRepo or other public requests. Catalog-reported prompt hashes are not independently recomputed source hashes.",
+    "No shared Chrome/profile, GSC, GA, Git, model, installer, real file operation, process-owner approval, publication or traffic/asset-use verification.",
+    "Final PASS covers reviewed content/templates and bounded local rendering, not process-owner approval, AI/runtime execution, publication, indexing, ranking, traffic or asset use."
+  ],
+  "revision_history": [
+    {
+      "phase": "preflight",
+      "status": "WAITING_FOR_FINAL_FREEZE",
+      "summary": "Contracts, prior12 and demand17 reviewed; finalized revalidation18 subsequently read. Waiting ended at direct FINAL_FREEZE."
+    },
+    {
+      "phase": "frozen_review",
+      "reviewed_at": "2026-10-18T12:50:25.310333+08:00",
+      "verdict": "REVISE",
+      "finding_ids": [
+        "R1"
+      ],
+      "source_sha256": "b502eaa7b94f333b085d124fdc6ff59afaa45f55f693dbe4709e0b792f707436"
+    },
+    {
+      "phase": "renewed_frozen_R1_recheck",
+      "reviewed_at": "2026-10-18T12:54:18.583374+08:00",
+      "verdict": "PASS",
+      "resolved_finding_ids": [
+        "R1"
+      ],
+      "source_sha256": "cd2c20b268a7fe80d4db4d94ac449d9df770662332470507fe3fa6e7b6f1358a",
+      "manifest_sha256": "8f875b8d1f8564cf1ca8fab5e3429c7f68a0a4bab3a29ac1cdd1bb87e045bcf1",
+      "rendered_sha256": "debec662ff539ca0cb2de8442f63bee12f4c6c6d5b42d6d229fba5de3666d358",
+      "scope": "Affected mobile blank390/320 and necessary unchanged-download/CTA/hash regression only."
+    }
+  ],
+  "failed_review_history": [
+    {
+      "reviewed_at": "2026-10-18T12:50:25.310333+08:00",
+      "verdict": "REVISE",
+      "blockers": [
+        {
+          "id": "R1",
+          "severity": "BLOCKER",
+          "area": "Mobile usability of primary copyable blank",
+          "source_path": "recipes/standard-operating-procedure-template.md",
+          "source_section": "Copy the blank SOP",
+          "evidence": "At 390px the prose blank has 11.7px code text and a 520px internal scroll area inside 354px; at 320px it occupies 284px with 236px horizontal travel. Visually inspected screenshot shows several field labels/placeholders cut off together. Page overflow remains zero, so the parent layout PASS does not resolve this actual-content issue. Surrounding body prose and steps are readable at 16px.",
+          "requested_correction": "Author should render the inline prose blank as wrapping, readable text, for example the stacked Markdown sections already used in the downloadable blank. Preserve all current fields, unknowns, stop/approval limits and four download targets. A source-only edit can avoid changing global CSS.",
+          "acceptance": "After parent rebuild and renewed freeze, inspect the entire inline blank at 390/320px: field names and placeholders readable without sideways scrolling; preserve original meaning, source/sequence handling, template usability and exact links. Refresh affected source/render/global bindings and parent receipt.",
+          "evidence_screenshot": "/var/folders/nh/hqrfk8650_v6r0g74t11fnl80000gn/T/sop-final-review-87p5mesi/320-blank.png"
+        }
+      ],
+      "reviewed_source_sha256": "b502eaa7b94f333b085d124fdc6ff59afaa45f55f693dbe4709e0b792f707436",
+      "manifest_sha256": "cc8f530fd56efe440c391450ba21a5f743460b8bf99383351b4b28ea2eb531da",
+      "rendered_sha256": "f9574d633a718fd692fa651d672ec105dafbfe53a227ca3b52c79c5cc2186b62",
+      "content_sha256": "8219a22c27020640eac58b7067049cbf34d02bff63a1a21cf83d2f3e64306aad",
+      "file_sha256": {
+        "recipes/standard-operating-procedure-template.md": "8219a22c27020640eac58b7067049cbf34d02bff63a1a21cf83d2f3e64306aad",
+        "templates/standard-operating-procedure-template/fictional-process-notes-and-filled-sop.md": "4d9b7bf1c265c1086de181fb9f1cfe6f9362db06c47949ae8a2e4420fc5cb5fe",
+        "templates/standard-operating-procedure-template/source-map-and-walkthrough-checklist.md": "4ddeea55abcbe8ba2fe20e04b4897663d42fae33c0e96511fabe676c68566899",
+        "templates/standard-operating-procedure-template/standard-operating-procedure-template.md": "6cb2c9ee2169a0e0687de2ef62cf75b228b718bf559ef7166a610d71e1507d29",
+        "templates/standard-operating-procedure-template/standard-operating-procedure-template.txt": "33ce858a802db37020e732ae446846ff66203ef5382df04a2f1d89f7f39fd605"
+      },
+      "independent_local_verification": {
+        "status": "CHECKS_COMPLETED_WITH_EDITORIAL_BLOCKER_R1",
+        "mechanical_receipt_status": "PASS",
+        "receipt_status_limit": "Mechanical geometry/download checks PASS; visual task-template readability independently REVISE.",
+        "receipt_path": "/var/folders/nh/hqrfk8650_v6r0g74t11fnl80000gn/T/sop-final-review-87p5mesi/receipt.json",
+        "receipt_sha256": "e850e1a0a6d38bda5d45faf80f5ec7255f0df7519b0a3b06e6043fdbd7fc5837",
+        "browser_version": "155.0.8059.82",
+        "environment": "installed chrome, fresh isolated headless context; shared profile unused",
+        "server": "Independent ephemeral loopback HTTP server serving existing docs; shut down after checks.",
+        "viewports": [
+          {
+            "width": 1280,
+            "page_scroll_width": 1280,
+            "body_width": 840,
+            "body_font": "16px",
+            "blank": {
+              "width": 840,
+              "scrollWidth": 840,
+              "font": "11.7px",
+              "overflow": "auto"
+            },
+            "blank_horizontal_travel": 0,
+            "clipped_prose": []
+          },
+          {
+            "width": 390,
+            "page_scroll_width": 390,
+            "body_width": 354,
+            "body_font": "16px",
+            "blank": {
+              "width": 354,
+              "scrollWidth": 520,
+              "font": "11.7px",
+              "overflow": "auto"
+            },
+            "blank_horizontal_travel": 166,
+            "clipped_prose": []
+          },
+          {
+            "width": 320,
+            "page_scroll_width": 320,
+            "body_width": 284,
+            "body_font": "16px",
+            "blank": {
+              "width": 284,
+              "scrollWidth": 520,
+              "font": "11.7px",
+              "overflow": "auto"
+            },
+            "blank_horizontal_travel": 236,
+            "clipped_prose": []
+          }
+        ],
+        "downloads": [
+          {
+            "path": "templates/standard-operating-procedure-template/standard-operating-procedure-template.md",
+            "status": 200,
+            "bytes": 2209,
+            "sha256": "6cb2c9ee2169a0e0687de2ef62cf75b228b718bf559ef7166a610d71e1507d29",
+            "source_built_http_browser_download_equal": true,
+            "download_name": "standard-operating-procedure-template.md",
+            "download_attribute": "added in reviewer DOM for explicit save; built link is ordinary file href",
+            "content_type": "text/markdown"
+          },
+          {
+            "path": "templates/standard-operating-procedure-template/standard-operating-procedure-template.txt",
+            "status": 200,
+            "bytes": 2094,
+            "sha256": "33ce858a802db37020e732ae446846ff66203ef5382df04a2f1d89f7f39fd605",
+            "source_built_http_browser_download_equal": true,
+            "download_name": "standard-operating-procedure-template.txt",
+            "download_attribute": "added in reviewer DOM for explicit save; built link is ordinary file href",
+            "content_type": "text/plain"
+          },
+          {
+            "path": "templates/standard-operating-procedure-template/fictional-process-notes-and-filled-sop.md",
+            "status": 200,
+            "bytes": 10678,
+            "sha256": "4d9b7bf1c265c1086de181fb9f1cfe6f9362db06c47949ae8a2e4420fc5cb5fe",
+            "source_built_http_browser_download_equal": true,
+            "download_name": "fictional-process-notes-and-filled-sop.md",
+            "download_attribute": "added in reviewer DOM for explicit save; built link is ordinary file href",
+            "content_type": "text/markdown"
+          },
+          {
+            "path": "templates/standard-operating-procedure-template/source-map-and-walkthrough-checklist.md",
+            "status": 200,
+            "bytes": 7109,
+            "sha256": "4ddeea55abcbe8ba2fe20e04b4897663d42fae33c0e96511fabe676c68566899",
+            "source_built_http_browser_download_equal": true,
+            "download_name": "source-map-and-walkthrough-checklist.md",
+            "download_attribute": "added in reviewer DOM for explicit save; built link is ordinary file href",
+            "content_type": "text/markdown"
+          }
+        ],
+        "temporary_template_views": [
+          {
+            "width": 390,
+            "scrollWidth": 390,
+            "paragraphWidth": 354,
+            "font": "16px",
+            "clipped": [],
+            "file": "standard-operating-procedure-template.md",
+            "render_basis": "temporary project MarkdownIt + unchanged build CSS; original download stays Markdown",
+            "screenshot": "/var/folders/nh/hqrfk8650_v6r0g74t11fnl80000gn/T/sop-final-review-87p5mesi/390-standard-operating-procedure-template.md.png"
+          },
+          {
+            "width": 320,
+            "scrollWidth": 320,
+            "paragraphWidth": 284,
+            "font": "16px",
+            "clipped": [],
+            "file": "standard-operating-procedure-template.md",
+            "render_basis": "temporary project MarkdownIt + unchanged build CSS; original download stays Markdown",
+            "screenshot": "/var/folders/nh/hqrfk8650_v6r0g74t11fnl80000gn/T/sop-final-review-87p5mesi/320-standard-operating-procedure-template.md.png"
+          },
+          {
+            "width": 390,
+            "scrollWidth": 390,
+            "paragraphWidth": 354,
+            "font": "16px",
+            "clipped": [],
+            "file": "fictional-process-notes-and-filled-sop.md",
+            "render_basis": "temporary project MarkdownIt + unchanged build CSS; original download stays Markdown",
+            "screenshot": "/var/folders/nh/hqrfk8650_v6r0g74t11fnl80000gn/T/sop-final-review-87p5mesi/390-fictional-process-notes-and-filled-sop.md.png"
+          },
+          {
+            "width": 320,
+            "scrollWidth": 320,
+            "paragraphWidth": 284,
+            "font": "16px",
+            "clipped": [],
+            "file": "fictional-process-notes-and-filled-sop.md",
+            "render_basis": "temporary project MarkdownIt + unchanged build CSS; original download stays Markdown",
+            "screenshot": "/var/folders/nh/hqrfk8650_v6r0g74t11fnl80000gn/T/sop-final-review-87p5mesi/320-fictional-process-notes-and-filled-sop.md.png"
+          },
+          {
+            "width": 390,
+            "scrollWidth": 390,
+            "paragraphWidth": 354,
+            "font": "16px",
+            "clipped": [],
+            "file": "source-map-and-walkthrough-checklist.md",
+            "render_basis": "temporary project MarkdownIt + unchanged build CSS; original download stays Markdown",
+            "screenshot": "/var/folders/nh/hqrfk8650_v6r0g74t11fnl80000gn/T/sop-final-review-87p5mesi/390-source-map-and-walkthrough-checklist.md.png"
+          },
+          {
+            "width": 320,
+            "scrollWidth": 320,
+            "paragraphWidth": 284,
+            "font": "16px",
+            "clipped": [],
+            "file": "source-map-and-walkthrough-checklist.md",
+            "render_basis": "temporary project MarkdownIt + unchanged build CSS; original download stays Markdown",
+            "screenshot": "/var/folders/nh/hqrfk8650_v6r0g74t11fnl80000gn/T/sop-final-review-87p5mesi/320-source-map-and-walkthrough-checklist.md.png"
+          }
+        ],
+        "page_errors": [],
+        "external_requests": 0,
+        "screenshots_visually_inspected": [
+          "320-opening.png",
+          "320-blank.png",
+          "320-audit.png",
+          "320-steps.png",
+          "390-walkthrough.png",
+          "1280-opening.png",
+          "320-standard-operating-procedure-template.md.png",
+          "320-fictional-process-notes-and-filled-sop.md.png",
+          "320-source-map-and-walkthrough-checklist.md.png"
+        ],
+        "source_before": "b502eaa7b94f333b085d124fdc6ff59afaa45f55f693dbe4709e0b792f707436",
+        "source_after": "b502eaa7b94f333b085d124fdc6ff59afaa45f55f693dbe4709e0b792f707436"
+      },
+      "historical_status": "Superseded by source-bound R1 recheck below; original failure and evidence preserved."
+    }
+  ],
+  "resolved_findings": [
+    {
+      "id": "R1",
+      "status": "RESOLVED",
+      "original_issue": {
+        "id": "R1",
+        "severity": "BLOCKER",
+        "area": "Mobile usability of primary copyable blank",
+        "source_path": "recipes/standard-operating-procedure-template.md",
+        "source_section": "Copy the blank SOP",
+        "evidence": "At 390px the prose blank has 11.7px code text and a 520px internal scroll area inside 354px; at 320px it occupies 284px with 236px horizontal travel. Visually inspected screenshot shows several field labels/placeholders cut off together. Page overflow remains zero, so the parent layout PASS does not resolve this actual-content issue. Surrounding body prose and steps are readable at 16px.",
+        "requested_correction": "Author should render the inline prose blank as wrapping, readable text, for example the stacked Markdown sections already used in the downloadable blank. Preserve all current fields, unknowns, stop/approval limits and four download targets. A source-only edit can avoid changing global CSS.",
+        "acceptance": "After parent rebuild and renewed freeze, inspect the entire inline blank at 390/320px: field names and placeholders readable without sideways scrolling; preserve original meaning, source/sequence handling, template usability and exact links. Refresh affected source/render/global bindings and parent receipt.",
+        "evidence_screenshot": "/var/folders/nh/hqrfk8650_v6r0g74t11fnl80000gn/T/sop-final-review-87p5mesi/320-blank.png"
+      },
+      "resolution": "Source-only replacement of inline fenced prose with original downloadable blank in normal stacked body text; headings demoted. No CSS/download change.",
+      "rechecked_at": "2026-10-18T12:54:18.583374+08:00",
+      "new_content_sha256": "702ba41f33a17c6dba548de154d51d94d4fc6a1a5afff77b48f273633454bc81",
+      "new_source_sha256": "cd2c20b268a7fe80d4db4d94ac449d9df770662332470507fe3fa6e7b6f1358a",
+      "new_rendered_sha256": "debec662ff539ca0cb2de8442f63bee12f4c6c6d5b42d6d229fba5de3666d358",
+      "metrics": [
+        {
+          "viewport": 390,
+          "article_width": 354,
+          "field_blocks": 39,
+          "minimum_font_px": 16.0,
+          "page_scroll_width": 390,
+          "blank_pre_count": 0,
+          "horizontal_field_overflow": false
+        },
+        {
+          "viewport": 320,
+          "article_width": 284,
+          "field_blocks": 39,
+          "minimum_font_px": 16.0,
+          "page_scroll_width": 320,
+          "blank_pre_count": 0,
+          "horizontal_field_overflow": false
+        }
+      ]
+    }
+  ]
+}

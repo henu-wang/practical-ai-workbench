@@ -1526,6 +1526,212 @@
       "updated_on": "2026-10-16",
       "demand_revalidation_path": "team/research/revalidation-2026-10-16.json",
       "author_revision_evidence_path": "team/research/author-revision-2026-10-16.json"
+    },
+    {
+      "slug": "standard-operating-procedure-template",
+      "title": "Standard operating procedure template from your process notes",
+      "primary_query": "standard operating procedure template",
+      "related_queries": [
+        "standard operating procedure template examples"
+      ],
+      "intent_id": "office_process_owner_existing_steps_to_repeatable_procedure",
+      "reader": "Office staff and small-team process owners documenting an existing low-risk recurring task. Public question evidence comes specifically from MSP/IT-office settings.",
+      "task": "Turn existing process knowledge and approved source notes into an editable procedure draft another team member can follow and a process owner can review.",
+      "input": [
+        "One bounded existing process, its trigger, intended reader and supplied access requirements.",
+        "Original labelled process notes, roles, order, exceptions, observable outputs and any actual approved rules.",
+        "Task, audience/relationship, tone, format constraints and rough notes for the five-block writing asset."
+      ],
+      "output": "Editable blank SOP, original filled example, source-to-step map, exception/unknown log and human walkthrough checklist. Process-owner approval remains separate.",
+      "autocomplete": {
+        "seed": "standard operating procedure template",
+        "exact_observed_suggestion": "standard operating procedure template",
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=standard%20operating%20procedure%20template",
+        "market": "US",
+        "language": "en",
+        "request_started_at": "2026-10-17T04:30:26.000741+00:00",
+        "retrieved_at": "2026-10-17T04:30:27.255751+00:00",
+        "http_status": 200,
+        "response_sha256": "8d0130637c86ca676d6c46e7d1ae6f827dd46a8ac6ce7133e0846783cdd489f4",
+        "suggestions": [
+          "standard operating procedure template",
+          "standard operating procedure template word pdf",
+          "standard operating procedure template word",
+          "standard operating procedure template word pdf free",
+          "standard operating procedure template free",
+          "standard operating procedure template word free",
+          "standard operating procedure template google docs",
+          "standard operating procedure template pdf",
+          "standard operating procedure template excel",
+          "standard operating procedure template examples"
+        ],
+        "limitation": "Qualitative suggestion presence only. US/en request parameters do not establish physical US location, question geography, query frequency, volume or traffic. Format variants require real matching files; this brief promises editable text only."
+      },
+      "questions": [
+        {
+          "url": "https://www.reddit.com/r/msp/comments/15z6co8/looking_for_recommendations_on_sop_templates_for/",
+          "title": "Looking for recommendations on SOP Templates for Process Standardization",
+          "author": "RE_H",
+          "displayed_age": "3y ago",
+          "exact_creation_time": null,
+          "inspected_at": "2026-10-17T04:33:35.748375+00:00",
+          "type": "independent public user question",
+          "question_intent": "Original author asks for adaptable, clear, consistently structured SOP templates to document team processes without starting from scratch.",
+          "editorial_implication": "Deliver an editable blank procedure and a filled example with explicit roles, numbered steps, maintenance fields and checks.",
+          "inspection": "Original post body, author and title read independently through web text rendering, including four requested template properties. Comments, answers and related cards excluded.",
+          "limitations": "Historical MSP context; country and monthly frequency unknown; no view/vote/answer count used. Renderer says crawled today, not an independently timed origin fetch."
+        },
+        {
+          "url": "https://www.reddit.com/r/sysadmin/comments/1hx8d63/it_department_sops/",
+          "title": "IT Department SOPs",
+          "author": "EmotionalSong7125",
+          "displayed_age": "2y ago",
+          "exact_creation_time": null,
+          "inspected_at": "2026-10-17T04:33:35.748375+00:00",
+          "type": "independent public user question",
+          "question_intent": "A startup department lead must create SOPs, gives helpdesk as an example, and asks how to start because this is unfamiliar work.",
+          "editorial_implication": "Show how supplied process notes become one bounded procedure; distinguish process-owner knowledge from a writing assistant, with missing-input stop points.",
+          "inspection": "Original post body, author and title independently opened and read through web text rendering. Advice in comments was not counted as another demand source.",
+          "limitations": "Historical IT-office context; does not prove demand for every nontechnical office process, US residence, current recurrence frequency or any regulated SOP."
+        }
+      ],
+      "claim_boundaries": [
+        "General writing prompt adapted to a procedure format; source-reviewed, runtime not tested.",
+        "Claim traceability does not establish truth, step completeness, operational safety, access permission, compliance or organizational approval.",
+        "Scope excludes regulated, security-administration, medical, legal, financial and safety-critical procedure advice. Do not turn the helpdesk question into instructions to administer live systems.",
+        "Original low-risk example only; no invented facts, deadlines, retention rules, improvement metrics, approvals or real process outcomes.",
+        "Complete asset prompts remain on TokRepo; original source documents, credentials and private analytics are excluded.",
+        "Qualitative demand is not volume, difficulty, ranking, visits or useful asset use."
+      ],
+      "competition": "Search discovery surfaced existing SOP guide/template suppliers, including Asana and Stack Overflow. Those are supply, not demand evidence or a measured difficulty assessment. Original source/exception package must justify the guide rather than a generic template list.",
+      "canonical_path": "/workflows/standard-operating-procedure-template/",
+      "duplicate_decision": {
+        "decision": "MATERIALLY_DIFFERENT_NEW_CANONICAL_INTENT",
+        "comparison": "Minutes record past decisions; weekly status reports describe an elapsed reporting window; proposals request a future project decision. SOP documents how to repeat an already understood task, with trigger, steps, exceptions and observable completion. Presentation creates slides; follow-up creates one message. Reusing a general writing or claim-audit asset does not alone create distinctness; the procedure output and original step/exception package do.",
+        "checked_existing_recipe_slugs": [
+          "transcribe-audio-to-text",
+          "meeting-minutes-template",
+          "extract-tables-from-pdf-to-excel",
+          "presentation-from-notes",
+          "clean-csv-remove-duplicate-rows",
+          "flashcards-from-lecture-notes",
+          "write-resume-bullet-points",
+          "project-proposal-template",
+          "write-a-cover-letter",
+          "study-schedule-template",
+          "weekly-project-status-report-template",
+          "professional-follow-up-email-after-no-response"
+        ],
+        "checked_ledger_entries": 18,
+        "legacy_scope": "All six legacy file-operation routes checked; no existing SOP or process-instructions canonical. Synonyms, free/template/examples/Word variants stay on this single canonical."
+      },
+      "intent": "guide/template with immediately editable Markdown/plain-text SOP, synthetic notes and filled draft, source-to-step map and missing-file walkthrough",
+      "search_volume": null,
+      "demand_status": "Qualitative autocomplete and two independent original questions; revalidated October18, no numerical volume claim",
+      "assets": [
+        {
+          "id": 6825,
+          "uuid": "3128c956-a9b4-41a8-8d39-6e7dec2bc503",
+          "slug": "reusable-draft-final-writing-prompt-3128c956",
+          "title": "Reusable Draft-to-Final Writing Prompt",
+          "url": "https://tokrepo.com/en/workflows/reusable-draft-final-writing-prompt-3128c956",
+          "role": "Primary: draft an SOP from all five supplied writing blocks; SOP structure is the author's explicit adaptation of a general writing prompt.",
+          "public_status": 200,
+          "source_reviewed": true,
+          "runtime_verified": false,
+          "prerequisites": [
+            "Obtain the complete prompt on the exact English TokRepo page and use an ordinary text-capable AI chat if choosing AI.",
+            "Supply nonempty TASK, AUDIENCE AND RELATIONSHIP, TONE, CONSTRAINTS, and ROUGH DRAFT OR NOTES blocks; missing blocks require clarification before drafting.",
+            "Use original notes for one already-understood, low-risk recurring office process, including actual roles, input/access requirements, order, exceptions and observable completion.",
+            "Specify the SOP as the requested Draft format. The assistant's surrounding brief/outline/review sections are not part of the chosen SOP body.",
+            "Redact confidential material and check the selected provider's account, price and data-handling terms. This copy/paste route needs no terminal, API key, installation or account connector."
+          ],
+          "source": {
+            "kind": "Original TokRepo Prompt Lab text prompt",
+            "source_url": "https://tokrepo.com/en/workflows/reusable-draft-final-writing-prompt-3128c956",
+            "entrypoint": "PROMPT.md",
+            "asset_kind": "prompt",
+            "license_stated": "CC BY 4.0 for original prompt; external references retain their rights",
+            "source_content_hash_reported": "e82f0bf0e80122c24ee465cd41e99094d4a34341e4c23486aa501a51e61569e3",
+            "hash_caveat": "Catalog-reported content hash, not an independently recomputed digest of PROMPT.md.",
+            "updated_at_reported": "2026-10-18 11:51:00",
+            "updated_at_timezone": "not stated",
+            "english_instructions_reviewed": true,
+            "english_source_contains_separate_chinese_translation": true,
+            "full_prompt_redistributed": false,
+            "external_announcements": "Context only; neither upstream executable source nor capability evidence."
+          },
+          "verification_level": "source_reviewed_runtime_not_tested",
+          "current_source_evidence": "team/research/revalidation-2026-10-18.json"
+        },
+        {
+          "id": 6924,
+          "uuid": "a82f6e1c-45d7-44d9-91f5-0d51bc9352fc",
+          "slug": "prompt-fact-check-your-draft-into-claim-grid-a82f6e1c",
+          "title": "Prompt: Fact-Check Your Draft Into a Claim Grid",
+          "url": "https://tokrepo.com/en/workflows/prompt-fact-check-your-draft-into-claim-grid-a82f6e1c",
+          "role": "Complement: audit factual assertions in the chosen full draft against the same original labelled process-note excerpts.",
+          "public_status": 200,
+          "source_reviewed": true,
+          "runtime_verified": false,
+          "prerequisites": [
+            "Obtain the full complement prompt on its exact English TokRepo page.",
+            "Paste one full selected SOP draft, a labelled list WITH substantive original N1-N5 excerpts, and explicit intended audience and purpose.",
+            "Do not pass labels/URLs alone or substitute a model-generated summary for the underlying process evidence.",
+            "Resolve missing or contradictory source inputs first. The source-optional introduction conflicts with its missing/too-short-source stop rule; do not promise a no-source audit.",
+            "A human must check every source assignment, apply edits and separately review imperative steps, order, roles, access, stop conditions and completion."
+          ],
+          "source": {
+            "kind": "Original TokRepo Prompt Lab text prompt",
+            "source_url": "https://tokrepo.com/en/workflows/prompt-fact-check-your-draft-into-claim-grid-a82f6e1c",
+            "entrypoint": "PROMPT.md",
+            "asset_kind": "prompt",
+            "license_stated": "CC BY 4.0 for original prompt; external references retain their rights",
+            "source_content_hash_reported": "3679b985b4a8126310f14b9f3af9c07e3000a25110bc86ca5ca5975d956879ef",
+            "hash_caveat": "Catalog-reported content hash, not an independently recomputed digest of PROMPT.md.",
+            "updated_at_reported": "2026-10-18 04:49:57",
+            "updated_at_timezone": "not stated",
+            "english_instructions_reviewed": true,
+            "english_source_contains_separate_chinese_translation": true,
+            "full_prompt_redistributed": false,
+            "external_announcements": "Context only; neither upstream executable source nor capability evidence."
+          },
+          "verification_level": "source_reviewed_runtime_not_tested",
+          "current_source_evidence": "team/research/revalidation-2026-10-18.json"
+        }
+      ],
+      "asset_handoff": [
+        "Human process owner supplies original labelled notes and all five primary writing blocks. State SOP as required draft format and preserve unknowns.",
+        "Get the complete primary prompt from TokRepo; choose one full draft. Its self-review is not independent verification.",
+        "Pass the full selected draft, original substantive N1/N2-style excerpts, audience and purpose to the complementary TokRepo prompt. Never substitute a model summary as original evidence.",
+        "Human compares factual findings with actual excerpts, fixes wording and separately maps all steps, roles, sequence, exceptions and outputs to process notes.",
+        "Process owner reviews the draft and unknowns before operational use; neither prompt approves a procedure or performs it."
+      ],
+      "deliverables": [
+        "templates/standard-operating-procedure-template/fictional-process-notes-and-filled-sop.md",
+        "templates/standard-operating-procedure-template/source-map-and-walkthrough-checklist.md",
+        "templates/standard-operating-procedure-template/standard-operating-procedure-template.md",
+        "templates/standard-operating-procedure-template/standard-operating-procedure-template.txt"
+      ],
+      "tokrepo_role": "Get reusable draft and source-audit prompts on exact English TokRepo pages; original templates and manual completion remain available here.",
+      "category": "Documents and information",
+      "description": "Copy an editable standard operating procedure template. Use a filled example, source-to-step map and walkthrough checklist to turn existing notes into a reviewable SOP.",
+      "author": "Independent practical author Einstein, 2026-10-18",
+      "source_path": "recipes/standard-operating-procedure-template.md",
+      "content_sha256": "702ba41f33a17c6dba548de154d51d94d4fc6a1a5afff77b48f273633454bc81",
+      "template_paths": [
+        "templates/standard-operating-procedure-template/fictional-process-notes-and-filled-sop.md",
+        "templates/standard-operating-procedure-template/source-map-and-walkthrough-checklist.md",
+        "templates/standard-operating-procedure-template/standard-operating-procedure-template.md",
+        "templates/standard-operating-procedure-template/standard-operating-procedure-template.txt"
+      ],
+      "author_evidence_path": "team/research/author-2026-10-18.json",
+      "demand_evidence_path": "team/research/demand-2026-10-17.json",
+      "demand_revalidation_path": "team/research/revalidation-2026-10-18.json",
+      "authored_on": "2026-10-18",
+      "published_on": "2026-10-18",
+      "updated_on": "2026-10-18",
+      "author_revision_evidence_path": "team/research/author-revision-2026-10-18.json"
     }
   ]
 }
