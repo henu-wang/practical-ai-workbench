@@ -1,0 +1,375 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-19",
+  "observed_at": "2026-10-19T04:52:49+00:00",
+  "editor": "Independent demand/prioritization editor, Codex",
+  "owned_files": [
+    "team/research/demand-2026-10-19.json",
+    "team/research/demand-2026-10-19.md"
+  ],
+  "verdict": "HOLD",
+  "qualification_scope": "Research and editorial prioritization only. No author assignment, content approval, release approval or repository repair.",
+  "market": "US",
+  "language": "en",
+  "numeric_search_volume": null,
+  "screened_candidate_count": 1,
+  "qualified_candidate_count": 0,
+  "recipes": [],
+  "decision": {
+    "expansion": "HOLD_EXPANSION_RETAIN_SCOUT",
+    "author_now": false,
+    "reason": "Parent stopped expansion after bounded monitoring. Preserve the one qualitative-demand scout, but no fully qualified current asset/source/template handoff has been established. Do not promote identity-only checks to a qualified brief or manufacture a page for count.",
+    "no_demand_claim": false,
+    "repair": "NO_REPOSITORY_REPAIR_JUSTIFIED_BY_RECOVERED_6826_INCIDENT",
+    "incident_classification": "TRANSIENT_OBSERVED_RECOVERY_PARENT_REPORTED",
+    "priority": "Retain the valid meeting-minutes asset; perform the scheduled bounded follow-up and October21 settled review.",
+    "indexing_is_authoring_prerequisite": false,
+    "scheduling_boundary": "Holding expansion is an editorial allocation decision, not a requirement to wait for indexing. A demonstrably strong, distinct, fully supported brief could be authored independently of indexing; this scout has not reached that state.",
+    "author_assigned": false,
+    "independent_content_reviewer_assigned": false,
+    "publication_approved": false
+  },
+  "screened_candidates": [
+    {
+      "slug": "literature-review-matrix-template",
+      "intent_id": "student_read_papers_to_source_anchored_literature_comparison_matrix",
+      "status": "HOLD_NOT_FULLY_QUALIFIED",
+      "primary_query": "literature review matrix template",
+      "reader": "An English-speaking student or researcher organizing papers already read.",
+      "task": "Record comparable paper digests, findings, methods, limitations and source anchors in an editable matrix for later synthesis.",
+      "input": "Reader-selected papers plus the reader's own checked notes and exact source passages.",
+      "output_intent": "Immediately editable literature-comparison matrix and a filled illustrative row; this is an intent description, not an authored template or tested output.",
+      "primary_format_signals": [
+        "Excel",
+        "Google Sheets",
+        "PDF",
+        "DOC"
+      ],
+      "intent_fit": "Template and reading-workflow intent. Do not bait template seekers into mandatory Python document conversion, promise automatic scholarly synthesis, or advertise formats not actually supplied.",
+      "autocomplete": {
+        "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=literature%20review%20matrix%20template",
+        "request_started_at": "2026-10-19T04:50:36.047061+00:00",
+        "retrieved_at": "2026-10-19T04:50:37.253378+00:00",
+        "status": 200,
+        "sha256": "310560a686659463835e3117e505d74716f60ce84bcfabe34091dfd081443b1e",
+        "seed": "literature review matrix template",
+        "suggestions": [
+          "literature review matrix template",
+          "literature review matrix template excel",
+          "literature review matrix template google sheets",
+          "literature review matrix template pdf",
+          "literature review matrix template free",
+          "literature review matrix template doc",
+          "literature review chart template",
+          "document review matrix template",
+          "literature review matrix example",
+          "literature review matrix sample pdf"
+        ],
+        "attempts": 1,
+        "exact_observed_suggestion": "literature review matrix template",
+        "market": "US",
+        "language": "en",
+        "limitation": "One current public Google suggestion response, qualitative presence only. US/en request parameters do not establish physical US location, US residency of question authors, volume, frequency, difficulty or traffic. No API retry was made."
+      },
+      "questions": [
+        {
+          "url": "https://www.reddit.com/r/PhD/comments/ry6ron/literature_matrix_excel_sheet_templates/",
+          "title": "Literature matrix excel sheet templates?",
+          "author": "SignificantPay1111",
+          "original_post_date_search_display": "2022-01-07",
+          "opened_page_displayed_age": "5y ago",
+          "inspected_at": "2026-10-19T04:50:41+00:00",
+          "timestamp_semantics": "Evidence-log time after independently opening the original rendered post; not a measured origin retrieval time.",
+          "original_body_observation": "Author wants a general matrix to collect digests of papers already read because existing examples do not fit their subject.",
+          "template_implication": "Adaptable matrix fields and an immediate editable blank, rather than only advice or a list of tools.",
+          "inspection_scope": "Original title, author and body at rendered lines16-23; answers and related-post cards excluded as demand evidence.",
+          "limitations": "Historical English question; country and current recurrence frequency unknown. Renderer says crawled today; live origin fetch is not established."
+        },
+        {
+          "url": "https://www.reddit.com/r/PhD/comments/1ozchol/lit_review_matrix/",
+          "title": "Lit Review Matrix",
+          "author": "Yennefer99",
+          "original_post_date_search_display": "2025-11-17",
+          "opened_page_displayed_age": "1y ago",
+          "inspected_at": "2026-10-19T04:50:54+00:00",
+          "timestamp_semantics": "Evidence-log time after separately opening the original rendered post; not a measured origin retrieval time.",
+          "original_body_observation": "Author asks which columns to use in a literature matrix and how to proceed from reading to writing.",
+          "template_implication": "Show the purpose of each field and the manual reading-to-matrix-to-writing handoff. Original-author clarification identifies business/consumer-behavior study.",
+          "inspection_scope": "Original title, author and body at rendered lines16-23. The original-author field clarification at66-71 adds context; it is not a third question.",
+          "limitations": "Historical English question; country unknown. Same subreddit as first question limits breadth; current frequency is not measured."
+        }
+      ],
+      "independence_assessment": "Two distinct original posts and authors, with different problem descriptions. Same platform/community, not independent platforms. Neither an answer, tutorial, related card or identified cross-post is counted as another question.",
+      "qualitative_demand_status": "SUPPORTED_MATCHING_AUTOCOMPLETE_AND_TWO_ORIGINAL_QUESTIONS",
+      "numeric_demand_status": "UNKNOWN_NO_VOLUME_ESTIMATE",
+      "excluded_discovery_evidence": "Promotional/template tutorials, comment-only suggestions, search-result supply, votes and historical views were not counted as demand or volume.",
+      "duplicate_decision": {
+        "result": "PROVISIONALLY_DISTINCT_OUTPUT_NOT_A_QUALIFIED_NEW_BRIEF",
+        "checked_recipe_count": 13,
+        "checked_ledger_entries": 19,
+        "checked_existing_demand_recipe_entries": 13,
+        "matching_existing_demand_briefs": [],
+        "comparison": "Comparing already-read papers by methods/findings/source anchors differs from flashcard recall and study scheduling. It is not PDF table extraction or CSV deduplication: parsing alone does not produce a literature synthesis matrix. Minutes, SOP, reports, proposals, messages, resumes, letters, slides and transcription also have different outputs.",
+        "canonical_boundary": "If later qualified, template/example/free/Excel/Google Sheets variants belong to one intent. Do not create a conversion synonym of the existing PDF-to-Excel page.",
+        "checked_recipe_slugs": [
+          "transcribe-audio-to-text",
+          "meeting-minutes-template",
+          "extract-tables-from-pdf-to-excel",
+          "presentation-from-notes",
+          "clean-csv-remove-duplicate-rows",
+          "flashcards-from-lecture-notes",
+          "write-resume-bullet-points",
+          "project-proposal-template",
+          "write-a-cover-letter",
+          "study-schedule-template",
+          "weekly-project-status-report-template",
+          "professional-follow-up-email-after-no-response",
+          "standard-operating-procedure-template"
+        ]
+      },
+      "asset_identity_checks": [
+        {
+          "id": 173,
+          "uuid": "443e86c2-3811-496e-8e4d-6eef742ab219",
+          "slug": "docling-document-parsing-ai-443e86c2",
+          "title": "Docling — Document Parsing for AI",
+          "lang_type": "en",
+          "url": "https://tokrepo.com/en/workflows/docling-document-parsing-ai-443e86c2",
+          "attributed_url": "https://tokrepo.com/en/workflows/docling-document-parsing-ai-443e86c2?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=literature-review-matrix-template",
+          "role_status": "POSSIBLE_COMPONENT_ONLY_NOT_QUALIFIED",
+          "request_started_at": "2026-10-19T04:51:16.877247+00:00",
+          "completed_at": "2026-10-19T04:51:21.712774+00:00",
+          "http_status": 200,
+          "final_url": "https://tokrepo.com/en/workflows/docling-document-parsing-ai-443e86c2?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=literature-review-matrix-template",
+          "response_sha256": "dae413f4f0a5ad322783fb968c37c739f19da38048cd219588f6ca0317f35667",
+          "english_h1": "Docling — Document Parsing for AI",
+          "nuxt_index": 5,
+          "identity_basis": "Intended asset-specific English H1, canonical and hydrated ID/UUID/slug/title/lang_type; related cards excluded.",
+          "source_instruction_status": "NOT_ESTABLISHED_BY_THIS_SCOUT",
+          "source_limit": "The local extraction returned no step content. The response's meaningful identity is verified, but complete supported instructions and current setup prerequisites were not independently inspected. No repeat/API/raw request.",
+          "runtime_verified": false
+        },
+        {
+          "id": 1144,
+          "uuid": "1005b785-366d-11f1-9bc6-00163e2b0d79",
+          "slug": "pandas-powerful-data-analysis-manipulation-python-1005b785",
+          "title": "pandas — Powerful Data Analysis and Manipulation for Python",
+          "lang_type": "en",
+          "url": "https://tokrepo.com/en/workflows/pandas-powerful-data-analysis-manipulation-python-1005b785",
+          "attributed_url": "https://tokrepo.com/en/workflows/pandas-powerful-data-analysis-manipulation-python-1005b785?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=literature-review-matrix-template",
+          "role_status": "POSSIBLE_COMPONENT_ONLY_NOT_QUALIFIED",
+          "request_started_at": "2026-10-19T04:51:27.970054+00:00",
+          "completed_at": "2026-10-19T04:51:33.673895+00:00",
+          "http_status": 200,
+          "final_url": "https://tokrepo.com/en/workflows/pandas-powerful-data-analysis-manipulation-python-1005b785?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=literature-review-matrix-template",
+          "response_sha256": "d0cb64935269aec23a78da04f50db0d62c92955f43dae23c10ecc36b076cdab6",
+          "english_h1": "pandas — Powerful Data Analysis and Manipulation for Python",
+          "nuxt_index": 5,
+          "identity_basis": "Intended asset-specific English H1, canonical and hydrated ID/UUID/slug/title/lang_type; related cards excluded.",
+          "source_instruction_status": "NOT_ESTABLISHED_BY_THIS_SCOUT",
+          "source_limit": "The local extraction returned no step content. The response's meaningful identity is verified, but complete supported instructions and current setup prerequisites were not independently inspected. No repeat/API/raw request.",
+          "runtime_verified": false
+        }
+      ],
+      "handoff_assessment": {
+        "decision": "INSUFFICIENT_FOR_AUTHORING",
+        "possible_chain": "Document parsing could precede human reading/selection; a structured-data library could organize checked rows. This is only a possible chain, not a verified task solution.",
+        "missing": "Current source-specific setup and input/output requirements, an essential role for both assets, and a demonstrated bridge from papers to faithful cross-paper synthesis/template output.",
+        "relevance_limit": "Both assets are already used by the PDF-to-Excel recipe. Reusing them is not itself a duplicate, but turning this into another extraction tutorial would miss the observed template intent.",
+        "prerequisites": "Current asset-specific prerequisites were not established. Do not lift historical commands, imply no setup, or infer scholarly synthesis from parsing/DataFrame capabilities.",
+        "no_padding": "Do not add a generic audit/writing/export asset merely to reach two links. No substitute pair was scouted after the stop instruction."
+      },
+      "retain_for_later": "Keep this evidence as a scout only. Revisit only if the parent chooses and a necessary, current, source-verified pair can credibly serve the matrix task; refresh dated evidence when needed. No ready-to-author brief is claimed."
+    }
+  ],
+  "existing_page_findings": {
+    "canonical_slug": "meeting-minutes-template",
+    "source_path": "recipes/meeting-minutes-template.md",
+    "primary_asset_6826": {
+      "url": "https://tokrepo.com/en/workflows/meeting-notes-decisions-action-items-e0ccfa90?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=meeting-minutes-template",
+      "researcher_requests": 0,
+      "parent_supplied_observations": [
+        {
+          "at": "2026-10-19T04:49:37Z",
+          "probe": "daily desktop public probe",
+          "status": 503,
+          "display": "Asset unavailable",
+          "retry_after": null
+        },
+        {
+          "at": "2026-10-19T04:51:57Z",
+          "probe": "ordinary logged-in Chrome reader landing",
+          "status": 200,
+          "identity": "H1, canonical and UTM correct"
+        },
+        {
+          "at": "2026-10-19T04:51:58Z",
+          "probe": "one later desktop-English HTTP retest",
+          "status": 200,
+          "identity": "identity and UTM correct"
+        }
+      ],
+      "classification": "TRANSIENT_OBSERVED_RECOVERY",
+      "decision": "Keep the valid primary. Do not replace it, rewrite the repository, infer permanent removal, or repeat requests.",
+      "provenance": "Direct parent steering in this conversation; not independently executed by this editor."
+    },
+    "local_source_observation": {
+      "manifest_roles": "Current manifest lists6826,6946 and optional66. The existing manuscript's visible panel/CTA uses6826 with optional DOCX66;6946 is not described in the manuscript.",
+      "significance": "This pre-existing source/manifest observation is not evidence that the transient503 requires a change. No repair is recommended or approved here.",
+      "manual_route": "Current local blank and fictional example provide meeting details, outcome summary, decisions, actions, proposals/open questions and source anchors. They explicitly require review and UNKNOWN for absent facts.",
+      "example_boundary": "Existing synthetic example supports Maya's outline by October12; November publication is a proposal and the policy reviewer/date remain unknown. This is local source inspection, not a new runtime or independent-content acceptance test.",
+      "local_word_file": "Existing .docx path is present, but its bytes/openability were not tested in this research run."
+    },
+    "bounded_complement_checks": [
+      {
+        "id": 6946,
+        "title": "Meeting Minutes to Action Register Prompt",
+        "url": "https://tokrepo.com/en/workflows/meeting-minutes-action-register-prompt-a7cdc10d?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=meeting-minutes-template",
+        "request_count": 1,
+        "status": "RESPONSE_DECODING_FAILED_LOCALLY",
+        "detail": "One desktop-English public HTML request reached local Nuxt decoding; recursive resolution raised IndexError before identity/status/instruction receipt was emitted. No usable current identity or supported-instruction verification is claimed. This is a local extraction failure, not a proven server/access/429 failure.",
+        "http_status": null,
+        "request_timestamp": null,
+        "current_supported_inputs": null,
+        "current_supported_outputs": null,
+        "current_prerequisites": null,
+        "retry_count": 0,
+        "source_reviewed": false,
+        "runtime_verified": false
+      },
+      {
+        "id": 66,
+        "title": "Claude Official Skill: DOCX — Word Document Creation",
+        "url": "https://tokrepo.com/en/workflows/claude-official-skill-docx-word-document-creation-6236da40?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=meeting-minutes-template",
+        "request_count": 0,
+        "status": "NOT_REQUESTED",
+        "detail": "The sequential process stopped on the6946 local decode error before66; parent then ended additional asset requests. Current66 instructions/setup were not verified.",
+        "current_supported_inputs": null,
+        "current_prerequisites": null,
+        "source_reviewed": false,
+        "runtime_verified": false
+      }
+    ],
+    "conditional_handoff": {
+      "status": "SEMANTIC_OUTLINE_ONLY_NOT_CURRENTLY_SOURCE_VERIFIED_OR_PROPOSED_REPAIR",
+      "sequence": [
+        "Human fills the existing original minutes template from actual notes; preserves decisions versus proposals, source anchors, unresolved facts and review status.",
+        "Only if a later authorized source check confirms6946's contract, pass the prepared minutes to the action-register asset. Do not claim6946 turns raw notes into formal minutes.",
+        "Human verifies action, owner, date, dependency and source against the original evidence and keeps absent facts unknown.",
+        "Optional66 formatting would follow approved content and its actual supported environment/setup; copying text into the existing Word template is a separate manual route."
+      ],
+      "prerequisite_limits": "No present claim about6946's exact required fields, automatic approval/sending, or66's install commands, dependencies, permissions or export success. The existing recipe describes a configured agent for66; that is local historical guidance, not a fresh upstream check.",
+      "activation": "None. Primary recovery removes the incident-driven need to activate a replacement chain."
+    }
+  },
+  "parent_supplied_monitoring": {
+    "provenance": "Parent's final steering; no GSC/GA/account/sharedChrome access by this editor.",
+    "settled_gsc": {
+      "window_start": "2026-10-10",
+      "window_end": "2026-10-16",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr_percent": 0,
+      "average_position": 6,
+      "page_observation": {
+        "slug": "professional-follow-up-email-after-no-response",
+        "impressions": 1,
+        "clicks": 0
+      },
+      "country_observation": {
+        "country": "US",
+        "impressions": 1,
+        "clicks": 0
+      },
+      "query_detail": "NO_ROWS_RETURNED",
+      "query_interpretation": "No identifiable query observation; not zero demand.",
+      "scope_limit": "Page and country each describe the reported one-impression scope; they are not separate impressions to add. Average position6 belongs to this tiny reporting scope, not a fixed rank."
+    },
+    "follow_up_d3": {
+      "status": "INDEXED",
+      "canonical": "self",
+      "last_crawl_display": "2026-10-16 12:47:53",
+      "last_crawl_timezone": "unknown_UI_timezone"
+    },
+    "weekly_status_d7": {
+      "status": "URL_UNKNOWN",
+      "first_index_request": "accepted_today",
+      "interpretation": "Request acceptance is not indexing."
+    },
+    "experiment_recommendation": "Sample too small to justify a title or CTA experiment.",
+    "next_review": "2026-10-21",
+    "unknown_fields": [
+      "identifiable matched query",
+      "attributed TokRepo arrivals",
+      "capture coverage",
+      "asset-use outcomes",
+      "current search volume",
+      "future rankings"
+    ],
+    "metrics_boundary": "One reported impression is property visibility, not a demand-volume estimate, business success or asset use."
+  },
+  "request_discipline": {
+    "desktop_user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+    "accept_language": "en-US,en;q=0.9",
+    "scout_gap_after_first_response_seconds": 6.25728,
+    "own_asset_attempts": {
+      "66": 0,
+      "173": 1,
+      "1144": 1,
+      "6826": 0,
+      "6946": 1
+    },
+    "normal_redirects": true,
+    "redirect_chain_separately_recorded": false,
+    "direct_request_429_observed": false,
+    "asset_api_requests": 0,
+    "asset_raw_source_requests": 0,
+    "retries": 0,
+    "original_question_inspection": "Two separate web-rendered original pages. Renderer user agent and origin fetch freshness are not controlled; do not label these desktop origin receipts.",
+    "isolated_browser_attempt": "One isolated in-app Google tab initialization timed out/reset before useful UI evidence. No sharedChrome or account tools used.",
+    "stop_boundary": "No new asset request or scout breadth after parent's final stop; background initial scout responses retained."
+  },
+  "inputs_read": {
+    "contracts": [
+      "AGENTS.md",
+      "team/context/*",
+      "team/PIPELINE.md",
+      "team/STYLE.md",
+      "team/QUALITY.md",
+      "team/MONITORING.md",
+      "team/roles/demand-editor.md"
+    ],
+    "current_context": [
+      "recipes.json",
+      "team/ledger.json",
+      "team/monitoring-cohort.json",
+      "team/research/redirect-demand.json",
+      "team/research/demand-2026-10-17.json",
+      "team/research/demand-2026-10-17.md",
+      "team/research/revalidation-2026-10-18.json",
+      "team/research/revalidation-2026-10-18.md",
+      "team/reviews/recipes-review-2026-10-18.json",
+      "team/reviews/recipes-review-2026-10-18.md",
+      "team/observations/2026-10-18.md",
+      "recipes/meeting-minutes-template.md",
+      "templates/meeting-minutes-template/meeting-minutes-template.md",
+      "templates/meeting-minutes-template/filled-example.md"
+    ],
+    "binding_note": "Read snapshots in a shared workspace, not a frozen release. Parent may continue changing monitoring records.",
+    "source_sha256": {
+      "recipes/meeting-minutes-template.md": "48f5a854167accedd583d05591d9888bdee603fe7b056b8653f7a8de81a458a8",
+      "templates/meeting-minutes-template/meeting-minutes-template.md": "2237a7bfa11c3c510d223adf1a12b6163d535faedd544b8f2276e395b249b784",
+      "templates/meeting-minutes-template/filled-example.md": "60b1b474855cba82fbf1104810e0d302fcc620486dbdd6c1043c95b51651cc24",
+      "team/research/demand-2026-10-17.json": "f6b9bb6861fc9965977c12bdfd9ce396db7dd3608e2adbc9aa1d3468e08fb60b",
+      "team/research/revalidation-2026-10-18.json": "d5e1d79f0d177d8bee559cdf234d1c4bfbb746c6161a8313780be440ad63c5de",
+      "team/reviews/recipes-review-2026-10-18.json": "86b3d637b31d089f06bcd812e62dc6649cb74e8375d499681d12a687d6b40862"
+    }
+  },
+  "verification_limits": [
+    "Only assigned research JSON/Markdown written; no manuscript, template, shared manifest, ledger, review, build, Git, publishing or other-project changes.",
+    "No complete prompts or raw account exports copied; current instructions of6946/66 not verified.",
+    "No model, installer, document generation/export or asset-use execution.",
+    "No author self-approval or independent content verdict. Parent chooses any future author/reviewer assignment.",
+    "Public identity checks, qualitative demand, parent monitoring and historical source guidance remain separate evidence types."
+  ]
+}

@@ -315,7 +315,7 @@
         "2026-10-19",
         "2026-10-26"
       ],
-      "weekly_review_due": "2026-10-19",
+      "weekly_review_due": "2026-10-26",
       "cohort_review_due": "2026-11-09",
       "status": "live_public_verified",
       "release_commit": "4da671b0b48f9b32c4b2c29caa23aa1beb8c9f94",
@@ -331,12 +331,15 @@
           "search_visibility": "UNKNOWN",
           "attributed_tokrepo_visits": "UNKNOWN",
           "asset_use": "UNKNOWN",
-          "last_inspection_on": "2026-10-15",
+          "last_inspection_on": "2026-10-19",
           "last_inspection_source": "logged_in_Chrome_stored_index",
           "last_crawl_time": null,
           "last_crawl_timezone": null,
           "google_canonical": null,
-          "sitemap_association": "no_referring_sitemap_detected"
+          "sitemap_association": "no_referring_sitemap_detected",
+          "last_inspection_at": "2026-10-19T04:50:19.779Z",
+          "index_request": "accepted_priority_crawl_queue_2026_10_19",
+          "index_request_confirmed_at": "2026-10-19T04:50:59.480Z"
         }
       ],
       "inspection_history": [
@@ -348,6 +351,27 @@
           "status": "COMPLETED_STORED_INSPECTION_VIA_CHROME",
           "indexing": "BY_PAGE",
           "next_action": "Retain URLs; continue scheduled inspections and sitemap diagnosis. No CTR/title change without a measured sample."
+        },
+        {
+          "due_on": "2026-10-19",
+          "checkpoint": "D7",
+          "observed_on": "2026-10-19",
+          "status": "COMPLETED_STORED_INSPECTION_VIA_CHROME",
+          "indexing": "NOT_INDEXED_GOOGLE_UNKNOWN_URL",
+          "next_action": "First index request accepted; D14 October26."
+        }
+      ],
+      "weekly_review_history": [
+        {
+          "observed_on": "2026-10-19",
+          "window": [
+            "2026-10-10",
+            "2026-10-16"
+          ],
+          "status": "COMPLETED_NO_WEEKLY_STATUS_PAGE_ROW_IN_SITE_REPORT",
+          "query_status": "NO_ROWS",
+          "limits": "Property totals cannot be assigned as per-page zeros; no full comparable previous period.",
+          "next_full_window_review": "2026-10-21"
         }
       ]
     },
@@ -373,16 +397,20 @@
         {
           "slug": "professional-follow-up-email-after-no-response",
           "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/professional-follow-up-email-after-no-response/",
-          "index_status": "NOT_INDEXED_GOOGLE_UNKNOWN_URL",
-          "last_inspection_at": "2026-10-16T04:45:51.506Z",
+          "index_status": "INDEXED",
+          "last_inspection_at": "2026-10-19T04:51:36.457Z",
           "last_inspection_source": "logged_in_Chrome_stored_index",
-          "last_crawl_time": null,
-          "google_canonical": null,
+          "last_crawl_time": "2026-10-16T12:47:53",
+          "google_canonical": "https://henu-wang.github.io/practical-ai-workbench/workflows/professional-follow-up-email-after-no-response/",
           "index_request": "accepted_priority_crawl_queue_2026_10_16",
-          "search_visibility": "UNKNOWN",
+          "search_visibility": "GSC_ONE_IMPRESSION_OBSERVED_SEPARATE_PAGE_AND_US_BREAKDOWNS_OCT10_16",
           "attributed_tokrepo_visits": "UNKNOWN",
           "asset_use": "UNKNOWN",
-          "index_request_confirmed_at": "2026-10-16T04:47:20.449Z"
+          "index_request_confirmed_at": "2026-10-16T04:47:20.449Z",
+          "last_inspection_on": "2026-10-19",
+          "last_crawl_timezone": "not_stated_by_UI",
+          "sitemap_association": "no_referring_sitemap_detected",
+          "crawler": "Googlebot smartphone"
         }
       ],
       "inspection_history": [
@@ -392,6 +420,14 @@
           "status": "COMPLETED_STORED_INSPECTION_VIA_CHROME",
           "indexing": "NOT_INDEXED_GOOGLE_UNKNOWN_URL",
           "index_request": "accepted_priority_crawl_queue"
+        },
+        {
+          "due_on": "2026-10-19",
+          "checkpoint": "D3",
+          "observed_on": "2026-10-19",
+          "status": "COMPLETED_STORED_INSPECTION_VIA_CHROME",
+          "indexing": "INDEXED",
+          "next_action": "Preserve title/CTA with oneimpression; scheduled next inspection."
         }
       ]
     },
@@ -449,16 +485,16 @@
   },
   "metric_rule": "No access or missing tracking is unknown, not zero. Technical pass is not indexing; submitted sitemap is not fetched/indexed.",
   "last_daily_check": {
-    "checked_at": "2026-10-18T04:56:12.768375+00:00",
-    "technical_status": "pass_public_release",
+    "checked_at": "2026-10-19T04:53:12.441984+00:00",
+    "technical_status": "pass_public_pages_asset_target_recovered_after_one503",
     "recipe_count": 13,
     "download_count": 59,
     "asset_targets_with_utm": 27,
     "unique_assets": 22,
-    "indexing": "Home INDEXED stored check Oct18; resume INDEXED stored check Oct15 (listed in dated indexed report Oct18). New SOP not indexed Oct18; request accepted. Other page observations retain Oct15/16/17 dates.",
-    "attribution": "GA4_UI_NO_MATCHING_ROWS_CAPTURE_COVERAGE_UNKNOWN",
-    "next_due": "2026-10-19",
-    "indexing_observed_on": "BY_PAGE_2026_10_15_16_17_18"
+    "indexing": "Followup INDEXED selfcanonical freshD3 Oct19; weeklystatus URLunknown D7 Oct19 firstindexrequestaccepted. HomeOct18 and resumeOct15 storedresults retain dates; no all13freshclaim.",
+    "attribution": "GA4_UI_SEPARATE_FILTERS_NO_ROWS_CAPTURE_COVERAGE_UNKNOWN_OCT19",
+    "next_due": "2026-10-20",
+    "indexing_observed_on": "BY_PAGE_2026_10_15_16_17_18_19"
   },
   "private_records_policy": "Raw account reports and detailed receipts remain outside this public repository.",
   "gsc_setup": {
@@ -505,6 +541,12 @@
         "requested_on": "2026-10-18",
         "status": "accepted_priority_crawl_queue",
         "confirmed_at": "2026-10-18T04:57:05.168Z"
+      },
+      {
+        "slug": "weekly-project-status-report-template",
+        "requested_on": "2026-10-19",
+        "status": "accepted_priority_crawl_queue",
+        "confirmed_at": "2026-10-19T04:50:59.480Z"
       }
     ],
     "sitemap_submissions": 3,
@@ -516,22 +558,22 @@
   },
   "private_records_directory": "../tokrepo-search-monitoring-private",
   "ga4_monitoring": {
-    "checked_on": "2026-10-16",
+    "checked_on": "2026-10-19",
     "access": "logged_in_Chrome_available",
-    "report_window": "2026-09-18 through 2026-10-15",
-    "observation": "Separate source/medium and campaign table searches show no matching rows; capture coverage and asset use remain unknown."
+    "report_window": "2026-09-21 through 2026-10-18",
+    "observation": "Separate source/medium github_pages and campaign tokrepo_search searches show no matching rows, scoped sessions0/engaged0; exactjointfilter not applied, capturecoverage and assetuse UNKNOWN."
   },
   "weekly_review": {
-    "checked_on": "2026-10-17",
+    "checked_on": "2026-10-19",
     "requested_window": [
-      "2026-10-07",
-      "2026-10-13"
+      "2026-10-10",
+      "2026-10-16"
     ],
     "visible_coverage": [
-      "2026-10-09",
-      "2026-10-13"
+      "2026-10-10",
+      "2026-10-16"
     ],
-    "observation": "No meaningful search sample; detailed query/page/country tables have no rows. Do not interpret zero-impression position placeholder as rank. Full week-on-week comparison unavailable.",
+    "observation": "One propertyimpression/zero clicks/CTR0%/GSCavgposition6. Separatepage rowfollowup and countryUS each1/0/0%/6; queryno rows. No jointquerycountrycut, no validWoW, no title/CTAexperiment fromoneimpression.",
     "next_review_on": "2026-10-21",
     "raw_reports": "private_outside_repository"
   },
