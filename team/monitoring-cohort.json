@@ -485,15 +485,15 @@
   },
   "metric_rule": "No access or missing tracking is unknown, not zero. Technical pass is not indexing; submitted sitemap is not fetched/indexed.",
   "last_daily_check": {
-    "checked_at": "2026-10-19T04:53:12.441984+00:00",
-    "technical_status": "pass_public_pages_asset_target_recovered_after_one503",
+    "checked_at": "2026-10-20T04:38:30.151072+00:00",
+    "technical_status": "pass_public_pages_and_22_asset_targets_first_pass",
     "recipe_count": 13,
     "download_count": 59,
     "asset_targets_with_utm": 27,
     "unique_assets": 22,
     "indexing": "Followup INDEXED selfcanonical freshD3 Oct19; weeklystatus URLunknown D7 Oct19 firstindexrequestaccepted. HomeOct18 and resumeOct15 storedresults retain dates; no all13freshclaim.",
     "attribution": "GA4_UI_SEPARATE_FILTERS_NO_ROWS_CAPTURE_COVERAGE_UNKNOWN_OCT19",
-    "next_due": "2026-10-20",
+    "next_due": "2026-10-21",
     "indexing_observed_on": "BY_PAGE_2026_10_15_16_17_18_19"
   },
   "private_records_policy": "Raw account reports and detailed receipts remain outside this public repository.",
