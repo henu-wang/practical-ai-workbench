@@ -1,0 +1,458 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-21",
+  "timezone": "Asia/Shanghai",
+  "editor": "Independent English demand/priority editor, Codex",
+  "record_type": "PRIORITIZATION_SIDECAR_OUTSIDE_EDITORIAL_GATE",
+  "owned_files": [
+    "team/research/prioritization-2026-10-21.json",
+    "team/research/prioritization-2026-10-21.md"
+  ],
+  "verdict": "HOLD",
+  "decision": {
+    "expansion": "HOLD_NEW_EXPANSION_RETAIN_EXISTING_SCOUT",
+    "reason": "Current qualitative template need is supported, and both current asset instructions were recovered and read. The proposed Docling/pandas pair still has no necessary complementary role for the observed immediately editable matrix task. Converting this into a mandatory Python extraction recipe would miss intent and overlap the existing PDF-table guide.",
+    "no_demand_claim": false,
+    "ready_to_author": false,
+    "new_topic_count": 0,
+    "author_assigned": false,
+    "independent_content_reviewer_assigned": false,
+    "content_work_commissioned": false,
+    "publication_approved": false,
+    "assignment_rule": "Assign an actual author and a different independent reviewer only after choosing justified content work. None chosen here.",
+    "indexing_is_authoring_prerequisite": false,
+    "status_change_since_oct19": "SOURCE_RETRIEVAL_GAP_CLOSED; ESSENTIAL_COMPLEMENT_AND_TASK_HANDOFF_STILL_UNSUPPORTED",
+    "no_new_demand_packet": true,
+    "parent_priority": "Finish the seven due stored inspections, Oct12-18 settled review, sitemap and daily public checks; parent owns the pending PPTX landing retest and any justified repair.",
+    "title_cta_experiment": "NOT_JUSTIFIED_BY_CURRENT_SAMPLE"
+  },
+  "retained_candidate": {
+    "source_packet": "team/research/demand-2026-10-19.json",
+    "source_pointer": "/screened_candidates/0",
+    "slug": "literature-review-matrix-template",
+    "intent_id": "student_read_papers_to_source_anchored_literature_comparison_matrix",
+    "reader": "English-speaking student or researcher organizing papers already read.",
+    "input": "Selected papers and the reader's own checked notes/passages.",
+    "desired_output": "Adaptable immediately editable comparison matrix and a clear manual path from individual paper notes to cross-paper writing.",
+    "market": "US",
+    "language": "en",
+    "demand_qualification": "SUPPORTED_QUALITATIVELY_WITH_LIMITED_BREADTH",
+    "full_editorial_qualification": "HOLD_ESSENTIAL_ASSET_COMBINATION_NOT_ESTABLISHED",
+    "numeric_search_volume": null,
+    "autocomplete": {
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=literature%20review%20matrix%20template",
+      "started_at": "2026-10-21T04:33:06.933073+00:00",
+      "attempts": 1,
+      "market": "US",
+      "language": "en",
+      "status": 200,
+      "suggestions": [
+        "literature review matrix template",
+        "literature review matrix template excel",
+        "literature review matrix template google sheets",
+        "literature review matrix template word",
+        "literature review matrix template excel download",
+        "literature review matrix template pdf",
+        "literature review matrix template free",
+        "literature review matrix template doc",
+        "literature review chart template",
+        "document review matrix template"
+      ],
+      "response_sha256": "6c520d43e6bda0ea58974628bac4d7683bb5ef65499e16eb85686b959f0f9da4",
+      "completed_at": "2026-10-21T04:33:08.335909+00:00",
+      "exact_observed_suggestion": "literature review matrix template",
+      "limits": "One US/en parameterized response; qualitative suggestion presence only. No physical-US, author geography, volume, frequency, difficulty or traffic inference."
+    },
+    "original_questions": [
+      {
+        "url": "https://www.reddit.com/r/PhD/comments/ry6ron/literature_matrix_excel_sheet_templates/",
+        "title": "Literature matrix excel sheet templates?",
+        "author": "SignificantPay1111",
+        "inspected_on": "2026-10-21",
+        "inspection_method": "Separate web-renderer open of the existing original post",
+        "original_body_lines": "21-23",
+        "observation": "Wants a general adaptable matrix to collect digests of papers already read; subject-specific templates found elsewhere do not fit.",
+        "displayed_relative_age": "5y ago",
+        "renderer_crawl_label": "2 weeks ago",
+        "origin_fetch_freshness": "NOT_ESTABLISHED",
+        "question_attempts": 1
+      },
+      {
+        "url": "https://www.reddit.com/r/PhD/comments/1ozchol/lit_review_matrix/",
+        "title": "Lit Review Matrix",
+        "author": "Yennefer99",
+        "inspected_on": "2026-10-21",
+        "inspection_method": "Separate web-renderer open of the existing original post",
+        "original_body_lines": "21-23",
+        "observation": "Asks what columns belong in a literature matrix and how to get from literature reading to writing.",
+        "original_author_context": "Business/consumer behavior, original-author clarification at lines66-71; not an additional question.",
+        "displayed_relative_age": "1y ago",
+        "renderer_crawl_label": "2 days ago",
+        "origin_fetch_freshness": "NOT_ESTABLISHED",
+        "question_attempts": 1
+      }
+    ],
+    "independence_and_limits": "Two distinct original authors/posts in the same subreddit. No additional thread, comment, related card, tutorial, vote or historical view count is counted as demand. Historical questions support qualitative recurrence, not current frequency or US residency; relative ages are not exact dates.",
+    "immediately_editable_matrix_assessment": {
+      "status": "CONCRETE_ACCEPTANCE_SPECIFICATION_ONLY_NOT_AN_AUTHORED_OR_TESTED_TEMPLATE",
+      "required_delivery": "A blank available immediately in a clearly named editable format, inline field guidance, and an original fictional filled example. No installation or AI account required to obtain/use the manual blank. Only advertise Excel/Sheets/Word downloads if actually delivered and checked.",
+      "original_minimum_fields": [
+        "paper_id",
+        "full_citation_or_source_link",
+        "research_question_and_context",
+        "method_and_population",
+        "finding_in_readers_own_words",
+        "author_reported_limitations",
+        "exact_page_section_or_table_anchor",
+        "relevance_to_review_question",
+        "theme_tag",
+        "agreement_difference_or_noncomparability_with_other_paper_ids",
+        "unknowns_and_next_check"
+      ],
+      "original_worked_example_requirement": "At least two clearly fictional papers with source-note excerpts, a checked filled row for each, one disagreement/noncomparable method and an absent fact retained as unknown; a short writing plan must refer back to paper IDs and anchors.",
+      "manual_handoff": [
+        "Open/edit the blank directly.",
+        "Read a selected paper; write a concise digest and a specific source anchor.",
+        "Check each claim against that paper; keep personal interpretation separate from reported findings.",
+        "Compare rows for a theme, identify method/context differences and retain uncertainty.",
+        "Draft a synthesis point with traceable paper IDs; return to papers before writing a supported paragraph."
+      ],
+      "task_fit": "This manual original package could satisfy the observed template component. It does not by itself make the proposed two-asset TokRepo combination necessary.",
+      "no_new_template_created": true,
+      "no_model_run": true,
+      "proposed_acceptance_checks": [
+        "Copy/edit the blank without Python.",
+        "Trace each example finding to the supplied fictional note/anchor.",
+        "Retain unknown and conflicting findings.",
+        "Show how at least two checked rows lead to a qualified comparison rather than two unrelated summaries.",
+        "Verify only formats/downloads actually supplied."
+      ],
+      "checks_executed": false
+    },
+    "asset_checks": [
+      {
+        "id": 173,
+        "uuid": "443e86c2-3811-496e-8e4d-6eef742ab219",
+        "slug": "docling-document-parsing-ai-443e86c2",
+        "title": "Docling — Document Parsing for AI",
+        "language": "en",
+        "request_url": "https://tokrepo.com/en/workflows/docling-document-parsing-ai-443e86c2?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=literature-review-matrix-template",
+        "started_at": "2026-10-21T04:32:57.988479+00:00",
+        "completed_at": "2026-10-21T04:33:01.518749+00:00",
+        "http_status": 200,
+        "final_url": "https://tokrepo.com/en/workflows/docling-document-parsing-ai-443e86c2?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=literature-review-matrix-template",
+        "response_sha256": "ca847bc70a78c73659d6a220678811cb65033d38bc81f51be5381407c8ea51b6",
+        "response_bytes": 67290,
+        "english_h1": [
+          "Docling — Document Parsing for AI"
+        ],
+        "canonical": [
+          "https://tokrepo.com/en/workflows/docling-document-parsing-ai-443e86c2"
+        ],
+        "matching_asset_nodes": 1,
+        "hydration_node_count": 184,
+        "hydrated_asset_node_index": 5,
+        "decoder_stats": {
+          "negative_sentinels": 0,
+          "out_of_range_refs": 0,
+          "cycle_refs": 0,
+          "unknown_tags": []
+        },
+        "gap_after_previous_completion_seconds": null,
+        "steps_count": 1,
+        "nonempty_instruction_steps": 1,
+        "instruction_char_count": 1758,
+        "catalog_content_hash": "6cf3bf8f57afa83c9e78fba9dcf28e7959a1f462fd0c9c2853828b5160a4932e",
+        "step_json_sha256": "b965ebf79c7fb350b66a3a75db2816a9a1359aa7458254e7b76a12dd94421e61",
+        "files": [],
+        "install_mode": "single",
+        "entrypoint": "Docling — Document Parsing for AI",
+        "declared_dependencies": {
+          "npm": [],
+          "pip": [],
+          "brew": [],
+          "system": []
+        },
+        "declared_risk_profile": {
+          "executes_code": false,
+          "modifies_global_config": false,
+          "requires_secrets": [],
+          "uses_absolute_paths": false,
+          "network_access": false
+        },
+        "declared_verification": {
+          "commands": [],
+          "expected_files": [
+            "Docling — Document Parsing for AI"
+          ]
+        },
+        "attempts": 1,
+        "retries": 0,
+        "source_instructions_read": true,
+        "runtime_verified": false,
+        "instruction_observations": [
+          "Quick Use installs the docling package with pip, constructs DocumentConverter, converts a local report.pdf, then exports the parsed document to Markdown.",
+          "The asset describes document parsing, layout/table extraction and OCR, with structured Markdown/JSON/document objects. It supplies neither a literature-comparison schema nor a ready editable matrix.",
+          "The only hydrated step has empty variables and expected_output fields; the files list is empty. No matrix attachment was present in this payload."
+        ],
+        "prerequisites_and_limits": [
+          "Python environment with pip, package installation permission, and an accessible input document are needed for the shown code. The page does not specify a supported Python version, model-download/cache requirements, OCR setup or complete platform dependencies.",
+          "No parsing/model run, installation or output quality was tested. Descriptions of accuracy and under-two-minute setup are catalog claims, not measured results.",
+          "The empty dependency arrays and markdown-only installation/risk metadata describe the catalog package; they do not cancel the Python package/code requirements visible in Quick Use.",
+          "Markdown export does not establish reliable citation/page anchors, scholarly interpretation, cross-paper comparison or synthesis."
+        ],
+        "candidate_role": "Optional parser when a reader needs machine-readable text from a selected document; human checks the source before putting findings into a matrix.",
+        "necessity_for_observed_intent": "NOT_ESTABLISHED: the question authors already read papers; direct manual entry into an editable matrix requires no parser.",
+        "linked_upstream_observed": [
+          "https://github.com/DS4SD/docling"
+        ],
+        "upstream_fetched": false
+      },
+      {
+        "id": 1144,
+        "uuid": "1005b785-366d-11f1-9bc6-00163e2b0d79",
+        "slug": "pandas-powerful-data-analysis-manipulation-python-1005b785",
+        "title": "pandas — Powerful Data Analysis and Manipulation for Python",
+        "language": "en",
+        "request_url": "https://tokrepo.com/en/workflows/pandas-powerful-data-analysis-manipulation-python-1005b785?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=literature-review-matrix-template",
+        "started_at": "2026-10-21T04:33:07.723837+00:00",
+        "completed_at": "2026-10-21T04:33:13.319700+00:00",
+        "http_status": 200,
+        "final_url": "https://tokrepo.com/en/workflows/pandas-powerful-data-analysis-manipulation-python-1005b785?utm_source=github_pages&utm_medium=referral&utm_campaign=tokrepo_search&utm_content=literature-review-matrix-template",
+        "response_sha256": "dbfec5c348ded7c449cc5ee9177f4bf63f9e50142b503fd0e0240f9c1ad50917",
+        "response_bytes": 72337,
+        "english_h1": [
+          "pandas — Powerful Data Analysis and Manipulation for Python"
+        ],
+        "canonical": [
+          "https://tokrepo.com/en/workflows/pandas-powerful-data-analysis-manipulation-python-1005b785"
+        ],
+        "matching_asset_nodes": 1,
+        "hydration_node_count": 182,
+        "hydrated_asset_node_index": 5,
+        "decoder_stats": {
+          "negative_sentinels": 0,
+          "out_of_range_refs": 0,
+          "cycle_refs": 0,
+          "unknown_tags": []
+        },
+        "gap_after_previous_completion_seconds": 6.205,
+        "steps_count": 1,
+        "nonempty_instruction_steps": 1,
+        "instruction_char_count": 4833,
+        "catalog_content_hash": "5c21e0f3970932da00a056c8ad549d68ba9598489bb21c7e4f6e54c0b1007f80",
+        "step_json_sha256": "2375f7f4f223793fd8515dc81224feafaf3616ac263dd5e8edbafb5adde4e330",
+        "files": [],
+        "install_mode": "single",
+        "entrypoint": "step-1.md",
+        "declared_dependencies": {
+          "npm": [],
+          "pip": [],
+          "brew": [],
+          "system": []
+        },
+        "declared_risk_profile": {
+          "executes_code": false,
+          "modifies_global_config": false,
+          "requires_secrets": [],
+          "uses_absolute_paths": false,
+          "network_access": false
+        },
+        "declared_verification": {
+          "commands": [],
+          "expected_files": [
+            ""
+          ]
+        },
+        "attempts": 1,
+        "retries": 0,
+        "source_instructions_read": true,
+        "runtime_verified": false,
+        "instruction_observations": [
+          "Quick Use installs pandas with pip; Python reads an existing data.csv, displays rows/statistics, and groups a category/value dataset.",
+          "Later examples clean/date-parse a sales table, merge products and export Parquet. The asset lists generic IO, grouping and reshaping capabilities.",
+          "It provides no literature-review blank, academic field schema, source-to-claim mapping, checked synthesis example or automatic reading-to-writing step.",
+          "The only hydrated step has empty variables and expected_output fields; the files list is empty. No matrix attachment was present in this payload."
+        ],
+        "prerequisites_and_limits": [
+          "Python, pip/package installation and existing structured inputs with the expected column names are needed for the shown examples. Exact supported versions and optional Excel/Parquet dependencies are not established by this request.",
+          "A template seeker must not be required to write Python merely to obtain the blank. Sorting checked rows could also be done manually in a spreadsheet.",
+          "The sample missing-value deletion and string normalization are generic examples; they are not validated rules for scholarly notes. Preserve absent/unknown findings and source wording rather than silently dropping or changing evidence.",
+          "Empty dependency arrays and non-execution metadata do not demonstrate that running the examples needs no software, resources or file access. No installation/export or runtime verification occurred."
+        ],
+        "candidate_role": "Optional processing of a reader's already checked structured rows; grouping/export could help a separate technical workflow.",
+        "necessity_for_observed_intent": "NOT_ESTABLISHED: organizing an ordinary editable matrix does not require pandas, and grouping is not scholarly synthesis.",
+        "linked_upstream_observed": [
+          "https://github.com/pandas-dev/pandas",
+          "https://pandas.pydata.org"
+        ],
+        "upstream_fetched": false
+      }
+    ],
+    "handoff_evaluation": {
+      "plausible_technical_chain": "Selected PDF -> Docling parsed text/table -> HUMAN reading, selection, source-anchored notes and original matrix rows -> optional pandas organization/export of those checked rows.",
+      "unsupported_transition": "Neither source turns extracted document structures into faithful paper digests, academic comparison or a justified synthesis. The human/editorial bridge is the substantive task; neither asset supplies the matrix.",
+      "primary_role_necessary": false,
+      "secondary_role_necessary": false,
+      "essential_complement_status": "UNSUPPORTED_FOR_OBSERVED_TEMPLATE_INTENT",
+      "reject_forcing": "Do not require Python, promise automated literature review, add a generic second backlink, or rename an extraction tutorial as a matrix template.",
+      "reopening_condition": "Only reconsider if a source-supported necessary combination serves the same observed matrix task and a real immediately editable original package can be independently checked. Do not expand the asset/topic search in this sidecar."
+    },
+    "duplicate_review": {
+      "manifest_recipe_count": 13,
+      "ledger_entry_count": 19,
+      "legacy_entry_count": 6,
+      "result": "PROVISIONALLY_DISTINCT_OUTPUT; NOT_A_READY_NEW_INTENT",
+      "strongest_overlap": "extract-tables-from-pdf-to-excel already combines Docling173 and pandas1144 for PDF table -> checked CSV/Excel. The current manuscript and package already cover extraction, row/column checking and export.",
+      "distinctness_condition": "Cross-paper findings/method/limitations comparison plus reading-to-writing handoff must be the delivered result. Reusing assets alone is not a duplicate; an extraction-first repackaging would be.",
+      "other_intents": "Flashcards address recall and study schedule addresses allocation/practice. Minutes, SOP, weekly status, proposals, correspondence, job documents, slides, transcription and CSV cleaning have different reader outputs. Six legacy utilities also do not own literature comparison.",
+      "synonym_rule": "Matrix/chart/example/free/Excel/Google Sheets/Word variants stay within one retained intent, with no promises of absent formats."
+    }
+  },
+  "parent_supplied_current_context": {
+    "provenance": "Direct parent steering received during this task on Oct21. Priority context only; NOT independently executed or verified by this editor. Do not cite older local cohort snapshots as fresh inspections.",
+    "property": "https://henu-wang.github.io/practical-ai-workbench/",
+    "settled_window": [
+      "2026-10-12",
+      "2026-10-18"
+    ],
+    "settled_gsc": {
+      "impressions": 1,
+      "clicks": 0,
+      "ctr_percent": 0,
+      "average_position": 6,
+      "page": {
+        "slug": "professional-follow-up-email-after-no-response",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr_percent": 0,
+        "average_position": 6
+      },
+      "country": {
+        "code": "US",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr_percent": 0,
+        "average_position": 6
+      },
+      "query_detail": "NO_ROWS_RETURNED",
+      "overlap_limit": "Window overlaps the Oct19-reviewed Oct10-16 period; these numbers do not establish a new impression increment. Page/country rows are separate views of the aggregate, not additive or a joint query-country result.",
+      "experiment_assessment": "Too sparse for a title or CTA experiment. Average position6 is a scoped GSC aggregate, not a fixed rank; no rows is not zero demand."
+    },
+    "due_seven": {
+      "old_six": {
+        "checkpoint": "D14",
+        "cohort_date": "2026-10-07",
+        "slugs": [
+          "transcribe-audio-to-text",
+          "meeting-minutes-template",
+          "extract-tables-from-pdf-to-excel",
+          "presentation-from-notes",
+          "clean-csv-remove-duplicate-rows",
+          "flashcards-from-lecture-notes"
+        ],
+        "result": "URL_UNKNOWN",
+        "first_index_requests": "PARENT_IN_PROGRESS_NOT_YET_REPORTED_ACCEPTED",
+        "editor_requests": 0
+      },
+      "sop": {
+        "slug": "standard-operating-procedure-template",
+        "checkpoint": "D3",
+        "result": "CRAWLED_NOT_INDEXED",
+        "crawl_agent": "Googlebot smartphone",
+        "crawl_result": "SUCCESS_ALLOWED",
+        "last_crawl_display": "2026-10-18 13:00:06",
+        "ui_timezone": "NOT_STATED",
+        "declared_canonical": "SELF",
+        "google_canonical": "SELF",
+        "source_fix_supported": false,
+        "repeat_index_request": "NONE_PARENT_NOT_REPEATING"
+      }
+    },
+    "sitemap": {
+      "report": "UNCHANGED_ERROR",
+      "last_read_display": "2026-10-16",
+      "cause": "NOT_ESTABLISHED",
+      "source_fix_supported": false
+    },
+    "pptx_target": {
+      "initial_status": 503,
+      "bounded_reader_retest": "PENDING_PARENT_OWNED",
+      "repair_owner": "PARENT",
+      "editor_requests": 0,
+      "interpretation": "No permanent outage, recovery, alternate asset or source fix inferred from an initial503 and pending retest."
+    },
+    "daily_public_check_completion": "No complete fresh receipt supplied in this editor's context; parent owns execution and final status.",
+    "attribution": {
+      "tokrepo_arrivals": "UNKNOWN",
+      "capture_coverage": "UNKNOWN",
+      "asset_use": "UNKNOWN"
+    },
+    "priority_conclusion": "Preserve useful canonical pages and current titles/CTAs. Complete bounded parent monitoring and pending availability handling. Neither URLunknown nor crawled-not-indexed establishes a content/source defect."
+  },
+  "existing_workflow_delivery_recommendation": {
+    "action": "HOLD_NEW_EXPANSION; NO_CONTENT_REWRITE_COMMISSIONED",
+    "reason": "Current monitoring has no actionable title/CTA signal or supported source fix; the asset pair does not justify a new matrix page.",
+    "conditional_improvement": "If the parent's bounded PPTX retest establishes a persistent reader-facing failure, prioritize that existing page's supported handoff/manual delivery under parent ownership. Preserve its original useful outline/task materials; choose a concrete correction only from the observed failure and verified instructions.",
+    "no_generic_backlinks": true,
+    "independent_author_review_trigger": "If material content work is actually chosen, assign an actual author and a different reviewer with affected file/hash ownership. No such work assigned by this decision."
+  },
+  "request_discipline": {
+    "ordinary_desktop_english_asset_attempts": {
+      "173": 1,
+      "1144": 1
+    },
+    "minimum_gap_seconds": 6,
+    "observed_gap_after_first_response_seconds": 6.205,
+    "autocomplete_attempts": 1,
+    "separate_original_question_opens": 2,
+    "retries": 0,
+    "asset_api_requests": 0,
+    "raw_upstream_requests": 0,
+    "other_asset_requests": 0,
+    "observed_429": false,
+    "stop_on_429": true,
+    "browser_or_account_access": 0,
+    "shared_chrome_access": 0,
+    "gscwizard_access": 0,
+    "messages_sent": 0,
+    "hydration_validation": "Parse local __NUXT_DATA__ JSON; range-check integer references and negative sentinels; unwrap known reactive/ref containers; guard cycles/depth; require exact intended id+uuid+slug and English language/H1/canonical; read that object's nonempty steps, excluding related cards. Both had one matching node and zero invalid/cycle/unknown-tag references.",
+    "decoder_failure_policy": "Local decoder errors are extraction failures, not source outages; no HTTP/API/raw retry to disguise a decoder error.",
+    "complete_prompt_or_source_copied_to_artifacts": false,
+    "raw_html_or_prompt_files_saved": false
+  },
+  "inputs_read": {
+    "sha256": {
+      "AGENTS.md": "080af6ceed44b82445993cd7beba35a10d6d4ac5d0bd6aa9ce8f53479d1b80fc",
+      "team/context/USER-BRIEF.md": "b7620db969b61da35c02c57387f2ab764e0dad189295b78abe33fb67772b35cd",
+      "team/context/PROJECT.md": "a791f483e96871b5f690ee7b69fb884055057dff04c4cc1f28ad93b290a7630d",
+      "team/context/AUDIENCE.md": "442a59c3468c18935104e40fff2084e9465ffec48382da61c0f62b9f6d110fe2",
+      "team/context/ASSET-POLICY.md": "6c87a5c309e749a4b8115b41bcd96004a05b9e86b232100a29f8912f56c62137",
+      "team/context/METRICS.md": "0803a7664f7d2718e86f52a82348e67abe2195fc85abb18cb3b147e18bc2c340",
+      "team/PIPELINE.md": "b07605bd3dce1ac88fa0dfcf84eff2377986d156a572f9e37cb40f2b8efb35b0",
+      "team/STYLE.md": "e0dff6e417953ae05376bdcee105449af58e73175e049bbdda084556214dd5c0",
+      "team/QUALITY.md": "e62344e1569a97cc2ade52e438687dcafae886e39841e466519e09bbaf5ed31b",
+      "team/MONITORING.md": "af7c73c1526f047cdd0a8ca39f2e8611c2424ce0650e0cee6c91595ca8459e40",
+      "team/roles/demand-editor.md": "a9f535ad5ce22e58d02f9728ac3f7dd05b6c33390285169488293a6639cf1024",
+      "recipes.json": "8f875b8d1f8564cf1ca8fab5e3429c7f68a0a4bab3a29ac1cdd1bb87e045bcf1",
+      "team/ledger.json": "b54ffc154985821bcb2a939ed00b3212c8189efa2d1b5b95d85c22f22a70cd37",
+      "team/monitoring-cohort.json": "16a6bfff1579176da91520edfbc2a8ed6bb0a65f1f404866e6e11f7c7a82c1c3",
+      "team/research/redirect-demand.json": "e3278a548323823b7fc8e36e4bc6b039237193799fdfc604cbf6ba742005214f",
+      "team/research/demand-2026-10-19.json": "1f463fda4253ed2f808bef08314c5f01b629ef3bb6f836ab944b3e556f2b1611",
+      "team/research/demand-2026-10-19.md": "29c327d1fcaf3e62bb6085e7e161c39358e21f6f5cf3231f6582fd391f44e8af",
+      "team/reviews/recipes-review-2026-10-18.json": "86b3d637b31d089f06bcd812e62dc6649cb74e8375d499681d12a687d6b40862",
+      "team/reviews/recipes-review-2026-10-18.md": "8b04bd8a9605f9a9f7fee60c85119be4a882df857f5a62acb4e775b28d67b754",
+      "recipes/extract-tables-from-pdf-to-excel.md": "d7537ce7383a041a0577f88c9cf735759192f27cfed5b071af5bd95e4f2353c8"
+    },
+    "binding_limit": "Shared-workspace read snapshots, not a release freeze. Current parent context above supersedes older dated monitoring records only for priority context; none becomes this editor's verification.",
+    "review18_scope": "Existing independent SOP content/template PASS with R1 mobile blank fixed; does not approve this scout or establish present publication/indexing/traffic."
+  },
+  "qualification_limits": [
+    "Research/priority decision only; no author, content, release or runtime PASS.",
+    "Current asset instructions were actually read, but exact software compatibility, full prerequisites and runtime output remain untested; catalog packaging flags are not use verification.",
+    "Qualitative demand is supported within two same-community historical questions and one current suggestion response; volume and global/geographic breadth remain unknown.",
+    "Concrete matrix acceptance specification is not an authored template, downloadable workbook or completed test.",
+    "Only assigned prioritization JSON/Markdown written; no source/templates/manifest/ledger/reviews/build/Git/publication or messages. No shared browser/accounts/GSCWizard.",
+    "All current GSC/indexing/sitemap/PPTX findings are parent-supplied, with pending states preserved. Publication, availability, crawlability, indexing, visibility, arrival and use remain separate."
+  ]
+}
