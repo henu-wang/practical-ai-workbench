@@ -1,0 +1,350 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-22",
+  "timezone": "Asia/Shanghai",
+  "editor": "Independent editorial prioritization editor, Codex",
+  "record_type": "PRIORITIZATION_SIDECAR_OUTSIDE_EDITORIAL_GATE",
+  "owned_files": [
+    "team/research/prioritization-2026-10-22.json",
+    "team/research/prioritization-2026-10-22.md"
+  ],
+  "decision": "HOLD_CURRENT_SOURCE",
+  "scope_slugs": [
+    "write-resume-bullet-points",
+    "project-proposal-template"
+  ],
+  "authority": {
+    "source": "Direct user assignment in this conversation",
+    "role": "Independent priority review of existing source; not the Oct8 author /root/project_editor",
+    "new_release_pass_issued": false,
+    "publication_approved": false,
+    "content_work_commissioned": false,
+    "author_self_approval_allowed": false,
+    "if_fix_is_later_chosen": "将具体最小修订交给作者，另由不同独审绑定修改后哈希；本报告不自批未来稿件。"
+  },
+  "local_facts": {
+    "provenance": "DIRECT_LOCAL_READ_AND_READ_ONLY_COMPUTATION_2026_10_22",
+    "snapshot_at": "2026-10-22T04:34:29.628226+00:00",
+    "complete_ledger_entries_read": 19,
+    "manifest_recipe_count": 13,
+    "original_template_files_read": 10,
+    "docx_method": "只读ZIP内word/document.xml段落/表格文字；未编辑原件、未做Word视觉渲染或保存重开实验。",
+    "global_source_sha256": "cd2c20b268a7fe80d4db4d94ac449d9df770662332470507fe3fa6e7b6f1358a",
+    "parent_last_global_source_sha256": "cd2c20b268a7fe80d4db4d94ac449d9df770662332470507fe3fa6e7b6f1358a",
+    "matches_parent_last_source": true,
+    "global_hash_definition": "scripts/source_hash.py: recipes及templates全文件 + scripts/build.py + recipes.json + docs/assets/style.css，按相对POSIX路径排序，SHA256(path UTF8 + NUL + bytes + NUL)。",
+    "global_hash_only_file_count": 79,
+    "global_hash_limit": "全局计算是字节指纹；未逐篇阅读其余稿件，不是构建/发布/线上同源或浏览器验收。",
+    "historical_independent_review": "team/reviews/recipes-review-2026-10-08.json: /root/managing_editor 与作者不同，两个正文及所有模板哈希逐项仍匹配；旧全局哈希仅覆盖旧版整站，不替代当前全局指纹。"
+  },
+  "page_decisions": [
+    {
+      "slug": "write-resume-bullet-points",
+      "decision": "HOLD_CURRENT_SOURCE",
+      "reason": "正文与证据工作表、四个虚构示例、原始需求及资产交接一致；未发现有证据支持的具体可修缺陷。当前样本不足以支持标题、CTA或正文改写。",
+      "content_sha256": "441c2704d12a31ea164deb30039814dd8c65f94e20693c2441f52d8b3b35be1c",
+      "recipe_and_templates_sha256": "5779d03a080eea0bde72ae18a94a89a04d2b7197e3cc2358d0f637f8d5846672",
+      "oct8_content_hash_matches": true,
+      "oct8_package_hash_matches": true,
+      "oct8_all_file_hashes_match": true,
+      "template_count": 4,
+      "docx_xml_read": true,
+      "native_word_rendering": "NOT_RUN",
+      "live_asset_check": "NOT_RUN_PARENT_OWNED",
+      "primary_asset_id": 6922,
+      "secondary_asset_id": 866,
+      "demand_assessment": {
+        "source": "team/research/demand-2026-10-08.json /recipes/0",
+        "status": "HISTORICAL_QUALITATIVE_RECORD_READ_NOT_REFRESHED",
+        "observed_need": "没有结果数字时，仍能写出具体且可辩护的简历描述；区分职责范围、定性结果、个人贡献。",
+        "limits": "Oct8记录的US/en建议及两个原始问题属于历史证据。本编辑只读本地记录，未重开原帖、建议接口或资产原文；不确认Oct22需求规模、频率或资产当前能力。"
+      },
+      "evidence": [
+        {
+          "path": "recipes/write-resume-bullet-points.md",
+          "lines": "3-16",
+          "provenance": "DIRECT_LOCAL_READ_2026_10_22",
+          "observation": "开头直接回答任务；Word/Markdown工作表及四例可直接取得，事实、未知项与个人贡献分开。"
+        },
+        {
+          "path": "templates/write-resume-bullet-points/resume-evidence-worksheet.md",
+          "lines": "9-42",
+          "provenance": "DIRECT_LOCAL_READ_2026_10_22",
+          "observation": "旧句→行动/对象/工具/范围/结果/证据/未知→审核后措辞→PDF检查；可重复用于最多五句。"
+        },
+        {
+          "path": "templates/write-resume-bullet-points/before-after-examples.md",
+          "lines": "10-59",
+          "provenance": "DIRECT_LOCAL_READ_2026_10_22",
+          "observation": "V1–V3支持六人/每周两次的范围；C2支持主管审阅后团队采用；I1–I3不支持40%改善；R1–R2不支持领导或突破。四条After词数重新计算为17/19/16/12。"
+        },
+        {
+          "path": "recipes/write-resume-bullet-points.md",
+          "lines": "29-47",
+          "provenance": "DIRECT_LOCAL_READ_2026_10_22",
+          "observation": "不把范围数量当成绩效提升；编辑器输入1–5句及事实/目标角色。30词明确只是练习约束。人工批准的措辞才交给Reactive Resume或已有编辑器，要求检查最终PDF。"
+        },
+        {
+          "path": "recipes/write-resume-bullet-points.md",
+          "lines": "39-53",
+          "provenance": "DIRECT_LOCAL_READ_2026_10_22",
+          "observation": "披露人工示例、未执行模型/托管导出、账户及外部存储、AI可选、无ATS/录用保证；未照抄旧的无需账户说法。"
+        },
+        {
+          "path": "team/research/demand-2026-10-08.json",
+          "lines": "/recipes/0/asset_handoff; /recipes/0/claim_boundaries",
+          "provenance": "DIRECT_LOCAL_READ_2026_10_22",
+          "observation": "原交接是核对事实后复制获准文本到经验栏并检查导出，无JSON自动导入承诺。正文落实该边界。"
+        },
+        {
+          "path": "team/reviews/recipes-review-2026-10-08.json",
+          "lines": "/pages/0/resolved_findings",
+          "provenance": "DIRECT_LOCAL_READ_2026_10_22",
+          "observation": "原先REVISE针对缺少有证据的定性结果；当前C2及正文团队采用示例已解决，不能把这个旧缺陷重新算作待修。"
+        }
+      ],
+      "specific_fix_findings": [],
+      "minimal_change_recommendation": null,
+      "editorial_priority": "保留现有页面、标题、CTA和包；等可解释的页面/查询/交接证据。",
+      "reopen_conditions": [
+        "父进程资产日检确认6922或866存在持久、可复现的身份/路径/UTM/说明偏差，且影响正文交接。",
+        "发现源事实与示例矛盾、下载内容缺漏或实际读者无法完成具体步骤。",
+        "后续可比较的settled页面/查询/点击及归因数据支持一个明确标题或CTA问题；不以站点总量1曝光做页面实验。"
+      ]
+    },
+    {
+      "slug": "project-proposal-template",
+      "decision": "HOLD_CURRENT_SOURCE",
+      "reason": "立即可编辑的模板、八项输入、可追溯的完整虚构示例和读者清单已满足原始任务；没有可据以提出最小修订的内容矛盾。URL未知及首次请求接受均不构成改写证据。",
+      "content_sha256": "42bddc70bdde9ac46fc668e70c25ccb51ce2626d4d1448e424d326de73d09dcc",
+      "recipe_and_templates_sha256": "14154cbc28d4f98c2c33ba6bdbcba4b5f90175706c8ab0d1e40c38e245fd2ed9",
+      "oct8_content_hash_matches": true,
+      "oct8_package_hash_matches": true,
+      "oct8_all_file_hashes_match": true,
+      "template_count": 6,
+      "docx_xml_read": true,
+      "native_word_rendering": "NOT_RUN",
+      "live_asset_check": "NOT_RUN_PARENT_OWNED",
+      "primary_asset_id": 6934,
+      "secondary_asset_id": 69,
+      "demand_assessment": {
+        "source": "team/research/demand-2026-10-08.json /recipes/1",
+        "status": "HISTORICAL_QUALITATIVE_RECORD_READ_NOT_REFRESHED",
+        "observed_need": "直接获得可复用提案结构，明确写什么、不写什么、交付物、边界及待决事项。",
+        "limits": "Oct8记录的US/en建议及两个原始问题是历史定性证据，不是Oct22新研究、市场体量或真实转化证据。本次未读取在线原帖或完整上游技能。"
+      },
+      "evidence": [
+        {
+          "path": "recipes/project-proposal-template.md",
+          "lines": "3-20",
+          "provenance": "DIRECT_LOCAL_READ_2026_10_22",
+          "observation": "直接解释用途，提供DOCX、Markdown、输入表、填好示例与读者清单；可手工完成，AI可选。"
+        },
+        {
+          "path": "templates/project-proposal-template/input-worksheet.md",
+          "lines": "6-27",
+          "provenance": "DIRECT_LOCAL_READ_2026_10_22",
+          "observation": "八项输入及需求/来源/章节映射，另有逐项事实核对表；没有从流畅文本推定预算、负责人、截止日或批准。"
+        },
+        {
+          "path": "templates/project-proposal-template/project-proposal-template.md",
+          "lines": "5-55",
+          "provenance": "DIRECT_LOCAL_READ_2026_10_22",
+          "observation": "决策请求、范围、排除项、交付及验收、做法、约束、待决和来源记录齐全，预算/人/日期默认UNKNOWN，批准默认NOT APPROVED。"
+        },
+        {
+          "path": "templates/project-proposal-template/filled-proposal.md",
+          "lines": "6-46",
+          "provenance": "DIRECT_LOCAL_READ_2026_10_22",
+          "observation": "F3–F6对应R1索引、R2五问、R3冲突记录、R4发布前评审；F7明确两周/现有工具/不买平台不改生产；先后次序明确是编辑推断。"
+        },
+        {
+          "path": "templates/project-proposal-template/filled-proposal.md",
+          "lines": "48-70",
+          "provenance": "DIRECT_LOCAL_READ_2026_10_22",
+          "observation": "五问选择、负责人、开始时间、资源及验收批准仍待定；两周为投入限制而非已排定日期，五问为交付范围而非成效数字。"
+        },
+        {
+          "path": "templates/project-proposal-template/reader-checklist.md",
+          "lines": "3-38",
+          "provenance": "DIRECT_LOCAL_READ_2026_10_22",
+          "observation": "先核事实、再请新读者解释决策/交付/边界/验收；清单明确可读性检查不证明事实或批准。"
+        },
+        {
+          "path": "recipes/project-proposal-template.md",
+          "lines": "30-54",
+          "provenance": "DIRECT_LOCAL_READ_2026_10_22",
+          "observation": "八行输入/前五项要求与原交接记录一致；披露TokRepo片段不完整，指向完整官方源，无过时安装命令承诺；人工路径明确，无已执行模型/新读者测试或合同合规声称。"
+        },
+        {
+          "path": "team/research/demand-2026-10-08.json",
+          "lines": "/recipes/1/asset_handoff; /recipes/1/assets/1/verification_limits",
+          "provenance": "DIRECT_LOCAL_READ_2026_10_22",
+          "observation": "草稿+受众+原约束+未决问题交给完整doc-coauthoring，再回源事实修订；正文没有把局部目录片段冒充完整技能。"
+        }
+      ],
+      "specific_fix_findings": [],
+      "minimal_change_recommendation": null,
+      "editorial_priority": "保留现有页面及模板；父进程监测完成，后续按原计划观察。",
+      "reopen_conditions": [
+        "父进程资产日检确认6934或69的身份/路径/UTM或完整源入口存在具体持久故障，并影响当前交接。",
+        "发现R/F映射、未知项保留、Word结构或可编辑模板发生具体矛盾/损坏。",
+        "后续实际查询或可复现读者任务暴露模板未满足的具体所求；GoogleURL未知本身不触发重写。"
+      ]
+    }
+  ],
+  "parent_supplied_context": {
+    "provenance": "PARENT_SUPPLIED_IN_CONVERSATION_2026_10_22_NOT_PERSONALLY_VERIFIED",
+    "latest_steering_applied": true,
+    "property": "https://henu-wang.github.io/practical-ai-workbench/",
+    "stored_inspections_today": {
+      "scope": "仅两篇Oct8页面D14实际存储检查；不是本编辑亲查账号。",
+      "resume": {
+        "status": "INDEXED",
+        "google_canonical": "SELF",
+        "last_crawl_display": "Oct12 10:18:44",
+        "crawl_display_timezone": "NOT_STATED",
+        "agent": "Googlebot smartphone",
+        "crawl_allowed": true,
+        "fetch": "SUCCESS",
+        "referring_sitemap": "NONE_REPORTED",
+        "interpretation": "已收录不证明排名、需求兑现、有效到达或资产使用；无引荐sitemap不支持单独要求改正文。"
+      },
+      "proposal": {
+        "status": "GOOGLE_URL_UNKNOWN",
+        "crawl": null,
+        "google_canonical": null,
+        "index_request": {
+          "first_request": true,
+          "accepted_at": "2026-10-22T04:33:04.818Z",
+          "response": "ACCEPTED_PRIORITY_QUEUE",
+          "interpretation": "请求接受，不是已抓取、已收录或排名。"
+        }
+      },
+      "repeat_requests": "未重复resume或其他页面请求。"
+    },
+    "public_technical": {
+      "status": "PASS",
+      "guide_count": 13,
+      "download_count": 59,
+      "provenance_limit": "父进程公开检查；本编辑没有请求公开URL或验证响应。"
+    },
+    "asset_daily_check": {
+      "status": "PASS",
+      "checked": 22,
+      "total": 22,
+      "results": "父进程最终报告22/22首轮均200且身份、路径、UTM全PASS；无浏览器QA资产落地、无重试。",
+      "limit": "仅父进程提供的日检证据；不是本编辑亲查，也不是第三方运行/安装/使用验证。"
+    },
+    "last_real_weekly_review": {
+      "as_of": "2026-10-21",
+      "gsc": {
+        "impressions": 1,
+        "clicks": 0,
+        "scope": "Oct21真实周报所报总量，不是Oct22新周报或两篇分别的数值。"
+      },
+      "ga": {
+        "china_sessions": 2,
+        "engaged_sessions": 0,
+        "qa_contamination": "POSSIBLE",
+        "interpretation": "不能认作英语自然增长、有效导流或安装。"
+      },
+      "today_weekly_account_read": false,
+      "today_sitemap_admin_read": false,
+      "next_weekly_review": "2026-10-28",
+      "observation_policy": "沿用Oct21；不伪造Oct22刷新。"
+    },
+    "tokrepo_attribution": "UNKNOWN_FOR_THESE_TWO_PAGES",
+    "asset_use": "UNKNOWN",
+    "editor_account_access": false
+  },
+  "priority_decision": {
+    "action": "两篇均保留当前源。父进程本轮监测已完成且未提供影响两篇交接的具体故障；无需内容修改，按既有观测计划跟进。",
+    "sample_assessment": "不足以支持标题/CTA实验、内容失败、无需求或英语增长结论。",
+    "specific_fix_count": 0,
+    "fix_execution": false,
+    "new_topics": 0,
+    "literature_matrix": "只读Oct21最新研究以知晓原HOLD；不重复研究、不重开、不扩题。",
+    "next_review": {
+      "weekly": "2026-10-28",
+      "oct8_cohort_d28": "2026-11-05",
+      "earlier_trigger": "父进程日检确认影响这两篇任务的具体故障时，提出文件/段落/影响/最小建议；无须等到周报。",
+      "owner": "父进程维护观测/计划，本编辑仅提出优先级建议。"
+    }
+  },
+  "inputs_read": {
+    "snapshot_at": "2026-10-22T04:34:29.628226+00:00",
+    "file_sha256": {
+      "AGENTS.md": "080af6ceed44b82445993cd7beba35a10d6d4ac5d0bd6aa9ce8f53479d1b80fc",
+      "team/context/ASSET-POLICY.md": "6c87a5c309e749a4b8115b41bcd96004a05b9e86b232100a29f8912f56c62137",
+      "team/context/AUDIENCE.md": "442a59c3468c18935104e40fff2084e9465ffec48382da61c0f62b9f6d110fe2",
+      "team/context/METRICS.md": "0803a7664f7d2718e86f52a82348e67abe2195fc85abb18cb3b147e18bc2c340",
+      "team/context/PROJECT.md": "a791f483e96871b5f690ee7b69fb884055057dff04c4cc1f28ad93b290a7630d",
+      "team/context/USER-BRIEF.md": "b7620db969b61da35c02c57387f2ab764e0dad189295b78abe33fb67772b35cd",
+      "team/PIPELINE.md": "b07605bd3dce1ac88fa0dfcf84eff2377986d156a572f9e37cb40f2b8efb35b0",
+      "team/QUALITY.md": "e62344e1569a97cc2ade52e438687dcafae886e39841e466519e09bbaf5ed31b",
+      "team/STYLE.md": "e0dff6e417953ae05376bdcee105449af58e73175e049bbdda084556214dd5c0",
+      "team/MONITORING.md": "af7c73c1526f047cdd0a8ca39f2e8611c2424ce0650e0cee6c91595ca8459e40",
+      "team/ledger.json": "b54ffc154985821bcb2a939ed00b3212c8189efa2d1b5b95d85c22f22a70cd37",
+      "team/research/prioritization-2026-10-21.json": "c9216a7776dcd7b9a17d2e0146b6f81d2ad6334e753a14d27745ef72fab03b55",
+      "team/research/prioritization-2026-10-21.md": "c75f3f22a8cb66f912fa03cd9292a4a7d9693e34d990c1e9734018069277791d",
+      "team/research/demand-2026-10-08.json": "883842a2feca8a63640612efed3b9886b693b62858efccc7bafbcdfc1030c5bc",
+      "team/research/demand-2026-10-08.md": "f6cba6d16d6bf83fbc75ba39099fefd956741bd72372aace82e58d0450ef3728",
+      "team/research/author-2026-10-08.json": "92b4f08cfae590f493a1e2afb797d7774065f250f20c0f4c3e09f1a11f6d5ba8",
+      "team/reviews/recipes-review-2026-10-08.json": "dd83b5ae0649122c571ff71ff6e77964f3b26c6b885744faf05d717ad038a309",
+      "team/reviews/recipes-release-2026-10-08.json": "ea1ff8b41e676544c47e98eccf66ce52e7b73cf4c74756fdb0de751a5f4b8383",
+      "recipes.json": "8f875b8d1f8564cf1ca8fab5e3429c7f68a0a4bab3a29ac1cdd1bb87e045bcf1",
+      "team/research/redirect-demand.json": "e3278a548323823b7fc8e36e4bc6b039237193799fdfc604cbf6ba742005214f",
+      "scripts/editorial_gate.py": "f6c4d62696ff93a50ad3e907ef58754361ec49928619bfab1a0aa976c2641025",
+      "scripts/recipe_check.py": "9dbdff7efb15b498f5e0b2079ad7230c4bccaed570c098b9943fada48c4b30b1",
+      "scripts/source_hash.py": "e1ebf6ac9bd24767916c0eb9fb3635ee487a5fb7a2c01029f1e26014621c8b1f",
+      "recipes/write-resume-bullet-points.md": "441c2704d12a31ea164deb30039814dd8c65f94e20693c2441f52d8b3b35be1c",
+      "templates/write-resume-bullet-points/author-checks.json": "443ddfb008fc12e69f2b0310e1eaefc62f1ad95fab853d3f8189c7c89aa02ba3",
+      "templates/write-resume-bullet-points/before-after-examples.md": "14b56d81d2619c9ba4654bb360a28e3081a25c06f7eab1ac66aab74b0f7562d3",
+      "templates/write-resume-bullet-points/resume-evidence-worksheet.docx": "8fce6b19884dab9fb3943d8e3be7a5ba258fe634560c6da463041b18c8db4013",
+      "templates/write-resume-bullet-points/resume-evidence-worksheet.md": "a7804ea66ca39c36a73f9f6d7898f2052c268bee3c076a77d39cce0b98c332f8",
+      "recipes/project-proposal-template.md": "42bddc70bdde9ac46fc668e70c25ccb51ce2626d4d1448e424d326de73d09dcc",
+      "templates/project-proposal-template/author-checks.json": "2b1c786a2c82d3bcdbc095c9efa8d9b1326805aa5b3ad87d956b07442bd706d9",
+      "templates/project-proposal-template/filled-proposal.md": "e4002b285eb40f3b183157973cb127d97c42911dc2cb26b402235b66a9935af8",
+      "templates/project-proposal-template/input-worksheet.md": "2db41fc32ec55b073aec8df2df142ac05071ef23657485ec8ead2f6ba03c71df",
+      "templates/project-proposal-template/project-proposal-template.docx": "1ecbd0eade890d1d3183a59f27cc5e71e2fa70ae5247a0bf861bc504bb083750",
+      "templates/project-proposal-template/project-proposal-template.md": "75b8e556ccb273a694c2f35fc030df933c000659b30f9da5bd69e1d322edf879",
+      "templates/project-proposal-template/reader-checklist.md": "6b91c8a9c2c909916e2f4460057bd3617d10318fd97b82fabae58bd9bfc91ec4"
+    },
+    "read_coverage_overrides": {
+      "recipes.json": "只读两篇/recipes/6及/recipes/7的完整元数据，另计条目数；整文件字节哈希。",
+      "team/research/redirect-demand.json": "解析根键并搜索两目标slug；无对应条目，原始Oct8需求使用dated packet。整文件字节哈希，不声称全文语义阅读。",
+      "scripts/editorial_gate.py": "读取1–14行及sha256/source_files相关搜索匹配；只作gate边界参考。",
+      "scripts/recipe_check.py": "只读sha256相关搜索匹配；未执行浏览器检查。"
+    },
+    "binding_limit": "只读本地输入的最终读取快照；交付前再次校验。父进程上下文来自消息，不编造本地回执路径/哈希。"
+  },
+  "execution_boundaries": {
+    "network_requests": 0,
+    "browser_access": 0,
+    "shared_chrome_access": 0,
+    "account_access": 0,
+    "new_research_requests": 0,
+    "subagents": 0,
+    "messages_sent": 0,
+    "content_or_template_writes": 0,
+    "manifest_cohort_ledger_reviews_writes": 0,
+    "builds": 0,
+    "commits": 0,
+    "pushes": 0,
+    "publishing": 0,
+    "owned_report_writes": 2,
+    "other_collaborator_changes": "保留；未撤销、改写、暂存或提交他人文件。"
+  },
+  "verification_limits": [
+    "本次是既有稿件优先级审查，不签发新release PASS。",
+    "外部原始问题、完整上游prompt/skill、当前账户/服务/运行能力均未刷新；已读的是Oct8需求/交接/独审本地记录。",
+    "本地内容和DOCX结构只读审查不证明在线下载、视觉布局、AI执行或第三方导出；这些边界已在稿件披露。",
+    "父进程22资产日检最终全PASS；本编辑未访问资产，日检通过不证明模型执行、安装或使用。"
+  ],
+  "report_validation": {
+    "status": "PASS",
+    "scope": "JSON可解析、两篇决定与Markdown一致、35个已读输入哈希未变化、当前全局源仍匹配；所有检查只读且离线。",
+    "collaborator_changes_observed": "父进程的team/monitoring-cohort.json与team/observations/2026-10-22.md已出现；保留，未改写。"
+  }
+}

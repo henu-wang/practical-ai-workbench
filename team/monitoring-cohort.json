@@ -193,9 +193,10 @@
       "inspection_due": [
         "2026-10-11",
         "2026-10-15",
-        "2026-10-22"
+        "2026-10-22",
+        "2026-10-29"
       ],
-      "weekly_review_due": "2026-10-22",
+      "weekly_review_due": "2026-10-29",
       "cohort_review_due": "2026-11-05",
       "status": "live_public_verified",
       "release_commit": "c6d4c91b9f057c3fa3c36ee0870deb3768cc8554",
@@ -212,10 +213,15 @@
           "asset_use": "UNKNOWN",
           "last_crawl_time": "2026-10-12T10:18:44",
           "google_canonical": "https://henu-wang.github.io/practical-ai-workbench/workflows/write-resume-bullet-points/",
-          "last_inspection_on": "2026-10-15",
+          "last_inspection_on": "2026-10-22",
           "last_inspection_source": "logged_in_Chrome_stored_index",
           "last_crawl_timezone": "not_stated_by_UI",
-          "sitemap_association": "temporary_processing_error"
+          "sitemap_association": "no_referring_sitemap_detected",
+          "crawler": "Googlebot smartphone",
+          "crawl_allowed": true,
+          "page_fetch": "SUCCESS",
+          "index_allowed": true,
+          "last_inspection_at": "2026-10-22T04:32:02.967Z"
         },
         {
           "slug": "project-proposal-template",
@@ -226,10 +232,17 @@
           "asset_use": "UNKNOWN",
           "last_crawl_time": null,
           "google_canonical": null,
-          "last_inspection_on": "2026-10-15",
+          "last_inspection_on": "2026-10-22",
           "last_inspection_source": "logged_in_Chrome_stored_index",
           "last_crawl_timezone": null,
-          "sitemap_association": "no_referring_sitemap_detected"
+          "sitemap_association": "no_referring_sitemap_detected",
+          "crawler": null,
+          "crawl_allowed": null,
+          "page_fetch": null,
+          "index_allowed": null,
+          "last_inspection_at": "2026-10-22T04:32:17.202Z",
+          "index_request": "accepted_priority_crawl_queue_2026_10_22",
+          "index_request_confirmed_at": "2026-10-22T04:33:04.818Z"
         }
       ],
       "gsc_connector": "payment_required_subscription_expired",
@@ -252,6 +265,15 @@
           "status": "COMPLETED_STORED_INSPECTION_VIA_CHROME",
           "indexing": "BY_PAGE",
           "next_action": "Retain URLs; continue scheduled inspections and sitemap diagnosis. No CTR/title change without a measured sample."
+        },
+        {
+          "due_on": "2026-10-22",
+          "checkpoint": "D14",
+          "observed_on": "2026-10-22",
+          "status": "COMPLETED_STORED_INSPECTION_VIA_CHROME",
+          "indexing": "BY_PAGE",
+          "index_request_action": "Proposal first request accepted once; resume not repeated",
+          "next_action": "Weekly stored review October29; D28 November5. No content experiment justified by the current sparse sample."
         }
       ]
     },
@@ -539,16 +561,16 @@
   },
   "metric_rule": "No access or missing tracking is unknown, not zero. Technical pass is not indexing; submitted sitemap is not fetched/indexed.",
   "last_daily_check": {
-    "checked_at": "2026-10-21T04:36:32.585107+00:00",
-    "technical_status": "pass_public_pages_assets_after_two_bounded_503_recoveries",
+    "checked_at": "2026-10-22T04:37:44.713072+00:00",
+    "technical_status": "pass_public_pages_and_all_assets_first_attempt",
     "recipe_count": 13,
     "download_count": 59,
     "asset_targets_with_utm": 27,
     "unique_assets": 22,
-    "indexing": "Seven due storedchecksOct21: oldsixURLunknown; SOPCRAWLED_NOT_INDEXED selfcanonical. Other page results retain actualprior dates. Firstrequests fiveaccepted/oneunconfirmed dueclosedtab; no repeatedSOPrequest.",
-    "attribution": "GA4_OBSERVED_CAMPAIGN_SOURCE_PAIR_2_CHINA_SESSIONS_0_ENGAGED_QA_CONTAMINATED_OCT21",
-    "next_due": "2026-10-22",
-    "indexing_observed_on": "BY_PAGE_2026_10_15_17_18_19_21"
+    "indexing": "Two due Oct8 D14 pages checked Oct22: resume INDEXED selfcanonical; proposal URLunknown. First proposal request confirmed accepted; no repeat resume/PDF/SOP requests. Other page results retain actual dates.",
+    "attribution": "LAST_OBSERVED_OCT21_QA_CONTAMINATED_PAIR_2_CHINA_SESSIONS_0_ENGAGED_NOT_REFRESHED_OCT22",
+    "next_due": "2026-10-23",
+    "indexing_observed_on": "BY_PAGE_2026_10_17_18_19_21_22"
   },
   "private_records_policy": "Raw account reports and detailed receipts remain outside this public repository.",
   "gsc_setup": {
@@ -644,6 +666,13 @@
         "requested_on": "2026-10-21",
         "status": "accepted_priority_crawl_queue",
         "confirmed_at": "2026-10-21T04:41:02.746Z",
+        "automatic_retry": false
+      },
+      {
+        "slug": "project-proposal-template",
+        "requested_on": "2026-10-22",
+        "status": "accepted_priority_crawl_queue",
+        "confirmed_at": "2026-10-22T04:33:04.818Z",
         "automatic_retry": false
       }
     ],
