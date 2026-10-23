@@ -446,7 +446,7 @@
         "2026-10-23",
         "2026-10-30"
       ],
-      "weekly_review_due": "2026-10-23",
+      "weekly_review_due": "2026-10-30",
       "cohort_review_due": "2026-11-13",
       "status": "live_public_verified",
       "release_commit": "2be26a126335a4024423900095eedae0ae22a85c",
@@ -459,7 +459,7 @@
           "slug": "professional-follow-up-email-after-no-response",
           "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/professional-follow-up-email-after-no-response/",
           "index_status": "INDEXED",
-          "last_inspection_at": "2026-10-19T04:51:36.457Z",
+          "last_inspection_at": "2026-10-23T04:26:56.479Z",
           "last_inspection_source": "logged_in_Chrome_stored_index",
           "last_crawl_time": "2026-10-16T12:47:53",
           "google_canonical": "https://henu-wang.github.io/practical-ai-workbench/workflows/professional-follow-up-email-after-no-response/",
@@ -468,10 +468,13 @@
           "attributed_tokrepo_visits": "UNKNOWN",
           "asset_use": "UNKNOWN",
           "index_request_confirmed_at": "2026-10-16T04:47:20.449Z",
-          "last_inspection_on": "2026-10-19",
+          "last_inspection_on": "2026-10-23",
           "last_crawl_timezone": "not_stated_by_UI",
-          "sitemap_association": "no_referring_sitemap_detected",
-          "crawler": "Googlebot smartphone"
+          "sitemap_association": "temporary_processing_error",
+          "crawler": "Googlebot smartphone",
+          "page_fetch": "SUCCESS",
+          "crawl_allowed": true,
+          "index_allowed": true
         }
       ],
       "inspection_history": [
@@ -489,6 +492,15 @@
           "status": "COMPLETED_STORED_INSPECTION_VIA_CHROME",
           "indexing": "INDEXED",
           "next_action": "Preserve title/CTA with oneimpression; scheduled next inspection."
+        },
+        {
+          "due_on": "2026-10-23",
+          "checkpoint": "D7",
+          "observed_on": "2026-10-23",
+          "status": "COMPLETED_STORED_INSPECTION_VIA_CHROME",
+          "indexing": "INDEXED",
+          "index_request_action": "NONE_NO_REPEAT",
+          "next_action": "D14 October30; unchanged source and tiny prior sample do not justify title/CTA experiment."
         }
       ]
     },
@@ -561,16 +573,16 @@
   },
   "metric_rule": "No access or missing tracking is unknown, not zero. Technical pass is not indexing; submitted sitemap is not fetched/indexed.",
   "last_daily_check": {
-    "checked_at": "2026-10-22T04:37:44.713072+00:00",
-    "technical_status": "pass_public_pages_and_all_assets_first_attempt",
+    "checked_at": "2026-10-23T04:30:52.565301+00:00",
+    "technical_status": "pass_public_pages_assets_after_one_bounded_503_recovery",
     "recipe_count": 13,
     "download_count": 59,
     "asset_targets_with_utm": 27,
     "unique_assets": 22,
-    "indexing": "Two due Oct8 D14 pages checked Oct22: resume INDEXED selfcanonical; proposal URLunknown. First proposal request confirmed accepted; no repeat resume/PDF/SOP requests. Other page results retain actual dates.",
-    "attribution": "LAST_OBSERVED_OCT21_QA_CONTAMINATED_PAIR_2_CHINA_SESSIONS_0_ENGAGED_NOT_REFRESHED_OCT22",
-    "next_due": "2026-10-23",
-    "indexing_observed_on": "BY_PAGE_2026_10_17_18_19_21_22"
+    "indexing": "Only follow-up D7 inspected Oct23: remains INDEXED selfcanonical, same displayed lastcrawl. Sitemap association temporary processing error. No new/repeated index request. Other pages keep dates.",
+    "attribution": "LAST_OBSERVED_OCT21_QA_CONTAMINATED_PAIR_2_CHINA_SESSIONS_0_ENGAGED_NOT_REFRESHED_OCT23",
+    "next_due": "2026-10-24",
+    "indexing_observed_on": "BY_PAGE_2026_10_17_18_19_21_22_23"
   },
   "private_records_policy": "Raw account reports and detailed receipts remain outside this public repository.",
   "gsc_setup": {
