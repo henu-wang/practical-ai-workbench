@@ -285,9 +285,10 @@
       "inspection_due": [
         "2026-10-13",
         "2026-10-17",
-        "2026-10-24"
+        "2026-10-24",
+        "2026-10-31"
       ],
-      "weekly_review_due": "2026-10-24",
+      "weekly_review_due": "2026-10-31",
       "cohort_review_due": "2026-11-07",
       "status": "live_public_verified",
       "release_commit": "d04c97601dc541cc3e1ce4deb23172b714926bf4",
@@ -298,36 +299,44 @@
         {
           "slug": "write-a-cover-letter",
           "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/write-a-cover-letter/",
-          "index_status": "NOT_INDEXED_GOOGLE_UNKNOWN_URL",
+          "index_status": "CRAWLED_NOT_INDEXED",
           "search_visibility": "UNKNOWN",
           "attributed_tokrepo_visits": "UNKNOWN",
           "asset_use": "UNKNOWN",
-          "last_inspection_on": "2026-10-17",
+          "last_inspection_on": "2026-10-24",
           "last_inspection_source": "logged_in_Chrome_stored_index",
-          "last_crawl_time": null,
-          "last_crawl_timezone": null,
-          "google_canonical": null,
+          "last_crawl_time": "2026-10-17T12:36:42",
+          "last_crawl_timezone": "not_stated_by_UI",
+          "google_canonical": "https://henu-wang.github.io/practical-ai-workbench/workflows/write-a-cover-letter/",
           "sitemap_association": "no_referring_sitemap_detected",
-          "last_inspection_at": "2026-10-17T04:30:10.741Z",
+          "last_inspection_at": "2026-10-24T04:28:58.516Z",
           "index_request": "accepted_priority_crawl_queue_2026_10_17",
-          "index_request_confirmed_at": "2026-10-17T04:32:35.196Z"
+          "index_request_confirmed_at": "2026-10-17T04:32:35.196Z",
+          "crawler": "Googlebot smartphone",
+          "page_fetch": "SUCCESS",
+          "crawl_allowed": true,
+          "index_allowed": true
         },
         {
           "slug": "study-schedule-template",
           "url": "https://henu-wang.github.io/practical-ai-workbench/workflows/study-schedule-template/",
-          "index_status": "NOT_INDEXED_GOOGLE_UNKNOWN_URL",
+          "index_status": "CRAWLED_NOT_INDEXED",
           "search_visibility": "UNKNOWN",
           "attributed_tokrepo_visits": "UNKNOWN",
           "asset_use": "UNKNOWN",
-          "last_inspection_on": "2026-10-17",
+          "last_inspection_on": "2026-10-24",
           "last_inspection_source": "logged_in_Chrome_stored_index",
-          "last_crawl_time": null,
-          "last_crawl_timezone": null,
-          "google_canonical": null,
+          "last_crawl_time": "2026-10-17T12:31:48",
+          "last_crawl_timezone": "not_stated_by_UI",
+          "google_canonical": "https://henu-wang.github.io/practical-ai-workbench/workflows/study-schedule-template/",
           "sitemap_association": "no_referring_sitemap_detected",
-          "last_inspection_at": "2026-10-17T04:30:13.240Z",
+          "last_inspection_at": "2026-10-24T04:29:17.660Z",
           "index_request": "accepted_priority_crawl_queue_2026_10_17",
-          "index_request_confirmed_at": "2026-10-17T04:31:39.317Z"
+          "index_request_confirmed_at": "2026-10-17T04:31:39.317Z",
+          "crawler": "Googlebot smartphone",
+          "page_fetch": "SUCCESS",
+          "crawl_allowed": true,
+          "index_allowed": true
         }
       ],
       "gsc_connector": "payment_required_subscription_expired",
@@ -349,6 +358,15 @@
           "indexing": "NOT_INDEXED_GOOGLE_UNKNOWN_URL",
           "index_requests": "accepted_once_each_priority_queue",
           "next_action": "D14 October24; accepted requests are not indexing."
+        },
+        {
+          "due_on": "2026-10-24",
+          "checkpoint": "D14",
+          "observed_on": "2026-10-24",
+          "status": "COMPLETED_STORED_INSPECTION_VIA_CHROME",
+          "indexing": "CRAWLED_NOT_INDEXED_BOTH_SELF_CANONICAL",
+          "index_request_action": "NONE_OCT17_ACCEPTANCES_RETAINED_NO_REPEAT",
+          "next_action": "Weekly review October31; D28 November7. Retain source without an evidenced technical/content defect."
         }
       ],
       "weekly_review_history": [
@@ -573,16 +591,16 @@
   },
   "metric_rule": "No access or missing tracking is unknown, not zero. Technical pass is not indexing; submitted sitemap is not fetched/indexed.",
   "last_daily_check": {
-    "checked_at": "2026-10-23T04:30:52.565301+00:00",
-    "technical_status": "pass_public_pages_assets_after_one_bounded_503_recovery",
+    "checked_at": "2026-10-24T04:32:59.815587+00:00",
+    "technical_status": "pass_public_pages_assets_after_four_bounded_503_recoveries",
     "recipe_count": 13,
     "download_count": 59,
     "asset_targets_with_utm": 27,
     "unique_assets": 22,
-    "indexing": "Only follow-up D7 inspected Oct23: remains INDEXED selfcanonical, same displayed lastcrawl. Sitemap association temporary processing error. No new/repeated index request. Other pages keep dates.",
-    "attribution": "LAST_OBSERVED_OCT21_QA_CONTAMINATED_PAIR_2_CHINA_SESSIONS_0_ENGAGED_NOT_REFRESHED_OCT23",
-    "next_due": "2026-10-24",
-    "indexing_observed_on": "BY_PAGE_2026_10_17_18_19_21_22_23"
+    "indexing": "Only cover/study D14 inspected Oct24: both now CRAWLED_NOT_INDEXED with successful allowed Oct17 smartphone crawls and selfcanonical. Prior URLunknown superseded; no requests repeated. Other pages retain dated results.",
+    "attribution": "LAST_OBSERVED_OCT21_QA_CONTAMINATED_PAIR_2_CHINA_SESSIONS_0_ENGAGED_NOT_REFRESHED_OCT24",
+    "next_due": "2026-10-25",
+    "indexing_observed_on": "BY_PAGE_2026_10_18_19_21_22_23_24"
   },
   "private_records_policy": "Raw account reports and detailed receipts remain outside this public repository.",
   "gsc_setup": {
