@@ -418,7 +418,9 @@
           "sitemap_association": "no_referring_sitemap_detected",
           "last_inspection_at": "2026-10-19T04:50:19.779Z",
           "index_request": "accepted_priority_crawl_queue_2026_10_19",
-          "index_request_confirmed_at": "2026-10-19T04:50:59.480Z"
+          "index_request_confirmed_at": "2026-10-19T04:50:59.480Z",
+          "last_inspection_attempt_on": "2026-10-26",
+          "last_inspection_attempt_status": "BROWSER_READING_UNAVAILABLE_PRIOR_RESULT_RETAINED"
         }
       ],
       "inspection_history": [
@@ -438,6 +440,16 @@
           "status": "COMPLETED_STORED_INSPECTION_VIA_CHROME",
           "indexing": "NOT_INDEXED_GOOGLE_UNKNOWN_URL",
           "next_action": "First index request accepted; D14 October26."
+        },
+        {
+          "due_on": "2026-10-26",
+          "checkpoint": "D14",
+          "attempted_on": "2026-10-26",
+          "status": "BLOCKED_BROWSER_AUTOMATION_UNAVAILABLE",
+          "indexing": "UNKNOWN_NOT_REFRESHED",
+          "previous_observation_retained_on": "2026-10-19",
+          "index_request_action": "NONE_PRESERVE_PREVIOUS_ACCEPTANCE",
+          "next_action": "Retry this exact canonical URL when authorized Chrome reading is available; no repeated index request."
         }
       ],
       "weekly_review_history": [
@@ -452,7 +464,8 @@
           "limits": "Property totals cannot be assigned as per-page zeros; no full comparable previous period.",
           "next_full_window_review": "2026-10-21"
         }
-      ]
+      ],
+      "inspection_retry_on": "2026-10-27"
     },
     {
       "program": "asset_search",
@@ -560,7 +573,9 @@
           "crawler": "Googlebot smartphone",
           "page_fetch": "SUCCESS",
           "crawl_allowed": true,
-          "index_allowed": true
+          "index_allowed": true,
+          "last_inspection_attempt_on": "2026-10-26",
+          "last_inspection_attempt_status": "BROWSER_READING_UNAVAILABLE_PRIOR_RESULT_RETAINED"
         }
       ],
       "inspection_history": [
@@ -579,8 +594,19 @@
           "indexing": "CRAWLED_NOT_INDEXED",
           "index_request_action": "No repeatedrequest; original Oct18 request retained",
           "next_action": "D7Oct25; preserve canonical/body awaiting nextsample"
+        },
+        {
+          "due_on": "2026-10-25",
+          "checkpoint": "D7",
+          "attempted_on": "2026-10-26",
+          "status": "BLOCKED_BROWSER_AUTOMATION_UNAVAILABLE",
+          "indexing": "UNKNOWN_NOT_REFRESHED",
+          "previous_observation_retained_on": "2026-10-21",
+          "index_request_action": "NONE_PRESERVE_PREVIOUS_ACCEPTANCE",
+          "next_action": "Retry this exact canonical URL when authorized Chrome reading is available; no repeated index request."
         }
-      ]
+      ],
+      "inspection_retry_on": "2026-10-27"
     }
   ],
   "utm": {
@@ -591,16 +617,16 @@
   },
   "metric_rule": "No access or missing tracking is unknown, not zero. Technical pass is not indexing; submitted sitemap is not fetched/indexed.",
   "last_daily_check": {
-    "checked_at": "2026-10-24T04:32:59.815587+00:00",
-    "technical_status": "pass_public_pages_assets_after_four_bounded_503_recoveries",
+    "checked_at": "2026-10-26T04:44:50.345653+00:00",
+    "technical_status": "pass_public_pages_and_22_initial_asset_checks",
     "recipe_count": 13,
     "download_count": 59,
     "asset_targets_with_utm": 27,
     "unique_assets": 22,
-    "indexing": "Only cover/study D14 inspected Oct24: both now CRAWLED_NOT_INDEXED with successful allowed Oct17 smartphone crawls and selfcanonical. Prior URLunknown superseded; no requests repeated. Other pages retain dated results.",
-    "attribution": "LAST_OBSERVED_OCT21_QA_CONTAMINATED_PAIR_2_CHINA_SESSIONS_0_ENGAGED_NOT_REFRESHED_OCT24",
-    "next_due": "2026-10-25",
-    "indexing_observed_on": "BY_PAGE_2026_10_18_19_21_22_23_24"
+    "indexing": "No stored-index result obtained Oct26; weekly-status D14 and overdue SOP D7 blocked by browser-reading availability. All pages retain actual earlier result dates.",
+    "attribution": "NOT_REFRESHED_LAST_OBSERVED_OCT21_QA_CONTAMINATION_CAVEAT_RETAINED",
+    "next_due": "2026-10-27",
+    "indexing_observed_on": "NO_NEW_STORED_RESULT_2026_10_26"
   },
   "private_records_policy": "Raw account reports and detailed receipts remain outside this public repository.",
   "gsc_setup": {
@@ -711,7 +737,13 @@
     "diagnosis": "Oct21 scheduled report unchanged generic unable-to-read, lastreadOct16, no HTTPcause exposed. Last livefetch remains separateOct17success; no repeat submission/source rewrite. SOP shows successfulallowedcrawl with selfcanonical but notindexed, temporarysitemapprocessingerror. Five old-page requestsaccepted, one resultunconfirmed dueclosedtab; none are indexingproof.",
     "last_sitemap_submission_on": "2026-10-16",
     "sitemap_last_read_displayed": "2026/10/16",
-    "sitemap_live_displayed_crawl_time": "2026年10月17日12:31:40 (UI timezone not stated)"
+    "sitemap_live_displayed_crawl_time": "2026年10月17日12:31:40 (UI timezone not stated)",
+    "browser_reading_access": {
+      "checked_on": "2026-10-26",
+      "status": "UNAVAILABLE_IN_SESSION",
+      "scope": "Exact Pages prefix requested; existing ownership verification retained.",
+      "next_action": "Restore authorized Chrome read/control connection, then retry the two due URLs. Do not change browser security permissions or resubmit unchanged XML."
+    }
   },
   "private_records_directory": "../tokrepo-search-monitoring-private",
   "ga4_monitoring": {
